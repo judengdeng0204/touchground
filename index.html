@@ -1,0 +1,2603 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>田字格TouchGround玩场速报 · 城市乡野艺文活动</title>
+<style>
+
+:root {
+    --bg: #faf9f6;
+    --card-bg: #ffffff;
+    --text: #2c2c2c;
+    --text-secondary: #6b6b6b;
+    --border: #e8e5df;
+    --accent: #e85d3a;
+    --accent-light: #fef0ec;
+    --blue: #3b82f6;
+    --blue-light: #eff6ff;
+    --green: #22c55e;
+    --green-light: #f0fdf4;
+    --purple: #8b5cf6;
+    --purple-light: #f5f3ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-hover: 0 4px 12px rgba(0,0,0,0.1);
+    --radius: 12px;
+    --radius-sm: 8px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 32px 0 20px;
+}
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.5px;
+}
+.update-time {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    background: var(--card-bg);
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+}
+.subtitle {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 8px;
+    line-height: 1.8;
+}
+.tagline {
+    font-size: 0.9rem;
+    color: var(--accent);
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+/* Stats Bar */
+.stats-bar {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 8px 0 20px;
+}
+.stat-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 10px 20px;
+    text-align: center;
+    min-width: 80px;
+    box-shadow: var(--shadow);
+}
+.stat-card.highlight {
+    border-color: var(--purple);
+    background: var(--purple-light);
+}
+.stat-num {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text);
+}
+.stat-label {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+/* Filters */
+.filters {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow);
+}
+.filter-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.filter-row:last-child { margin-bottom: 0; }
+.filter-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    min-width: 50px;
+}
+select {
+    padding: 6px 32px 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    background: var(--bg);
+    color: var(--text);
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath d='M3 5l3 3 3-3' fill='none' stroke='%236b6b6b' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+.category-chips, .source-chips {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+.chip {
+    padding: 5px 14px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    font-size: 0.8rem;
+    background: var(--bg);
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+.chip:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+.chip.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
+/* Date Nav */
+.date-nav {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+}
+.date-tab {
+    flex: 0 0 auto;
+    min-width: 80px;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--card-bg);
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.15s;
+    box-shadow: var(--shadow);
+}
+.date-tab:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+}
+.date-tab.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+    box-shadow: 0 2px 8px rgba(232, 93, 58, 0.3);
+}
+.date-tab-all {
+    background: var(--purple-light);
+    border-color: var(--purple);
+}
+.date-tab-all .date-day,
+.date-tab-all .date-count {
+    color: var(--purple);
+    font-weight: 700;
+}
+.date-tab-all .date-num {
+    color: var(--purple);
+}
+.date-tab.active .date-day,
+.date-tab.active .date-count {
+    color: rgba(255,255,255,0.8);
+}
+.date-day {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+.date-num {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 2px 0;
+}
+.date-count {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+}
+
+/* Events Grid */
+.events-container { min-height: 300px; }
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 16px;
+}
+
+.event-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    box-shadow: var(--shadow);
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+.event-card:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-2px);
+}
+.event-card.hidden { display: none; }
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.cat-badge {
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    background: var(--accent-light);
+    color: var(--accent);
+    font-weight: 600;
+}
+.badge {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+.badge-small {
+    background: var(--purple-light);
+    color: var(--purple);
+    font-weight: 500;
+}
+.badge-big {
+    background: var(--blue-light);
+    color: var(--blue);
+}
+.price-tag {
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.price-tag.free {
+    background: var(--green-light);
+    color: var(--green);
+}
+.price-tag.paid {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+.event-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.event-meta {
+    margin-bottom: 8px;
+}
+.meta-item {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.event-desc {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 8px;
+    flex: 1;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+.tag {
+    font-size: 0.7rem;
+    padding: 1px 8px;
+    border-radius: 8px;
+    background: var(--bg);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+}
+
+.card-footer {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+}
+.btn-link {
+    display: inline-block;
+    padding: 6px 16px;
+    background: var(--accent);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.15s;
+}
+.btn-link:hover {
+    background: #d45130;
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-secondary);
+}
+.empty-icon {
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+.empty-state p {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+.empty-hint {
+    font-size: 0.85rem;
+    color: #999;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 32px 0 16px;
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    line-height: 1.8;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container { padding: 16px 12px; }
+    .header h1 { font-size: 1.5rem; }
+    .events-grid { grid-template-columns: 1fr; }
+    .filters { padding: 12px 14px; }
+    .filter-row { gap: 8px; }
+    .date-tab { min-width: 68px; padding: 8px 10px; }
+    .date-num { font-size: 0.95rem; }
+    .stats-bar { gap: 8px; }
+    .stat-card { padding: 8px 14px; min-width: 60px; }
+    .stat-num { font-size: 1.1rem; }
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+
+<header class="header">
+    <div class="header-top">
+        <h1>田字格TouchGround玩场速报·城市乡野艺文活动</h1>
+        <span class="update-time">更新于 2026-08-04 22:45</span>
+    </div>
+    <p class="subtitle">上海·北京·广州·深圳·成都·杭州·厦门·佛山·福州·长沙·昆明·大理·武汉·香港·澳门·贵阳·南宁</p>
+    <p class="tagline">展览、市集、演出、沙龙、快闪、公益</p>
+</header>
+
+<section class="stats-bar">
+    
+    <div class="stat-card">
+        <div class="stat-num">143</div>
+        <div class="stat-label">场活动</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-num">17</div>
+        <div class="stat-label">座城市</div>
+    </div>
+    <div class="stat-card highlight">
+        <div class="stat-num">75</div>
+        <div class="stat-label">💎 小而美</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-num">68</div>
+        <div class="stat-label">🏛️ 大而全</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-num">上海</div>
+        <div class="stat-label">活动最多</div>
+    </div>
+</section>
+
+<section class="filters">
+    <div class="filter-row">
+        <label class="filter-label">🏙️ 城市</label>
+        <select id="cityFilter" onchange="applyFilters()">
+            <option value="all">全部城市</option>
+            <option value="上海">上海 ●</option>
+<option value="北京">北京 ●</option>
+<option value="广州">广州 ●</option>
+<option value="深圳">深圳 ●</option>
+<option value="成都">成都 ●</option>
+<option value="杭州">杭州 ●</option>
+<option value="厦门">厦门 ●</option>
+<option value="佛山">佛山 ●</option>
+<option value="福州">福州 ●</option>
+<option value="长沙">长沙 ●</option>
+<option value="昆明">昆明 ●</option>
+<option value="大理">大理 ●</option>
+<option value="武汉">武汉 ●</option>
+<option value="香港">香港 ●</option>
+<option value="澳门">澳门 ●</option>
+<option value="贵阳">贵阳 ●</option>
+<option value="南宁">南宁 ●</option>
+        </select>
+    </div>
+    <div class="filter-row">
+        <label class="filter-label">📂 类型</label>
+        <div class="category-chips" id="categoryChips">
+            <button class="chip active" data-category="all" onclick="filterByCategory('all')">全部</button>
+<button class="chip" data-category="exhibition" onclick="filterByCategory('exhibition')">🎨 展览/展会</button>
+<button class="chip" data-category="market" onclick="filterByCategory('market')">🛍️ 市集/生活节</button>
+<button class="chip" data-category="performance" onclick="filterByCategory('performance')">🎭 演出/嘉年华</button>
+<button class="chip" data-category="salon" onclick="filterByCategory('salon')">📚 沙龙/讲座/工作坊</button>
+<button class="chip" data-category="popup" onclick="filterByCategory('popup')">⚡ 快闪活动</button>
+<button class="chip" data-category="sports_welfare" onclick="filterByCategory('sports_welfare')">🏃 公益/体育赛事</button>
+<button class="chip" data-category="village_wild" onclick="filterByCategory('village_wild')">🌿 乡村野趣</button>
+        </div>
+    </div>
+    <div class="filter-row">
+        <label class="filter-label">🔍 来源</label>
+        <div class="source-chips" id="sourceChips">
+            <button class="chip active" data-source="all" onclick="filterBySource('all')">全部</button>
+            <button class="chip" data-source="big" onclick="filterBySource('big')">🏛️ 大而全</button>
+            <button class="chip" data-source="small" onclick="filterBySource('small')">💎 小而美</button>
+        </div>
+    </div>
+</section>
+
+<section class="date-nav">
+    
+        <button class="date-tab date-tab-all" data-date="all" onclick="filterByDate('all')">
+            <span class="date-day">全部</span>
+            <span class="date-num">30天</span>
+            <span class="date-count">96场</span>
+        </button>
+        <button class="date-tab active" data-date="2026-08-04" onclick="filterByDate('2026-08-04')">
+            <span class="date-day">周二</span>
+            <span class="date-num">8/4</span>
+            <span class="date-count">23场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-05" onclick="filterByDate('2026-08-05')">
+            <span class="date-day">周三</span>
+            <span class="date-num">8/5</span>
+            <span class="date-count">3场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-06" onclick="filterByDate('2026-08-06')">
+            <span class="date-day">周四</span>
+            <span class="date-num">8/6</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-07" onclick="filterByDate('2026-08-07')">
+            <span class="date-day">周五</span>
+            <span class="date-num">8/7</span>
+            <span class="date-count">11场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-08" onclick="filterByDate('2026-08-08')">
+            <span class="date-day">周六</span>
+            <span class="date-num">8/8</span>
+            <span class="date-count">26场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-09" onclick="filterByDate('2026-08-09')">
+            <span class="date-day">周日</span>
+            <span class="date-num">8/9</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-10" onclick="filterByDate('2026-08-10')">
+            <span class="date-day">周一</span>
+            <span class="date-num">8/10</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-11" onclick="filterByDate('2026-08-11')">
+            <span class="date-day">周二</span>
+            <span class="date-num">8/11</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-12" onclick="filterByDate('2026-08-12')">
+            <span class="date-day">周三</span>
+            <span class="date-num">8/12</span>
+            <span class="date-count">2场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-13" onclick="filterByDate('2026-08-13')">
+            <span class="date-day">周四</span>
+            <span class="date-num">8/13</span>
+            <span class="date-count">1场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-14" onclick="filterByDate('2026-08-14')">
+            <span class="date-day">周五</span>
+            <span class="date-num">8/14</span>
+            <span class="date-count">5场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-15" onclick="filterByDate('2026-08-15')">
+            <span class="date-day">周六</span>
+            <span class="date-num">8/15</span>
+            <span class="date-count">7场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-16" onclick="filterByDate('2026-08-16')">
+            <span class="date-day">周日</span>
+            <span class="date-num">8/16</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-17" onclick="filterByDate('2026-08-17')">
+            <span class="date-day">周一</span>
+            <span class="date-num">8/17</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-18" onclick="filterByDate('2026-08-18')">
+            <span class="date-day">周二</span>
+            <span class="date-num">8/18</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-19" onclick="filterByDate('2026-08-19')">
+            <span class="date-day">周三</span>
+            <span class="date-num">8/19</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-20" onclick="filterByDate('2026-08-20')">
+            <span class="date-day">周四</span>
+            <span class="date-num">8/20</span>
+            <span class="date-count">1场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-21" onclick="filterByDate('2026-08-21')">
+            <span class="date-day">周五</span>
+            <span class="date-num">8/21</span>
+            <span class="date-count">6场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-22" onclick="filterByDate('2026-08-22')">
+            <span class="date-day">周六</span>
+            <span class="date-num">8/22</span>
+            <span class="date-count">3场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-23" onclick="filterByDate('2026-08-23')">
+            <span class="date-day">周日</span>
+            <span class="date-num">8/23</span>
+            <span class="date-count">2场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-24" onclick="filterByDate('2026-08-24')">
+            <span class="date-day">周一</span>
+            <span class="date-num">8/24</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-25" onclick="filterByDate('2026-08-25')">
+            <span class="date-day">周二</span>
+            <span class="date-num">8/25</span>
+            <span class="date-count">1场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-26" onclick="filterByDate('2026-08-26')">
+            <span class="date-day">周三</span>
+            <span class="date-num">8/26</span>
+            <span class="date-count">2场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-27" onclick="filterByDate('2026-08-27')">
+            <span class="date-day">周四</span>
+            <span class="date-num">8/27</span>
+            <span class="date-count">3场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-28" onclick="filterByDate('2026-08-28')">
+            <span class="date-day">周五</span>
+            <span class="date-num">8/28</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-29" onclick="filterByDate('2026-08-29')">
+            <span class="date-day">周六</span>
+            <span class="date-num">8/29</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-30" onclick="filterByDate('2026-08-30')">
+            <span class="date-day">周日</span>
+            <span class="date-num">8/30</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-08-31" onclick="filterByDate('2026-08-31')">
+            <span class="date-day">周一</span>
+            <span class="date-num">8/31</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-09-01" onclick="filterByDate('2026-09-01')">
+            <span class="date-day">周二</span>
+            <span class="date-num">9/1</span>
+            <span class="date-count">0场</span>
+        </button>
+        <button class="date-tab " data-date="2026-09-02" onclick="filterByDate('2026-09-02')">
+            <span class="date-day">周三</span>
+            <span class="date-num">9/2</span>
+            <span class="date-count">0场</span>
+        </button>
+</section>
+
+<section class="events-container" id="eventsContainer">
+    <div class="events-grid" id="eventsGrid">
+        
+<div class="event-card" data-city="上海" data-category="exhibition" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">需购票</span>
+    </div>
+    <h3 class="event-name">且看宋词——戴敦邦沉浸式国风艺术展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-10-08</div>
+        <div class="meta-item">📍 香港路117号3F 戴敦邦艺术馆</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">国画大师戴敦邦新馆重磅首展！六大词境篇章、八十余首传世诗词，将诗词、书画、光影艺术融为一体。</p>
+    <div class="tags"><span class="tag">艺术</span><span class="tag">国风</span><span class="tag">沉浸式</span></div>
+    <div class="card-footer">
+        <a href="https://huodong.com/event/detail/eyud8" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="exhibition" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">世界树之巅——美洲古代文明大展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2027-11-14</div>
+        <div class="meta-item">📍 上海博物馆（人民大道201号）</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">汇集玛雅、印加等美洲古文明珍贵文物，沉浸式解锁神秘异域文化。</p>
+    <div class="tags"><span class="tag">博物馆</span><span class="tag">文明</span><span class="tag">历史</span></div>
+    <div class="card-footer">
+        <a href="https://www.shanghaimuseum.net/mu/frontend/pg/article/id/I00005037" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="performance" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">外滩中央夏日派对 HAPPY仲夏夜2.0</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-30</div>
+        <div class="meta-item">📍 外滩中央</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">涵盖爵士评弹、电音国潮等多元活动，承包整个盛夏的浪漫与松弛。外滩中央夏日创意市集同步开放。</p>
+    <div class="tags"><span class="tag">音乐</span><span class="tag">市集</span><span class="tag">免费</span><span class="tag">国潮</span></div>
+    <div class="card-footer">
+        <a href="https://www.toutiao.com/article/7664486492823175720/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="performance" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">BFC漫游奇境嘉年华</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-30</div>
+        <div class="meta-item">📍 BFC外滩金融中心</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">黄浦江畔沉浸式嘉年华，含水上乐园、艺术装置、主题市集、音乐演出。</p>
+    <div class="tags"><span class="tag">嘉年华</span><span class="tag">外滩</span><span class="tag">亲子</span></div>
+    <div class="card-footer">
+        <a href="https://www.bfcsh.com/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="performance" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">音乐剧《危险游戏》十周年特别版</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-10</div>
+        <div class="meta-item">📍 延安东路433号上海共舞台</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">魔都长演不衰的现象级悬疑音乐剧，双男主高能对手戏，16周岁以上入场。</p>
+    <div class="tags"><span class="tag">音乐剧</span><span class="tag">悬疑</span></div>
+    <div class="card-footer">
+        <a href="https://detail.damai.cn/item.htm?id=930557347976" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="北京" data-category="market" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">2026北京仲夏电影嘉年华</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-10</div>
+        <div class="meta-item">📍 全市13个光影市集</div>
+        <div class="meta-item">🏙️ 北京</div>
+        
+    </div>
+    <p class="event-desc">第38届大众电影百花奖系列活动，全城13个光影市集矩阵，涵盖隆福寺、798、朝阳公园等。</p>
+    <div class="tags"><span class="tag">电影</span><span class="tag">市集</span><span class="tag">百花奖</span></div>
+    <div class="card-footer">
+        <a href="https://www.cflac.org.cn/new_ys/dy/dt/202608/t20260802_1368498.html" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="北京" data-category="market" data-source="small" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费入场</span>
+    </div>
+    <h3 class="event-name">泊遇天山 万象疆集——新疆风物生活周</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-09</div>
+        <div class="meta-item">📍 海淀区1733山谷食集B2北广场</div>
+        <div class="meta-item">🏙️ 北京</div>
+        
+    </div>
+    <p class="event-desc">文创、美食、手作三大主题片区，40+品牌齐聚，香甜瓜果、非遗手作、特色风物文创。</p>
+    <div class="tags"><span class="tag">新疆风情</span><span class="tag">市集</span><span class="tag">美食</span></div>
+    <div class="card-footer">
+        <a href="https://bj.bendibao.com/xiuxian/202684/385154.shtm" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="北京" data-category="exhibition" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">何以景德镇——景德镇手工瓷业遗存展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-31</div>
+        <div class="meta-item">📍 中国工艺美术馆 四层5展厅</div>
+        <div class="meta-item">🏙️ 北京</div>
+        
+    </div>
+    <p class="event-desc">景德镇刚列入世界遗产，本展遵循世界遗产框架，带您读懂那一窑火、一件瓷、一座城。</p>
+    <div class="tags"><span class="tag">非遗</span><span class="tag">瓷器</span><span class="tag">世界遗产</span></div>
+    <div class="card-footer">
+        <a href="https://www.gmfyg.org.cn/service/nav" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="北京" data-category="market" data-source="small" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">隆福潮集·今夜有福夏季市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-10</div>
+        <div class="meta-item">📍 隆福寺街区</div>
+        <div class="meta-item">🏙️ 北京</div>
+        
+    </div>
+    <p class="event-desc">京味老字号、非遗手作、古都文创等50余个特色摊位，可领取限定花束、鲜花饼。</p>
+    <div class="tags"><span class="tag">文创</span><span class="tag">非遗</span><span class="tag">市集</span></div>
+    <div class="card-footer">
+        <a href="https://visitbeijing.com.cn/article/4SFmbkGLhwg" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="深圳" data-category="popup" data-source="small" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="快闪活动">⚡ 快闪活动</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">需预约</span>
+    </div>
+    <h3 class="event-name">chiikawa水果市集快闪</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-30</div>
+        <div class="meta-item">📍 南山万象天地水广场</div>
+        <div class="meta-item">🏙️ 深圳</div>
+        
+    </div>
+    <p class="event-desc">深圳首站！chiikawa水果系列周边+一日果农互动体验。</p>
+    <div class="tags"><span class="tag">快闪</span><span class="tag">chiikawa</span><span class="tag">打卡</span></div>
+    <div class="card-footer">
+        <a href="https://ugo-hk.com/event/18167/MINISO+x+CHIIKAWA+%E6%B0%B4%E6%9E%9C%E5%B8%82%E9%9B%86%E5%BF%AB%E9%96%83%EF%BC%A0%E6%B7%B1%E5%9C%B3%E8%90%AC%E5%83%8F%E5%A4%A9%E5%9C%B0" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="深圳" data-category="market" data-source="small" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">千禧复古嘉年华</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-09</div>
+        <div class="meta-item">📍 G&G创意社区南区</div>
+        <div class="meta-item">🏙️ 深圳</div>
+        
+    </div>
+    <p class="event-desc">Y2K千禧风格复古市集，音乐、美食、好物。</p>
+    <div class="tags"><span class="tag">复古</span><span class="tag">市集</span><span class="tag">Y2K</span></div>
+    <div class="card-footer">
+        <a href="https://mp.weixin.qq.com/s/GGCYJ_GNGIShequ" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="深圳" data-category="popup" data-source="small" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="快闪活动">⚡ 快闪活动</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">米菲海岛假日主题快闪</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-09-13</div>
+        <div class="meta-item">📍 深业上城L3层小镇西广场</div>
+        <div class="meta-item">🏙️ 深圳</div>
+        
+    </div>
+    <p class="event-desc">Miffy米菲海岛假日主题快闪，可爱打卡装置。</p>
+    <div class="tags"><span class="tag">快闪</span><span class="tag">米菲</span><span class="tag">打卡</span></div>
+    <div class="card-footer">
+        <a href="https://ugo-hk.com/event/17958/%E7%B1%B3%E8%8F%B2%E6%B5%B7%E5%B3%B6%E5%81%87%E6%97%A5%E4%B8%BB%E9%A1%8C%E5%BF%AB%E9%96%83" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="成都" data-category="performance" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">凤凰传奇「吉祥如意」巡回演唱会-成都站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-09</div>
+        <div class="meta-item">📍 东安湖体育公园主体育场</div>
+        <div class="meta-item">🏙️ 成都</div>
+        
+    </div>
+    <p class="event-desc">凤凰传奇成都站演唱会持续至8月9日。</p>
+    <div class="tags"><span class="tag">演唱会</span><span class="tag">音乐</span></div>
+    <div class="card-footer">
+        <a href="https://detail.damai.cn/item.htm?id=1060450974868" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="武汉" data-category="exhibition" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">浮生一日凉——古代消夏文化展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-31</div>
+        <div class="meta-item">📍 武汉博物馆一楼珍藏厅</div>
+        <div class="meta-item">🏙️ 武汉</div>
+        
+    </div>
+    <p class="event-desc">年度大展！汇集四馆196件精品文物，以仇英《竹梧消夏图》真迹开篇，数字互动体验。每周五晚间延时开放有国风展演。</p>
+    <div class="tags"><span class="tag">博物馆</span><span class="tag">文物</span><span class="tag">国风</span></div>
+    <div class="card-footer">
+        <a href="http://www.whmuseum.com.cn/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="exhibition" data-source="small" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">HKD 170起</span>
+    </div>
+    <h3 class="event-name">CHIIKAWA 小可吉瓦艺术特展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-09-06</div>
+        <div class="meta-item">📍 尖沙咀K11 MUSEA及海滨长廊</div>
+        <div class="meta-item">🏙️ 香港</div>
+        
+    </div>
+    <p class="event-desc">全网爆火治愈IP！130余幅独家原画搭配光影沉浸室，户外巨型木马装置配维港夜景。</p>
+    <div class="tags"><span class="tag">IP展览</span><span class="tag">打卡</span><span class="tag">治愈</span></div>
+    <div class="card-footer">
+        <a href="https://www.hkcd.com.hk/hkcdweb/content/2026/07/31/content_8767636.html" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="exhibition" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">HKD 190起</span>
+    </div>
+    <h3 class="event-name">古埃及文明大展——埃及博物馆珍藏</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-31</div>
+        <div class="meta-item">📍 香港故宫文化博物馆展厅9</div>
+        <div class="meta-item">🏙️ 香港</div>
+        
+    </div>
+    <p class="event-desc">香港历来规模最大的古埃及文物展！250件珍贵文物首度在港亮相，8月31日结束。</p>
+    <div class="tags"><span class="tag">博物馆</span><span class="tag">埃及</span><span class="tag">文物</span></div>
+    <div class="card-footer">
+        <a href="https://www.hkpm.org.hk/tc/visit/ticket" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="market" data-source="small" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费入场</span>
+    </div>
+    <h3 class="event-name">中环街市×LOCOLOCO「夏の納涼」创意市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-10</div>
+        <div class="meta-item">📍 中环街市</div>
+        <div class="meta-item">🏙️ 香港</div>
+        
+    </div>
+    <p class="event-desc">日系夏日纳凉主题文创市集，手作饰物、生活选物、香氛产品、插画精品。</p>
+    <div class="tags"><span class="tag">市集</span><span class="tag">日系</span><span class="tag">文创</span></div>
+    <div class="card-footer">
+        <a href="https://www.centralmarket.com.hk/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="exhibition" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">长安万象——陕西隋唐文明展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-24</div>
+        <div class="meta-item">📍 香港各大文博展厅</div>
+        <div class="meta-item">🏙️ 香港</div>
+        
+    </div>
+    <p class="event-desc">聚焦陕西隋唐文明，珍贵文物、非遗珍品、复刻古迹场景，还原盛唐长安繁华。</p>
+    <div class="tags"><span class="tag">文物</span><span class="tag">唐朝</span><span class="tag">历史</span></div>
+    <div class="card-footer">
+        <a href="https://www.info.gov.hk/gia/general/202604/24/P2026042400624.htm" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="exhibition" data-source="small" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费（需预约）</span>
+    </div>
+    <h3 class="event-name">金手匠艺：铁器时代的金饰重生</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-10-07</div>
+        <div class="meta-item">📍 L'ÉCOLE珠宝艺术中心（淮海中路）</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">凯尔特黄金项圈古法工艺复原展</p>
+    
+    <div class="card-footer">
+        <a href="https://www.lecolevancleefarpels.cn" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="exhibition" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">盛世之器——清代康雍乾时期景德镇陶瓷珍品展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-11-15</div>
+        <div class="meta-item">📍 浦东历史博物馆</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">百余件康雍乾官窑民窑瓷器</p>
+    
+    <div class="card-footer">
+        <a href="https://www.toutiao.com/article/7669650834489164315/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="广州" data-category="exhibition" data-source="big" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">南洋文化季暨华侨粤剧展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-10-31</div>
+        <div class="meta-item">📍 广州华侨博物馆</div>
+        <div class="meta-item">🏙️ 广州</div>
+        
+    </div>
+    <p class="event-desc">南洋风情主题展+花香咖啡烘焙赛+快闪市集+民谣演奏</p>
+    
+    <div class="card-footer">
+        <a href="https://www.gzhqbwg.org.cn/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="长沙" data-category="performance" data-source="small" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">「闪闪发光的孩子」夏日才艺大舞台</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-06</div>
+        <div class="meta-item">📍 长沙市群众艺术馆广场舞台</div>
+        <div class="meta-item">🏙️ 长沙</div>
+        <div class="meta-item">🎫 免费参加</div>
+    </div>
+    <p class="event-desc">青少年儿童公益才艺展演，综合场/声乐场/器乐场</p>
+    
+    <div class="card-footer">
+        <a href="https://www.changsha.gov.cn/（长沙市群众艺术馆）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="长沙" data-category="salon" data-source="small" data-date="2026-08-04">
+    <div class="card-header">
+        <span class="cat-badge" title="沙龙/讲座/工作坊">📚 沙龙/讲座/工作坊</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">踏寻红色足迹·传习非遗匠心暑期公益课</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-04 ~ 2026-08-07</div>
+        <div class="meta-item">📍 长沙非遗馆戏园</div>
+        <div class="meta-item">🏙️ 长沙</div>
+        <div class="meta-item">🎫 免费参加</div>
+    </div>
+    <p class="event-desc">红色研学+非遗手作亲子体验，每天14:30-16:30</p>
+    
+    <div class="card-footer">
+        <a href="https://www.changsha.gov.cn/（长沙非遗馆戏园）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="武汉" data-category="performance" data-source="big" data-date="2026-08-05">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">央视「电影文化嘉年华·武汉专场」</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-05 ~ 2026-08-09</div>
+        <div class="meta-item">📍 青山区武商MALL·众圆</div>
+        <div class="meta-item">🏙️ 武汉</div>
+        <div class="meta-item">🎫 免费参加</div>
+    </div>
+    <p class="event-desc">露天电影院+非遗市集+电影工业体验+机器人巡游+美食</p>
+    
+    <div class="card-footer">
+        <a href="https://new.qq.com/rain/a/20260804A07BD600" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="sports_welfare" data-source="small" data-date="2026-08-05">
+    <div class="card-header">
+        <span class="cat-badge" title="公益/体育赛事">🏃 公益/体育赛事</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费（需报名）</span>
+    </div>
+    <h3 class="event-name">Dance Well @ M+ 2026</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-05</div>
+        <div class="meta-item">📍 M+博物馆</div>
+        <div class="meta-item">🏙️ 香港</div>
+        <div class="meta-item">🎫 需报名</div>
+    </div>
+    <p class="event-desc">触动词汇舞蹈工作坊</p>
+    
+    <div class="card-footer">
+        <a href="https://www.mplus.org.hk/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="昆明" data-category="festival" data-source="big" data-date="2026-08-05">
+    <div class="card-header">
+        <span class="cat-badge" title="节庆/演出">📌 节庆/演出</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">景区门票(高考生免费)</span>
+    </div>
+    <h3 class="event-name">石林火把节暨青年音乐节</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-05 ~ 2026-08-09</div>
+        <div class="meta-item">📍 石林风景区</div>
+        <div class="meta-item">🏙️ 昆明</div>
+        
+    </div>
+    <p class="event-desc">石林风景区内的火把节主题活动,「石林火潮」青年音乐节、电音狂欢、牛王争霸、阿诗玛盛装秀。</p>
+    <div class="tags"><span class="tag">火把节</span><span class="tag">音乐节</span><span class="tag">非遗</span><span class="tag">彝族</span></div>
+    <div class="card-footer">
+        <a href="https://yn.people.com.cn/BIG5/n2/2026/0714/c372453-41638853.html" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="market" data-source="small" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">WA!土豆节城市风味特辑</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07 ~ 2026-08-09</div>
+        <div class="meta-item">📍 普陀鸿寿坊</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">把贵州高原土豆饮食文化搬进上海街区，汇集地道黔味小吃、山地风物展、布艺手作工坊。</p>
+    <div class="tags"><span class="tag">美食</span><span class="tag">市集</span><span class="tag">贵州风情</span></div>
+    <div class="card-footer">
+        <a href="https://nw.eastday.com/zq/zw/20260803/25bcbc786b221c63830c1058c280ea60.html" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="北京" data-category="market" data-source="big" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费入场</span>
+    </div>
+    <h3 class="event-name">大都潮饮节</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07 ~ 2026-08-10</div>
+        <div class="meta-item">📍 北京北辰荟POLPAS</div>
+        <div class="meta-item">🏙️ 北京</div>
+        
+    </div>
+    <p class="event-desc">高端葡萄酒节联动朝阳首届恰巴塔节，75+美食美酒品牌齐聚，阿根廷名庄佳酿品鉴。</p>
+    <div class="tags"><span class="tag">葡萄酒</span><span class="tag">美食</span><span class="tag">市集</span></div>
+    <div class="card-footer">
+        <a href="https://mp.weixin.qq.com/s/beichenhui" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="北京" data-category="market" data-source="small" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费入场</span>
+    </div>
+    <h3 class="event-name">北京首届冰搭子消暑生活节</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07 ~ 2026-08-09</div>
+        <div class="meta-item">📍 北京通州万达广场</div>
+        <div class="meta-item">🏙️ 北京</div>
+        
+    </div>
+    <p class="event-desc">40余家冰饮与网红小吃一站式打卡，互动体验、创意市集齐聚。</p>
+    <div class="tags"><span class="tag">美食</span><span class="tag">市集</span><span class="tag">消暑</span></div>
+    <div class="card-footer">
+        <a href="https://mp.weixin.qq.com/s/tongzhou-wanda" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="广州" data-category="market" data-source="small" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费入场</span>
+    </div>
+    <h3 class="event-name">广州咖啡文化季闭幕活动</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07 ~ 2026-08-09</div>
+        <div class="meta-item">📍 荔湾悦汇城</div>
+        <div class="meta-item">🏙️ 广州</div>
+        
+    </div>
+    <p class="event-desc">2026广州咖啡文化季收官！40家品牌集结，专属限定款产品、免费体验工坊、杯测体验区。</p>
+    <div class="tags"><span class="tag">咖啡</span><span class="tag">市集</span><span class="tag">美食</span></div>
+    <div class="card-footer">
+        <a href="https://huacheng.gz-cmc.com/pages/2026/08/04/935952a7d2bc428faff4a22b334f4e88.html" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="广州" data-category="performance" data-source="big" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">原创舞剧《沙湾往事》</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07 ~ 2026-08-08</div>
+        <div class="meta-item">📍 广州大剧院</div>
+        <div class="meta-item">🏙️ 广州</div>
+        
+    </div>
+    <p class="event-desc">岭南风情原创舞剧，展现广东音乐之乡沙湾的故事。</p>
+    <div class="tags"><span class="tag">舞剧</span><span class="tag">岭南文化</span></div>
+    <div class="card-footer">
+        <a href="https://detail.damai.cn/item.htm?id=1057175722967" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="成都" data-category="market" data-source="small" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">大弯街道后备箱集市</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07 ~ 2026-08-30</div>
+        <div class="meta-item">📍 大弯街道凤凰新天地内广场</div>
+        <div class="meta-item">🏙️ 成都</div>
+        
+    </div>
+    <p class="event-desc">30个原创摊位，手工、美食、非遗，每周末18:00-22:00，拒绝批发拿货。</p>
+    <div class="tags"><span class="tag">市集</span><span class="tag">手工</span><span class="tag">原创</span></div>
+    <div class="card-footer">
+        <a href="https://mp.weixin.qq.com/s/qingbaijiang-wenlv" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="杭州" data-category="performance" data-source="big" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">薛之谦「万兽之王」巡回演唱会-杭州站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07 ~ 2026-08-16</div>
+        <div class="meta-item">📍 杭州奥体中心主体育场</div>
+        <div class="meta-item">🏙️ 杭州</div>
+        
+    </div>
+    <p class="event-desc">薛之谦巡回演唱会杭州站。</p>
+    <div class="tags"><span class="tag">演唱会</span><span class="tag">音乐</span></div>
+    <div class="card-footer">
+        <a href="https://detail.damai.cn/item.htm?id=1061009512132" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="广州" data-category="market" data-source="big" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费入场</span>
+    </div>
+    <h3 class="event-name">2026广州咖啡文化季闭幕活动</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07 ~ 2026-08-09</div>
+        <div class="meta-item">📍 荔湾悦汇城</div>
+        <div class="meta-item">🏙️ 广州</div>
+        <div class="meta-item">🎫 免费参加</div>
+    </div>
+    <p class="event-desc">40家品牌集结、冠军咖啡体验营、AI咖啡烘焙、粤语音乐会</p>
+    
+    <div class="card-footer">
+        <a href="https://huacheng.gz-cmc.com/pages/2026/08/04/935952a7d2bc428faff4a22b334f4e88.html" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="成都" data-category="performance" data-source="small" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">¥120起</span>
+    </div>
+    <h3 class="event-name">Jack Thammarat & Igor Paspalj联合巡演成都站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07</div>
+        <div class="meta-item">📍 LITTLES LIVE（万象城店）</div>
+        <div class="meta-item">🏙️ 成都</div>
+        
+    </div>
+    <p class="event-desc">国际吉他手联合巡演</p>
+    
+    <div class="card-footer">
+        <a href="https://wap.showstart.com/venue/6757" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="market" data-source="small" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">新天地「食语市集」</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07 ~ 2026-08-16</div>
+        <div class="meta-item">📍 虹桥新天地</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">虹桥新天地美食主题市集,汇聚特色小吃、手作美食、创意饮品,夏夜微醺好去处。</p>
+    <div class="tags"><span class="tag">美食</span><span class="tag">市集</span><span class="tag">夜生活</span></div>
+    <div class="card-footer">
+        <a href="https://www.dianping.com/shanghai" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="market" data-source="small" data-date="2026-08-07">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">WA!土豆节</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-07 ~ 2026-08-09</div>
+        <div class="meta-item">📍 鸿寿坊</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">鸿寿坊「WA!土豆节」主题市集,以土豆为主题的创意美食活动,融合街头小吃、文创、音乐。</p>
+    <div class="tags"><span class="tag">美食</span><span class="tag">市集</span><span class="tag">创意</span></div>
+    <div class="card-footer">
+        <a href="https://www.dianping.com/shanghai" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="深圳" data-category="exhibition" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">Award360° BEST 100 展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-10-09</div>
+        <div class="meta-item">📍 南头古城</div>
+        <div class="meta-item">🏙️ 深圳</div>
+        
+    </div>
+    <p class="event-desc">年度设计大展，BEST 100获奖作品集合展，设计爱好者必看。</p>
+    <div class="tags"><span class="tag">设计</span><span class="tag">展览</span></div>
+    <div class="card-footer">
+        <a href="https://weibo.com/1760571162/5326096666988355" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="成都" data-category="salon" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="沙龙/讲座/工作坊">📚 沙龙/讲座/工作坊</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">68元/位</span>
+    </div>
+    <h3 class="event-name">香珠手作——串起东方雅韵</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-31</div>
+        <div class="meta-item">📍 甲拉书院</div>
+        <div class="meta-item">🏙️ 成都</div>
+        
+    </div>
+    <p class="event-desc">亲手搓制合香珠，草木芬芳缠绕腕间。8月8日专场，之后每周二四六可预约散客体验。</p>
+    <div class="tags"><span class="tag">手作</span><span class="tag">非遗</span><span class="tag">香道</span></div>
+    <div class="card-footer">
+        <a href="https://weibo.com/ttarticle/p/show?id=2309405327863531569254" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="成都" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">泊客集·湖畔水Young市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-31</div>
+        <div class="meta-item">📍 凤翔湖公园街区</div>
+        <div class="meta-item">🏙️ 成都</div>
+        
+    </div>
+    <p class="event-desc">文创手作、轻食饮品与湖景夜色交织，每周五六日18:00-21:00。</p>
+    <div class="tags"><span class="tag">市集</span><span class="tag">文创</span><span class="tag">湖畔</span></div>
+    <div class="card-footer">
+        <a href="https://mp.weixin.qq.com/s/shuangliu-wenlv" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="杭州" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">公园门票</span>
+    </div>
+    <h3 class="event-name">良渚古城遗址公园西门市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-31</div>
+        <div class="meta-item">📍 良渚古城遗址公园西门</div>
+        <div class="meta-item">🏙️ 杭州</div>
+        
+    </div>
+    <p class="event-desc">在五千年前的古城遗址旁逛文创市集，感受历史的回响。</p>
+    <div class="tags"><span class="tag">市集</span><span class="tag">良渚</span><span class="tag">文创</span></div>
+    <div class="card-footer">
+        <a href="https://mp.weixin.qq.com/s/liangzhu-gucheng" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="武汉" data-category="exhibition" data-source="big" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">需购票</span>
+    </div>
+    <h3 class="event-name">武汉第六届环形宇宙动漫游戏嘉年华</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-09</div>
+        <div class="meta-item">📍 中国(武汉)文化博览中心</div>
+        <div class="meta-item">🏙️ 武汉</div>
+        
+    </div>
+    <p class="event-desc">热门场景搭建、Coser互动、文创市集、主题影棚，二次元狂欢。</p>
+    <div class="tags"><span class="tag">动漫</span><span class="tag">二次元</span><span class="tag">嘉年华</span></div>
+    <div class="card-footer">
+        <a href="https://wh.bendibao.com/xiuxian/2026731/199459.shtm" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费入场</span>
+    </div>
+    <h3 class="event-name">SOHO MARKET 8月生活市集@D Park</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-30</div>
+        <div class="meta-item">📍 D·PARK愉景新城L2</div>
+        <div class="meta-item">🏙️ 香港</div>
+        
+    </div>
+    <p class="event-desc">每周末慢活市集，服飾首飾、花藝布藝、烘焙糕餅、咖啡蠟燭等手工产品。</p>
+    <div class="tags"><span class="tag">市集</span><span class="tag">手作</span><span class="tag">慢活</span></div>
+    <div class="card-footer">
+        <a href="https://www.dpark.com.hk/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="贵阳" data-category="performance" data-source="big" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">周深「深深的」巡回演唱会-贵阳站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-09</div>
+        <div class="meta-item">📍 奥林匹克体育中心体育场</div>
+        <div class="meta-item">🏙️ 贵阳</div>
+        
+    </div>
+    <p class="event-desc">周深回家开唱，贵阳站连开两场。</p>
+    <div class="tags"><span class="tag">演唱会</span><span class="tag">音乐</span></div>
+    <div class="card-footer">
+        <a href="https://m.gy.bendibao.com/xiuxian/78784.shtm" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="福州" data-category="salon" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="沙龙/讲座/工作坊">📚 沙龙/讲座/工作坊</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">部分免费</span>
+    </div>
+    <h3 class="event-name">福州暑期非遗体验周</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-16</div>
+        <div class="meta-item">📍 福州三坊七巷</div>
+        <div class="meta-item">🏙️ 福州</div>
+        
+    </div>
+    <p class="event-desc">在三坊七巷历史街区体验福州非遗技艺：脱胎漆器、软木画、油纸伞制作。</p>
+    <div class="tags"><span class="tag">非遗</span><span class="tag">手作</span><span class="tag">历史文化</span></div>
+    <div class="card-footer">
+        <a href="https://www.fuzhou.gov.cn/（关注福州文旅局发布）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="昆明" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">昆明翠湖周末文创市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-31</div>
+        <div class="meta-item">📍 翠湖公园周边</div>
+        <div class="meta-item">🏙️ 昆明</div>
+        
+    </div>
+    <p class="event-desc">翠湖畔的周末文创市集，手作、花艺、咖啡，感受春城慢生活。</p>
+    <div class="tags"><span class="tag">市集</span><span class="tag">文创</span><span class="tag">翠湖</span></div>
+    <div class="card-footer">
+        <a href="https://www.km.gov.cn/（关注昆明文旅发布）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="大理" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">大理在地文化市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-31</div>
+        <div class="meta-item">📍 大理古城/床单厂艺术区</div>
+        <div class="meta-item">🏙️ 大理</div>
+        
+    </div>
+    <p class="event-desc">大理在地手艺人市集，白族扎染、手工皮具、独立音乐，苍山洱海间的文艺生活。</p>
+    <div class="tags"><span class="tag">市集</span><span class="tag">手工艺</span><span class="tag">在地文化</span></div>
+    <div class="card-footer">
+        <a href="https://www.dali.gov.cn/（关注大理文旅发布）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="澳门" data-category="performance" data-source="big" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">部分免费</span>
+    </div>
+    <h3 class="event-name">澳门夏日嘉年华2026</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-31</div>
+        <div class="meta-item">📍 澳门旅游塔/西湾湖广场</div>
+        <div class="meta-item">🏙️ 澳门</div>
+        
+    </div>
+    <p class="event-desc">澳门夏日嘉年华，美食摊位、亲子游乐、音乐表演。</p>
+    <div class="tags"><span class="tag">嘉年华</span><span class="tag">美食</span><span class="tag">亲子</span></div>
+    <div class="card-footer">
+        <a href="https://www.macaotourism.gov.mo/（关注澳门旅游局发布）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="南宁" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">南宁邕江夜游文创市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-31</div>
+        <div class="meta-item">📍 邕江沿岸/民生码头</div>
+        <div class="meta-item">🏙️ 南宁</div>
+        
+    </div>
+    <p class="event-desc">邕江夜游+文创市集，手作好物、广西特色美食，夏夜江风惬意。</p>
+    <div class="tags"><span class="tag">市集</span><span class="tag">文创</span><span class="tag">邕江</span></div>
+    <div class="card-footer">
+        <a href="https://www.nanning.gov.cn/（关注南宁文旅发布）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="长沙" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">长沙火宫殿非遗市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-31</div>
+        <div class="meta-item">📍 火宫殿/坡子街</div>
+        <div class="meta-item">🏙️ 长沙</div>
+        
+    </div>
+    <p class="event-desc">非遗手工艺展示+臭豆腐等长沙小吃体验，感受烟火长沙。</p>
+    <div class="tags"><span class="tag">非遗</span><span class="tag">美食</span><span class="tag">市集</span></div>
+    <div class="card-footer">
+        <a href="https://www.changsha.gov.cn/（关注长沙文旅发布）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="厦门" data-category="performance" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">部分免费</span>
+    </div>
+    <h3 class="event-name">厦门鼓浪屿夏日音乐季</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-31</div>
+        <div class="meta-item">📍 鼓浪屿/钢琴码头</div>
+        <div class="meta-item">🏙️ 厦门</div>
+        
+    </div>
+    <p class="event-desc">鼓浪屿之夏音乐季，在钢琴之岛聆听街头音乐、小型演奏会。</p>
+    <div class="tags"><span class="tag">音乐</span><span class="tag">鼓浪屿</span><span class="tag">街头表演</span></div>
+    <div class="card-footer">
+        <a href="https://www.xm.gov.cn/（关注厦门文旅发布）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="北京" data-category="salon" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="沙龙/讲座/工作坊">📚 沙龙/讲座/工作坊</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">¥60</span>
+    </div>
+    <h3 class="event-name">图像如何再次运动：动画、档案与现实的重组</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08</div>
+        <div class="meta-item">📍 UCCA报告厅</div>
+        <div class="meta-item">🏙️ 北京</div>
+        <div class="meta-item">🎫 需购票</div>
+    </div>
+    <p class="event-desc">2025林茨电子艺术动画节作品选映与映后谈</p>
+    
+    <div class="card-footer">
+        <a href="https://ucca.org.cn/program/2025-the-ars-electronica-animation-festival-selected-works-screening-and-post-screening-talk/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="成都" data-category="performance" data-source="big" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">¥180起</span>
+    </div>
+    <h3 class="event-name">Uu的气象站台·热浪2026巡演成都站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08</div>
+        <div class="meta-item">📍 LITTLES LIVE（万象城店）</div>
+        <div class="meta-item">🏙️ 成都</div>
+        
+    </div>
+    <p class="event-desc">Uu刘梦妤、程佳佳、Li-2c联合演出</p>
+    
+    <div class="card-footer">
+        <a href="https://wap.showstart.com/venue/6757" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="杭州" data-category="performance" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">¥150起</span>
+    </div>
+    <h3 class="event-name">Andr《Shedding Skin脱皮》2026杭州站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08</div>
+        <div class="meta-item">📍 Jiulaifu Music Livehouse</div>
+        <div class="meta-item">🏙️ 杭州</div>
+        
+    </div>
+    
+    
+    <div class="card-footer">
+        <a href="https://www.showstart.com/event/302115" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="武汉" data-category="exhibition" data-source="big" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">需购票</span>
+    </div>
+    <h3 class="event-name">第六届环形宇宙动漫游戏嘉年华</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-09</div>
+        <div class="meta-item">📍 中国（武汉）文化博览中心</div>
+        <div class="meta-item">🏙️ 武汉</div>
+        
+    </div>
+    <p class="event-desc">Coser互动+文创市集+主题影棚+游戏互动</p>
+    
+    <div class="card-footer">
+        <a href="https://wh.bendibao.com/xiuxian/2026731/199459.shtm" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="长沙" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">非遗有「集」·烟火长沙休闲市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-09</div>
+        <div class="meta-item">📍 中国民俗画创作基地（蔡二茶馆）</div>
+        <div class="meta-item">🏙️ 长沙</div>
+        <div class="meta-item">🎫 免费参加</div>
+    </div>
+    <p class="event-desc">非遗手作体验+戏曲演出+美食市集（每周末）</p>
+    
+    <div class="card-footer">
+        <a href="https://www.changsha.gov.cn/（关注长沙非遗馆发布）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="长沙" data-category="salon" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="沙龙/讲座/工作坊">📚 沙龙/讲座/工作坊</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">「暑你精彩」非遗传习体验季</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-09</div>
+        <div class="meta-item">📍 长沙非遗馆二楼传习所</div>
+        <div class="meta-item">🏙️ 长沙</div>
+        <div class="meta-item">🎫 免费参加</div>
+    </div>
+    <p class="event-desc">药用湘艾制作+长沙谜语+非遗手作</p>
+    
+    <div class="card-footer">
+        <a href="https://www.changsha.gov.cn/（长沙非遗馆公告）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="昆明" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">非遗有集·周末非遗市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-09</div>
+        <div class="meta-item">📍 昆明老街</div>
+        <div class="meta-item">🏙️ 昆明</div>
+        <div class="meta-item">🎫 免费参加</div>
+    </div>
+    <p class="event-desc">云南非遗手作体验+滇味美食</p>
+    
+    <div class="card-footer">
+        <a href="https://www.km.gov.cn/（关注昆明文旅/昆明老街发布）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="北京" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">三兔二手跳蚤市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-09</div>
+        <div class="meta-item">📍 纳福胡同</div>
+        <div class="meta-item">🏙️ 北京</div>
+        
+    </div>
+    <p class="event-desc">胡同里的复古跳蚤市集,二手好物、古着、手作、独立出版物,慢淘一个惬意的周末午后。</p>
+    <div class="tags"><span class="tag">跳蚤市集</span><span class="tag">复古</span><span class="tag">二手</span></div>
+    <div class="card-footer">
+        <a href="https://www.dianping.com/beijing" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="长沙" data-category="exhibition" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">¥68-128</span>
+    </div>
+    <h3 class="event-name">新芙蓉动漫节</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-09</div>
+        <div class="meta-item">📍 长沙国际会展中心</div>
+        <div class="meta-item">🏙️ 长沙</div>
+        
+    </div>
+    <p class="event-desc">长沙最大动漫展会之一,Cosplay大赛、同人摊位、声优见面、宅舞表演,二次元狂欢盛宴。</p>
+    <div class="tags"><span class="tag">动漫</span><span class="tag">Cosplay</span><span class="tag">二次元</span></div>
+    <div class="card-footer">
+        <a href="https://www.damai.cn/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="厦门" data-category="market" data-source="small" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">柒淘艺术市集</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-08-09</div>
+        <div class="meta-item">📍 三影堂厦门摄影艺术中心</div>
+        <div class="meta-item">🏙️ 厦门</div>
+        
+    </div>
+    <p class="event-desc">三影堂艺术中心举办的独立艺术市集,原创插画、手作好物、独立出版、小型艺术展。</p>
+    <div class="tags"><span class="tag">艺术</span><span class="tag">市集</span><span class="tag">独立创作</span></div>
+    <div class="card-footer">
+        <a href="https://www.threeshadows.cn/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="武汉" data-category="exhibition" data-source="big" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费(需预约)</span>
+    </div>
+    <h3 class="event-name">《鬼灭之刃：无限城篇》快闪店</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08 ~ 2026-09-06</div>
+        <div class="meta-item">📍 武汉分场(待公布)</div>
+        <div class="meta-item">🏙️ 武汉</div>
+        
+    </div>
+    <p class="event-desc">ufotable全新绘制限定系列全球首发!六城同步开启,武汉分场含打卡特典、满赠周边。</p>
+    <div class="tags"><span class="tag">动漫</span><span class="tag">快闪</span><span class="tag">鬼灭之刃</span><span class="tag">周边</span></div>
+    <div class="card-footer">
+        <a href="https://weibo.com/5710598545/5327873952715574" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="澳门" data-category="concert" data-source="big" data-date="2026-08-08">
+    <div class="card-header">
+        <span class="cat-badge" title="音乐节/演唱会">📌 音乐节/演唱会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">MOP 680-2480</span>
+    </div>
+    <h3 class="event-name">GMMTV Fan Fest 2026 in Macau</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-08</div>
+        <div class="meta-item">📍 威尼斯人综艺馆</div>
+        <div class="meta-item">🏙️ 澳门</div>
+        
+    </div>
+    <p class="event-desc">GMMTV十四位人气艺人齐聚澳门!Gemini、Fourth、Pond、Phuwin等,歌舞与心跳同频的夏日限定狂欢。</p>
+    <div class="tags"><span class="tag">GMMTV</span><span class="tag">泰剧</span><span class="tag">粉丝见面会</span></div>
+    <div class="card-footer">
+        <a href="https://m.huanghepiao.com/event/41644" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="成都" data-category="performance" data-source="small" data-date="2026-08-12">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">¥200起</span>
+    </div>
+    <h3 class="event-name">Mike Dawes摩登指弹吉他音乐会成都站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-12</div>
+        <div class="meta-item">📍 LITTLES LIVE（万象城店）</div>
+        <div class="meta-item">🏙️ 成都</div>
+        
+    </div>
+    <p class="event-desc">世界级指弹吉他大师</p>
+    
+    <div class="card-footer">
+        <a href="https://wap.showstart.com/venue/6757" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="exhibition" data-source="small" data-date="2026-08-12">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">¥5-10(日场)/免费(夜场)</span>
+    </div>
+    <h3 class="event-name">2026上海书展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-12 ~ 2026-08-18</div>
+        <div class="meta-item">📍 上海展览中心</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">一年一度的上海书展,全国出版机构云集,新书首发、作家签售、文化讲座、书香市集。</p>
+    <div class="tags"><span class="tag">书展</span><span class="tag">文化</span><span class="tag">亲子</span></div>
+    <div class="card-footer">
+        <a href="https://www.shbookfair.com/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="market" data-source="big" data-date="2026-08-13">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">HKD 30起</span>
+    </div>
+    <h3 class="event-name">香港贸发局美食博览2026</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-13 ~ 2026-08-17</div>
+        <div class="meta-item">📍 香港会议展览中心</div>
+        <div class="meta-item">🏙️ 香港</div>
+        
+    </div>
+    <p class="event-desc">一年一度美食盛事！环球美食荟萃，同期美与健生活博览、家电家居博览。</p>
+    <div class="tags"><span class="tag">美食</span><span class="tag">展会</span><span class="tag">生活</span></div>
+    <div class="card-footer">
+        <a href="https://hk.ulifestyle.com.hk/activity/detail/20101927/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="北京" data-category="performance" data-source="big" data-date="2026-08-14">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">汪苏泷「明日世界」巡回演唱会-北京站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-14 ~ 2026-08-30</div>
+        <div class="meta-item">📍 国家体育场（鸟巢）</div>
+        <div class="meta-item">🏙️ 北京</div>
+        
+    </div>
+    <p class="event-desc">汪苏泷在鸟巢连开多场演唱会。</p>
+    <div class="tags"><span class="tag">演唱会</span><span class="tag">音乐</span></div>
+    <div class="card-footer">
+        <a href="https://detail.damai.cn/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="广州" data-category="exhibition" data-source="small" data-date="2026-08-14">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">需预约</span>
+    </div>
+    <h3 class="event-name">GAF广州插画艺术节</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-14 ~ 2026-08-16</div>
+        <div class="meta-item">📍 保利世贸博览馆</div>
+        <div class="meta-item">🏙️ 广州</div>
+        
+    </div>
+    <p class="event-desc">原创插画、艺术周边、IP文创、画师签售，文艺青年打卡地！</p>
+    <div class="tags"><span class="tag">插画</span><span class="tag">文创</span><span class="tag">艺术</span></div>
+    <div class="card-footer">
+        <a href="https://www.showstart.com/event/eyuew" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="广州" data-category="performance" data-source="big" data-date="2026-08-14">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">杨丽萍作品《十面埋伏》</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-14 ~ 2026-08-15</div>
+        <div class="meta-item">📍 广州大剧院</div>
+        <div class="meta-item">🏙️ 广州</div>
+        
+    </div>
+    <p class="event-desc">杨丽萍舞蹈作品，经典再现。广州大剧院暑期艺术季。</p>
+    <div class="tags"><span class="tag">舞剧</span><span class="tag">杨丽萍</span></div>
+    <div class="card-footer">
+        <a href="https://detail.damai.cn/item.htm?id=1051984386454" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="杭州" data-category="performance" data-source="big" data-date="2026-08-14">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">¥236起</span>
+    </div>
+    <h3 class="event-name">布瑞吉77%巡演杭州站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-14</div>
+        <div class="meta-item">📍 CH8 Livehouse（小河店）</div>
+        <div class="meta-item">🏙️ 杭州</div>
+        
+    </div>
+    
+    
+    <div class="card-footer">
+        <a href="https://www.showstart.com/event/300362" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="长沙" data-category="exhibition" data-source="small" data-date="2026-08-14">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">全国首届「万物有型」3D打印设计展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-14 ~ 2026-08-16</div>
+        <div class="meta-item">📍 隆平水稻博物馆</div>
+        <div class="meta-item">🏙️ 长沙</div>
+        
+    </div>
+    <p class="event-desc">100+展位，3D打印设计比赛+创意市集+互动体验</p>
+    
+    <div class="card-footer">
+        <a href="https://www.changsha.gov.cn/（隆平水稻博物馆）" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="exhibition" data-source="small" data-date="2026-08-15">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">东西方的感知对话·第二章《虚与实》</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-15 ~ 2026-10-11</div>
+        <div class="meta-item">📍 Bluerider ART上海（四川中路）</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">12位东西方当代艺术家，探问空间、感知与存在</p>
+    
+    <div class="card-footer">
+        <a href="https://blueriderart.com/cn/latestnews/2026-7-21" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="成都" data-category="performance" data-source="small" data-date="2026-08-15">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">¥120起</span>
+    </div>
+    <h3 class="event-name">刘俊麟「出川调」生日音乐会</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-15</div>
+        <div class="meta-item">📍 LITTLES LIVE（万象城店）</div>
+        <div class="meta-item">🏙️ 成都</div>
+        
+    </div>
+    
+    
+    <div class="card-footer">
+        <a href="https://wap.showstart.com/venue/6757" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="杭州" data-category="performance" data-source="small" data-date="2026-08-15">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">¥150起</span>
+    </div>
+    <h3 class="event-name">Arthurnevawakes & 5IVE5IVE Smiling Friends巡演·杭州站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-15</div>
+        <div class="meta-item">📍 Jiulaifu Music Livehouse</div>
+        <div class="meta-item">🏙️ 杭州</div>
+        
+    </div>
+    
+    
+    <div class="card-footer">
+        <a href="https://www.showstart.com/event/303487" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="杭州" data-category="performance" data-source="big" data-date="2026-08-15">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">¥699起</span>
+    </div>
+    <h3 class="event-name">Chris James巡演杭州站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-15</div>
+        <div class="meta-item">📍 CH8 Livehouse（小河店）</div>
+        <div class="meta-item">🏙️ 杭州</div>
+        
+    </div>
+    
+    
+    <div class="card-footer">
+        <a href="https://huodong.com/event/detail/eyutD" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="performance" data-source="small" data-date="2026-08-15">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">HK$120</span>
+    </div>
+    <h3 class="event-name">珍妮特·卡迪夫：四十部经文歌</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-15 ~ 2026-12-31</div>
+        <div class="meta-item">📍 M+博物馆B2层展演空间</div>
+        <div class="meta-item">🏙️ 香港</div>
+        <div class="meta-item">🎫 需购票</div>
+    </div>
+    <p class="event-desc">40声部环绕声音装置，超凡脱俗的音乐空间体验</p>
+    
+    <div class="card-footer">
+        <a href="https://www.mplus.org.hk/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="深圳" data-category="exhibition" data-source="big" data-date="2026-08-15">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">¥68-128</span>
+    </div>
+    <h3 class="event-name">Lindy Lee「世间星辰」艺术展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-15 ~ 2026-11-30</div>
+        <div class="meta-item">📍 海上世界文化艺术中心</div>
+        <div class="meta-item">🏙️ 深圳</div>
+        
+    </div>
+    <p class="event-desc">澳大利亚华裔艺术家Lindy Lee个展,以金属装置和光影艺术探索宇宙与生命主题。</p>
+    <div class="tags"><span class="tag">当代艺术</span><span class="tag">装置</span><span class="tag">光影</span></div>
+    <div class="card-footer">
+        <a href="https://www.swcac.com/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="昆明" data-category="concert" data-source="small" data-date="2026-08-15">
+    <div class="card-header">
+        <span class="cat-badge" title="音乐节/演唱会">📌 音乐节/演唱会</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">自然醒音乐节</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-15 ~ 2026-08-16</div>
+        <div class="meta-item">📍 云南(具体场地待定)</div>
+        <div class="meta-item">🏙️ 昆明</div>
+        
+    </div>
+    <p class="event-desc">云南本土独立音乐节,免费入场!Kawa、夸克、散人、时间不够以后等乐队两天连演,摇滚+雷鬼+Indie。</p>
+    <div class="tags"><span class="tag">音乐节</span><span class="tag">摇滚</span><span class="tag">独立音乐</span><span class="tag">免费</span></div>
+    <div class="card-footer">
+        <a href="https://www.sina.cn/news/detail/5318849671201110.html" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="上海" data-category="performance" data-source="big" data-date="2026-08-20">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">DOTA2 2026年国际邀请赛</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-20 ~ 2026-08-23</div>
+        <div class="meta-item">📍 浦发银行东方体育中心</div>
+        <div class="meta-item">🏙️ 上海</div>
+        
+    </div>
+    <p class="event-desc">全球顶级电竞赛事！DOTA2年度巅峰对决在上海举办。</p>
+    <div class="tags"><span class="tag">电竞</span><span class="tag">赛事</span></div>
+    <div class="card-footer">
+        <a href="https://dota2.com.cn/international/2026/tickets" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="广州" data-category="performance" data-source="big" data-date="2026-08-21">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">许嵩「安泊猜想」巡回演唱会-广州站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-21 ~ 2026-08-23</div>
+        <div class="meta-item">📍 广东省奥林匹克体育中心体育场</div>
+        <div class="meta-item">🏙️ 广州</div>
+        
+    </div>
+    <p class="event-desc">许嵩巡回演唱会广州站，连续三天。</p>
+    <div class="tags"><span class="tag">演唱会</span><span class="tag">音乐</span></div>
+    <div class="card-footer">
+        <a href="https://detail.damai.cn/item.htm?id=1066681405265" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="深圳" data-category="performance" data-source="big" data-date="2026-08-21">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">薛之谦「万兽之王」巡回演唱会-深圳站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-21 ~ 2026-08-30</div>
+        <div class="meta-item">📍 深圳大运中心体育场</div>
+        <div class="meta-item">🏙️ 深圳</div>
+        
+    </div>
+    <p class="event-desc">薛之谦巡回演唱会深圳站。</p>
+    <div class="tags"><span class="tag">演唱会</span><span class="tag">音乐</span></div>
+    <div class="card-footer">
+        <a href="https://huodong.com/event/detail/eykgE" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="长沙" data-category="performance" data-source="big" data-date="2026-08-21">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">购票</span>
+    </div>
+    <h3 class="event-name">凤凰传奇「吉祥如意」巡回演唱会-长沙站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-21 ~ 2026-08-23</div>
+        <div class="meta-item">📍 贺龙体育场</div>
+        <div class="meta-item">🏙️ 长沙</div>
+        
+    </div>
+    <p class="event-desc">凤凰传奇长沙演唱会。</p>
+    <div class="tags"><span class="tag">演唱会</span><span class="tag">音乐</span></div>
+    <div class="card-footer">
+        <a href="https://new.qq.com/rain/a/20260710A058WK00" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="performance" data-source="big" data-date="2026-08-21">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">HKD 480-1080</span>
+    </div>
+    <h3 class="event-name">古天乐 MY FIRST SHOW 红馆演唱会</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-21 ~ 2026-08-22</div>
+        <div class="meta-item">📍 红磡香港体育馆</div>
+        <div class="meta-item">🏙️ 香港</div>
+        
+    </div>
+    <p class="event-desc">入行33年古天乐首次个人红馆演出，以派对氛围为主线。</p>
+    <div class="tags"><span class="tag">演唱会</span><span class="tag">红馆</span></div>
+    <div class="card-footer">
+        <a href="https://www.lcsd.gov.hk/en/hkc/common/images/2026/Announcement_HU26KTL_sc.pdf" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="exhibition" data-source="big" data-date="2026-08-21">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">HKD 35</span>
+    </div>
+    <h3 class="event-name">香港电脑通讯节2026</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-21 ~ 2026-08-24</div>
+        <div class="meta-item">📍 香港会议展览中心1号展览厅</div>
+        <div class="meta-item">🏙️ 香港</div>
+        
+    </div>
+    <p class="event-desc">科技迷年度盛事！电脑、通讯、电子产品，300万消费券人人有份。</p>
+    <div class="tags"><span class="tag">科技</span><span class="tag">展会</span><span class="tag">数码</span></div>
+    <div class="card-footer">
+        <a href="https://global.hk01.com/article/60375196" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="武汉" data-category="market" data-source="big" data-date="2026-08-21">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费（需预约）</span>
+    </div>
+    <h3 class="event-name">博泰武汉国际珠宝展·茶博会</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-21 ~ 2026-08-24</div>
+        <div class="meta-item">📍 中国（武汉）文化博览中心</div>
+        <div class="meta-item">🏙️ 武汉</div>
+        
+    </div>
+    <p class="event-desc">一馆双展：十万款珠宝+全品类茶叶</p>
+    
+    <div class="card-footer">
+        <a href="https://sw.wuhan.gov.cn/xwdt/gzdt/202607/t20260731_2827838.shtml" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="武汉" data-category="exhibition" data-source="small" data-date="2026-08-22">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费预约</span>
+    </div>
+    <h3 class="event-name">2026首届武汉疗愈博览会</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-22 ~ 2026-08-24</div>
+        <div class="meta-item">📍 武汉国际会展中心</div>
+        <div class="meta-item">🏙️ 武汉</div>
+        
+    </div>
+    <p class="event-desc">芳香美学、音声疗愈、中医传统疗愈，疗愈工坊体验。</p>
+    <div class="tags"><span class="tag">疗愈</span><span class="tag">康养</span><span class="tag">展览</span></div>
+    <div class="card-footer">
+        <a href="https://sw.wuhan.gov.cn/xwdt/gzdt/202607/t20260731_2827838.shtml" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="成都" data-category="performance" data-source="small" data-date="2026-08-22">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">¥80起</span>
+    </div>
+    <h3 class="event-name">虹宵雨霁联合演出</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-22</div>
+        <div class="meta-item">📍 LITTLES LIVE（万象城店）</div>
+        <div class="meta-item">🏙️ 成都</div>
+        
+    </div>
+    <p class="event-desc">发声螺纹/蘇黔皖川/Sycamore三支乐队联合</p>
+    
+    <div class="card-footer">
+        <a href="https://wap.showstart.com/venue/6757" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="武汉" data-category="market" data-source="small" data-date="2026-08-22">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费（需预约）</span>
+    </div>
+    <h3 class="event-name">首届武汉疗愈博览会</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-22 ~ 2026-08-24</div>
+        <div class="meta-item">📍 武汉国际会展中心</div>
+        <div class="meta-item">🏙️ 武汉</div>
+        
+    </div>
+    <p class="event-desc">芳香美学+音声疗愈+中医康养+身心疗愈</p>
+    
+    <div class="card-footer">
+        <a href="https://sw.wuhan.gov.cn/xwdt/gzdt/202607/t20260731_2827838.shtml" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="武汉" data-category="market" data-source="big" data-date="2026-08-23">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费（需预约）</span>
+    </div>
+    <h3 class="event-name">第17届武汉糖酒食品精品展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-23 ~ 2026-08-24</div>
+        <div class="meta-item">📍 武汉国际会展中心</div>
+        <div class="meta-item">🏙️ 武汉</div>
+        
+    </div>
+    <p class="event-desc">酒类饮品+休闲食品+礼盒食品中秋团购</p>
+    
+    <div class="card-footer">
+        <a href="https://sw.wuhan.gov.cn/xwdt/gzdt/202607/t20260731_2827838.shtml" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="香港" data-category="salon" data-source="small" data-date="2026-08-23">
+    <div class="card-header">
+        <span class="cat-badge" title="沙龙/讲座/工作坊">📚 沙龙/讲座/工作坊</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">M+ 亲子随玩现场：画画不寻常</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-23 ~ 2026-08-30</div>
+        <div class="meta-item">📍 M+工作室2</div>
+        <div class="meta-item">🏙️ 香港</div>
+        <div class="meta-item">🎫 免费参加</div>
+    </div>
+    <p class="event-desc">用日常物品当画笔在巨型画纸上创作（每周日14:00-17:00）</p>
+    
+    <div class="card-footer">
+        <a href="https://www.mplus.org.hk/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="深圳" data-category="exhibition" data-source="big" data-date="2026-08-25">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">潘玉良艺术展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-25 ~ 2026-11-29</div>
+        <div class="meta-item">📍 深圳当代艺术馆</div>
+        <div class="meta-item">🏙️ 深圳</div>
+        
+    </div>
+    <p class="event-desc">深圳当代艺术馆呈现民国传奇女画家潘玉良作品展,涵盖油画、素描、雕塑等百余件作品。</p>
+    <div class="tags"><span class="tag">艺术</span><span class="tag">女性</span><span class="tag">民国</span></div>
+    <div class="card-footer">
+        <a href="https://www.sz-moca.com/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="深圳" data-category="exhibition" data-source="big" data-date="2026-08-26">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag paid">需预登记</span>
+    </div>
+    <h3 class="event-name">IOTE国际物联网展</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-26 ~ 2026-08-28</div>
+        <div class="meta-item">📍 宝安国际会展中心</div>
+        <div class="meta-item">🏙️ 深圳</div>
+        
+    </div>
+    <p class="event-desc">RFID、AIoT、智能硬件前沿黑科技</p>
+    
+    <div class="card-footer">
+        <a href="https://www.iotexpo.com.cn/sz/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="成都" data-category="performance" data-source="small" data-date="2026-08-26">
+    <div class="card-header">
+        <span class="cat-badge" title="演出/嘉年华">🎭 演出/嘉年华</span>
+        <span class="badge badge-small">💎 小而美</span>
+        <span class="price-tag paid">¥150起</span>
+    </div>
+    <h3 class="event-name">福梦FUMON【活着】2026巡演 成都站</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-26</div>
+        <div class="meta-item">📍 NUSPACE纽空间（青羊区奎星楼街）</div>
+        <div class="meta-item">🏙️ 成都</div>
+        
+    </div>
+    <p class="event-desc">新锐金属摇滚乐团巡演</p>
+    
+    <div class="card-footer">
+        <a href="https://www.showstart.com/event/301633" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="广州" data-category="exhibition" data-source="big" data-date="2026-08-27">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费预约</span>
+    </div>
+    <h3 class="event-name">南国书香节</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-27 ~ 2026-08-31</div>
+        <div class="meta-item">📍 广州琶洲广交会展馆</div>
+        <div class="meta-item">🏙️ 广州</div>
+        
+    </div>
+    <p class="event-desc">华南年度文化盛典！海量新书、出版社特卖、作家分享、文创市集。</p>
+    <div class="tags"><span class="tag">书展</span><span class="tag">文化</span><span class="tag">文创</span></div>
+    <div class="card-footer">
+        <a href="https://ngsxj.gdxh.com.cn/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="佛山" data-category="exhibition" data-source="big" data-date="2026-08-27">
+    <div class="card-header">
+        <span class="cat-badge" title="展览/展会">🎨 展览/展会</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费预约</span>
+    </div>
+    <h3 class="event-name">南国书香节（广州同期）</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-27 ~ 2026-08-31</div>
+        <div class="meta-item">📍 佛山分会场（待定）</div>
+        <div class="meta-item">🏙️ 佛山</div>
+        
+    </div>
+    <p class="event-desc">南国书香节佛山分会场，全民阅读盛宴。</p>
+    <div class="tags"><span class="tag">书展</span><span class="tag">文化</span></div>
+    <div class="card-footer">
+        <a href="https://wap.ycwb.com/ikimvklthk/content_54255867.htm" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+<div class="event-card" data-city="广州" data-category="market" data-source="big" data-date="2026-08-27">
+    <div class="card-header">
+        <span class="cat-badge" title="市集/生活节">🛍️ 市集/生活节</span>
+        <span class="badge badge-big">🏛️</span>
+        <span class="price-tag free">免费</span>
+    </div>
+    <h3 class="event-name">南国书香节</h3>
+    <div class="event-meta">
+        <div class="meta-item">📅 2026-08-27 ~ 2026-08-31</div>
+        <div class="meta-item">📍 广交会展馆B区</div>
+        <div class="meta-item">🏙️ 广州</div>
+        
+    </div>
+    <p class="event-desc">年度书迷盛会，马伯庸、白岩松等名家面对面</p>
+    
+    <div class="card-footer">
+        <a href="https://ngsxj.gdxh.com.cn/" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>
+    </div>
+</div>
+    </div>
+    <div class="empty-state" id="emptyState" style="display:none">
+        <div class="empty-icon">🔍</div>
+        <p>暂无符合条件的活动</p>
+        <p class="empty-hint">试试调整筛选条件，或切换日期</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>数据来源：网络公开信息 · 每日自动更新 · 仅供活动参考</p>
+    <p>如有错误或补充，欢迎反馈</p>
+</footer>
+
+</div>
+
+<script>
+
+let currentDate = 'all';
+let currentCity = 'all';
+let currentCategory = 'all';
+let currentSource = 'all';
+
+function applyFilters() {
+    currentCity = document.getElementById('cityFilter').value;
+    filterCards();
+    updateDateCounts();
+}
+
+function filterByCategory(cat) {
+    currentCategory = cat;
+    document.querySelectorAll('#categoryChips .chip').forEach(c => c.classList.remove('active'));
+    document.querySelector(`#categoryChips .chip[data-category="${cat}"]`).classList.add('active');
+    filterCards();
+    updateDateCounts();
+}
+
+function filterBySource(source) {
+    currentSource = source;
+    document.querySelectorAll('#sourceChips .chip').forEach(c => c.classList.remove('active'));
+    document.querySelector(`#sourceChips .chip[data-source="${source}"]`).classList.add('active');
+    filterCards();
+    updateDateCounts();
+}
+
+function filterByDate(date) {
+    currentDate = date;
+    document.querySelectorAll('.date-tab').forEach(t => t.classList.remove('active'));
+    const tab = document.querySelector(`.date-tab[data-date="${date}"]`);
+    if (tab) tab.classList.add('active');
+    filterCards();
+    if (date !== 'all') updateDateCounts();
+}
+
+function filterCards() {
+    const cards = document.querySelectorAll('.event-card');
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+        const cardCity = card.dataset.city;
+        const cardCat = card.dataset.category;
+        const cardSource = card.dataset.source;
+        const cardDate = card.dataset.date;
+
+        const cityMatch = currentCity === 'all' || cardCity === currentCity;
+        const catMatch = currentCategory === 'all' || cardCat === currentCategory;
+        const sourceMatch = currentSource === 'all' || cardSource === currentSource;
+        const dateMatch = currentDate === 'all' || cardDate === currentDate;
+
+        if (cityMatch && catMatch && sourceMatch && dateMatch) {
+            card.classList.remove('hidden');
+            visibleCount++;
+        } else {
+            card.classList.add('hidden');
+        }
+    });
+
+    // 更新"全部"标签的计数
+    if (currentDate === 'all') {
+        const allTab = document.querySelector('.date-tab-all .date-count');
+        if (allTab) allTab.textContent = visibleCount + '场';
+    }
+
+    const emptyState = document.getElementById('emptyState');
+    if (visibleCount === 0) {
+        emptyState.style.display = 'block';
+    } else {
+        emptyState.style.display = 'none';
+    }
+}
+
+function updateDateCounts() {
+    document.querySelectorAll('.date-tab:not(.date-tab-all)').forEach(tab => {
+        const date = tab.dataset.date;
+        let count = 0;
+        document.querySelectorAll(`.event-card[data-date="${date}"]`).forEach(card => {
+            const cardCity = card.dataset.city;
+            const cardCat = card.dataset.category;
+            const cardSource = card.dataset.source;
+            const cityMatch = currentCity === 'all' || cardCity === currentCity;
+            const catMatch = currentCategory === 'all' || cardCat === currentCategory;
+            const sourceMatch = currentSource === 'all' || cardSource === currentSource;
+            if (cityMatch && catMatch && sourceMatch) count++;
+        });
+        const countEl = tab.querySelector('.date-count');
+        if (countEl) countEl.textContent = count + '场';
+    });
+}
+
+// 初始化：默认显示今天
+document.addEventListener('DOMContentLoaded', () => {
+    const today = new Date();
+    const todayStr = today.getFullYear() + '-' +
+        String(today.getMonth() + 1).padStart(2, '0') + '-' +
+        String(today.getDate()).padStart(2, '0');
+    filterByDate(todayStr);
+});
+
+</script>
+</body>
+</html>
