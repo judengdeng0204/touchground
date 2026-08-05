@@ -1352,7 +1352,7 @@ body.admin-mode .fab-mobile { display: none !important; }
             <span class="logo-tag">玩场速报</span>
         </h1>
         <button class="header-cta" onclick="openSubmit()" title="推荐你发现的有趣活动或非标空间">➕ 推荐好玩场</button>
-        <span class="update-time">更新于 2026-08-05 15:01</span>
+        <span class="update-time">更新于 2026-08-05 15:47</span>
     </div>
     <p class="subtitle">上海 · 北京 · 广州 · 深圳 · 成都 · 杭州 · 厦门 · 佛山 · 福州 · 长沙 · 昆明 · 大理 · 武汉 · 香港 · 澳门 · 贵阳 · 南宁</p>
     <p class="tagline">城市与乡野漫游 · 非标空间 · 社区生活与在地风土</p>
@@ -9844,7 +9844,8 @@ function directSubmit() {
             is_featured: document.getElementById('fFeatured').checked,
             event_hash: eventHash,
             review_status: 'pending',
-            is_public: false
+            is_public: false,
+            submitted_at: new Date().toISOString()
         };
 
         // Append card to frontend immediately (shown in admin mode, hidden in public view until approved)
@@ -9878,6 +9879,9 @@ function directSubmit() {
             });
         }
 
+        // ── 持久化到 localStorage ──
+        saveSubmissionToLocal(payload);
+
         alert('✅ 活动已提交，等待管理员审核后公开展示！');
         resetForm();
 
@@ -9906,7 +9910,7 @@ function buildCardFromPayload(p) {
     const sensoryHtml = p.sensory_tip ? '<div class="sensory-tip">🌿 ' + p.sensory_tip + '</div>' : '';
     const linkHtml = buildLinkOrHint(p.original_url, p.search_hint);
 
-    return '<div class="event-card' + featured + '" data-city="' + p.city + '" data-category="exhibition" data-source="small" data-date="' + p.start_date + '" data-space="' + (p.space_type || '') + '" data-featured="' + (p.is_featured ? '1' : '0') + '" data-lifestyle="" data-latlng="" data-cluster="" data-expired="0">' +
+    return '<div class="event-card' + featured + '" data-city="' + p.city + '" data-category="exhibition" data-source="small" data-date="' + p.start_date + '" data-space="' + (p.space_type || '') + '" data-featured="' + (p.is_featured ? '1' : '0') + '" data-lifestyle="" data-latlng="" data-cluster="" data-expired="0" data-review-status="pending" data-public="0" data-event-id="' + (p.event_hash || '') + '">' +
         '<div class="card-header">' +
             '<span class="cat-badge">📌 展览/活动</span>' +
             featuredBadge +
@@ -9926,6 +9930,46 @@ function buildCardFromPayload(p) {
         sensoryHtml +
         '<div class="card-footer">' + linkHtml + '</div>' +
     '</div>';
+}
+
+// ── localStorage 投稿持久化 ──
+const LS_KEY = 'tg_submissions';
+
+function saveSubmissionToLocal(payload) {
+    const subs = loadSubmissionsFromLocal();
+    // 去重：同 event_hash 不重复保存
+    if (!subs.find(s => s.event_hash === payload.event_hash)) {
+        subs.unshift(payload); // 最新排最前
+    }
+    // 最多保留 200 条
+    if (subs.length > 200) subs.length = 200;
+    try {
+        localStorage.setItem(LS_KEY, JSON.stringify(subs));
+    } catch (e) {
+        console.warn('localStorage 写入失败:', e);
+    }
+}
+
+function loadSubmissionsFromLocal() {
+    try {
+        const raw = localStorage.getItem(LS_KEY);
+        return raw ? JSON.parse(raw) : [];
+    } catch (e) {
+        return [];
+    }
+}
+
+function updateSubmissionInLocal(eventHash, updates) {
+    const subs = loadSubmissionsFromLocal();
+    const idx = subs.findIndex(s => s.event_hash === eventHash);
+    if (idx !== -1) {
+        Object.assign(subs[idx], updates);
+        try {
+            localStorage.setItem(LS_KEY, JSON.stringify(subs));
+        } catch (e) {
+            console.warn('localStorage 更新失败:', e);
+        }
+    }
 }
 
 function cancelForm() {
@@ -10228,14 +10272,16 @@ async function loadAdminEvents(status) {
 }
 
 function loadAdminEventsFromDOM(status) {
-    // Fallback: filter from DOM cards when Supabase unavailable
+    // Fallback: filter from DOM cards + localStorage when Supabase unavailable
     const cards = document.querySelectorAll('#eventsGrid .event-card');
     adminEventCache = [];
+
+    // 1. From DOM cards
     cards.forEach(card => {
         const reviewStatus = card.dataset.reviewStatus || 'approved'; // existing cards are approved
         if (status === 'all' || reviewStatus === status) {
             adminEventCache.push({
-                id: card.dataset.eventId || ('local_' + Math.random().toString(36).substr(2, 9)),
+                id: card.dataset.eventId || ('dom_' + Math.random().toString(36).substr(2, 9)),
                 name: card.querySelector('.event-name')?.textContent || '',
                 city: card.dataset.city || '',
                 venue: (card.querySelector('.meta-item:nth-child(2)')?.textContent || '').replace('📍 ', ''),
@@ -10257,9 +10303,44 @@ function loadAdminEventsFromDOM(status) {
                 is_featured: card.dataset.featured === '1',
                 event_hash: '',
                 created_at: new Date().toISOString(),
-                venue: (card.querySelector('.meta-item:nth-child(2)')?.textContent || '').replace('📍 ', ''),
                 DOMElement: card
             });
+        }
+    });
+
+    // 2. From localStorage (submissions that may not be in DOM after page refresh)
+    const localSubs = loadSubmissionsFromLocal();
+    localSubs.forEach(sub => {
+        const reviewStatus = sub.review_status || 'pending';
+        if (status === 'all' || reviewStatus === status) {
+            // Avoid duplicates with DOM cards
+            const dup = adminEventCache.find(e => e.event_hash === sub.event_hash);
+            if (!dup) {
+                adminEventCache.unshift({
+                    id: sub.event_hash || ('ls_' + Math.random().toString(36).substr(2, 9)),
+                    name: sub.name || '',
+                    city: sub.city || '',
+                    venue: sub.venue || '',
+                    start_date: sub.start_date || '',
+                    end_date: sub.end_date || '',
+                    review_status: reviewStatus,
+                    is_public: sub.is_public || false,
+                    category: 'exhibition',
+                    space_type: sub.space_type || '',
+                    engagement_level: sub.engagement_level || '',
+                    editor_note: sub.editor_note || '',
+                    summary: sub.summary || '',
+                    walk_tip: sub.walk_tip || '',
+                    sensory_tip: sub.sensory_tip || '',
+                    notice: sub.notice || '',
+                    ticket_info: sub.ticket_info || '',
+                    source_url: sub.original_url || '',
+                    search_hint: sub.search_hint || '',
+                    is_featured: sub.is_featured || false,
+                    event_hash: sub.event_hash || '',
+                    created_at: sub.submitted_at || new Date().toISOString()
+                });
+            }
         }
     });
 
@@ -10469,6 +10550,10 @@ function saveEditAndPublish() {
             ev.DOMElement.dataset.reviewStatus = 'approved';
             ev.DOMElement.classList.remove('hidden');
         }
+        // Sync to localStorage if this was a user submission
+        if (ev.event_hash) {
+            updateSubmissionInLocal(ev.event_hash, { ...updates, review_status: 'approved', is_public: true });
+        }
         renderEventPreview(ev);
         loadAdminEvents(currentAdminTab);
         showToast('✅ 已保存并发布至前台列表', 'success');
@@ -10507,6 +10592,11 @@ async function approveEventById(eventId) {
     ev.is_public = true;
     if (ev.DOMElement) { ev.DOMElement.dataset.reviewStatus = 'approved'; ev.DOMElement.classList.remove('hidden'); }
 
+    // Sync to localStorage if this was a user submission
+    if (ev.event_hash) {
+        updateSubmissionInLocal(ev.event_hash, { review_status: 'approved', is_public: true });
+    }
+
     showToast('✅ 已通过审核并发布至前台', 'success');
 
     // Animate removal from list
@@ -10529,6 +10619,11 @@ async function rejectEventById(eventId) {
     ev.review_status = 'rejected';
     ev.is_public = false;
     showToast('❌ 已拒绝，未公开展示', 'info');
+
+    // Sync to localStorage if this was a user submission
+    if (ev.event_hash) {
+        updateSubmissionInLocal(ev.event_hash, { review_status: 'rejected', is_public: false });
+    }
 
     animateCardRemoval(eventId);
     setTimeout(() => loadAdminEvents(currentAdminTab), 400);
@@ -10581,19 +10676,24 @@ async function batchAction(action) {
     const actionLabel = action === 'approve' ? '批量通过' : '批量拒绝';
     if (!confirm(`确定要${actionLabel}选中的 ${ids.length} 个活动吗？`)) return;
 
+    const newStatus = action === 'approve' ? 'approved' : 'rejected';
+    const isPublic = action === 'approve';
+
     const db = initSupabase();
     if (db) {
-        const newStatus = action === 'approve' ? 'approved' : 'rejected';
-        const isPublic = action === 'approve';
         const { error } = await db.from('events').update({ review_status: newStatus, is_public: isPublic, updated_at: new Date().toISOString() }).in('id', ids);
         if (error) { showToast('❌ 批量操作失败: ' + error.message, 'error'); return; }
     }
 
-    // Update cache
+    // Update cache + localStorage
     adminEventCache.forEach(e => {
         if (ids.includes(e.id)) {
-            e.review_status = action === 'approve' ? 'approved' : 'rejected';
-            e.is_public = action === 'approve';
+            e.review_status = newStatus;
+            e.is_public = isPublic;
+            // Sync to localStorage if this was a user submission
+            if (e.event_hash) {
+                updateSubmissionInLocal(e.event_hash, { review_status: newStatus, is_public: isPublic });
+            }
         }
     });
 
@@ -10758,6 +10858,10 @@ async function saveMobileEdit(eventId) {
     }
 
     Object.assign(ev, updates, { review_status: 'approved', is_public: true });
+    // Sync to localStorage if this was a user submission
+    if (ev.event_hash) {
+        updateSubmissionInLocal(ev.event_hash, { ...updates, review_status: 'approved', is_public: true });
+    }
     closeMobileEdit();
     loadAdminEvents(currentAdminTab);
     showToast('✅ 已保存并发布至前台', 'success');
