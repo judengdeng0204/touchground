@@ -247,7 +247,7 @@
     "why_go": "全国首展，免费开放",
     "needs_search": true,
     "score": 38,
-    "tg_category": "food",
+    "tg_category": "exhibition",
     "source_type_clean": "small"
   },
   {
@@ -1843,7 +1843,7 @@
     "why_go": "在上海体育场的在地文化活动",
     "needs_search": true,
     "score": 36,
-    "tg_category": "exhibition",
+    "tg_category": "community",
     "source_type_clean": "big"
   },
   {
@@ -2747,7 +2747,7 @@
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
     "score": 36,
-    "tg_category": "community",
+    "tg_category": "urban",
     "source_type_clean": "big"
   },
   {
