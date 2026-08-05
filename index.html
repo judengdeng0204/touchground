@@ -812,7 +812,7 @@ select {
             田字格 TouchGround
             <span class="logo-tag">玩场速报</span>
         </h1>
-        <span class="update-time">更新于 2026-08-05 13:43</span>
+        <span class="update-time">更新于 2026-08-05 13:48</span>
     </div>
     <p class="subtitle">上海 · 北京 · 广州 · 深圳 · 成都 · 杭州 · 厦门 · 佛山 · 福州 · 长沙 · 昆明 · 大理 · 武汉 · 香港 · 澳门 · 贵阳 · 南宁</p>
     <p class="tagline">城市与乡野漫游 · 非标空间 · 社区生活与在地风土</p>
@@ -9173,19 +9173,60 @@ function directSubmit() {
         is_featured: document.getElementById('fFeatured').checked
     };
 
-    // Ingest into Supabase if available, otherwise store to frontend list
+    // Ingest into Supabase if available; always append to frontend list
+    const card = buildCardFromPayload(payload);
+    const grid = document.getElementById('eventsGrid');
+    grid.insertAdjacentHTML('beforeend', card);
+    
+    // Re-run filters to respect current view
+    filterCards();
+
     if (typeof supabase !== 'undefined' && supabase) {
         supabase.from('events').insert([payload]).then(({ error }) => {
-            if (error) { alert('入库失败：' + error.message); return; }
-            alert('✅ 活动已成功入库！');
-            resetForm();
+            if (!error) console.log('已同步到 Supabase');
         });
-    } else {
-        // Frontend-only: append to local card list and notify
-        alert('✅ 活动信息已收集！(Supabase 未配置，数据仅存储于前端)\n\n' +
-            JSON.stringify(payload, null, 2));
-        resetForm();
     }
+
+    alert('✅ 活动已成功添加！');
+    resetForm();
+    // Close the details
+    const details = document.querySelector('.submit-section details');
+    if (details) details.removeAttribute('open');
+}
+
+function buildCardFromPayload(p) {
+    const featured = p.is_featured ? ' card-featured' : '';
+    const featuredBadge = p.is_featured ? '<span class="badge badge-featured">FIELD PICK</span>' : '';
+    const spaceBadge = p.space_type ? '<span class="badge badge-space">' + p.space_type + '</span>' : '';
+    const engageBadge = p.engagement_level ? '<span class="badge badge-engage">' + p.engagement_level + '</span>' : '';
+    const priceClass = (p.ticket_info && p.ticket_info.includes('免费')) ? 'free' : 'paid';
+    const priceHtml = p.ticket_info ? '<span class="price-tag ' + priceClass + '">' + p.ticket_info + '</span>' : '';
+    const dateDisplay = p.start_date === p.end_date ? p.start_date : p.start_date + ' ~ ' + p.end_date;
+    const noticeHtml = p.notice ? '<div class="notice-warn">⚠️ ' + p.notice + '</div>' : '';
+    const walkHtml = p.walk_tip ? '<div class="walk-tip">🚶 顺道漫游：' + p.walk_tip + '</div>' : '';
+    const sensoryHtml = p.sensory_tip ? '<div class="sensory-tip">🌿 ' + p.sensory_tip + '</div>' : '';
+    const linkHtml = p.original_url ? '<a href="' + p.original_url + '" target="_blank" class="btn-link" rel="noopener">🔗 查看详情</a>' : '';
+
+    return '<div class="event-card' + featured + '" data-city="' + p.city + '" data-category="exhibition" data-source="small" data-date="' + p.start_date + '" data-space="' + (p.space_type || '') + '" data-featured="' + (p.is_featured ? '1' : '0') + '" data-lifestyle="" data-latlng="" data-cluster="" data-expired="0">' +
+        '<div class="card-header">' +
+            '<span class="cat-badge">📌 展览/活动</span>' +
+            featuredBadge +
+            '<span class="badge badge-small">💎 社区/主理人场域</span>' +
+            priceHtml +
+        '</div>' +
+        '<div class="card-header-row">' + spaceBadge + engageBadge + '</div>' +
+        '<h3 class="event-name">' + p.name + '</h3>' +
+        '<div class="event-meta">' +
+            '<div class="meta-item">📅 ' + dateDisplay + '</div>' +
+            '<div class="meta-item">📍 ' + p.venue + '</div>' +
+            '<div class="meta-item">🏙️ ' + p.city + '</div>' +
+        '</div>' +
+        (p.summary ? '<p class="event-desc">' + p.summary + '</p>' : '') +
+        noticeHtml +
+        walkHtml +
+        sensoryHtml +
+        '<div class="card-footer">' + linkHtml + '</div>' +
+    '</div>';
 }
 
 function cancelForm() {
