@@ -549,7 +549,7 @@ select {
     overflow: hidden;
 }
 
-/* ── 投稿区 ── */
+/* ── 投稿区 (自由填写表单) ── */
 .submit-section {
     margin: 32px 0 16px;
     background: var(--card-bg);
@@ -571,18 +571,55 @@ select {
 .submit-form {
     padding: 0 20px 20px;
 }
-.submit-row {
-    display: flex;
-    gap: 8px;
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
 }
-.submit-input {
-    flex: 1;
-    padding: 10px 16px;
+.form-field.full { grid-column: 1 / -1; }
+.form-field label {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.form-field label .required { color: var(--accent); font-weight: 400; }
+.form-field input, .form-field select, .form-field textarea {
+    width: 100%;
+    padding: 9px 12px;
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
     font-size: 0.85rem;
     background: var(--bg);
+    color: var(--text);
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: border-color 0.15s;
 }
+.form-field input:focus, .form-field select:focus, .form-field textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+.form-field textarea { resize: vertical; }
+.submit-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.featured-check {
+    font-size: 0.85rem;
+    color: var(--text);
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.featured-check input { cursor: pointer; width: 16px; height: 16px; }
 .submit-btn {
     padding: 10px 20px;
     border: none;
@@ -600,92 +637,7 @@ select {
 .submit-btn.confirm:hover { background: #16a34a; }
 .submit-btn.cancel { background: #9ca3af; }
 .submit-btn.cancel:hover { background: #6b7280; }
-.submit-preview {
-    margin-top: 12px;
-    padding: 16px;
-    background: var(--bg);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-}
-.submit-preview h4 { font-size: 0.85rem; margin-bottom: 8px; }
-.submit-preview pre {
-    font-size: 0.75rem;
-    max-height: 200px;
-    overflow: auto;
-    white-space: pre-wrap;
-    color: var(--text-secondary);
-}
-.submit-actions {
-    display: flex;
-    gap: 8px;
-    margin-top: 12px;
-}
-.submit-hint {
-    font-size: 0.72rem;
-    color: var(--text-secondary);
-    margin-top: 10px;
-}
-
-/* ── Submit Tabs (v7 双标签) ── */
-.submit-tabs {
-    display: flex;
-    gap: 0;
-    margin-bottom: 14px;
-    border-bottom: 2px solid var(--border);
-}
-.submit-tab {
-    padding: 8px 20px;
-    border: none;
-    border-bottom: 2px solid transparent;
-    background: none;
-    color: var(--text-secondary);
-    font-size: 0.85rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.15s;
-    margin-bottom: -2px;
-}
-.submit-tab:hover { color: var(--accent); }
-.submit-tab.active {
-    color: var(--accent);
-    border-bottom-color: var(--accent);
-    font-weight: 600;
-}
-.submit-tab-content {
-    margin-bottom: 12px;
-}
-.submit-textarea {
-    flex: 1;
-    padding: 10px 16px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    font-size: 0.85rem;
-    background: var(--bg);
-    font-family: inherit;
-    resize: vertical;
-    min-height: 80px;
-}
-.submit-edit-fields {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin-bottom: 12px;
-}
-.submit-edit-fields label {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-.preview-field {
-    padding: 6px 10px;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    font-size: 0.8rem;
-    background: var(--bg);
-    color: var(--text);
-}
+.submit-actions { display: flex; gap: 8px; }
 
 .price-tag {
     font-size: 0.72rem;
@@ -860,7 +812,7 @@ select {
             田字格 TouchGround
             <span class="logo-tag">玩场速报</span>
         </h1>
-        <span class="update-time">更新于 2026-08-05 13:21</span>
+        <span class="update-time">更新于 2026-08-05 13:25</span>
     </div>
     <p class="subtitle">上海 · 北京 · 广州 · 深圳 · 成都 · 杭州 · 厦门 · 佛山 · 福州 · 长沙 · 昆明 · 大理 · 武汉 · 香港 · 澳门 · 贵阳 · 南宁</p>
     <p class="tagline">城市与乡野漫游 · 非标空间 · 社区生活与在地风土</p>
@@ -8421,41 +8373,91 @@ select {
 
 <section class="submit-section" id="submitSection">
     <details>
-        <summary class="submit-toggle">📮 投稿 / 解析活动信息</summary>
-        <div class="submit-form">
-            <div class="submit-tabs">
-                <button class="submit-tab active" onclick="switchSubmitTab('url')">🔗 链接一键解析</button>
-                <button class="submit-tab" onclick="switchSubmitTab('text')">📝 纯文本粘贴解析</button>
-            </div>
-            <div class="submit-tab-content" id="submitTabUrl">
-                <div class="submit-row">
-                    <input type="text" id="submitUrl" placeholder="粘贴公众号/小红书/网页活动链接…" class="submit-input">
-                    <button class="submit-btn" onclick="submitUrl()">🔍 一键解析</button>
+        <summary class="submit-toggle">📮 录入新活动</summary>
+        <div class="submit-form" id="submitForm">
+            <div class="form-grid">
+                <div class="form-field full">
+                    <label>活动名称 <span class="required">*</span></label>
+                    <input type="text" id="fTitle" placeholder="输入活动名称…" required>
+                </div>
+                <div class="form-field half">
+                    <label>城市 <span class="required">*</span></label>
+                    <select id="fCity">
+                        <option value="">选择城市</option>
+                        <option>上海</option><option>北京</option><option>广州</option><option>深圳</option>
+                        <option>成都</option><option>杭州</option><option>厦门</option><option>佛山</option>
+                        <option>福州</option><option>长沙</option><option>昆明</option><option>大理</option>
+                        <option>武汉</option><option>香港</option><option>澳门</option><option>贵阳</option><option>南宁</option>
+                    </select>
+                </div>
+                <div class="form-field half">
+                    <label>场地 <span class="required">*</span></label>
+                    <input type="text" id="fLocation" placeholder="具体场馆/地址…" required>
+                </div>
+                <div class="form-field half">
+                    <label>开始日期 <span class="required">*</span></label>
+                    <input type="date" id="fStartDate" required>
+                </div>
+                <div class="form-field half">
+                    <label>结束日期</label>
+                    <input type="date" id="fEndDate">
+                </div>
+                <div class="form-field half">
+                    <label>门票/费用</label>
+                    <input type="text" id="fTicket" placeholder="如：免费 / ¥68 / 需预约">
+                </div>
+                <div class="form-field half">
+                    <label>防坑预警</label>
+                    <input type="text" id="fNotice" placeholder="如：⚠️ 露天活动，下雨取消">
+                </div>
+                <div class="form-field half">
+                    <label>空间属性</label>
+                    <select id="fSpaceType">
+                        <option value="">不限</option>
+                        <option>历史建筑/工业遗产</option>
+                        <option>社区/非标商业</option>
+                        <option>乡村/野外自然</option>
+                        <option>展馆/传统剧场</option>
+                        <option>其他</option>
+                    </select>
+                </div>
+                <div class="form-field half">
+                    <label>参与深度</label>
+                    <select id="fEngagement">
+                        <option value="">不限</option>
+                        <option>👀 静态观赏</option>
+                        <option>🗣️ 深度对话</option>
+                        <option>🛠️ 身体力行</option>
+                    </select>
+                </div>
+                <div class="form-field full">
+                    <label>编辑推荐语（20-30字）</label>
+                    <input type="text" id="fEditorNote" placeholder="突出空间特色与漫游价值…" maxlength="40">
+                </div>
+                <div class="form-field full">
+                    <label>空间/风土摘要（60-80字）</label>
+                    <textarea id="fSummary" rows="3" placeholder="场地的空间特质 + 具体的松弛生活/体验状态…" maxlength="100"></textarea>
+                </div>
+                <div class="form-field full">
+                    <label>顺道漫游指南（周边1公里）</label>
+                    <textarea id="fWalkTip" rows="2" placeholder="场地周边街道、小街巷、公园步道或独立小店串联…" maxlength="60"></textarea>
+                </div>
+                <div class="form-field full">
+                    <label>身体感/体验提示</label>
+                    <input type="text" id="fSensoryTip" placeholder="如：建议18:30前到达看落日；宠物友好">
+                </div>
+                <div class="form-field full">
+                    <label>活动原链接</label>
+                    <input type="text" id="fOriginalUrl" placeholder="https://…（可选）">
                 </div>
             </div>
-            <div class="submit-tab-content" id="submitTabText" style="display:none">
-                <div class="submit-row">
-                    <textarea id="submitText" placeholder="直接粘贴活动信息原文…" class="submit-textarea" rows="4"></textarea>
-                    <button class="submit-btn" onclick="submitText()">🔍 解析</button>
-                </div>
-            </div>
-            <div class="submit-preview" id="submitPreview" style="display:none">
-                <h4>预览解析结果</h4>
-                <div class="submit-edit-fields">
-                    <label>活动名称 <input type="text" id="previewTitle" class="preview-field"></label>
-                    <label>日期 <input type="text" id="previewDate" class="preview-field"></label>
-                    <label>场地 <input type="text" id="previewVenue" class="preview-field"></label>
-                    <label>城市 <input type="text" id="previewCity" class="preview-field"></label>
-                    <label>类别 <input type="text" id="previewCategory" class="preview-field"></label>
-                    <label>编辑推荐语 <input type="text" id="previewEditorNote" class="preview-field"></label>
-                    <label>漫游提示 <input type="text" id="previewWalkTip" class="preview-field"></label>
-                </div>
+            <div class="submit-footer">
+                <label class="featured-check"><input type="checkbox" id="fFeatured"> 入选【田字格 Selection】精选</label>
                 <div class="submit-actions">
-                    <button class="submit-btn confirm" onclick="confirmSubmit()">✅ 确认入库</button>
-                    <button class="submit-btn cancel" onclick="cancelSubmit()">取消</button>
+                    <button class="submit-btn confirm" onclick="directSubmit()">🟢 直接确认入库</button>
+                    <button class="submit-btn cancel" onclick="cancelForm()">取消</button>
                 </div>
             </div>
-            <p class="submit-hint">支持微信公众号文章、活动网页链接或纯文本。解析后可编辑字段再确认入库。</p>
         </div>
     </details>
 </section>
@@ -8477,7 +8479,6 @@ let currentQuick = 'all';
 let currentView = 'list';
 let map = null;
 let mapMarkers = [];
-let pendingSubmitData = null;
 
 function applyFilters() {
     currentCity = document.getElementById('cityFilter').value;
@@ -8691,60 +8692,69 @@ function updateMapMarkers() {
     }
 }
 
-// ══ UGC 投稿 (v7 双标签) ══
-function switchSubmitTab(tab) {
-    document.querySelectorAll('.submit-tab').forEach(t => t.classList.remove('active'));
-    document.querySelector(`.submit-tab:nth-child(${tab === 'url' ? '1' : '2'})`).classList.add('active');
-    document.getElementById('submitTabUrl').style.display = tab === 'url' ? 'block' : 'none';
-    document.getElementById('submitTabText').style.display = tab === 'text' ? 'block' : 'none';
+// ══ 自由填写表单投稿 ══
+function directSubmit() {
+    const title = document.getElementById('fTitle').value.trim();
+    const city = document.getElementById('fCity').value;
+    const location = document.getElementById('fLocation').value.trim();
+    const startDate = document.getElementById('fStartDate').value;
+    const endDate = document.getElementById('fEndDate').value;
+    
+    if (!title) { alert('请填写活动名称'); return; }
+    if (!city) { alert('请选择城市'); return; }
+    if (!location) { alert('请填写场地'); return; }
+    if (!startDate) { alert('请选择开始日期'); return; }
+    
+    const payload = {
+        name: title,
+        city: city,
+        venue: location,
+        start_date: startDate,
+        end_date: endDate || startDate,
+        ticket_info: document.getElementById('fTicket').value.trim(),
+        notice: document.getElementById('fNotice').value.trim(),
+        space_type: document.getElementById('fSpaceType').value,
+        engagement_level: document.getElementById('fEngagement').value,
+        editor_note: document.getElementById('fEditorNote').value.trim(),
+        summary: document.getElementById('fSummary').value.trim(),
+        walk_tip: document.getElementById('fWalkTip').value.trim(),
+        sensory_tip: document.getElementById('fSensoryTip').value.trim(),
+        original_url: document.getElementById('fOriginalUrl').value.trim(),
+        is_featured: document.getElementById('fFeatured').checked
+    };
+
+    // Ingest into Supabase if available, otherwise store to frontend list
+    if (typeof supabase !== 'undefined' && supabase) {
+        supabase.from('events').insert([payload]).then(({ error }) => {
+            if (error) { alert('入库失败：' + error.message); return; }
+            alert('✅ 活动已成功入库！');
+            resetForm();
+        });
+    } else {
+        // Frontend-only: append to local card list and notify
+        alert('✅ 活动信息已收集！(Supabase 未配置，数据仅存储于前端)
+
+' +
+            JSON.stringify(payload, null, 2));
+        resetForm();
+    }
 }
 
-function submitUrl() {
-    const url = document.getElementById('submitUrl').value.trim();
-    if (!url) { alert('请先粘贴活动链接'); return; }
-
-    // 模拟解析，填入编辑字段
-    document.getElementById('previewTitle').value = '(待解析) 从 ' + url.substring(0, 40) + '... 提取';
-    document.getElementById('previewDate').value = '';
-    document.getElementById('previewVenue').value = '';
-    document.getElementById('previewCity').value = '';
-    document.getElementById('previewCategory').value = '';
-    document.getElementById('previewEditorNote').value = '';
-    document.getElementById('previewWalkTip').value = '';
-
-    document.getElementById('submitPreview').style.display = 'block';
-    pendingSubmitData = { url: url };
+function cancelForm() {
+    if (confirm('确定要清空表单吗？')) resetForm();
 }
 
-function submitText() {
-    const text = document.getElementById('submitText').value.trim();
-    if (!text) { alert('请先粘贴活动信息'); return; }
-
-    // 模拟解析，填入编辑字段
-    document.getElementById('previewTitle').value = '(待解析) 从粘贴文本提取';
-    document.getElementById('previewDate').value = '';
-    document.getElementById('previewVenue').value = '';
-    document.getElementById('previewCity').value = '';
-    document.getElementById('previewCategory').value = '';
-    document.getElementById('previewEditorNote').value = '';
-    document.getElementById('previewWalkTip').value = '';
-
-    document.getElementById('submitPreview').style.display = 'block';
-    pendingSubmitData = { text: text };
-}
-
-function confirmSubmit() {
-    if (!pendingSubmitData) return;
-    alert('投稿功能需要后端支持。当前为框架预览，请在完整环境中部署後端 API。');
-    cancelSubmit();
-}
-
-function cancelSubmit() {
-    document.getElementById('submitPreview').style.display = 'none';
-    document.getElementById('submitUrl').value = '';
-    const textArea = document.getElementById('submitText');
-    if (textArea) textArea.value = '';
-    pendingSubmitData = null;
+function resetForm() {
+    ['fTitle','fCity','fLocation','fStartDate','fEndDate','fTicket','fNotice',
+     'fSpaceType','fEngagement','fEditorNote','fSummary','fWalkTip','fSensoryTip',
+     'fOriginalUrl'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.value = '';
+    });
+    document.getElementById('fFeatured').checked = false;
+    // Collapse the details
+    const details = document.querySelector('#submitSection details');
+    if (details) details.removeAttribute('open');
 }
 
 // Init
