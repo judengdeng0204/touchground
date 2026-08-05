@@ -39,7 +39,11 @@
     "lat_lng": "31.240200,121.485000",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "世界树之巅——美洲古代文明大展",
@@ -81,7 +85,11 @@
     "lat_lng": "31.230400,121.473700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "外滩中央夏日派对 HAPPY仲夏夜2.0",
@@ -125,7 +133,11 @@
     "lat_lng": "31.239789,121.466547",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "外滩-南京东路艺文集群"
   },
   {
     "name": "BFC漫游奇境嘉年华",
@@ -169,7 +181,11 @@
     "lat_lng": "31.236277,121.463718",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "外滩-南京东路艺文集群"
   },
   {
     "name": "DOTA2 2026年国际邀请赛",
@@ -210,7 +226,11 @@
     "lat_lng": "31.220465,121.465761",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "音乐剧《危险游戏》十周年特别版",
@@ -251,7 +271,11 @@
     "lat_lng": "31.228304,121.476915",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "WA!土豆节城市风味特辑",
@@ -294,8 +318,12 @@
     "walk_tip": "上海最适合 citywalk 的城市，随便钻进一条梧桐小路都有惊喜",
     "lat_lng": "31.254908,121.403460",
     "is_featured": true,
-    "editor_note": "社区附近的非标空间，有态度的策展 + 松弛的街区氛围",
-    "notice": ""
+    "editor_note": "不是美术馆，胜似美术馆——普陀鸿寿坊的在地文化现场",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026北京仲夏电影嘉年华",
@@ -338,7 +366,11 @@
     "lat_lng": "39.902167,116.412639",
     "is_featured": true,
     "editor_note": "体验式活动，身体力行比拍照更有记忆点",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "大都潮饮节",
@@ -381,7 +413,11 @@
     "lat_lng": "39.913145,116.408146",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "泊遇天山 万象疆集——新疆风物生活周",
@@ -425,7 +461,11 @@
     "lat_lng": "39.958346,116.305726",
     "is_featured": true,
     "editor_note": "在山野中与风土相遇，一场身心舒展的田野之旅",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "北京首届冰搭子消暑生活节",
@@ -468,7 +508,11 @@
     "lat_lng": "39.898102,116.655750",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "何以景德镇——景德镇手工瓷业遗存展",
@@ -510,7 +554,11 @@
     "lat_lng": "39.893474,116.397143",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "汪苏泷「明日世界」巡回演唱会-北京站",
@@ -552,7 +600,11 @@
     "lat_lng": "39.893804,116.393857",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "隆福潮集·今夜有福夏季市集",
@@ -594,8 +646,12 @@
     "walk_tip": "老北京胡同最适合骑共享单车穿行，累了就找一家胡同咖啡馆",
     "lat_lng": "39.923700,116.416400",
     "is_featured": true,
-    "editor_note": "建筑本身就是一个故事，来这座老空间里看展闲逛",
-    "notice": ""
+    "editor_note": "工业遗产活化后的文化现场，隆福寺街区值得专程前往",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "广州咖啡文化季闭幕活动",
@@ -637,8 +693,12 @@
     "walk_tip": "恩宁路-永庆坊-荔枝湾涌-上下九，西关老城骑楼街 + 在地文创，步行1小时很舒服",
     "lat_lng": "23.120633,113.250761",
     "is_featured": true,
-    "editor_note": "藏在荔湾悦汇城里的小而美活动，看完还能在街区漫步",
-    "notice": ""
+    "editor_note": "不是美术馆，胜似美术馆——荔湾悦汇城的在地文化现场",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "GAF广州插画艺术节",
@@ -680,7 +740,11 @@
     "lat_lng": "23.131394,113.271388",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "杨丽萍作品《十面埋伏》",
@@ -721,7 +785,11 @@
     "lat_lng": "23.143775,113.266962",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "南国书香节",
@@ -763,7 +831,11 @@
     "lat_lng": "23.124477,113.260791",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "原创舞剧《沙湾往事》",
@@ -804,7 +876,11 @@
     "lat_lng": "23.123590,113.250763",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "许嵩「安泊猜想」巡回演唱会-广州站",
@@ -845,7 +921,11 @@
     "lat_lng": "23.124614,113.265177",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "chiikawa水果市集快闪",
@@ -887,7 +967,11 @@
     "lat_lng": "22.537600,113.952900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "南山万象天地-高新园集群"
   },
   {
     "name": "Award360° BEST 100 展",
@@ -928,7 +1012,11 @@
     "lat_lng": "22.541900,113.922600",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "千禧复古嘉年华",
@@ -972,7 +1060,11 @@
     "lat_lng": "22.545506,114.056973",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "薛之谦「万兽之王」巡回演唱会-深圳站",
@@ -1013,7 +1105,11 @@
     "lat_lng": "22.688200,114.219400",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "米菲海岛假日主题快闪",
@@ -1055,7 +1151,11 @@
     "lat_lng": "22.543896,114.061208",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "香珠手作——串起东方雅韵",
@@ -1097,7 +1197,11 @@
     "lat_lng": "30.576534,104.065464",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "凤凰传奇「吉祥如意」巡回演唱会-成都站",
@@ -1138,7 +1242,11 @@
     "lat_lng": "30.568877,104.075102",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "泊客集·湖畔水Young市集",
@@ -1181,7 +1289,11 @@
     "lat_lng": "30.573455,104.076972",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "大弯街道后备箱集市",
@@ -1224,8 +1336,12 @@
     "walk_tip": "玉林街头是成都最松弛的角落，建议给这里留出半天随意溜达",
     "lat_lng": "30.564806,104.072426",
     "is_featured": true,
-    "editor_note": "工业遗产活化后的文化现场，大弯街道凤凰新天地内广场值得专程前",
-    "notice": ""
+    "editor_note": "在老厂房/历史空间里看展或参与活动，成都城市肌理的最佳打开方",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "薛之谦「万兽之王」巡回演唱会-杭州站",
@@ -1266,7 +1382,11 @@
     "lat_lng": "30.268463,120.153325",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "良渚古城遗址公园西门市集",
@@ -1308,7 +1428,11 @@
     "lat_lng": "30.272266,120.166856",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "武汉第六届环形宇宙动漫游戏嘉年华",
@@ -1350,7 +1474,11 @@
     "lat_lng": "30.593228,114.314898",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "浮生一日凉——古代消夏文化展",
@@ -1392,7 +1520,11 @@
     "lat_lng": "30.580086,114.296214",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "凤凰传奇「吉祥如意」巡回演唱会-长沙站",
@@ -1433,7 +1565,11 @@
     "lat_lng": "28.238086,112.936490",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026首届武汉疗愈博览会",
@@ -1475,7 +1611,11 @@
     "lat_lng": "30.586058,114.297956",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "CHIIKAWA 小可吉瓦艺术特展",
@@ -1517,7 +1657,11 @@
     "lat_lng": "22.298100,114.178700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "古埃及文明大展——埃及博物馆珍藏",
@@ -1559,7 +1703,11 @@
     "lat_lng": "22.306669,114.169437",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西九文化区集群"
   },
   {
     "name": "香港贸发局美食博览2026",
@@ -1601,7 +1749,11 @@
     "lat_lng": "22.306739,114.163689",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "中环街市×LOCOLOCO「夏の納涼」创意市集",
@@ -1644,7 +1796,11 @@
     "lat_lng": "22.315049,114.160589",
     "is_featured": true,
     "editor_note": "社区附近的非标空间，有态度的策展 + 松弛的街区氛围",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "SOHO MARKET 8月生活市集@D Park",
@@ -1688,7 +1844,11 @@
     "lat_lng": "22.308871,114.158393",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "古天乐 MY FIRST SHOW 红馆演唱会",
@@ -1729,7 +1889,11 @@
     "lat_lng": "22.329426,114.183675",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "长安万象——陕西隋唐文明展",
@@ -1771,7 +1935,11 @@
     "lat_lng": "22.316207,114.158701",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "香港电脑通讯节2026",
@@ -1813,7 +1981,11 @@
     "lat_lng": "22.311245,114.160404",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "周深「深深的」巡回演唱会-贵阳站",
@@ -1854,7 +2026,11 @@
     "lat_lng": "26.642723,106.640415",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "南国书香节（广州同期）",
@@ -1895,7 +2071,11 @@
     "lat_lng": "23.032751,113.120572",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "福州暑期非遗体验周",
@@ -1938,7 +2118,11 @@
     "lat_lng": "26.086200,119.293400",
     "is_featured": true,
     "editor_note": "建筑本身就是一个故事，来这座老空间里看展闲逛",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "三坊七巷-上下杭闽都集群"
   },
   {
     "name": "昆明翠湖周末文创市集",
@@ -1982,7 +2166,11 @@
     "lat_lng": "25.042743,102.730646",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "翠湖-文林街文化集群"
   },
   {
     "name": "大理在地文化市集",
@@ -2026,8 +2214,12 @@
     "walk_tip": "古城复兴路-人民路-叶榆路-床单厂，三步一个咖啡馆五步一个手作店",
     "lat_lng": "25.695700,100.163300",
     "is_featured": true,
-    "editor_note": "离开城市去田野/山间，大理周边的自然风土体验",
-    "notice": ""
+    "editor_note": "在山野中与风土相遇，一场身心舒展的田野之旅",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": "大理古城-人民路集群"
   },
   {
     "name": "澳门夏日嘉年华2026",
@@ -2071,7 +2263,11 @@
     "lat_lng": "22.213586,113.546476",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "南宁邕江夜游文创市集",
@@ -2115,8 +2311,12 @@
     "walk_tip": "青秀山到南湖，南宁人的周末养生式漫步精华路线",
     "lat_lng": "22.820552,108.351772",
     "is_featured": true,
-    "editor_note": "工业遗产活化后的文化现场，邕江沿岸/民生码头值得专程前往",
-    "notice": ""
+    "editor_note": "在老厂房/历史空间里看展或参与活动，南宁城市肌理的最佳打开方",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "长沙火宫殿非遗市集",
@@ -2160,7 +2360,11 @@
     "lat_lng": "28.235226,112.924820",
     "is_featured": true,
     "editor_note": "社区附近的非标空间，有态度的策展 + 松弛的街区氛围",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "厦门鼓浪屿夏日音乐季",
@@ -2202,7 +2406,11 @@
     "lat_lng": "24.451100,118.067700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "世界树之巅：美洲古代文明大展",
@@ -2240,7 +2448,11 @@
     "lat_lng": "31.230400,121.473700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "珠归海上：庄万里家族捐赠两塗轩书画展",
@@ -2278,7 +2490,11 @@
     "lat_lng": "31.230400,121.473700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "肇兴中国：秦·大一统之路文物考古特展",
@@ -2316,7 +2532,11 @@
     "lat_lng": "31.230400,121.473700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "让·努维尔：若无艺术家，建筑亦无存",
@@ -2354,7 +2574,11 @@
     "lat_lng": "31.236900,121.499900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "东西方的感知对话·第二章《虚与实》",
@@ -2392,7 +2616,11 @@
     "lat_lng": "31.237258,121.468625",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "国采——故宫藏清代帝后服饰展",
@@ -2430,7 +2658,11 @@
     "lat_lng": "31.216260,121.487095",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "千金之家——马王堆汉墓的生活美学及养成",
@@ -2468,7 +2700,11 @@
     "lat_lng": "31.186800,121.490700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "历史的星辉——长安画派与海派绘画研究展",
@@ -2506,7 +2742,11 @@
     "lat_lng": "31.186800,121.490700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "陈世英：他界之器",
@@ -2544,7 +2784,11 @@
     "lat_lng": "31.170000,121.454500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西岸美术馆大道集群"
   },
   {
     "name": "花园·星星·小径：中国新锐青年艺术家原创展",
@@ -2582,7 +2826,11 @@
     "lat_lng": "31.170000,121.454500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西岸美术馆大道集群"
   },
   {
     "name": "游弋之地：伦敦名流录 潘海利根十周年限时特展",
@@ -2618,7 +2866,11 @@
     "lat_lng": "31.243417,121.488205",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "金手匠艺：铁器时代的金饰重生",
@@ -2656,7 +2908,11 @@
     "lat_lng": "31.235696,121.459965",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "盛世之器——清代康雍乾时期景德镇陶瓷珍品展",
@@ -2694,7 +2950,11 @@
     "lat_lng": "31.230885,121.551291",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "雪域云间——上海喜马拉雅艺术特展",
@@ -2732,7 +2992,11 @@
     "lat_lng": "31.221844,121.482632",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "外滩-南京东路艺文集群"
   },
   {
     "name": "同行：上海与巴黎抽象艺术展",
@@ -2770,7 +3034,11 @@
     "lat_lng": "31.186800,121.490700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "今日蒙古·蒙古当代艺术邀请展",
@@ -2808,7 +3076,11 @@
     "lat_lng": "31.243673,121.468641",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "一瓷一色一世界——上海博物馆藏明清颜色釉瓷器特展",
@@ -2846,7 +3118,11 @@
     "lat_lng": "31.215634,121.470245",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "向往自然——从师法自然到与自然合作",
@@ -2884,7 +3160,11 @@
     "lat_lng": "31.222594,121.474424",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "卡斯滕·霍勒：双",
@@ -2922,7 +3202,11 @@
     "lat_lng": "39.984200,116.495500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "段建宇：雏菊，微风，没有亲戚在写诗",
@@ -2960,7 +3244,11 @@
     "lat_lng": "39.984200,116.495500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "凯洛斯的回响：朱利安·夏西埃赫&洛朗·格拉索双个展",
@@ -2998,7 +3286,11 @@
     "lat_lng": "39.899641,116.397298",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "798 艺术区集群"
   },
   {
     "name": "遇见吴哥窟·柬埔寨国家博物馆吴哥文明文物特展",
@@ -3036,7 +3328,11 @@
     "lat_lng": "39.893917,116.413322",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "798 艺术区集群"
   },
   {
     "name": "中国工艺·遇见非遗 沉浸光影体验展",
@@ -3074,7 +3370,11 @@
     "lat_lng": "39.910643,116.397740",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "798 艺术区集群"
   },
   {
     "name": "Brunch Brother北京首展《不赶时间 10点一刻》",
@@ -3110,7 +3410,11 @@
     "lat_lng": "39.903473,116.402675",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "童年时光机·经典动漫原稿展",
@@ -3148,7 +3452,11 @@
     "lat_lng": "39.984100,116.495300",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "798 艺术区集群"
   },
   {
     "name": "图像如何再次运动：动画、档案与现实的重组",
@@ -3186,7 +3494,11 @@
     "lat_lng": "39.909808,116.404503",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026广州咖啡文化季闭幕活动",
@@ -3226,7 +3538,11 @@
     "lat_lng": "23.128835,113.237598",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "南洋文化季暨华侨粤剧展",
@@ -3267,7 +3583,11 @@
     "lat_lng": "23.129980,113.277693",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "南国书香节",
@@ -3303,7 +3623,11 @@
     "lat_lng": "23.126951,113.277770",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "chiikawa水果市集快闪 深圳首站",
@@ -3341,7 +3665,11 @@
     "lat_lng": "22.537600,113.952900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "南山万象天地-高新园集群"
   },
   {
     "name": "后海城市欢聚节·日落派对",
@@ -3379,7 +3707,11 @@
     "lat_lng": "22.538132,114.064669",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "后海-深圳湾商圈集群"
   },
   {
     "name": "万象前海·微风生活节",
@@ -3418,7 +3750,11 @@
     "lat_lng": "22.532843,114.048603",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "全民国防航空航天科博会",
@@ -3456,7 +3792,11 @@
     "lat_lng": "22.514844,114.062460",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "IOTE国际物联网展",
@@ -3494,7 +3834,11 @@
     "lat_lng": "22.551644,113.879531",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "福梦FUMON【活着】2026巡演 成都站",
@@ -3532,7 +3876,11 @@
     "lat_lng": "30.670296,104.058414",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "杀手龙乐队2026巡演成都站",
@@ -3570,7 +3918,11 @@
     "lat_lng": "30.572927,104.057023",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "Jack Thammarat & Igor Paspalj联合巡演成都站",
@@ -3608,7 +3960,11 @@
     "lat_lng": "30.557975,104.069989",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "Uu的气象站台·热浪2026巡演成都站",
@@ -3646,7 +4002,11 @@
     "lat_lng": "30.576204,104.056566",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "Mike Dawes摩登指弹吉他音乐会成都站",
@@ -3684,7 +4044,11 @@
     "lat_lng": "30.585990,104.062421",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "刘俊麟「出川调」生日音乐会",
@@ -3722,7 +4086,11 @@
     "lat_lng": "30.570033,104.070472",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "虹宵雨霁联合演出",
@@ -3760,7 +4128,11 @@
     "lat_lng": "30.570339,104.058569",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "小酷Coola「折页」巡演杭州站",
@@ -3798,7 +4170,11 @@
     "lat_lng": "30.263810,120.141816",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "Andr《Shedding Skin脱皮》2026杭州站",
@@ -3836,7 +4212,11 @@
     "lat_lng": "30.268511,120.148459",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "布瑞吉77%巡演杭州站",
@@ -3874,7 +4254,11 @@
     "lat_lng": "30.281902,120.166533",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "Arthurnevawakes & 5IVE5IVE Smiling Friends巡演·杭州站",
@@ -3912,7 +4296,11 @@
     "lat_lng": "30.269429,120.169319",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "Chris James巡演杭州站",
@@ -3950,7 +4338,11 @@
     "lat_lng": "30.282314,120.151626",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "央视「电影文化嘉年华·武汉专场」",
@@ -3990,7 +4382,11 @@
     "lat_lng": "30.594650,114.316260",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "第六届环形宇宙动漫游戏嘉年华",
@@ -4028,7 +4424,11 @@
     "lat_lng": "30.601170,114.310264",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "首届武汉疗愈博览会",
@@ -4064,7 +4464,11 @@
     "lat_lng": "30.581149,114.310121",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "第17届武汉糖酒食品精品展",
@@ -4100,7 +4504,11 @@
     "lat_lng": "30.584763,114.315288",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "博泰武汉国际珠宝展·茶博会",
@@ -4138,7 +4546,11 @@
     "lat_lng": "30.607226,114.314528",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「闪闪发光的孩子」夏日才艺大舞台",
@@ -4176,7 +4588,11 @@
     "lat_lng": "28.230327,112.937972",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026广州咖啡文化季花香咖啡烘焙邀请赛预选赛（联动）",
@@ -4215,7 +4631,11 @@
     "lat_lng": "28.217499,112.943132",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "全国首届「万物有型」3D打印设计展",
@@ -4253,7 +4673,11 @@
     "lat_lng": "28.238091,112.929698",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "非遗有「集」·烟火长沙休闲市集",
@@ -4293,7 +4717,11 @@
     "lat_lng": "28.230243,112.947482",
     "is_featured": true,
     "editor_note": "社区附近的非标空间，有态度的策展 + 松弛的街区氛围",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「暑你精彩」非遗传习体验季",
@@ -4330,8 +4758,12 @@
     "walk_tip": "潮宗街到太平街，长沙老城区最适合一边漫步一边吃小吃",
     "lat_lng": "28.218978,112.927530",
     "is_featured": true,
-    "editor_note": "藏在长沙非遗馆二楼传习所里的小而美活动，看完还能在街区漫步",
-    "notice": ""
+    "editor_note": "不是美术馆，胜似美术馆——长沙非遗馆二楼传习所的在地文化现场",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "踏寻红色足迹·传习非遗匠心暑期公益课",
@@ -4369,8 +4801,12 @@
     "walk_tip": "潮宗街到太平街，长沙老城区最适合一边漫步一边吃小吃",
     "lat_lng": "28.234309,112.952999",
     "is_featured": true,
-    "editor_note": "社区附近的非标空间，有态度的策展 + 松弛的街区氛围",
-    "notice": ""
+    "editor_note": "藏在长沙非遗馆戏园里的小而美活动，看完还能在街区漫步",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "设计啊！感受日常设计之奇妙",
@@ -4408,7 +4844,11 @@
     "lat_lng": "22.301100,114.159200",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西九文化区集群"
   },
   {
     "name": "李昢：一九九八年至今的创作",
@@ -4446,7 +4886,11 @@
     "lat_lng": "22.301100,114.159200",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西九文化区集群"
   },
   {
     "name": "致电一首诗·香港",
@@ -4484,7 +4928,11 @@
     "lat_lng": "22.301100,114.159200",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西九文化区集群"
   },
   {
     "name": "珍妮特·卡迪夫：四十部经文歌",
@@ -4522,7 +4970,11 @@
     "lat_lng": "22.301100,114.159200",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西九文化区集群"
   },
   {
     "name": "M+ 亲子随玩现场：画画不寻常",
@@ -4562,7 +5014,11 @@
     "lat_lng": "22.311856,114.178582",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西九文化区集群"
   },
   {
     "name": "Dance Well @ M+ 2026",
@@ -4600,7 +5056,11 @@
     "lat_lng": "22.301100,114.159200",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西九文化区集群"
   },
   {
     "name": "M+儿童夏令主场：创作日营",
@@ -4639,7 +5099,11 @@
     "lat_lng": "22.301100,114.159200",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西九文化区集群"
   },
   {
     "name": "CHIIKAWA巨型木马展",
@@ -4675,7 +5139,11 @@
     "lat_lng": "22.317289,114.162135",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "福梦FUMON【活着】2026巡演 厦门站",
@@ -4713,7 +5181,11 @@
     "lat_lng": "24.470359,118.089209",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "非遗有集·周末非遗市集",
@@ -4752,8 +5224,12 @@
     "walk_tip": "翠湖周边是昆明城里最适合漫步发呆的区域",
     "lat_lng": "25.042198,102.724325",
     "is_featured": true,
-    "editor_note": "社区附近的非标空间，有态度的策展 + 松弛的街区氛围",
-    "notice": ""
+    "editor_note": "不是美术馆，胜似美术馆——昆明老街的在地文化现场",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "新天地「食语市集」",
@@ -4796,8 +5272,12 @@
     "walk_tip": "新天地-思南路-复兴公园-淮海路，石库门+梧桐+买手店的完美下午",
     "lat_lng": "31.222943,121.473364",
     "is_featured": true,
-    "editor_note": "工业遗产活化后的文化现场，虹桥新天地值得专程前往",
-    "notice": ""
+    "editor_note": "建筑本身就是一个故事，来这座老空间里看展闲逛",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "WA!土豆节",
@@ -4841,7 +5321,11 @@
     "lat_lng": "31.226591,121.477140",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026上海书展",
@@ -4885,7 +5369,11 @@
     "lat_lng": "31.233358,121.480114",
     "is_featured": true,
     "editor_note": "与创作者面对面，一场有温度和厚度的交流",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "梵克雅宝「金手匠艺」展览",
@@ -4927,7 +5415,11 @@
     "lat_lng": "31.219987,121.464408",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "三兔二手跳蚤市集",
@@ -4969,8 +5461,12 @@
     "walk_tip": "老北京胡同最适合骑共享单车穿行，累了就找一家胡同咖啡馆",
     "lat_lng": "39.902626,116.416444",
     "is_featured": true,
-    "editor_note": "不是美术馆，胜似美术馆——纳福胡同的在地文化现场",
-    "notice": ""
+    "editor_note": "社区附近的非标空间，有态度的策展 + 松弛的街区氛围",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "从达·芬奇到卡拉瓦乔——意大利文艺复兴艺术展",
@@ -5012,7 +5508,11 @@
     "lat_lng": "39.924900,116.411400",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "南天门计划——中国航天科技艺术展",
@@ -5055,7 +5555,11 @@
     "lat_lng": "39.908429,116.408742",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "Lindy Lee「世间星辰」艺术展",
@@ -5097,7 +5601,11 @@
     "lat_lng": "22.487200,113.914300",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "海上世界-蛇口艺文集群"
   },
   {
     "name": "潘玉良艺术展",
@@ -5139,7 +5647,11 @@
     "lat_lng": "22.537944,114.053421",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "双城匠心——广州·景德镇民间工艺交流展",
@@ -5181,8 +5693,12 @@
     "walk_tip": "东山口 + 永庆坊是广州最值得漫步的两个街区，建议预留半天",
     "lat_lng": "23.131279,113.272863",
     "is_featured": true,
-    "editor_note": "体验式活动，身体力行比拍照更有记忆点",
-    "notice": ""
+    "editor_note": "不只是看，更是动手参与——动手做点什么才是正经事",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "非遗公益体验课(广彩/陶艺/插花等)",
@@ -5225,8 +5741,12 @@
     "walk_tip": "东山口 + 永庆坊是广州最值得漫步的两个街区，建议预留半天",
     "lat_lng": "23.134615,113.275437",
     "is_featured": true,
-    "editor_note": "不只是看，更是动手参与——动手做点什么才是正经事",
-    "notice": ""
+    "editor_note": "体验式活动，身体力行比拍照更有记忆点",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "烟火指数——2026成都双年展",
@@ -5267,7 +5787,11 @@
     "lat_lng": "30.698232,104.053091",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "李伯安艺术展",
@@ -5309,7 +5833,11 @@
     "lat_lng": "30.565990,104.077038",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "天下同宁——中国丝绸文化大展",
@@ -5351,7 +5879,11 @@
     "lat_lng": "30.271673,120.158110",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "新芙蓉动漫节",
@@ -5393,7 +5925,11 @@
     "lat_lng": "28.230319,112.934341",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "柒淘艺术市集",
@@ -5436,7 +5972,11 @@
     "lat_lng": "24.567672,118.098405",
     "is_featured": true,
     "editor_note": "从指尖感受温度，人人都是创作者的一场体验",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "和美术馆三展连看——当代艺术季",
@@ -5478,7 +6018,11 @@
     "lat_lng": "22.812000,113.290500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "顺德北滘艺文集群"
   },
   {
     "name": "云南民族村火把节",
@@ -5523,7 +6067,11 @@
     "lat_lng": "25.019987,102.697177",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": "滇池-海埂生态集群"
   },
   {
     "name": "石林火把节暨青年音乐节",
@@ -5566,7 +6114,11 @@
     "lat_lng": "25.047309,102.727437",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "自然醒音乐节",
@@ -5610,7 +6162,11 @@
     "lat_lng": "25.039852,102.722382",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "大理啤酒嘉年华",
@@ -5653,7 +6209,11 @@
     "lat_lng": "25.581241,100.217230",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "大理床单厂创意市集",
@@ -5697,8 +6257,12 @@
     "walk_tip": "古城复兴路-人民路-叶榆路-床单厂，三步一个咖啡馆五步一个手作店",
     "lat_lng": "25.695700,100.163300",
     "is_featured": true,
-    "editor_note": "工业遗产活化后的文化现场，床单厂艺术区值得专程前往",
-    "notice": ""
+    "editor_note": "在老厂房/历史空间里看展或参与活动，大理城市肌理的最佳打开方",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大理古城-人民路集群"
   },
   {
     "name": "大理三月街市集",
@@ -5742,8 +6306,12 @@
     "walk_tip": "古城复兴路-人民路-叶榆路-床单厂，三步一个咖啡馆五步一个手作店",
     "lat_lng": "25.694600,100.162000",
     "is_featured": true,
-    "editor_note": "藏在三月街里的小而美活动，看完还能在街区漫步",
-    "notice": ""
+    "editor_note": "社区附近的非标空间，有态度的策展 + 松弛的街区氛围",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大理古城-人民路集群"
   },
   {
     "name": "《鬼灭之刃：无限城篇》快闪店",
@@ -5786,7 +6354,11 @@
     "lat_lng": "30.603480,114.311216",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "CHIIKAWA水果市集主题快闪",
@@ -5829,7 +6401,11 @@
     "lat_lng": "30.583682,114.313485",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "第49届「武汉之夏」系列群众文化活动",
@@ -5872,7 +6448,11 @@
     "lat_lng": "30.587501,114.295471",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "CHIIKAWA ARTIVERSE 特展",
@@ -5916,7 +6496,11 @@
     "lat_lng": "22.298100,114.178700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "GMMTV Fan Fest 2026 in Macau",
@@ -5956,7 +6540,11 @@
     "lat_lng": "22.186317,113.541106",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "苗疆秘境狂欢节——傩文化沉浸式演艺",
@@ -5997,7 +6585,11 @@
     "lat_lng": "26.572761,106.715085",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "傩文化博物馆手绘傩面体验",
@@ -6039,8 +6631,12 @@
     "walk_tip": "电台街 + 虎门巷，贵阳老城的松弛感全在这些不起眼的小巷子里",
     "lat_lng": "26.637576,106.639536",
     "is_featured": true,
-    "editor_note": "体验式活动，身体力行比拍照更有记忆点",
-    "notice": ""
+    "editor_note": "从指尖感受温度，人人都是创作者的一场体验",
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "广西民族博物馆——傩面具与民族文化常设展",
@@ -6083,7 +6679,11 @@
     "lat_lng": "22.814228,108.382491",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "吾土吾民——馆藏宁夏乡土美术作品的多维表达",
@@ -6126,7 +6726,11 @@
     "lat_lng": "26.085492,119.304360",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "毕加索：像孩子一样——真迹·光影互动艺术展",
@@ -6169,7 +6773,11 @@
     "lat_lng": "26.063982,119.291412",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "朱炳仁熔铜艺术20周年特展·福州首展",
@@ -6211,8 +6819,12 @@
     "walk_tip": "三坊七巷到烟台山，福州最美的人文景观漫步路线",
     "lat_lng": "26.065307,119.291803",
     "is_featured": true,
-    "editor_note": "体验式活动，身体力行比拍照更有记忆点",
-    "notice": ""
+    "editor_note": "从指尖感受温度，人人都是创作者的一场体验",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026榕城夏日海鲜美食季（长乐专场）",
@@ -6255,7 +6867,11 @@
     "lat_lng": "26.063088,119.285139",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "让乾坤坐下来——两岸茶诗书画作品展",
@@ -6297,7 +6913,11 @@
     "lat_lng": "24.518284,118.106234",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026三影堂无界艺术展",
@@ -6339,7 +6959,11 @@
     "lat_lng": "24.568323,118.094141",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "偷故事的人——白川鸿个展",
@@ -6381,7 +7005,11 @@
     "lat_lng": "24.573965,118.102556",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "漆源鹭岛·星火成炬——厦门漆画艺术展",
@@ -6423,7 +7051,11 @@
     "lat_lng": "24.470956,118.075589",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "李健「万物安生时」巡回演唱会-厦门站",
@@ -6466,7 +7098,11 @@
     "lat_lng": "24.493717,118.074440",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "舞剧《朱鹮》",
@@ -6509,7 +7145,11 @@
     "lat_lng": "24.475705,118.099005",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "德云社郭德纲于谦相声专场-厦门站",
@@ -6552,7 +7192,11 @@
     "lat_lng": "24.468504,118.091874",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "舞台剧《她们》",
@@ -6593,7 +7237,11 @@
     "lat_lng": "24.490046,118.101078",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "麒麟剧社《济公活佛》郭德纲领衔",
@@ -6635,7 +7283,11 @@
     "lat_lng": "24.468526,118.080997",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "宝「贝」天成——贝类动物科普展",
@@ -6679,7 +7331,11 @@
     "lat_lng": "23.029100,113.115700",
     "is_featured": true,
     "editor_note": "不只是看，更是动手参与——动手做点什么才是正经事",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "岭南天地-祖庙文脉集群"
   },
   {
     "name": "「脚踏实地」广东拖鞋艺术展",
@@ -6721,8 +7377,12 @@
     "walk_tip": "祖庙-岭南天地-南风古灶-石湾公仔街，佛山文脉 + 现代文创融合",
     "lat_lng": "23.019281,113.121806",
     "is_featured": true,
-    "editor_note": "工业遗产活化后的文化现场，禅城区石路巷古民居群SALU青年社",
-    "notice": ""
+    "editor_note": "在老厂房/历史空间里看展或参与活动，佛山城市肌理的最佳打开方",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "京洛风华——唐代洛阳文物展",
@@ -6765,7 +7425,11 @@
     "lat_lng": "23.029601,113.134316",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "小黄人与大怪兽电影主题展",
@@ -6810,7 +7474,11 @@
     "lat_lng": "23.033697,113.123831",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "大兵×湖南笑工场王牌喜剧天团-佛山站",
@@ -6852,7 +7520,11 @@
     "lat_lng": "23.036073,113.113212",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "笑傲武林·开擂——南风古灶功夫庙会",
@@ -6895,7 +7567,11 @@
     "lat_lng": "23.010600,113.103800",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "喜结梁园——沉浸式园林演艺",
@@ -6938,7 +7614,11 @@
     "lat_lng": "23.008327,113.109869",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "中国国家话剧院话剧《青蛇》",
@@ -6980,7 +7660,11 @@
     "lat_lng": "23.012787,113.126385",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "漆澜：独步寻花",
@@ -7022,7 +7706,11 @@
     "lat_lng": "22.812000,113.290500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "顺德北滘艺文集群"
   },
   {
     "name": "王源远：扶光入胜",
@@ -7064,7 +7752,11 @@
     "lat_lng": "22.812000,113.290500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "顺德北滘艺文集群"
   },
   {
     "name": "2026黔粤精品美食美酒文化周",
@@ -7108,7 +7800,11 @@
     "lat_lng": "26.640136,106.626679",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026 Chill Power咖啡面包节3.0",
@@ -7154,7 +7850,11 @@
     "lat_lng": "26.636249,106.633169",
     "is_featured": true,
     "editor_note": "不是美术馆，胜似美术馆——贵阳多彩贵州城的在地文化现场",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "徐良「时间折叠」巡回演唱会-贵阳站",
@@ -7196,7 +7896,11 @@
     "lat_lng": "26.650719,106.627339",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "慵懒炎暑音乐会",
@@ -7237,7 +7941,11 @@
     "lat_lng": "22.817800,108.318600",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "邕州盛夏·古城暑游季",
@@ -7283,7 +7991,11 @@
     "lat_lng": "22.831937,108.352878",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「燃烧直到终老」老友记×超级查理联合专场-南宁站",
@@ -7325,7 +8037,11 @@
     "lat_lng": "22.826230,108.383108",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "爱是力量 中国Rave全明星-南宁站",
@@ -7367,7 +8083,11 @@
     "lat_lng": "22.827229,108.375528",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "刘轩丞「丞长没烦恼」南宁见面会",
@@ -7408,7 +8128,11 @@
     "lat_lng": "22.823170,108.379452",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026暑期亲子音乐会",
@@ -7451,7 +8175,11 @@
     "lat_lng": "22.746705,108.334707",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "苍洱之夏·奇遇双廊——2026暑期文旅系列活动",
@@ -7496,7 +8224,11 @@
     "lat_lng": "25.585105,100.225786",
     "is_featured": true,
     "editor_note": "从指尖感受温度，人人都是创作者的一场体验",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "双廊国际艺术中心·非遗盛会",
@@ -7541,7 +8273,11 @@
     "lat_lng": "25.592827,100.227423",
     "is_featured": true,
     "editor_note": "体验式活动，身体力行比拍照更有记忆点",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "大理·栖月动漫嘉年华",
@@ -7583,7 +8319,11 @@
     "lat_lng": "25.574544,100.238071",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "大理·第九届DWJ国风动漫嘉年华",
@@ -7625,7 +8365,11 @@
     "lat_lng": "25.580651,100.242923",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "当燃世博·电音火把狂欢节",
@@ -7668,7 +8412,11 @@
     "lat_lng": "25.039037,102.724321",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "晋宁福安古村火把节",
@@ -7711,8 +8459,12 @@
     "walk_tip": "翠湖周边是昆明城里最适合漫步发呆的区域",
     "lat_lng": "25.024568,102.712317",
     "is_featured": true,
-    "editor_note": "藏在昆明市晋宁区晋城街道福安村里的小而美活动，看完还能在街区",
-    "notice": ""
+    "editor_note": "不是美术馆，胜似美术馆——昆明市晋宁区晋城街道福安村的在地文",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "「山海行歌」音乐季·昆明站",
@@ -7756,7 +8508,11 @@
     "lat_lng": "25.024426,102.732529",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": "滇池-海埂生态集群"
   },
   {
     "name": "2026滇池国际咖啡文化嘉年华",
@@ -7801,8 +8557,12 @@
     "walk_tip": "翠湖-云南大学-文林街-文化巷，昆明最文艺的城中漫步路线",
     "lat_lng": "25.046896,102.722327",
     "is_featured": true,
-    "editor_note": "离开城市去田野/山间，昆明周边的自然风土体验",
-    "notice": ""
+    "editor_note": "大自然是这里最好的策展人，来昆明滇池沿岸全域（南屏街/翠湖/",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": "翠湖-文林街文化集群"
   },
   {
     "name": "云南民族村「烈焰燃咖·野寨音乐季」",
@@ -7845,7 +8605,11 @@
     "lat_lng": "25.030625,102.715425",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "WACGW国漫游戏博览会",
@@ -7888,7 +8652,11 @@
     "lat_lng": "25.041765,102.717260",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "滇池-海埂生态集群"
   },
   {
     "name": "再现圆明园——国宝百年归藏特展",
@@ -7931,7 +8699,11 @@
     "lat_lng": "30.282740,120.156913",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "繁天录——中国动画英雄潮流特展",
@@ -7974,7 +8746,11 @@
     "lat_lng": "30.244100,120.155500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "中国美院 & 南山路艺术带"
   },
   {
     "name": "万物有灵——物转·有余 蒋友柏个展",
@@ -8016,7 +8792,11 @@
     "lat_lng": "30.273045,120.149544",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "战斗、星球与牛皮纸：达米安·奥尔特加",
@@ -8058,7 +8838,11 @@
     "lat_lng": "30.280100,120.080300",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "沉浸式赛博朋克剧场《黑盒游戏》",
@@ -8100,7 +8884,11 @@
     "lat_lng": "30.272156,120.161920",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "刘宇「宇宙诗人」巡回演唱会-杭州站",
@@ -8141,7 +8929,11 @@
     "lat_lng": "30.277277,120.143113",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "话剧《断金》——张国立王刚张铁林「铁三角」",
@@ -8183,7 +8975,11 @@
     "lat_lng": "30.579376,104.077158",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "话剧《我们成为的她》——梁咏琪跨界主演",
@@ -8225,7 +9021,11 @@
     "lat_lng": "30.588222,104.067671",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "话剧《农庄馆客人》——黄磊何炅再合作",
@@ -8267,7 +9067,11 @@
     "lat_lng": "30.567589,104.058226",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "话剧《初步举证》——陈昊宇独角戏",
@@ -8309,7 +9113,11 @@
     "lat_lng": "30.584099,104.058878",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "法语原版音乐剧《红舞鞋》",
@@ -8352,7 +9160,11 @@
     "lat_lng": "30.579168,104.072757",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "舞剧《楼台会》",
@@ -8394,7 +9206,11 @@
     "lat_lng": "30.564228,104.078389",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "少儿版《只此青绿》",
@@ -8437,7 +9253,11 @@
     "lat_lng": "30.580148,104.057584",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "汽水音乐嘉年华-成都站",
@@ -8478,7 +9298,11 @@
     "lat_lng": "30.572271,104.077485",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026粤澳名优商品展",
@@ -8520,7 +9344,11 @@
     "lat_lng": "22.184908,113.549879",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "夏日卡欢水漾市集",
@@ -8563,8 +9391,12 @@
     "walk_tip": "从议事亭前地走到大三巴再拐进疯堂斜巷，世界遗产城区适合慢慢逛",
     "lat_lng": "22.207711,113.539670",
     "is_featured": true,
-    "editor_note": "藏在荔枝碗船厂片区里的小而美活动，看完还能在街区漫步",
-    "notice": ""
+    "editor_note": "社区附近的非标空间，有态度的策展 + 松弛的街区氛围",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "澳门新桥七夕仲夏旅游体验",
@@ -8609,7 +9441,11 @@
     "lat_lng": "22.194939,113.539785",
     "is_featured": true,
     "editor_note": "藏在澳门新桥花园里的小而美活动，看完还能在街区漫步",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "皮克斯夏日狂欢趴——香港迪士尼",
@@ -8652,7 +9488,11 @@
     "lat_lng": "22.325659,114.183897",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "卫兰×炎明熹 拉阔音乐会「她和她的秘密」",
@@ -8694,7 +9534,11 @@
     "lat_lng": "22.320007,114.170777",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "香港足球峰会2026：拜仁慕尼黑vs阿士东维拉",
@@ -8737,7 +9581,11 @@
     "lat_lng": "22.329873,114.182602",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "犬夜叉30周年动画主题展",
@@ -8779,7 +9627,11 @@
     "lat_lng": "39.904600,116.411424",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "任素汐「一日即日日」Live-北京站",
@@ -8820,7 +9672,11 @@
     "lat_lng": "39.895632,116.403889",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "第28届亚洲宠物展览会",
@@ -8862,7 +9718,11 @@
     "lat_lng": "31.240147,121.467086",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "上海国际房车展×改装秀",
@@ -8905,7 +9765,11 @@
     "lat_lng": "31.219270,121.469455",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "博泰武汉国际珠宝展暨茶博会",
@@ -8947,7 +9811,11 @@
     "lat_lng": "30.582758,114.310826",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "第17届武汉糖酒食品精品展暨中秋国庆团购节",
@@ -8989,7 +9857,11 @@
     "lat_lng": "30.605550,114.312216",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9032,7 +9904,11 @@
     "lat_lng": "30.277416,120.159653",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大运河杭钢公园艺文集群"
   },
   {
     "city": "杭州",
@@ -9075,7 +9951,11 @@
     "lat_lng": "30.270080,120.158280",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大运河杭钢公园艺文集群"
   },
   {
     "city": "杭州",
@@ -9117,7 +9997,11 @@
     "lat_lng": "30.280882,120.153612",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大运河杭钢公园艺文集群"
   },
   {
     "city": "杭州",
@@ -9160,7 +10044,11 @@
     "lat_lng": "30.280970,120.163706",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大运河杭钢公园艺文集群"
   },
   {
     "city": "杭州",
@@ -9201,8 +10089,12 @@
     "walk_tip": "小河直街-大兜路-拱宸桥-桥西历史街区，运河人家生活气 + 博物馆群",
     "lat_lng": "30.269489,120.148965",
     "is_featured": true,
-    "editor_note": "体验式活动，身体力行比拍照更有记忆点",
-    "notice": ""
+    "editor_note": "从指尖感受温度，人人都是创作者的一场体验",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大运河杭钢公园艺文集群"
   },
   {
     "city": "杭州",
@@ -9245,8 +10137,12 @@
     "walk_tip": "小河直街-大兜路-拱宸桥-桥西历史街区，运河人家生活气 + 博物馆群",
     "lat_lng": "30.268586,120.160058",
     "is_featured": true,
-    "editor_note": "从指尖感受温度，人人都是创作者的一场体验",
-    "notice": ""
+    "editor_note": "体验式活动，身体力行比拍照更有记忆点",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大运河杭钢公园艺文集群"
   },
   {
     "city": "杭州",
@@ -9289,7 +10185,11 @@
     "lat_lng": "30.268285,120.168865",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9332,7 +10232,11 @@
     "lat_lng": "30.253158,120.131945",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9376,7 +10280,11 @@
     "lat_lng": "30.260420,120.132038",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9417,7 +10325,11 @@
     "lat_lng": "30.283462,120.157594",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9458,7 +10370,11 @@
     "lat_lng": "30.276808,120.169346",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9504,7 +10420,11 @@
     "lat_lng": "30.269165,120.155598",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9547,7 +10467,11 @@
     "lat_lng": "30.282613,120.159194",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9589,7 +10513,11 @@
     "lat_lng": "30.264156,120.149345",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9630,7 +10558,11 @@
     "lat_lng": "30.274692,120.143438",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9671,7 +10603,11 @@
     "lat_lng": "30.271702,120.160670",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9713,7 +10649,11 @@
     "lat_lng": "30.286681,120.160449",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9755,7 +10695,11 @@
     "lat_lng": "30.287556,120.165343",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9797,7 +10741,11 @@
     "lat_lng": "30.262291,120.158201",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9841,7 +10789,11 @@
     "lat_lng": "30.285288,120.144754",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9883,7 +10835,11 @@
     "lat_lng": "30.282487,120.168064",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9925,7 +10881,11 @@
     "lat_lng": "30.279822,120.162376",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -9969,7 +10929,11 @@
     "lat_lng": "30.259710,120.125306",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -10011,8 +10975,12 @@
     "walk_tip": "西湖边的南山路北山街，步行或骑行都是杭州最惬意的打开方式",
     "lat_lng": "30.284576,120.161703",
     "is_featured": true,
-    "editor_note": "不只是看，更是动手参与——动手做点什么才是正经事",
-    "notice": ""
+    "editor_note": "体验式活动，身体力行比拍照更有记忆点",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -10055,7 +11023,11 @@
     "lat_lng": "30.283632,120.157155",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -10098,7 +11070,11 @@
     "lat_lng": "30.266154,120.148612",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -10141,7 +11117,11 @@
     "lat_lng": "30.257791,120.130849",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -10185,7 +11165,11 @@
     "lat_lng": "30.272315,120.167372",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -10227,7 +11211,11 @@
     "lat_lng": "30.288583,120.162788",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大运河杭钢公园艺文集群"
   },
   {
     "city": "杭州",
@@ -10267,7 +11255,11 @@
     "lat_lng": "30.267579,120.142098",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大运河杭钢公园艺文集群"
   },
   {
     "city": "杭州",
@@ -10309,7 +11301,11 @@
     "lat_lng": "30.244100,120.155500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "中国美院 & 南山路艺术带"
   },
   {
     "city": "杭州",
@@ -10352,7 +11348,11 @@
     "lat_lng": "30.274314,120.167201",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "city": "杭州",
@@ -10394,7 +11394,11 @@
     "lat_lng": "30.282885,120.145146",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「骥跃升腾」三彩马的世界",
@@ -10419,7 +11423,11 @@
     "lat_lng": "22.517946,114.058948",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "周深2026巡回演唱会·深圳站",
@@ -10446,7 +11454,11 @@
     "lat_lng": "22.688200,114.219400",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "刘雨昕《仙那度2.0》巡回演唱会深圳站",
@@ -10473,7 +11485,11 @@
     "lat_lng": "22.688200,114.219400",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "陈粒《重走西游》巡回演唱会深圳站",
@@ -10500,7 +11516,11 @@
     "lat_lng": "22.521100,113.949000",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "后海-深圳湾商圈集群"
   },
   {
     "name": "蔡依林Ugly Beauty巡演深圳站",
@@ -10525,7 +11545,11 @@
     "lat_lng": "22.521100,113.949000",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "后海-深圳湾商圈集群"
   },
   {
     "name": "落日飞车「世界的人」深圳演唱会",
@@ -10552,7 +11576,11 @@
     "lat_lng": "22.526503,113.935288",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "华侨城创意园集群"
   },
   {
     "name": "孟京辉戏剧《恋爱的犀牛》",
@@ -10579,7 +11607,11 @@
     "lat_lng": "22.535364,113.930440",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "后海-深圳湾商圈集群"
   },
   {
     "name": "DRUMK男团舞剧《M境》",
@@ -10606,7 +11638,11 @@
     "lat_lng": "22.522066,114.055442",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "莫扎特《唐璜》歌剧音乐会",
@@ -10633,7 +11669,11 @@
     "lat_lng": "22.519020,114.053887",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "陈佳邓丽君金曲演唱会",
@@ -10660,7 +11700,11 @@
     "lat_lng": "22.539194,113.929127",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "巴黎星空下芭蕾·滨海艺术中心",
@@ -10685,7 +11729,11 @@
     "lat_lng": "22.563093,113.876632",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "龙岗午后音乐时光（民乐专场）",
@@ -10712,7 +11760,11 @@
     "lat_lng": "22.719309,114.242597",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "Ours深圳人才公园日落派对",
@@ -10739,7 +11791,11 @@
     "lat_lng": "22.532708,113.923298",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "后海-深圳湾商圈集群"
   },
   {
     "name": "WoW潮音嘉年华+夏日狂欢季",
@@ -10767,7 +11823,11 @@
     "lat_lng": "22.537300,113.977900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "华侨城创意园集群"
   },
   {
     "name": "锦绣中华夏浪民族狂欢节",
@@ -10794,7 +11854,11 @@
     "lat_lng": "22.539600,113.978900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "华侨城创意园集群"
   },
   {
     "name": "巨型气模作品展 Hard mega! super inflatable funny show",
@@ -10819,7 +11883,11 @@
     "lat_lng": "22.540493,114.132083",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「加勒比」治愈系光学展",
@@ -10846,7 +11914,11 @@
     "lat_lng": "22.537300,113.977900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "华侨城创意园集群"
   },
   {
     "name": "「来来超级」音乐节",
@@ -10875,7 +11947,11 @@
     "lat_lng": "22.725500,113.932500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "「澡点下班吧」Udoland 人类刷新中心",
@@ -10900,7 +11976,11 @@
     "lat_lng": "22.555603,113.883763",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "湾上幻旅 II：梦境与乐园之间",
@@ -10925,7 +12005,11 @@
     "lat_lng": "22.523600,113.943900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "后海-深圳湾商圈集群"
   },
   {
     "name": "「不急，手搓快乐局」手作市集专场",
@@ -10953,7 +12037,11 @@
     "lat_lng": "22.552503,114.135178",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "小包假日·免费手账市集",
@@ -10980,7 +12068,11 @@
     "lat_lng": "22.548476,114.136034",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "蛇口味道盲盒·拼豆",
@@ -11007,7 +12099,11 @@
     "lat_lng": "22.537178,113.933968",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "海上世界-蛇口艺文集群"
   },
   {
     "name": "领展中心湾区生活节",
@@ -11036,7 +12132,11 @@
     "lat_lng": "22.515130,114.054766",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "2026和平精英刺激空投节",
@@ -11061,7 +12161,11 @@
     "lat_lng": "22.519487,114.051133",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "SEGA POP-UP SHOP限时快闪",
@@ -11088,7 +12192,11 @@
     "lat_lng": "22.525751,113.922557",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "十个堡堡 X 十个杯杯 深圳站巡游餐车",
@@ -11116,7 +12224,11 @@
     "lat_lng": "22.486500,113.913500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "近郊/野外",
+    "cluster_name": "海上世界-蛇口艺文集群"
   },
   {
     "name": "福建舰大模型全国巡展深圳站",
@@ -11141,7 +12253,11 @@
     "lat_lng": "22.547847,113.885450",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "南国书香节（深圳分会）",
@@ -11166,7 +12282,11 @@
     "lat_lng": "22.528523,114.043049",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "田面CDAC设计之都艺术中心·广货出海跨境新生力盛典",
@@ -11191,7 +12311,11 @@
     "lat_lng": "22.526387,114.050438",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "《数学秀》沉浸式亲子科学剧",
@@ -11218,7 +12342,11 @@
     "lat_lng": "22.719233,114.256702",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "《尼尔斯骑鹅历险》亲子剧深圳站",
@@ -11245,7 +12373,11 @@
     "lat_lng": "22.536574,113.929383",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "刘雨昕《仙那度2.0》万人演唱会",
@@ -11272,7 +12404,11 @@
     "lat_lng": "22.688200,114.219400",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「领展中心」湾区生活节",
@@ -11300,7 +12436,11 @@
     "lat_lng": "22.522781,114.059805",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "香蕉鱼百人豆本展",
@@ -11327,7 +12467,11 @@
     "lat_lng": "22.527683,113.925942",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "华侨城创意园集群"
   },
   {
     "name": "LATESTART POP-UP 怪物物语正版周边店",
@@ -11352,7 +12496,11 @@
     "lat_lng": "22.549301,113.885968",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「塑我此生」贾科梅蒂艺术大展",
@@ -11377,7 +12525,11 @@
     "lat_lng": "31.222677,121.467492",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「永不消失的黑水城」沉浸式文博大展",
@@ -11402,7 +12554,11 @@
     "lat_lng": "31.234409,121.474144",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「国采」故宫藏清代帝后服饰展",
@@ -11427,7 +12583,11 @@
     "lat_lng": "31.231545,121.472127",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「清韵」康雍乾时期文物特展",
@@ -11452,7 +12612,11 @@
     "lat_lng": "31.116591,121.386268",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "遗珍永耀——复旦大学博物馆馆藏精品文物展",
@@ -11477,7 +12641,11 @@
     "lat_lng": "31.263232,121.529284",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "演艺大世界「天天有戏」演艺市集",
@@ -11504,7 +12672,11 @@
     "lat_lng": "31.236846,121.473419",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "外滩-南京东路艺文集群"
   },
   {
     "name": "BFC外滩露台音乐季",
@@ -11531,7 +12703,11 @@
     "lat_lng": "31.232709,121.468667",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "外滩-南京东路艺文集群"
   },
   {
     "name": "2026世界斯诺克·上海大师赛",
@@ -11556,7 +12732,11 @@
     "lat_lng": "31.222444,121.467452",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "时代少年团「加冠礼」收官场上海站",
@@ -11581,7 +12761,11 @@
     "lat_lng": "31.187865,121.430951",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "戴敦邦沉浸式国风艺术展「且看宋词」",
@@ -11606,7 +12790,11 @@
     "lat_lng": "31.240200,121.485000",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "外滩首届泰文化月·BFC马路泼水节",
@@ -11631,7 +12819,11 @@
     "lat_lng": "31.228830,121.478560",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "外滩-南京东路艺文集群"
   },
   {
     "name": "2026新世界ACG嘉年华·全国首展",
@@ -11658,7 +12850,11 @@
     "lat_lng": "31.227684,121.469209",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "上海潜艇展览馆（黄浦江畔实景）",
@@ -11683,7 +12879,11 @@
     "lat_lng": "31.189016,121.434518",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026滨江草地啤酒音乐会",
@@ -11712,7 +12912,11 @@
     "lat_lng": "31.411363,121.483050",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "「海江·卷卷热浪」玩水季",
@@ -11737,7 +12941,11 @@
     "lat_lng": "31.402176,121.483201",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「阳台音乐会」宝山艺术街角",
@@ -11764,7 +12972,11 @@
     "lat_lng": "31.405492,121.474212",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「诚之书院少儿书画展」宝山区",
@@ -11789,7 +13001,11 @@
     "lat_lng": "31.413717,121.485217",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026顾村公园消夏派对",
@@ -11817,7 +13033,11 @@
     "lat_lng": "31.408334,121.476838",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「世界遗产在中国」数字沉浸展",
@@ -11842,7 +13062,11 @@
     "lat_lng": "39.960759,116.311271",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "周深「深深的」2026巡回演唱会北京站",
@@ -11869,7 +13093,11 @@
     "lat_lng": "39.914111,116.440176",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "北京国际图书节（BIBF）2026",
@@ -11894,7 +13122,11 @@
     "lat_lng": "40.125182,116.654247",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "中国国家博物馆·古代瓷器艺术展",
@@ -11919,7 +13151,11 @@
     "lat_lng": "39.905400,116.397600",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "北京798夏日艺术市集",
@@ -11947,7 +13183,11 @@
     "lat_lng": "39.984100,116.495300",
     "is_featured": true,
     "editor_note": "在老厂房/历史空间里看展或参与活动，北京城市肌理的最佳打开方",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "798 艺术区集群"
   },
   {
     "name": "凤凰传奇「吉祥如意」2026成都站",
@@ -11972,7 +13212,11 @@
     "lat_lng": "30.554133,104.278800",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "陆虎「像你这样的朋友3.0」成都站",
@@ -11997,7 +13241,11 @@
     "lat_lng": "30.577177,104.056925",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "月是故乡明——杜甫与秦州主题文物展",
@@ -12022,7 +13270,11 @@
     "lat_lng": "30.666958,104.049856",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "墨韵石音——武侯祠唐「三绝碑」专题展",
@@ -12047,7 +13299,11 @@
     "lat_lng": "30.643328,104.047077",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "蜀都赋——乡情·经略与遥想中的益州万象",
@@ -12072,7 +13328,11 @@
     "lat_lng": "30.639983,104.051020",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026成都·COMIDAY30动漫游戏交易展",
@@ -12099,7 +13359,11 @@
     "lat_lng": "30.635301,104.041116",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026成都时尚发制品博览会",
@@ -12124,7 +13388,11 @@
     "lat_lng": "30.646413,104.037212",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "成都插画展·首届国际原创插画博览会",
@@ -12151,7 +13419,11 @@
     "lat_lng": "30.641146,104.040687",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "成都市文化馆暑期公益培训班",
@@ -12176,7 +13448,11 @@
     "lat_lng": "30.652687,104.080093",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「图图讲故事」绘本共读分享会",
@@ -12203,7 +13479,11 @@
     "lat_lng": "30.573835,104.070380",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「周末儿童博物馆」品牌教育活动",
@@ -12230,7 +13510,11 @@
     "lat_lng": "30.658600,104.063200",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「三国匠造所之蜀将无双」三国主题展",
@@ -12258,7 +13542,11 @@
     "lat_lng": "30.639322,104.049486",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "诗韵草堂·金石留痕拓印非遗体验",
@@ -12283,7 +13571,11 @@
     "lat_lng": "30.678263,104.054647",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「再生实验室」双年展互动工坊",
@@ -12310,7 +13602,11 @@
     "lat_lng": "30.564854,104.070395",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「锦江听涛」江畔音乐会",
@@ -12337,7 +13633,11 @@
     "lat_lng": "30.658004,104.087698",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「第二届蜕墟·国际再生艺术季」",
@@ -12364,7 +13664,11 @@
     "lat_lng": "30.567947,104.073375",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "洛带镇第26届客家水龙季活动",
@@ -12389,7 +13693,11 @@
     "lat_lng": "30.557408,104.266603",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026成都东部新区消夏戏水电音嘉年华",
@@ -12417,7 +13725,11 @@
     "lat_lng": "30.560421,104.070201",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026首届水上运动嘉年华",
@@ -12444,7 +13756,11 @@
     "lat_lng": "30.577274,104.071841",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「音乐白鹿·浪漫一夏」啤酒音乐嘉年华",
@@ -12473,7 +13789,11 @@
     "lat_lng": "30.581341,104.060192",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「神仙玩水季」融创水世界",
@@ -12498,7 +13818,11 @@
     "lat_lng": "30.562429,104.068466",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「小包辣人节」成都首个辣人节",
@@ -12523,7 +13847,11 @@
     "lat_lng": "30.649393,104.078620",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「闪闪」成都首站快闪",
@@ -12550,7 +13878,11 @@
     "lat_lng": "30.561622,104.059258",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「得力超级文具节」成都首站",
@@ -12575,7 +13907,11 @@
     "lat_lng": "30.567396,104.052118",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "广州动漫游戏盛典·CICF×AGF",
@@ -12602,7 +13938,11 @@
     "lat_lng": "23.098340,113.333194",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "广州国际艺术博览会",
@@ -12627,7 +13967,11 @@
     "lat_lng": "23.106093,113.322651",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「火把节」野寨音乐季",
@@ -12655,7 +13999,11 @@
     "lat_lng": "25.017245,102.697652",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": "滇池-海埂生态集群"
   },
   {
     "name": "「湖滨春城·山水花都」书法美术摄影展",
@@ -12683,7 +14031,11 @@
     "lat_lng": "25.014962,102.708750",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": "滇池-海埂生态集群"
   },
   {
     "name": "「万人目瑙纵歌」非遗活态传承",
@@ -12709,8 +14061,12 @@
     "walk_tip": "滇池海埂大坝-西山龙门-海埂公园，湖光山色一线穿",
     "lat_lng": "25.023433,102.696471",
     "is_featured": true,
-    "editor_note": "在山野中与风土相遇，一场身心舒展的田野之旅",
-    "notice": ""
+    "editor_note": "大自然是这里最好的策展人，来滇池西岸感受大地",
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": "滇池-海埂生态集群"
   },
   {
     "name": "昆明文旅超市·一站购玩转昆明",
@@ -12738,7 +14094,11 @@
     "lat_lng": "25.050165,102.726933",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026ChillPower咖啡面包节",
@@ -12766,7 +14126,11 @@
     "lat_lng": "26.637797,106.643172",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「赶场」2026贵阳精酿啤酒节",
@@ -12794,7 +14158,11 @@
     "lat_lng": "26.635089,106.633573",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "周深「深深的」2026贵阳演唱会",
@@ -12821,7 +14189,11 @@
     "lat_lng": "26.637051,106.625014",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "张韶涵2026玩家巡回演唱会贵阳站",
@@ -12848,7 +14220,11 @@
     "lat_lng": "26.658728,106.642183",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "徐良2026「时间折叠」巡回演唱会",
@@ -12875,7 +14251,11 @@
     "lat_lng": "26.650217,106.630804",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "陈卓璇2026「当•拾」巡回演唱会",
@@ -12902,7 +14282,11 @@
     "lat_lng": "26.640711,106.627005",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "欢子「我的青春有你」2026巡回演唱会贵阳站",
@@ -12929,7 +14313,11 @@
     "lat_lng": "26.640444,106.638078",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026JUMPPARK腾讯视频音乐大赏",
@@ -12956,7 +14344,11 @@
     "lat_lng": "26.656282,106.617912",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026年厦门公众考古季",
@@ -12981,7 +14373,11 @@
     "lat_lng": "24.455522,118.081177",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "厦门市博物馆沉浸式喜剧体验活动",
@@ -13008,7 +14404,11 @@
     "lat_lng": "24.457244,118.088757",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "园博苑花灯乐园暑期焕新开园",
@@ -13036,7 +14436,11 @@
     "lat_lng": "24.575638,118.094806",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "德云社郭德纲·于谦相声专场厦门站",
@@ -13063,7 +14467,11 @@
     "lat_lng": "24.459162,118.076064",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "李健「不止于此」巡回演唱会厦门站",
@@ -13090,7 +14498,11 @@
     "lat_lng": "24.492006,118.086514",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「白川鸿」个展",
@@ -13115,7 +14527,11 @@
     "lat_lng": "24.455051,118.077652",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "闽剧《双蝶扇》惠民演出",
@@ -13140,7 +14556,11 @@
     "lat_lng": "26.087526,119.300550",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "捷克首席少女合唱团JITRO童声合唱音乐会",
@@ -13167,7 +14587,11 @@
     "lat_lng": "26.088794,119.302795",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "话剧《宝岛一村》专属版",
@@ -13194,7 +14618,11 @@
     "lat_lng": "26.002800,119.391900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "儿童剧《恐龙归来之小精灵探险记》",
@@ -13221,7 +14649,11 @@
     "lat_lng": "26.002800,119.391900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "已结束",
+    "is_expired": true,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "上海美术电影制片厂《葫芦兄弟》",
@@ -13249,7 +14681,11 @@
     "lat_lng": "26.002800,119.391900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "《重返侏罗纪》大型沉浸式亲子舞台剧",
@@ -13276,7 +14712,11 @@
     "lat_lng": "26.002800,119.391900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "《柴可夫斯基的钢琴日记》鲁超钢琴独奏音乐会",
@@ -13303,7 +14743,11 @@
     "lat_lng": "26.002800,119.391900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "正版国漫首部2.5次元真人舞台剧《一人之下》第一部",
@@ -13328,7 +14772,11 @@
     "lat_lng": "26.002800,119.391900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "《放屁大象吹低音号》德国原版绘本启蒙交响音乐会",
@@ -13356,7 +14804,11 @@
     "lat_lng": "26.002800,119.391900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "舞台剧《她们》",
@@ -13381,7 +14833,11 @@
     "lat_lng": "26.002800,119.391900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "鲍罗丁钢琴三重奏音乐会",
@@ -13408,7 +14864,11 @@
     "lat_lng": "26.002800,119.391900",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「夏一站，趣福州」研学旅游季",
@@ -13435,7 +14895,11 @@
     "lat_lng": "26.074204,119.306213",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「凉辰美景上下杭」夏季营销",
@@ -13462,7 +14926,11 @@
     "lat_lng": "26.058574,119.304448",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "三坊七巷-上下杭闽都集群"
   },
   {
     "name": "「中洲岛」暑期艺术季·FULLAND复兴季",
@@ -13487,7 +14955,11 @@
     "lat_lng": "26.045516,119.320785",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "沪剧《风雪夜归人》",
@@ -13512,7 +14984,11 @@
     "lat_lng": "26.082768,119.304060",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "话剧《双生镜》浙江话剧团",
@@ -13539,7 +15015,11 @@
     "lat_lng": "26.078190,119.293025",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "歌剧《卡门》中文版",
@@ -13566,7 +15046,11 @@
     "lat_lng": "26.082538,119.292708",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「拉阔音乐会」她和她的秘密·卫兰x炎明熹",
@@ -13593,7 +15077,11 @@
     "lat_lng": "22.333178,114.154988",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "2026夏日维港音乐节",
@@ -13620,7 +15108,11 @@
     "lat_lng": "22.325661,114.156557",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "香港书展2026",
@@ -13645,7 +15137,11 @@
     "lat_lng": "22.304939,114.161804",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "M+博物馆草间弥生个展",
@@ -13670,7 +15166,11 @@
     "lat_lng": "22.301100,114.159200",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "西九文化区集群"
   },
   {
     "name": "「阿布和他的朋友们」爵士全明星音乐会",
@@ -13697,7 +15197,11 @@
     "lat_lng": "22.199812,113.545442",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "氹仔葡韵集群"
   },
   {
     "name": "「毛豆单口喜剧」《就差一点》澳门站",
@@ -13724,7 +15228,11 @@
     "lat_lng": "22.206010,113.537203",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "氹仔葡韵集群"
   },
   {
     "name": "O.O.O.市场·「夏日微醺音乐祭」",
@@ -13751,7 +15259,11 @@
     "lat_lng": "22.188353,113.544817",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「来银河，尽兴玩一夏」晒图有礼",
@@ -13776,7 +15288,11 @@
     "lat_lng": "22.208748,113.533243",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "氹仔葡韵集群"
   },
   {
     "name": "「尚坊」六手联乘米其林风味飨宴",
@@ -13801,7 +15317,11 @@
     "lat_lng": "22.202704,113.550313",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "氹仔葡韵集群"
   },
   {
     "name": "BOMBANA星厨仲夏意叙",
@@ -13826,7 +15346,11 @@
     "lat_lng": "22.204848,113.556017",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "氹仔葡韵集群"
   },
   {
     "name": "「山里」叶月会席",
@@ -13851,7 +15375,11 @@
     "lat_lng": "22.198678,113.533121",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "氹仔葡韵集群"
   },
   {
     "name": "2026武汉草莓音乐节",
@@ -13878,7 +15406,11 @@
     "lat_lng": "30.589762,114.308933",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「长江万里图」数字沉浸展",
@@ -13903,7 +15435,11 @@
     "lat_lng": "30.595000,114.299500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "武汉东湖夜生活节",
@@ -13932,7 +15468,11 @@
     "lat_lng": "30.556471,114.319571",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": ""
   },
   {
     "name": "「渡江记」武汉美术馆夜场",
@@ -13960,7 +15500,11 @@
     "lat_lng": "30.595000,114.299500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「橘洲音乐节」2026长沙站",
@@ -13987,7 +15531,11 @@
     "lat_lng": "28.179590,112.915377",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「湘江音乐节」夏夜狂欢",
@@ -14014,7 +15562,11 @@
     "lat_lng": "28.226195,112.933459",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "湖南省博物馆「马王堆」数字展",
@@ -14039,7 +15591,11 @@
     "lat_lng": "28.231459,112.971465",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「苍洱之夏」非遗盛会",
@@ -14065,8 +15621,12 @@
     "walk_tip": "古城复兴路-人民路-叶榆路-床单厂，三步一个咖啡馆五步一个手作店",
     "lat_lng": "25.694600,100.162000",
     "is_featured": true,
-    "editor_note": "离开城市去田野/山间，大理周边的自然风土体验",
-    "notice": ""
+    "editor_note": "在山野中与风土相遇，一场身心舒展的田野之旅",
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": "大理古城-人民路集群"
   },
   {
     "name": "火把节仪式·苍山脚下",
@@ -14091,7 +15651,11 @@
     "lat_lng": "25.694600,100.162000",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "近郊/野外",
+    "cluster_name": "大理古城-人民路集群"
   },
   {
     "name": "「洱海集市」文创周末",
@@ -14119,7 +15683,11 @@
     "lat_lng": "25.694600,100.162000",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大理古城-人民路集群"
   },
   {
     "name": "「大理甲马」木刻版画展",
@@ -14144,7 +15712,11 @@
     "lat_lng": "25.694600,100.162000",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "大理古城-人民路集群"
   },
   {
     "name": "「岭南天地·和美术馆」双展",
@@ -14169,7 +15741,11 @@
     "lat_lng": "22.812000,113.290500",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "岭南天地-祖庙文脉集群"
   },
   {
     "name": "国话《青蛇》佛山站",
@@ -14196,7 +15772,11 @@
     "lat_lng": "23.020563,113.112588",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "大兵南派相声专场",
@@ -14223,7 +15803,11 @@
     "lat_lng": "23.023374,113.114204",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「唐代洛阳文物展」",
@@ -14248,7 +15832,11 @@
     "lat_lng": "23.029100,113.115700",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": "岭南天地-祖庙文脉集群"
   },
   {
     "name": "「顺德世界美食节」",
@@ -14275,7 +15863,11 @@
     "lat_lng": "22.811891,113.294303",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「南宁国际民歌艺术节」",
@@ -14300,7 +15892,11 @@
     "lat_lng": "22.813367,108.384498",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "「东盟音乐周」",
@@ -14327,7 +15923,11 @@
     "lat_lng": "22.825714,108.371694",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "即将开始",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   },
   {
     "name": "广西民族博物馆·铜鼓文化展",
@@ -14352,6 +15952,10 @@
     "lat_lng": "22.813698,108.378512",
     "is_featured": false,
     "editor_note": "",
-    "notice": ""
+    "notice": "",
+    "status": "进行中",
+    "is_expired": false,
+    "trip_radius": "市中心/社区",
+    "cluster_name": ""
   }
 ]
