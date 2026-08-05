@@ -1115,7 +1115,7 @@ body.admin-mode .fab-mobile { display: none !important; }
 
 .admin-workspace {
     flex: 1; display: flex; flex-direction: column; overflow: hidden;
-    background: #fff;
+    background: #fff; position: relative;
 }
 .admin-workspace-empty {
     display: flex; align-items: center; justify-content: center;
@@ -1181,10 +1181,74 @@ body.admin-mode .fab-mobile { display: none !important; }
 .admin-btn.edit:hover { background: #d97706; }
 .admin-btn.reject { background: #ef4444; color: #fff; }
 .admin-btn.reject:hover { background: #dc2626; }
+.admin-btn.delete-btn { background: #6b7280; color: #fff; }
+.admin-btn.delete-btn:hover { background: #4b5563; }
 .admin-btn.secondary { background: #f3f4f6; color: #555; }
 .admin-btn.secondary:hover { background: #e5e7eb; }
 .admin-btn.publish-edit { background: #8b5cf6; color: #fff; }
 .admin-btn.publish-edit:hover { background: #7c3aed; }
+.admin-btn-icon {
+    width: 36px; height: 36px; border-radius: 8px; border: 1px dashed #d1d5db;
+    background: #f9fafb; font-size: 1.1rem; cursor: pointer; display: flex;
+    align-items: center; justify-content: center; transition: all 0.2s;
+}
+.admin-btn-icon:hover { background: #e5e7eb; border-color: #9ca3af; }
+.admin-btn-create {
+    display: block; margin: 20px auto 0; padding: 10px 28px; border-radius: 10px;
+    border: 2px dashed #10b981; background: #f0fdf4; color: #059669;
+    font-size: 0.9rem; font-weight: 600; cursor: pointer; transition: all 0.2s;
+}
+.admin-btn-create:hover { background: #d1fae5; border-color: #059669; }
+.admin-btn-cancel {
+    background: none; border: none; font-size: 1.2rem; color: #999; cursor: pointer;
+    padding: 4px 10px; border-radius: 6px; transition: all 0.2s;
+}
+.admin-btn-cancel:hover { background: #f3f4f6; color: #333; }
+.admin-sidebar-title-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.admin-sidebar-title-row h3 { margin: 0; }
+.admin-search-bar { margin-bottom: 12px; }
+.admin-search-bar input {
+    width: 100%; padding: 8px 12px; border-radius: 8px; border: 1px solid #e5e7eb;
+    font-size: 0.85rem; background: #f9fafb; outline: none; transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+.admin-search-bar input:focus { border-color: #10b981; background: #fff; }
+
+/* 管理后台新建活动表单 */
+.admin-new-event-form {
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #fff;
+    z-index: 20; overflow-y: auto; border-radius: 0 0 12px 12px;
+}
+.admin-new-event-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 20px; border-bottom: 1px solid #f3f4f6;
+    position: sticky; top: 0; background: #fff; z-index: 2;
+}
+.admin-new-event-header h3 { margin: 0; font-size: 1rem; color: #333; }
+.admin-new-event-body { padding: 20px; }
+.admin-new-event-body .form-grid-2col {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+}
+.admin-new-event-body .form-field { margin-bottom: 12px; }
+.admin-new-event-body .form-field label { display: block; font-size: 0.78rem; color: #888; margin-bottom: 4px; }
+.admin-new-event-body .form-field input,
+.admin-new-event-body .form-field select,
+.admin-new-event-body .form-field textarea {
+    width: 100%; padding: 9px 12px; border-radius: 8px; border: 1px solid #e5e7eb;
+    font-size: 0.85rem; outline: none; transition: border-color 0.2s;
+    box-sizing: border-box; font-family: inherit;
+}
+.admin-new-event-body .form-field input:focus,
+.admin-new-event-body .form-field select:focus,
+.admin-new-event-body .form-field textarea:focus { border-color: #10b981; }
+.admin-new-event-body .form-check-row { margin-bottom: 16px; }
+.admin-new-event-actions { display: flex; gap: 10px; margin-top: 20px; padding-top: 16px; border-top: 1px solid #f3f4f6; }
+.admin-new-event-actions .admin-btn { flex: 1; justify-content: center; }
+
+@media (max-width: 768px) {
+    .admin-new-event-body .form-grid-2col { grid-template-columns: 1fr; }
+    .admin-new-event-form { position: fixed; top: 0; left: 0; right: 0; bottom: 0; border-radius: 0; }
+}
 
 /* ═══════════════════════════════════════════════════════════
    手机端审核界面 (<768px)
@@ -1193,6 +1257,13 @@ body.admin-mode .fab-mobile { display: none !important; }
 @media (max-width: 768px) {
     .admin-dashboard { flex-direction: column; height: auto; margin-top: 0; }
     .admin-sidebar { width: 100%; min-width: 0; max-height: 40vh; }
+    .admin-mobile-header { display: flex; align-items: center; gap: 8px; }
+    .admin-mobile-tabs { flex: 1; display: flex; gap: 4px; overflow-x: auto; }
+    .admin-btn-icon-mobile {
+        width: 36px; height: 36px; min-width: 36px; border-radius: 8px;
+        border: 1px dashed #10b981; background: #f0fdf4; font-size: 1.1rem;
+        cursor: pointer; display: flex; align-items: center; justify-content: center;
+    }
     .admin-workspace { min-height: 50vh; }
     .admin-workspace-preview { padding: 16px 18px; }
     .admin-workspace-preview .preview-meta { grid-template-columns: 1fr; }
@@ -1352,7 +1423,7 @@ body.admin-mode .fab-mobile { display: none !important; }
             <span class="logo-tag">玩场速报</span>
         </h1>
         <button class="header-cta" onclick="openSubmit()" title="推荐你发现的有趣活动或非标空间">➕ 推荐好玩场</button>
-        <span class="update-time">更新于 2026-08-05 16:17</span>
+        <span class="update-time">更新于 2026-08-05 16:26</span>
     </div>
     <p class="subtitle">上海 · 北京 · 广州 · 深圳 · 成都 · 杭州 · 厦门 · 佛山 · 福州 · 长沙 · 昆明 · 大理 · 武汉 · 香港 · 澳门 · 贵阳 · 南宁</p>
     <p class="tagline">城市与乡野漫游 · 非标空间 · 社区生活与在地风土</p>
@@ -9431,7 +9502,13 @@ body.admin-mode .fab-mobile { display: none !important; }
         <!-- 左侧边栏：活动列表 (桌面端) -->
         <div class="admin-sidebar" id="adminSidebar">
             <div class="admin-sidebar-header">
-                <h3>📋 审核队列</h3>
+                <div class="admin-sidebar-title-row">
+                    <h3>📋 审核队列</h3>
+                    <button class="admin-btn-icon" onclick="openAdminNewEvent()" title="新建活动 (Ctrl+A)">➕</button>
+                </div>
+                <div class="admin-search-bar" id="adminSearchBar">
+                    <input type="text" id="adminSearchInput" placeholder="🔍 搜索活动名称、城市、场地..." oninput="adminSearch()">
+                </div>
                 <div class="admin-status-tabs" id="adminStatusTabs">
                     <button class="admin-status-tab active" data-status="pending" onclick="switchAdminTab('pending')">待审核 <span class="count"></span></button>
                     <button class="admin-status-tab" data-status="approved" onclick="switchAdminTab('approved')">已发布 <span class="count"></span></button>
@@ -9453,25 +9530,76 @@ body.admin-mode .fab-mobile { display: none !important; }
             <div class="admin-workspace-empty" id="adminWorkspaceEmpty">
                 <div class="empty-icon">📭</div>
                 <p>选择左侧活动以预览详情</p>
-                <p style="font-size:0.78rem;color:#ccc">快捷键: A 通过 · E 编辑 · D 拒绝 · ↑↓ 切换</p>
+                <p style="font-size:0.78rem;color:#ccc">快捷键: A 通过 · E 编辑 · D 拒绝 · Del 删除 · ↑↓ 切换 · Ctrl+A 新建</p>
+                <button class="admin-btn-create" onclick="openAdminNewEvent()">➕ 新建活动</button>
             </div>
             <div class="admin-workspace-preview" id="adminPreview" style="display:none"></div>
             <div class="admin-edit-form" id="adminEditForm" style="display:none"></div>
+            <!-- 管理后台：新建活动表单（覆盖在 workspace 上方） -->
+            <div class="admin-new-event-form" id="adminNewEventForm" style="display:none">
+                <div class="admin-new-event-header">
+                    <h3>➕ 创建新活动</h3>
+                    <button class="admin-btn-cancel" onclick="closeAdminNewEvent()">✕ 取消</button>
+                </div>
+                <div class="admin-new-event-body">
+                    <div class="form-grid-2col">
+                        <div class="form-field"><label>活动名称 *</label><input type="text" id="aeNewName" placeholder="必填"></div>
+                        <div class="form-field"><label>城市 *</label><select id="aeNewCity"><option value="上海">上海 ●</option>
+<option value="北京">北京 ●</option>
+<option value="广州">广州 ●</option>
+<option value="深圳">深圳 ●</option>
+<option value="成都">成都 ●</option>
+<option value="杭州">杭州 ●</option>
+<option value="厦门">厦门 ●</option>
+<option value="佛山">佛山 ●</option>
+<option value="福州">福州 ●</option>
+<option value="长沙">长沙 ●</option>
+<option value="昆明">昆明 ●</option>
+<option value="大理">大理 ●</option>
+<option value="武汉">武汉 ●</option>
+<option value="香港">香港 ●</option>
+<option value="澳门">澳门 ●</option>
+<option value="贵阳">贵阳 ●</option>
+<option value="南宁">南宁 ●</option></select></div>
+                        <div class="form-field"><label>场地/地址 *</label><input type="text" id="aeNewVenue" placeholder="必填"></div>
+                        <div class="form-field"><label>分类</label><select id="aeNewCategory"><option value="展览">展览</option><option value="演出">演出</option><option value="市集">市集</option><option value="沙龙">沙龙/工作坊</option><option value="放映">放映</option><option value="派对">派对</option><option value="户外">户外/漫游</option></select></div>
+                        <div class="form-field"><label>开始日期 *</label><input type="date" id="aeNewStartDate"></div>
+                        <div class="form-field"><label>结束日期</label><input type="date" id="aeNewEndDate"></div>
+                        <div class="form-field"><label>门票/价格</label><input type="text" id="aeNewPrice" placeholder="如：免费 / ¥88"></div>
+                        <div class="form-field"><label>空间属性</label><select id="aeNewSpaceType"><option value="">自动推断</option><option value="展馆/传统剧场">展馆/传统剧场</option><option value="社区/非标商业">社区/非标商业</option><option value="历史建筑/工业遗产">历史建筑/工业遗产</option><option value="乡村/野外自然">乡村/野外自然</option><option value="其他">其他</option></select></div>
+                    </div>
+                    <div class="form-field"><label>活动描述/摘要</label><textarea id="aeNewDesc" rows="3" placeholder="描述活动亮点、氛围、特色等"></textarea></div>
+                    <div class="form-field"><label>编辑推荐语</label><input type="text" id="aeNewEditorNote" placeholder="20-30字精选推荐语"></div>
+                    <div class="form-field"><label>活动链接</label><input type="text" id="aeNewUrl" placeholder="如：豆瓣/大麦/公众号链接"></div>
+                    <div class="form-field"><label>搜索提示（无链接时）</label><input type="text" id="aeNewSearchHint" placeholder="如：小红书 App 搜：「活动名」"></div>
+                    <div class="form-check-row">
+                        <label class="featured-check"><input type="checkbox" id="aeNewFeatured"> 入选【田字格 Selection】精选</label>
+                    </div>
+                    <div class="admin-new-event-actions">
+                        <button class="admin-btn approve" onclick="saveAdminNewEvent()">💾 保存并直接发布</button>
+                        <button class="admin-btn secondary" onclick="closeAdminNewEvent()">取消</button>
+                    </div>
+                </div>
+            </div>
             <div class="admin-action-bar" id="adminActionBar" style="display:none">
                 <button class="admin-btn approve" onclick="adminAction('approve')" title="快捷键: A">✅ 审核通过</button>
                 <button class="admin-btn edit" onclick="adminAction('edit')" title="快捷键: E">✏️ 改后发布</button>
                 <button class="admin-btn reject" onclick="adminAction('reject')" title="快捷键: D">❌ 拒绝</button>
-                <span class="kbd-hint">A 通过 · E 编辑 · D 拒绝 · ↑↓ 切换</span>
+                <button class="admin-btn delete-btn" onclick="adminAction('delete')" title="快捷键: Del">🗑️ 删除</button>
+                <span class="kbd-hint">A 通过 · E 编辑 · D 拒绝 · Del 删除 · ↑↓ 切换</span>
             </div>
         </div>
     </div>
 
     <!-- 手机端审核视图 -->
     <div class="admin-mobile-view" id="adminMobileView" style="display:none">
-        <div class="admin-mobile-tabs" id="adminMobileTabs">
-            <button class="admin-mobile-tab active" data-status="pending" onclick="switchAdminTab('pending')">⏳ 待审核</button>
-            <button class="admin-mobile-tab" data-status="approved" onclick="switchAdminTab('approved')">✅ 已发布</button>
-            <button class="admin-mobile-tab" data-status="rejected" onclick="switchAdminTab('rejected')">❌ 已拒绝</button>
+        <div class="admin-mobile-header">
+            <div class="admin-mobile-tabs" id="adminMobileTabs">
+                <button class="admin-mobile-tab active" data-status="pending" onclick="switchAdminTab('pending')">⏳ 待审核</button>
+                <button class="admin-mobile-tab" data-status="approved" onclick="switchAdminTab('approved')">✅ 已发布</button>
+                <button class="admin-mobile-tab" data-status="rejected" onclick="switchAdminTab('rejected')">❌ 已拒绝</button>
+            </div>
+            <button class="admin-btn-icon-mobile" onclick="openAdminNewEvent()" title="新建活动">➕</button>
         </div>
         <div class="admin-mobile-cards" id="adminMobileCards">
             <div class="admin-loading"><div class="admin-spinner"></div> 加载中...</div>
@@ -9491,6 +9619,7 @@ body.admin-mode .fab-mobile { display: none !important; }
         <span id="adminFloatingInfo"></span>
     </div>
     <div>
+        <button onclick="openAdminNewEvent()">➕ 新建活动</button>
         <button onclick="switchToPublicView()">👀 查看前台</button>
         <button onclick="switchToAdminDashboard()">📋 返回审核后台</button>
         <button onclick="logoutAdmin()">🚪 退出</button>
@@ -9500,8 +9629,8 @@ body.admin-mode .fab-mobile { display: none !important; }
 <!-- Toast 通知容器 -->
 <div class="toast-container" id="toastContainer"></div>
 
-<!-- 管理员入口图标（访客视角底部） -->
-<div class="admin-entry-icon" id="adminEntryIcon" title="管理员入口" onclick="showAdminAuth()">⚙️</div>
+<!-- 管理员入口：通过 Ctrl+Shift+A 键盘快捷键 或 URL 加 #admin 触发 -->
+<div class="admin-entry-icon" id="adminEntryIcon" title="管理员入口" style="display:none"></div>
 
 <!-- 移动端 FAB 投稿按钮 -->
 <button class="fab-mobile" id="fabMobile" onclick="openSubmit()" title="发布活动">
@@ -10135,16 +10264,6 @@ function verifyAdmin() {
     }
 }
 
-// 密码输入框回车提交
-document.addEventListener('DOMContentLoaded', () => {
-    const pwInput = document.getElementById('adminPassword');
-    if (pwInput) {
-        pwInput.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') verifyAdmin();
-        });
-    }
-});
-
 function isAdminMode() {
     return document.body.classList.contains('admin-mode');
 }
@@ -10153,7 +10272,6 @@ function enterAdminMode() {
     document.body.classList.add('admin-mode');
     document.getElementById('adminRoot').classList.add('active');
     document.getElementById('adminFloatingBar').classList.add('active');
-    document.getElementById('adminEntryIcon').style.display = 'none';
     document.getElementById('adminFloatingInfo').textContent = '';
 
     detectDeviceForAdmin();
@@ -10166,7 +10284,6 @@ function switchToPublicView() {
     document.body.classList.remove('admin-mode');
     document.getElementById('adminRoot').classList.remove('active');
     document.getElementById('adminFloatingBar').classList.add('active');
-    document.getElementById('adminEntryIcon').style.display = 'none';
     document.getElementById('adminFloatingInfo').textContent = '（当前查看前台访客视图）';
     // Reload public events
     if (typeof supabase !== 'undefined' && supabase) {
@@ -10183,12 +10300,14 @@ function logoutAdmin() {
     document.body.classList.remove('admin-mode');
     document.getElementById('adminRoot').classList.remove('active');
     document.getElementById('adminFloatingBar').classList.remove('active');
-    document.getElementById('adminEntryIcon').style.display = '';
     // Reload public view
     if (typeof supabase !== 'undefined' && supabase) {
         loadPublicEventsFromSupabase();
     }
-    window.location.search = ''; // Remove ?admin=true
+    // 清除 URL hash
+    if (window.location.hash === '#admin') {
+        history.pushState(null, '', window.location.pathname + window.location.search);
+    }
     showToast('👋 已退出管理员模式', 'info');
 }
 
@@ -10408,8 +10527,32 @@ function updateTabCounts(allData) {
 function switchAdminTab(status) {
     selectedEventId = null;
     selectedCheckboxes.clear();
+    document.getElementById('adminSearchInput').value = '';
     updateBatchUI();
     loadAdminEvents(status);
+}
+
+// ═══════════════════════════════════════════════════════════
+//  管理后台：搜索过滤
+// ═══════════════════════════════════════════════════════════
+
+let adminSearchQuery = '';
+
+function adminSearch() {
+    adminSearchQuery = document.getElementById('adminSearchInput').value.trim().toLowerCase();
+    renderAdminList();
+}
+
+function filterAdminCacheBySearch(cache) {
+    if (!adminSearchQuery) return cache;
+    return cache.filter(ev => {
+        const name = (ev.name || '').toLowerCase();
+        const city = (ev.city || '').toLowerCase();
+        const venue = (ev.venue || '').toLowerCase();
+        return name.includes(adminSearchQuery)
+            || city.includes(adminSearchQuery)
+            || venue.includes(adminSearchQuery);
+    });
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -10419,18 +10562,21 @@ function switchAdminTab(status) {
 function renderAdminList() {
     const listEl = document.getElementById('adminEventList');
     if (!listEl) { console.log('🔴 [renderAdminList] listEl 不存在!'); return; }
-    console.log('🟣 [renderAdminList] adminEventCache.length:', adminEventCache.length);
 
-    if (adminEventCache.length === 0) {
-        listEl.innerHTML = '<div style="text-align:center;padding:40px 20px;color:#aaa;">暂无' + getStatusLabel(currentAdminTab) + '的活动</div>';
+    const filtered = filterAdminCacheBySearch(adminEventCache);
+    console.log('🟣 [renderAdminList] total:', adminEventCache.length, 'filtered:', filtered.length, 'query:', adminSearchQuery);
+
+    if (filtered.length === 0) {
+        const msg = adminSearchQuery ? '没有匹配「' + adminSearchQuery + '」的活动' : '暂无' + getStatusLabel(currentAdminTab) + '的活动';
+        listEl.innerHTML = '<div style="text-align:center;padding:40px 20px;color:#aaa;">' + msg + '</div>';
         return;
     }
 
-    const showBatch = currentAdminTab === 'pending';
+    const showBatch = currentAdminTab === 'pending' && !adminSearchQuery;
     document.getElementById('adminBatchToolbar').style.display = showBatch ? 'flex' : 'none';
 
     let html = '';
-    adminEventCache.forEach((ev, idx) => {
+    filtered.forEach((ev, idx) => {
         const isSelected = selectedEventId === ev.id;
         const checked = selectedCheckboxes.has(ev.id) ? 'checked' : '';
         const timeStr = ev.created_at ? new Date(ev.created_at).toLocaleDateString('zh-CN') : '';
@@ -10604,6 +10750,7 @@ function adminAction(action) {
         case 'approve': approveEventById(selectedEventId); break;
         case 'reject': rejectEventById(selectedEventId); break;
         case 'edit': openEditForm(); break;
+        case 'delete': deleteEventById(selectedEventId); break;
     }
 }
 
@@ -10757,6 +10904,150 @@ async function batchAction(action) {
 }
 
 // ═══════════════════════════════════════════════════════════
+//  真删除（从 localStorage 永久移除，不同於拒绝）
+// ═══════════════════════════════════════════════════════════
+
+function deleteEventById(eventId) {
+    if (!confirm('⚠️ 确定要永久删除此活动吗？此操作不可恢复！')) return;
+
+    const ev = adminEventCache.find(e => e.id === eventId);
+    if (!ev) return;
+
+    // 从 localStorage 删除
+    if (ev.event_hash) {
+        removeSubmissionFromLocal(ev.event_hash);
+    }
+
+    // 从缓存中删除
+    adminEventCache = adminEventCache.filter(e => e.id !== eventId);
+    selectedCheckboxes.delete(eventId);
+    if (selectedEventId === eventId) selectedEventId = null;
+
+    // 隐藏 DOM 卡片
+    if (ev.DOMElement) {
+        ev.DOMElement.style.opacity = '0';
+        ev.DOMElement.style.transform = 'scale(0.95)';
+        ev.DOMElement.style.transition = 'all 0.3s';
+        setTimeout(() => { if (ev.DOMElement) ev.DOMElement.remove(); }, 300);
+    }
+
+    // 刷新管理界面
+    const emptyEl = document.getElementById('adminWorkspaceEmpty');
+    const previewEl = document.getElementById('adminPreview');
+    const actionBar = document.getElementById('adminActionBar');
+    if (emptyEl) emptyEl.style.display = 'block';
+    if (previewEl) previewEl.style.display = 'none';
+    if (actionBar) actionBar.style.display = 'none';
+
+    showToast('🗑️ 已永久删除', 'info');
+    loadAdminEvents(currentAdminTab);
+}
+
+function removeSubmissionFromLocal(eventHash) {
+    try {
+        const subs = loadSubmissionsFromLocal();
+        const filtered = subs.filter(s => s.event_hash !== eventHash);
+        localStorage.setItem(LS_KEY, JSON.stringify(filtered));
+    } catch (e) {
+        console.error('removeSubmissionFromLocal error:', e);
+    }
+}
+
+// ═══════════════════════════════════════════════════════════
+//  管理后台：新建活动（直接发布，不走审核）
+// ═══════════════════════════════════════════════════════════
+
+function openAdminNewEvent() {
+    const form = document.getElementById('adminNewEventForm');
+    const emptyEl = document.getElementById('adminWorkspaceEmpty');
+    const previewEl = document.getElementById('adminPreview');
+    const editFormEl = document.getElementById('adminEditForm');
+    const actionBar = document.getElementById('adminActionBar');
+
+    // 重置表单
+    document.getElementById('aeNewName').value = '';
+    document.getElementById('aeNewVenue').value = '';
+    document.getElementById('aeNewStartDate').value = new Date().toISOString().slice(0, 10);
+    document.getElementById('aeNewEndDate').value = '';
+    document.getElementById('aeNewPrice').value = '';
+    document.getElementById('aeNewSpaceType').value = '';
+    document.getElementById('aeNewDesc').value = '';
+    document.getElementById('aeNewEditorNote').value = '';
+    document.getElementById('aeNewUrl').value = '';
+    document.getElementById('aeNewSearchHint').value = '';
+    document.getElementById('aeNewFeatured').checked = false;
+
+    if (emptyEl) emptyEl.style.display = 'none';
+    if (previewEl) previewEl.style.display = 'none';
+    if (editFormEl) editFormEl.style.display = 'none';
+    if (actionBar) actionBar.style.display = 'none';
+    form.style.display = 'block';
+
+    // 设置默认日期为今天
+    if (document.getElementById('aeNewStartDate')) {
+        document.getElementById('aeNewStartDate').value = new Date().toISOString().slice(0, 10);
+    }
+}
+
+function closeAdminNewEvent() {
+    document.getElementById('adminNewEventForm').style.display = 'none';
+    document.getElementById('adminWorkspaceEmpty').style.display = 'block';
+    if (selectedEventId) {
+        const ev = adminEventCache.find(e => e.id === selectedEventId);
+        if (ev) renderEventPreview(ev);
+    }
+}
+
+function saveAdminNewEvent() {
+    const name = document.getElementById('aeNewName').value.trim();
+    const city = document.getElementById('aeNewCity').value;
+    const venue = document.getElementById('aeNewVenue').value.trim();
+    const startDate = document.getElementById('aeNewStartDate').value;
+
+    if (!name) { showToast('请填写活动名称', 'info'); return; }
+    if (!venue) { showToast('请填写场地/地址', 'info'); return; }
+    if (!startDate) { showToast('请选择开始日期', 'info'); return; }
+
+    const eventHash = 'admin_' + Date.now() + '_' + Math.random().toString(36).substr(2, 6);
+    const payload = {
+        name: name,
+        city: city,
+        venue: venue,
+        start_date: startDate,
+        end_date: document.getElementById('aeNewEndDate').value || startDate,
+        category: document.getElementById('aeNewCategory').value,
+        description: document.getElementById('aeNewDesc').value.trim(),
+        source_url: document.getElementById('aeNewUrl').value.trim(),
+        price: document.getElementById('aeNewPrice').value.trim(),
+        space_type: document.getElementById('aeNewSpaceType').value,
+        source_type: 'small',
+        is_featured: document.getElementById('aeNewFeatured').checked,
+        editor_note: document.getElementById('aeNewEditorNote').value.trim(),
+        search_hint: document.getElementById('aeNewSearchHint').value.trim(),
+        event_hash: eventHash,
+        review_status: 'approved',
+        is_public: true,
+        submitted_at: new Date().toISOString(),
+        created_at: new Date().toISOString()
+    };
+
+    // 保存到 localStorage
+    saveSubmissionToLocal(payload);
+
+    // 添加到页面 DOM
+    const card = buildCardFromPayload(payload);
+    const container = document.getElementById('eventsContainer') || document.getElementById('eventsGrid');
+    container.insertAdjacentHTML('afterbegin', card);
+    filterCards();
+
+    // 关闭表单
+    closeAdminNewEvent();
+    loadAdminEvents('approved');
+
+    showToast('✅ 活动已创建并直接发布至前台', 'success');
+}
+
+// ═══════════════════════════════════════════════════════════
 //  手机端：卡片流渲染
 // ═══════════════════════════════════════════════════════════
 
@@ -10770,10 +11061,11 @@ function renderMobileCards() {
     }
 
     let html = '';
-    adminEventCache.forEach(ev => {
+    const filtered = filterAdminCacheBySearch(adminEventCache);
+    filtered.forEach(ev => {
         html += buildMobileCard(ev);
     });
-    container.innerHTML = html;
+    container.innerHTML = html || '<div style="text-align:center;padding:40px;color:#aaa;">暂无匹配的活动</div>';
 }
 
 function buildMobileCard(ev) {
@@ -10930,16 +11222,40 @@ async function saveMobileEdit(eventId) {
 // ═══════════════════════════════════════════════════════════
 
 document.addEventListener('keydown', (e) => {
+    // ── 全局快捷键：Ctrl+Shift+A 唤起管理员验证（不区分模式） ──
+    if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'a') {
+        e.preventDefault();
+        if (isAdminMode()) {
+            // 已在管理后台中，视为 Ctrl+A 快捷新建活动
+            if (e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA' && e.target.tagName !== 'SELECT') {
+                openAdminNewEvent();
+            }
+        } else {
+            showAdminAuth();
+        }
+        return;
+    }
+
     if (!isAdminMode() || isMobileAdmin) return;
-    // Don't intercept if editing text
-    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
+    // Don't intercept if editing text (except Escape and Delete)
+    const isEditing = e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT';
+
+    if (e.key === 'Delete') {
+        e.preventDefault();
+        adminAction('delete');
+        return;
+    }
+
+    if (isEditing && e.key !== 'Escape') return;
 
     const key = e.key.toLowerCase();
 
     switch (key) {
         case 'a':
-            e.preventDefault();
-            adminAction('approve');
+            if (!e.ctrlKey && !e.metaKey) {
+                e.preventDefault();
+                adminAction('approve');
+            }
             break;
         case 'e':
             e.preventDefault();
@@ -10965,6 +11281,39 @@ document.addEventListener('keydown', (e) => {
                 closeMobileEdit();
             }
             break;
+    }
+});
+
+// ═══════════════════════════════════════════════════════════
+//  URL Hash 监听：访问 #admin 自动弹出管理员验证
+// ═══════════════════════════════════════════════════════════
+
+function checkAdminHash() {
+    if (window.location.hash === '#admin') {
+        // 如果已登录，直接进入后台；否则弹出验证
+        const token = localStorage.getItem('tg_admin_token');
+        if (token === hashPassword(ADMIN_PASSWORD)) {
+            if (!isAdminMode()) enterAdminMode();
+        } else {
+            showAdminAuth();
+        }
+    }
+}
+
+window.addEventListener('hashchange', checkAdminHash);
+document.addEventListener('DOMContentLoaded', () => {
+    checkAdminHash();
+    // 密码输入框回车提交
+    const pwInput = document.getElementById('adminPassword');
+    if (pwInput) {
+        pwInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') verifyAdmin();
+        });
+    }
+    // 自动检查缓存 token 进入后台
+    const token = localStorage.getItem('tg_admin_token');
+    if (token === hashPassword(ADMIN_PASSWORD) && window.location.hash === '#admin') {
+        if (!isAdminMode()) enterAdminMode();
     }
 });
 
