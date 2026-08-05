@@ -571,6 +571,18 @@ select {
 .submit-form {
     padding: 0 20px 20px;
 }
+.dup-warning {
+    padding: 10px 14px;
+    margin-bottom: 14px;
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-left: 4px solid #ef4444;
+    border-radius: var(--radius-sm);
+    color: #991b1b;
+    font-size: 0.83rem;
+    line-height: 1.5;
+}
+.dup-warning strong { color: #dc2626; }
 .form-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -812,7 +824,7 @@ select {
             田字格 TouchGround
             <span class="logo-tag">玩场速报</span>
         </h1>
-        <span class="update-time">更新于 2026-08-05 13:48</span>
+        <span class="update-time">更新于 2026-08-05 13:52</span>
     </div>
     <p class="subtitle">上海 · 北京 · 广州 · 深圳 · 成都 · 杭州 · 厦门 · 佛山 · 福州 · 长沙 · 昆明 · 大理 · 武汉 · 香港 · 澳门 · 贵阳 · 南宁</p>
     <p class="tagline">城市与乡野漫游 · 非标空间 · 社区生活与在地风土</p>
@@ -8825,6 +8837,7 @@ select {
     <details>
         <summary class="submit-toggle">📮 录入新活动</summary>
         <div class="submit-form" id="submitForm">
+            <div id="dupWarning" class="dup-warning" style="display:none"></div>
             <div class="form-grid">
                 <div class="form-field full">
                     <label>活动名称 <span class="required">*</span></label>
@@ -9149,49 +9162,129 @@ function directSubmit() {
     const location = document.getElementById('fLocation').value.trim();
     const startDate = document.getElementById('fStartDate').value;
     const endDate = document.getElementById('fEndDate').value;
+    const warnEl = document.getElementById('dupWarning');
+    
+    // Hide any previous warning
+    warnEl.style.display = 'none';
     
     if (!title) { alert('请填写活动名称'); return; }
     if (!city) { alert('请选择城市'); return; }
     if (!location) { alert('请填写场地'); return; }
     if (!startDate) { alert('请选择开始日期'); return; }
     
-    const payload = {
-        name: title,
-        city: city,
-        venue: location,
-        start_date: startDate,
-        end_date: endDate || startDate,
-        ticket_info: document.getElementById('fTicket').value.trim(),
-        notice: document.getElementById('fNotice').value.trim(),
-        space_type: document.getElementById('fSpaceType').value,
-        engagement_level: document.getElementById('fEngagement').value,
-        editor_note: document.getElementById('fEditorNote').value.trim(),
-        summary: document.getElementById('fSummary').value.trim(),
-        walk_tip: document.getElementById('fWalkTip').value.trim(),
-        sensory_tip: document.getElementById('fSensoryTip').value.trim(),
-        original_url: document.getElementById('fOriginalUrl').value.trim(),
-        is_featured: document.getElementById('fFeatured').checked
-    };
-
-    // Ingest into Supabase if available; always append to frontend list
-    const card = buildCardFromPayload(payload);
-    const grid = document.getElementById('eventsGrid');
-    grid.insertAdjacentHTML('beforeend', card);
-    
-    // Re-run filters to respect current view
-    filterCards();
-
-    if (typeof supabase !== 'undefined' && supabase) {
-        supabase.from('events').insert([payload]).then(({ error }) => {
-            if (!error) console.log('已同步到 Supabase');
-        });
+    // ── 前端实时查重 ──
+    const existingCards = document.querySelectorAll('#eventsGrid .event-card');
+    for (let i = 0; i < existingCards.length; i++) {
+        const c = existingCards[i];
+        const cCity = c.getAttribute('data-city') || '';
+        const cDate = c.getAttribute('data-date') || '';
+        const cName = (c.querySelector('.event-name') || {}).textContent || '';
+        if (
+            cCity === city &&
+            cDate === startDate &&
+            cName.trim().toLowerCase() === title.toLowerCase()
+        ) {
+            warnEl.innerHTML = '⚠️ 该活动（<strong>' + title + '</strong>）在此日期已存在于数据库中，请勿重复提交！';
+            warnEl.style.display = 'block';
+            return;
+        }
     }
 
-    alert('✅ 活动已成功添加！');
-    resetForm();
-    // Close the details
-    const details = document.querySelector('.submit-section details');
-    if (details) details.removeAttribute('open');
+    // ── 防抖：禁用按钮 ──
+    const btn = document.querySelector('.submit-btn.confirm');
+    const originalText = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = '⏳ 正在入库中...';
+    btn.style.opacity = '0.6';
+    btn.style.cursor = 'not-allowed';
+
+    // 生成 event_hash
+    const hashInput = title + startDate + city;
+    let eventHash = '';
+    // Simple MD5-like hash (32-char hex via Web Crypto or fallback)
+    if (window.crypto && window.crypto.subtle) {
+        const encoder = new TextEncoder();
+        const data = encoder.encode(hashInput);
+        window.crypto.subtle.digest('SHA-256', data).then(hashBuffer => {
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            eventHash = hashArray.map(b => b.toString(16).padStart(2, '0')).join('').substring(0, 32);
+            doSubmit(eventHash);
+        }).catch(() => {
+            eventHash = simpleHash(hashInput);
+            doSubmit(eventHash);
+        });
+    } else {
+        eventHash = simpleHash(hashInput);
+        doSubmit(eventHash);
+    }
+
+    function simpleHash(str) {
+        let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+        for (let i = 0; i < str.length; i++) {
+            const ch = str.charCodeAt(i);
+            h1 = Math.imul(h1 ^ ch, 2654435761);
+            h2 = Math.imul(h2 ^ ch, 1597334677);
+        }
+        return (h1 >>> 0).toString(16).padStart(8, '0') + (h2 >>> 0).toString(16).padStart(8, '0') +
+               ((h1 ^ h2) >>> 0).toString(16).padStart(8, '0') + ((h1 + h2) >>> 0).toString(16).padStart(8, '0');
+    }
+
+    function doSubmit(eventHash) {
+        const payload = {
+            name: title,
+            city: city,
+            venue: location,
+            start_date: startDate,
+            end_date: endDate || startDate,
+            ticket_info: document.getElementById('fTicket').value.trim(),
+            notice: document.getElementById('fNotice').value.trim(),
+            space_type: document.getElementById('fSpaceType').value,
+            engagement_level: document.getElementById('fEngagement').value,
+            editor_note: document.getElementById('fEditorNote').value.trim(),
+            summary: document.getElementById('fSummary').value.trim(),
+            walk_tip: document.getElementById('fWalkTip').value.trim(),
+            sensory_tip: document.getElementById('fSensoryTip').value.trim(),
+            original_url: document.getElementById('fOriginalUrl').value.trim(),
+            is_featured: document.getElementById('fFeatured').checked,
+            event_hash: eventHash
+        };
+
+        // Append card to frontend immediately
+        const card = buildCardFromPayload(payload);
+        const grid = document.getElementById('eventsGrid');
+        grid.insertAdjacentHTML('beforeend', card);
+
+        // Re-run filters
+        filterCards();
+
+        // Ingest into Supabase if available
+        if (typeof supabase !== 'undefined' && supabase) {
+            supabase.from('events').insert([payload]).then(({ error }) => {
+                if (error) {
+                    console.error('Supabase 入库失败:', error.message);
+                    // If duplicate constraint error, still OK — card already shown
+                    if (!error.message.includes('duplicate')) {
+                        alert('⚠️ 后端入库失败: ' + error.message);
+                    }
+                } else {
+                    console.log('已同步到 Supabase');
+                }
+            });
+        }
+
+        alert('✅ 活动已成功添加！');
+        resetForm();
+
+        // Restore button
+        btn.disabled = false;
+        btn.textContent = originalText;
+        btn.style.opacity = '';
+        btn.style.cursor = '';
+
+        // Close the details
+        const details = document.querySelector('.submit-section details');
+        if (details) details.removeAttribute('open');
+    }
 }
 
 function buildCardFromPayload(p) {
@@ -9241,10 +9334,22 @@ function resetForm() {
         if (el) el.value = '';
     });
     document.getElementById('fFeatured').checked = false;
+    // Hide duplicate warning
+    const warnEl = document.getElementById('dupWarning');
+    if (warnEl) { warnEl.style.display = 'none'; warnEl.innerHTML = ''; }
     // Collapse the details
     const details = document.querySelector('#submitSection details');
     if (details) details.removeAttribute('open');
 }
+
+// ── 表单字段变更时隐藏重复警告 ──
+['fTitle','fCity','fStartDate'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('input', () => {
+        const warnEl = document.getElementById('dupWarning');
+        if (warnEl) { warnEl.style.display = 'none'; warnEl.innerHTML = ''; }
+    });
+});
 
 // Init
 document.addEventListener('DOMContentLoaded', () => {
