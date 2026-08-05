@@ -57,7 +57,9 @@
     "highlights": "展出秦公鼎、秦子镈、金柄铁剑、彩绘俑头（首次出馆）、商鞅方升、始皇诏版、战袍武士俑等重量级文物，系统…",
     "why_go": "首次亮相，免费开放",
     "needs_search": false,
-    "score": 48
+    "score": 48,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "2026滨江草地啤酒音乐会",
@@ -119,7 +121,9 @@
     "highlights": "宝山灯塔营地，多支本土乐队轮番登场，精酿啤酒+现切羊肉串+亲子区泡泡趴",
     "why_go": "罕见草地体验，在地风土食材体验",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "field",
+    "source_type_clean": "small"
   },
   {
     "name": "2026顾村公园消夏派对",
@@ -180,7 +184,9 @@
     "highlights": "顾村公园夏季系列活动，夜跑/野餐/亲水互动",
     "why_go": "罕见夜跑体验，免费开放",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "field",
+    "source_type_clean": "small"
   },
   {
     "name": "2026新世界ACG嘉年华·全国首展",
@@ -240,7 +246,9 @@
     "highlights": "全国首站IP快闪矩阵，专属限定周边、主题餐厅、特展、互动全套玩法",
     "why_go": "全国首展，免费开放",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "珠归海上：庄万里家族捐赠两塗轩书画展",
@@ -300,7 +308,9 @@
     "highlights": "本期精选22件展出，包括谢时臣《溪山岁晚图》、张瑞图《行书庾子山步虚词卷》、李因《芦雁图》、闵贞《醉…",
     "why_go": "",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "BFC外滩露台音乐季",
@@ -360,7 +370,9 @@
     "highlights": "每周末江景露台音乐现场，10余个顶尖音乐厂牌与30多位DJ横跨多元风格",
     "why_go": "罕见江景体验，免费开放",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "上海潜艇展览馆（黄浦江畔实景）",
@@ -418,7 +430,9 @@
     "highlights": "近距离走进真实退役潜艇，鱼雷舱、指挥室全都能实地参观",
     "why_go": "罕见实景体验，历史建筑中的当代体验",
     "needs_search": true,
-    "score": 35
+    "score": 35,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "千金之家——马王堆汉墓的生活美学及养成",
@@ -478,7 +492,9 @@
     "highlights": "辛追墓T形帛画（7.3-8.16）与利豨墓T形帛画（8.18-10.7）首次省外同台接力，油彩双层漆…",
     "why_go": "首次亮相，免费开放",
     "needs_search": false,
-    "score": 47
+    "score": 47,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "历史的星辉——长安画派与海派绘画研究展",
@@ -538,7 +554,9 @@
     "highlights": "赵望云《北国风光》、石鲁《山区修梯田》、方济众《黄河龙门口》、何海霞《铺轨》、吴湖帆《西郊公园写景》…",
     "why_go": "「何谓海派」系列大展新作，集结中国国家博物馆、中国美术馆等6家机构70余件名家经典",
     "needs_search": false,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "向往自然——从师法自然到与自然合作",
@@ -598,7 +616,9 @@
     "highlights": "于上海吴昌硕纪念馆举办，免费入场",
     "why_go": "亲近自然的高品质文化体验之选，发现社区里的小而美",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "梵克雅宝「金手匠艺」展览",
@@ -662,7 +682,9 @@
     "highlights": "历峰双子别墅内的梵克雅宝高级珠宝工艺展,近距离欣赏百年金匠技艺与珍品珠宝",
     "why_go": "发现社区里的小而美",
     "needs_search": false,
-    "score": 31
+    "score": 31,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "让·努维尔：若无艺术家，建筑亦无存",
@@ -722,7 +744,9 @@
     "highlights": "展出浦东美术馆、巴黎爱乐音乐厅、卡塔尔国家博物馆、卡地亚当代艺术基金会四大代表项目模型，巨幅沉浸式流动影像",
     "why_go": "普利兹克奖得主让·努维尔首次在自设计场馆办展，还原巴黎工作室实景，16台电脑可浏…",
     "needs_search": true,
-    "score": 52
+    "score": 52,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "陈世英：他界之器",
@@ -782,7 +806,9 @@
     "highlights": "可步入《成长》内部万花筒空间（世英切割技法建筑化呈现），同步展出1973年至今经典珠宝雕刻",
     "why_go": "在龙美术馆（西岸馆）的在地文化活动",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「清韵」康雍乾时期文物特展",
@@ -840,7 +866,9 @@
     "highlights": "展出官窑、书画、玉器等文物，围绕康雍乾时期的历史风貌",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "世界树之巅：美洲古代文明大展",
@@ -900,7 +928,9 @@
     "highlights": "1129组近3000件文物全景呈现3000年美洲文明谱系，4.5吨奥尔梅克巨石头像与4米玛雅石碑震撼亮相，325件秘鲁金银器116件首次离境",
     "why_go": "一生只有一次、一生必看一次——全球史上最大规模美洲文明展落地上海",
     "needs_search": false,
-    "score": 47
+    "score": 47,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "戴敦邦沉浸式国风艺术展「且看宋词」",
@@ -958,7 +988,9 @@
     "highlights": "把千年宋词从课本搬进现实，六大词境篇章八十余首诗词",
     "why_go": "",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "今日蒙古·蒙古当代艺术邀请展",
@@ -1018,7 +1050,9 @@
     "highlights": "80余组当代蒙古绘画雕塑影像装置作品，来自乌兰巴托与内蒙古的艺术家呈现草原游牧文明在当代语境下的多元表达",
     "why_go": "一次罕见的当代蒙古艺术集中呈现，感受草原灵魂的现代回响",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "遗珍永耀——复旦大学博物馆馆藏精品文物展",
@@ -1076,7 +1110,9 @@
     "highlights": "复旦大学博物馆藏珍贵文物200余件，含商王田猎甲骨、唐代文官俑等",
     "why_go": "",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「塑我此生」贾科梅蒂艺术大展",
@@ -1134,7 +1170,9 @@
     "highlights": "中法重磅联动大展，一次性集齐212件大师雕塑、手稿，国内难得一见",
     "why_go": "中法重磅联动大展，一次性集齐212件大师雕塑、手稿，国内难得一见",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「永不消失的黑水城」沉浸式文博大展",
@@ -1192,7 +1230,9 @@
     "highlights": "1:1复刻榆林窟实景，超大穹顶光影氛围感拉满，不用远赴大西北",
     "why_go": "罕见实景体验，限时呈现，错过不再",
     "needs_search": true,
-    "score": 40
+    "score": 40,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "演艺大世界「天天有戏」演艺市集",
@@ -1252,7 +1292,9 @@
     "highlights": "联动全市头部演艺机构与多业态品牌，把演出、游玩和购物放在同一个街区",
     "why_go": "",
     "needs_search": true,
-    "score": 24
+    "score": 24,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "2026世界斯诺克·上海大师赛",
@@ -1310,7 +1352,9 @@
     "highlights": "奥沙利文、丁俊晖、特鲁姆普、塞尔比等全球顶尖球星齐聚黄浦",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "雪域云间——上海喜马拉雅艺术特展",
@@ -1370,7 +1414,9 @@
     "highlights": "200余件唐卡金铜造像石刻法器横跨近2000年，含首次公展的堆绣手绘宫廷唐卡遗存，三大展区呈现犍陀罗至当代的喜马拉雅艺术长卷",
     "why_go": "在外滩百年空间遇见高原千年艺术，一场传统与摩登的双向奔赴",
     "needs_search": false,
-    "score": 54
+    "score": 54,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「海江·卷卷热浪」玩水季",
@@ -1428,7 +1474,9 @@
     "highlights": "宝山滨江夏日玩水季，湿透是摆脱内卷的物理仪式，多巴胺释放",
     "why_go": "",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "同行：上海与巴黎抽象艺术展",
@@ -1488,7 +1536,9 @@
     "highlights": "百余件绘画摄影雕塑装置作品分三篇章展出，呈现刘海粟林风眠吴大羽吴冠中赵无极朱德群等大师的抽象探索，双城百年交流脉络",
     "why_go": "在建馆70周年的上海美术馆，体验巴黎塞纳河畔与上海浦江两岸的抽象对话",
     "needs_search": false,
-    "score": 31
+    "score": 31,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "一瓷一色一世界——上海博物馆藏明清颜色釉瓷器特展",
@@ -1548,7 +1598,9 @@
     "highlights": "重点展品：景德镇窑青釉三系尊、仿哥釉石榴尊、天蓝釉三口葫芦瓶、松石绿釉剔刻缠枝番莲纹瓶、储秀宫款黄釉…",
     "why_go": "在上海久事美术馆的在地文化活动",
     "needs_search": false,
-    "score": 34
+    "score": 34,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "国采——故宫藏清代帝后服饰展",
@@ -1608,7 +1660,9 @@
     "highlights": "101件故宫织绣文物近九成首次离京，康熙乾隆嘉庆道光四帝袍褂与慈禧等六位后妃袍服同场亮相，设VR裸眼3D数字体验区九大互动展项",
     "why_go": "既是宫廷文物重磅亮相，也是中式传统色彩美学盛宴",
     "needs_search": false,
-    "score": 52
+    "score": 52,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "外滩首届泰文化月·BFC马路泼水节",
@@ -1666,7 +1720,9 @@
     "highlights": "20+泰领馆认证纯正泰味商家+泡泡泳池派对+千人水枪大战",
     "why_go": "",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "花园·星星·小径：中国新锐青年艺术家原创展",
@@ -1726,7 +1782,9 @@
     "highlights": "于上海宝龙美术馆展出，¥50",
     "why_go": "在上海宝龙美术馆的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "时代少年团「加冠礼」收官场上海站",
@@ -1784,7 +1842,9 @@
     "highlights": "时代少年团「加冠礼」收官场，预计吸引超过20万人次观众，近九成为跨城观演",
     "why_go": "在上海体育场的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "游弋之地：伦敦名流录 潘海利根十周年限时特展",
@@ -1842,7 +1902,9 @@
     "highlights": "于张园W4栋（茂名北路）展出，免费入场",
     "why_go": "限时呈现，错过不再，历史建筑中的当代体验",
     "needs_search": false,
-    "score": 49
+    "score": 49,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "BFC漫游奇境嘉年华",
@@ -1908,7 +1970,9 @@
     "highlights": "黄浦江畔沉浸式嘉年华，含水上乐园、艺术装置、主题市集、音乐演出",
     "why_go": "在BFC外滩金融中心的在地文化活动",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "urban",
+    "source_type_clean": "big"
   },
   {
     "name": "且看宋词——戴敦邦沉浸式国风艺术展",
@@ -1972,7 +2036,9 @@
     "highlights": "六大词境篇章、八十余首传世诗词，将诗词、书画、光影艺术融为一体",
     "why_go": "",
     "needs_search": true,
-    "score": 35
+    "score": 35,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "外滩中央夏日派对 HAPPY仲夏夜2.0",
@@ -2038,7 +2104,9 @@
     "highlights": "涵盖爵士评弹、电音国潮等多元活动，承包整个盛夏的浪漫与松弛",
     "why_go": "",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "盛世之器——清代康雍乾时期景德镇陶瓷珍品展",
@@ -2098,7 +2166,9 @@
     "highlights": "于浦东历史博物馆展出，免费入场",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "金手匠艺：铁器时代的金饰重生",
@@ -2158,7 +2228,9 @@
     "highlights": "于L'ÉCOLE珠宝艺术中心（淮海中路）举办，免费入场",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "音乐剧《危险游戏》十周年特别版",
@@ -2221,7 +2293,9 @@
     "highlights": "魔都长演不衰的现象级悬疑音乐剧，双男主高能对手戏，16周岁以上入场",
     "why_go": "在延安东路433号上海共舞台的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "WA!土豆节城市风味特辑",
@@ -2287,7 +2361,9 @@
     "highlights": "把贵州高原土豆饮食文化搬进上海街区，汇集地道黔味小吃、山地风物展、布艺手作工坊",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "新天地「食语市集」",
@@ -2353,7 +2429,9 @@
     "highlights": "虹桥新天地美食主题市集,汇聚特色小吃、手作美食、创意饮品,夏夜微醺好去处",
     "why_go": "历史建筑中的当代体验，免费开放",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「阳台音乐会」宝山艺术街角",
@@ -2413,7 +2491,9 @@
     "highlights": "每周六19:00-20:00民谣流行器乐轮番上演，落日灯光晚风交织浪漫",
     "why_go": "",
     "needs_search": true,
-    "score": 21
+    "score": 21,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026上海书展",
@@ -2479,7 +2559,9 @@
     "highlights": "一年一度的上海书展,全国出版机构云集,新书首发、作家签售、文化讲座、书香市集",
     "why_go": "",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「诚之书院少儿书画展」宝山区",
@@ -2537,7 +2619,9 @@
     "highlights": "于牡丹江路1258号A区1楼中庭展出，免费入场",
     "why_go": "",
     "needs_search": true,
-    "score": 21
+    "score": 21,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "东西方的感知对话·第二章《虚与实》",
@@ -2597,7 +2681,9 @@
     "highlights": "12位东西方当代艺术家，探问空间、感知与存在",
     "why_go": "",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "DOTA2 2026年国际邀请赛",
@@ -2660,7 +2746,9 @@
     "highlights": "全球顶级电竞赛事！DOTA2年度巅峰对决在上海举办，购票",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "第28届亚洲宠物展览会",
@@ -2724,7 +2812,9 @@
     "highlights": "亚洲顶级宠物展，宠物用品/食品/医疗/活动一站式，铲屎官年度盛会",
     "why_go": "在上海新国际博览中心的在地文化活动",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "上海国际房车展×改装秀",
@@ -2789,7 +2879,9 @@
     "highlights": "9万㎡超大展区，600家品牌，房车+改装+露营装备，一站式解锁户外生活方式",
     "why_go": "9万㎡超大展区，600家品牌，房车+改装+露营装备，一站式解锁户外生活方式",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "喜结梁园——沉浸式园林演艺",
@@ -2854,7 +2946,9 @@
     "highlights": "灯光技术+婚俗IP+非遗体验+文人雅集，景中有戏",
     "why_go": "",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「岭南天地·和美术馆」双展",
@@ -2912,7 +3006,9 @@
     "highlights": "和美术馆双展，含当代艺术+国际当代艺术大师个展",
     "why_go": "在和美术馆（顺德）的在地文化活动",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "和美术馆三展连看——当代艺术季",
@@ -2976,7 +3072,9 @@
     "highlights": "和美术馆夏季三个重磅展览同期开放,涵盖当代艺术、影像装置和在地文化创作,安藤忠雄设计空间打卡",
     "why_go": "学术策展深度难得一见",
     "needs_search": false,
-    "score": 34
+    "score": 34,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "漆澜：独步寻花",
@@ -3040,7 +3138,9 @@
     "highlights": "艺术家漆澜岭南首次个展，近年新作见证在西方现代绘画与中国传统文人画之间的游弋与自律抽象书写",
     "why_go": "艺术家漆澜岭南首次个展，近年新作见证在西方现代绘画与中国传统文人画之间的游弋与自律抽象书写",
     "needs_search": false,
-    "score": 51
+    "score": 51,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "小黄人与大怪兽电影主题展",
@@ -3107,7 +3207,9 @@
     "highlights": "华南限定4米金色小黄人+户外9米巨型气模，1:1还原好莱坞片场，配套快闪店",
     "why_go": "华南限定4米金色小黄人+户外9米巨型气模，1:1还原好莱坞片场，配套快闪店",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "「脚踏实地」广东拖鞋艺术展",
@@ -3172,7 +3274,9 @@
     "highlights": "明代四进古院落里的当代艺术展，以广东「省鞋」——拖鞋为创作核心，青砖古墙×潮流装置反差打卡",
     "why_go": "历史建筑中的当代体验，免费开放",
     "needs_search": false,
-    "score": 49
+    "score": 49,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "王源远：扶光入胜",
@@ -3236,7 +3340,9 @@
     "highlights": "步入艺术家记忆里层叠交错的时空，古物件与斑驳光线之间，共享遥不可及的安栖之所",
     "why_go": "限时呈现，错过不再",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "京洛风华——唐代洛阳文物展",
@@ -3301,7 +3407,9 @@
     "highlights": "唐代洛阳文物精品集结，唐三彩、铜镜、玉器超百件真迹，不出佛山看盛唐",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 46
+    "score": 46,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "笑傲武林·开擂——南风古灶功夫庙会",
@@ -3366,7 +3474,9 @@
     "highlights": "把市井江湖搬进百年古灶，日间闲游逛市、夜间闯试炼，当一天江湖人",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": false,
-    "score": 41
+    "score": 41,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「唐代洛阳文物展」",
@@ -3424,7 +3534,9 @@
     "highlights": "唐代洛阳文物展，含唐三彩+金银器+石刻造像",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「顺德世界美食节」",
@@ -3484,7 +3596,9 @@
     "highlights": "顺德世界美食节汇集全球认证纯正风味商家，免费入场",
     "why_go": "舌尖上的在地风味，不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "中国国家话剧院话剧《青蛇》",
@@ -3548,7 +3662,9 @@
     "highlights": "田沁鑫编剧导演，改编自李碧华同名小说；烟雨江南中探讨情欲、信仰与自我认知的终极命题",
     "why_go": "在佛山市演艺中心（琼花大剧院）的在地文化活动",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "宝「贝」天成——贝类动物科普展",
@@ -3614,7 +3730,9 @@
     "highlights": "近300件全球珍稀深海贝壳、贝类标本、贝雕同台展出，沉浸式海洋科普，横跨夏秋超长展期",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "国话《青蛇》佛山站",
@@ -3674,7 +3792,9 @@
     "highlights": "于佛山琼花大剧院举办，80-380元",
     "why_go": "在佛山琼花大剧院的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "CPG08 COMICUP广东湾区创作交流展",
@@ -3739,7 +3859,9 @@
     "highlights": "3000+摊同人展区，创作者特别展区，企业展馆，大湾区同人创作盛会",
     "why_go": "在潭洲国际会展中心的在地文化活动",
     "needs_search": false,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "大兵南派相声专场",
@@ -3799,7 +3921,9 @@
     "highlights": "于佛山金马剧院举办，80-280元",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "大兵×湖南笑工场王牌喜剧天团-佛山站",
@@ -3863,7 +3987,9 @@
     "highlights": "中国曲协副主席大兵领衔，赵卫国、周卫星等齐聚，相声/双簧/快板/口技多元曲艺，南派相声天花板",
     "why_go": "在佛山潭洲国际会展中心9号馆（演艺馆）的在地文化活动",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "南国书香节（广州同期）",
@@ -3926,7 +4052,9 @@
     "highlights": "南国书香节佛山分会场，全民阅读盛宴，免费入场",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "从达·芬奇到卡拉瓦乔——意大利文艺复兴艺术展",
@@ -3990,7 +4118,9 @@
     "highlights": "中国美术馆重磅引进,展出达·芬奇、拉斐尔、卡拉瓦乔等大师真迹,一览文艺复兴艺术巅峰",
     "why_go": "限时呈现，错过不再",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "段建宇：雏菊，微风，没有亲戚在写诗",
@@ -4050,7 +4180,9 @@
     "highlights": "于UCCA尤伦斯当代艺术中心举办，¥100",
     "why_go": "在UCCA尤伦斯当代艺术中心的在地文化活动",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "中国国家博物馆·古代瓷器艺术展",
@@ -4108,7 +4240,9 @@
     "highlights": "国博精选宋元明清精品瓷器，汝官哥钧定五大名窑代表器物与青花釉里红五彩粉彩斗彩等经典品类悉数亮相",
     "why_go": "在国博一口气看完中国瓷器千年巅峰，每一件都是不可再得的国宝",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "凯洛斯的回响：朱利安·夏西埃赫&洛朗·格拉索双个展",
@@ -4168,7 +4302,9 @@
     "highlights": "于798CUBE展出，¥110",
     "why_go": "限时呈现，错过不再，历史建筑中的当代体验",
     "needs_search": false,
-    "score": 52
+    "score": 52,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "童年时光机·经典动漫原稿展",
@@ -4228,7 +4364,9 @@
     "highlights": "于798艺术区展出，¥55",
     "why_go": "发现社区里的小而美",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "遇见吴哥窟·柬埔寨国家博物馆吴哥文明文物特展",
@@ -4288,7 +4426,9 @@
     "highlights": "于遇见博物馆·北京798馆展出，¥59起",
     "why_go": "在遇见博物馆·北京798馆的在地文化活动",
     "needs_search": false,
-    "score": 37
+    "score": 37,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "南天门计划——中国航天科技艺术展",
@@ -4353,7 +4493,9 @@
     "highlights": "中华世纪坛大型航天主题沉浸展,展示中国航天成就与未来畅想,含互动体验区,适合亲子打卡",
     "why_go": "在中华世纪坛的在地文化活动",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "卡斯滕·霍勒：双",
@@ -4413,7 +4555,9 @@
     "highlights": "比利时艺术家中国首次机构个展，沉浸式怀疑实验室",
     "why_go": "比利时艺术家中国首次机构个展，沉浸式怀疑实验室",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "Brunch Brother北京首展《不赶时间 10点一刻》",
@@ -4471,7 +4615,9 @@
     "highlights": "韩国治愈IP BRUNCH BROTHER北京专属场景展",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "犬夜叉30周年动画主题展",
@@ -4535,7 +4681,9 @@
     "highlights": "犬夜叉诞生30周年纪念展，经典场景还原+珍贵原画+限定周边",
     "why_go": "犬夜叉诞生30周年纪念展，经典场景还原+珍贵原画+限定周边",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「世界遗产在中国」数字沉浸展",
@@ -4593,7 +4741,9 @@
     "highlights": "北京中华世纪坛世界遗产数字沉浸展，用科技讲述中国文化遗产故事",
     "why_go": "在北京中华世纪坛的在地文化活动",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "中国工艺·遇见非遗 沉浸光影体验展",
@@ -4653,7 +4803,9 @@
     "highlights": "于遇见博物馆·北京798馆展出，¥49起",
     "why_go": "在遇见博物馆·北京798馆的在地文化活动",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "何以景德镇·手工瓷业遗存世界遗产特展",
@@ -4718,7 +4870,9 @@
     "highlights": "窑业千年、技术卓越、交流互鉴、瓷城共生四大板块，读懂中华瓷文明",
     "why_go": "",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "北京798夏日艺术市集",
@@ -4779,7 +4933,9 @@
     "highlights": "798艺术区每月每周末艺术市集，文创/手作/独立出版物",
     "why_go": "历史建筑中的当代体验，免费开放",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "2026北京仲夏电影嘉年华",
@@ -4844,7 +5000,9 @@
     "highlights": "第38届大众电影百花奖系列活动，全城13个光影市集矩阵，涵盖隆福寺、798、朝阳公园等",
     "why_go": "适合周末漫游探索，不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 38
+    "score": 38,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "何以景德镇——景德镇手工瓷业遗存展",
@@ -4908,7 +5066,9 @@
     "highlights": "景德镇刚列入世界遗产，本展遵循世界遗产框架，带您读懂那一窑火、一件瓷、一座城",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "泊遇天山 万象疆集——新疆风物生活周",
@@ -4974,7 +5134,9 @@
     "highlights": "文创、美食、手作三大主题片区，40+品牌齐聚，香甜瓜果、非遗手作、特色风物文创",
     "why_go": "文创、美食、手作三大主题片区，40+品牌齐聚，香甜瓜果、非遗手作、特色风物文创",
     "needs_search": true,
-    "score": 50
+    "score": 50,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "隆福潮集·今夜有福夏季市集",
@@ -5039,7 +5201,9 @@
     "highlights": "京味老字号、非遗手作、古都文创等50余个特色摊位，可领取限定花束、鲜花饼",
     "why_go": "京味老字号、非遗手作、古都文创等50余个特色摊位，可领取限定花束、鲜花饼",
     "needs_search": true,
-    "score": 51
+    "score": 51,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第38届大众电影百花奖·艺游百花798系列活动",
@@ -5105,7 +5269,9 @@
     "highlights": "北京798艺术区把废弃车间变成精神角落——逛一个手作市集，旧厂房的穿堂风的风穿过旧厂房，带来",
     "why_go": "罕见露天体验，历史建筑中的当代体验",
     "needs_search": false,
-    "score": 46
+    "score": 46,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "北京首届冰搭子消暑生活节",
@@ -5170,7 +5336,9 @@
     "highlights": "40余家冰饮与网红小吃一站式打卡，互动体验、创意市集齐聚",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 43
+    "score": 43,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大都潮饮节",
@@ -5235,7 +5403,9 @@
     "highlights": "高端葡萄酒节联动朝阳首届恰巴塔节，75+美食美酒品牌齐聚，阿根廷名庄佳酿品鉴",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026大都潮饮节·北京站",
@@ -5303,7 +5473,9 @@
     "highlights": "精酿+恰巴塔节+葡萄酒节+微醺社交市集，花园撸串夏夜微醺",
     "why_go": "",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "三兔二手跳蚤市集",
@@ -5368,7 +5540,9 @@
     "highlights": "胡同里的复古跳蚤市集,二手好物、古着、手作、独立出版物,慢淘一个惬意的周末午后",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 54
+    "score": 54,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "任素汐「一日即日日」Live-北京站",
@@ -5431,7 +5605,9 @@
     "highlights": "于华熙生物·润百颜ECM中心举办，购票",
     "why_go": "在华熙生物·润百颜ECM中心的在地文化活动",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "图像如何再次运动：动画、档案与现实的重组",
@@ -5491,7 +5667,9 @@
     "highlights": "2025林茨电子艺术动画节作品选映与映后谈",
     "why_go": "在UCCA报告厅的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第九届ICOS北京动漫节",
@@ -5555,7 +5733,9 @@
     "highlights": "海量IP周边、国风漫展、cosplay走秀、舞台互动一应俱全",
     "why_go": "在北京国家会议中心的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "汪苏泷「明日世界」巡回演唱会-北京站",
@@ -5619,7 +5799,9 @@
     "highlights": "明日世界演出，在国家体育场（鸟巢）上演，购票",
     "why_go": "在国家体育场（鸟巢）的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "北京国际图书节（BIBF）2026",
@@ -5677,7 +5859,9 @@
     "highlights": "于中国国际展览中心新馆举办，10-30元",
     "why_go": "在中国国际展览中心新馆的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "第六届北京CBD咖啡青年节",
@@ -5742,7 +5926,9 @@
     "highlights": "100+精品咖啡展位，15国特色咖啡品牌，免费品鉴、打卡拍照，年轻人周末休闲文艺打卡首选",
     "why_go": "",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "周深「深深的」2026巡回演唱会北京站",
@@ -5802,7 +5988,9 @@
     "highlights": "周深2026年\"深深的\"巡演北京站，鸟巢周边连唱两晚",
     "why_go": "限时呈现，错过不再",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "广西民族博物馆——傩面具与民族文化常设展",
@@ -5867,7 +6055,9 @@
     "highlights": "广西民族博物馆常设展览,展出毛南族傩面具、壮族铜鼓、民族服饰等珍贵文物,免费参观",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "南宁之夜西游狂欢节",
@@ -5933,7 +6123,9 @@
     "highlights": "西游大巡游、篝火晚会、荷花市集、火秀表演、大唐拍卖会七大玩法，地铁直达免费入场",
     "why_go": "",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "邕州盛夏·古城暑游季",
@@ -6001,7 +6193,9 @@
     "highlights": "邕州古城常态化夜间演艺+泰式风情美食市集+壮瑶非遗夜游专场，点亮夏夜；含老友汇舞台秀、汉服秀、Live音浪等",
     "why_go": "邕州古城常态化夜间演艺+泰式风情美食市集+壮瑶非遗夜游专场，点亮夏夜",
     "needs_search": false,
-    "score": 47
+    "score": 47,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "广西民族博物馆·铜鼓文化展",
@@ -6059,7 +6253,9 @@
     "highlights": "于广西民族博物馆展出，免费入场",
     "why_go": "",
     "needs_search": true,
-    "score": 30
+    "score": 30,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "广西南宁世界宠物博览会",
@@ -6123,7 +6319,9 @@
     "highlights": "3.6万㎡超大型宠物展，九大专题展区涵盖食品、用品、医疗、猫展、爬宠异宠、百鸟展等，宠物爱好者一站式打卡",
     "why_go": "在南宁国际会展中心的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "慵懒炎暑音乐会",
@@ -6186,7 +6384,9 @@
     "highlights": "经典欧美舞曲串联夏夜，在人民剧院跟着节奏摇摆，不用会跳舞",
     "why_go": "限时呈现，错过不再",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「东盟音乐周」",
@@ -6246,7 +6446,9 @@
     "highlights": "中国—东盟音乐周，东盟多国音乐家联合演出",
     "why_go": "限时呈现，错过不再",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "刘轩丞「丞长没烦恼」南宁见面会",
@@ -6309,7 +6511,9 @@
     "highlights": "演员刘轩丞南宁粉丝见面会，分享快乐与丞意",
     "why_go": "在南宁会展中心E馆的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "南宁邕江夜游文创市集",
@@ -6376,7 +6580,9 @@
     "highlights": "于邕江沿岸/民生码头举办，免费入场",
     "why_go": "罕见夜游体验，历史建筑中的当代体验",
     "needs_search": true,
-    "score": 52
+    "score": 52,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「燃烧直到终老」老友记×超级查理联合专场-南宁站",
@@ -6440,7 +6646,9 @@
     "highlights": "广西本土乐队联合专场，Livehouse沉浸摇滚体验",
     "why_go": "在地风土食材体验",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "爱是力量 中国Rave全明星-南宁站",
@@ -6504,7 +6712,9 @@
     "highlights": "全明星电音阵容南宁Livehouse派对",
     "why_go": "在福馆 Full House（青秀区金浦路23号民歌湖广场）的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026暑期亲子音乐会",
@@ -6569,7 +6779,9 @@
     "highlights": "专为亲子家庭打造的欢乐音乐派对，熟悉的旋律+丰富互动，让音乐成为暑期亲子陪伴的美好记忆",
     "why_go": "在广西文化艺术中心·音乐厅（良庆区龙堤路12号）的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「南宁国际民歌艺术节」",
@@ -6627,7 +6839,9 @@
     "highlights": "南宁国际民歌艺术节，含壮族民歌大汇+民族文化演出",
     "why_go": "在南宁国际会展中心的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026年厦门公众考古季",
@@ -6685,7 +6899,9 @@
     "highlights": "于厦门市文保中心举办，免费入场",
     "why_go": "",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "园博苑花灯乐园暑期焕新开园",
@@ -6746,7 +6962,9 @@
     "highlights": "于厦门园林博览苑举办，30-80元",
     "why_go": "罕见夜游体验，限时呈现，错过不再",
     "needs_search": true,
-    "score": 43
+    "score": 43,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "漆源鹭岛·星火成炬——厦门漆画艺术展",
@@ -6810,7 +7028,9 @@
     "highlights": "福建省级美术精品工程，厦门市美术馆珍藏漆画作品大展，邀藏品主人回展厅与旧作重逢",
     "why_go": "",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "厦门市博物馆沉浸式喜剧体验活动",
@@ -6870,7 +7090,9 @@
     "highlights": "每周六日沉浸式喜剧体验，演员融入展厅以幽默方式讲述文物故事，让文物与戏剧跨界结合",
     "why_go": "逛博物馆从未如此好玩——一边看文物一边看「戏精」飙演技",
     "needs_search": false,
-    "score": 30
+    "score": 30,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "让乾坤坐下来——两岸茶诗书画作品展",
@@ -6934,7 +7156,9 @@
     "highlights": "从台湾地区进口24件艺术作品，在厦门凤凰艺品文化保税共享平台展出，促进两岸文化交流",
     "why_go": "",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "舞台剧《她们》",
@@ -6997,7 +7221,9 @@
     "highlights": "央华戏剧2026年度重磅新作，三时空交错解构人性，兼具舞台剧灵魂与电影级质感",
     "why_go": "限时呈现，错过不再",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "麒麟剧社《济公活佛》郭德纲领衔",
@@ -7061,7 +7287,9 @@
     "highlights": "传统京剧×现代舞台，郭德纲领衔复排，嬉笑间演绎人间百态，雅俗共赏",
     "why_go": "在厦门国际会议中心海峡厅的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026三影堂无界艺术展",
@@ -7125,7 +7353,9 @@
     "highlights": "21位创作者跨媒介群展，涵盖摄影、影像、绘画、装置，展开关于历史、现实、记忆的多元探索",
     "why_go": "在三影堂厦门摄影艺术中心（集美区杏林湾营运中心2号楼三层）的在地文化活动",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「白川鸿」个展",
@@ -7183,7 +7413,9 @@
     "highlights": "于厦门宝龙艺术中心展出，免费入场",
     "why_go": "在宝龙艺术中心感受当代艺术的新锐表达",
     "needs_search": false,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "偷故事的人——白川鸿个展",
@@ -7247,7 +7479,9 @@
     "highlights": "白川鸿当代艺术个展，于厦门宝龙艺术中心展出",
     "why_go": "在宝龙艺术中心感受当代艺术的新锐表达",
     "needs_search": false,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "厦门鼓浪屿夏日音乐季",
@@ -7311,7 +7545,9 @@
     "highlights": "鼓浪屿之夏音乐季，在钢琴之岛聆听街头音乐、小型演奏会，免费入场",
     "why_go": "限时呈现，错过不再，历史建筑中的当代体验",
     "needs_search": false,
-    "score": 51
+    "score": 51,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "德云社郭德纲于谦相声专场-厦门站",
@@ -7376,7 +7612,9 @@
     "highlights": "德云社成立三十周年全国巡演厦门站，郭德纲于谦黄金搭档，满堂包袱笑翻鹭岛",
     "why_go": "在厦门海峡大剧院的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "李健「万物安生时」巡回演唱会-厦门站",
@@ -7441,7 +7679,9 @@
     "highlights": "李健巡回演唱会厦门站，以「万物安生时」为主题，赴一场温暖的音乐约定",
     "why_go": "在厦门奥林匹克体育中心凤凰体育馆的在地文化活动",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "柒淘艺术市集",
@@ -7506,7 +7746,9 @@
     "highlights": "三影堂艺术中心举办的独立艺术市集,原创插画、手作好物、独立出版、小型艺术展",
     "why_go": "",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第一届梦鱼动漫游戏嘉年华·厦门站",
@@ -7570,7 +7812,9 @@
     "highlights": "厦门全新动漫游戏品牌，嘉宾签售、舞台互动、游戏体验、周边市集",
     "why_go": "在厦门国际会展中心的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "第四届漫秋动漫文化节·厦门站",
@@ -7634,7 +7878,9 @@
     "highlights": "厦门夏日动漫盛会，cosplay、舞台演出、周边市集",
     "why_go": "在厦门国际博览中心的在地文化活动",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "舞剧《朱鹮》",
@@ -7699,7 +7945,9 @@
     "highlights": "上海歌舞团殿堂级巨作，时隔九年再度来厦，40余名舞者同台，以舞蹈赴一场自然与生命的对话",
     "why_go": "在厦门闽南大戏院大剧场的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "德云社郭德纲·于谦相声专场厦门站",
@@ -7759,7 +8007,9 @@
     "highlights": "于厦门闽南大戏院举办，380-1680元",
     "why_go": "在厦门闽南大戏院的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "李健「不止于此」巡回演唱会厦门站",
@@ -7819,7 +8069,9 @@
     "highlights": "不止于此演出，在厦门体育中心上演，380-1680元",
     "why_go": "学术策展深度难得一见",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "福梦FUMON【活着】2026巡演 厦门站",
@@ -7879,7 +8131,9 @@
     "highlights": "于RealLive And Books举办，¥150起",
     "why_go": "在RealLive And Books的在地文化活动",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "苍洱之夏·奇遇双廊——2026暑期文旅系列活动",
@@ -7946,7 +8200,9 @@
     "highlights": "扎染/银器/木雕/刺绣/甲马六大非遗展演+火把节仪式+文创市集+鱼灯夜游+篝火打跳",
     "why_go": "罕见夜游体验，免费开放",
     "needs_search": true,
-    "score": 54
+    "score": 54,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026大理啤酒嘉年华",
@@ -8014,7 +8270,9 @@
     "highlights": "音乐演出、非遗文创市集、云南美食、无人机演出、趣味互动街区，面向公众免费",
     "why_go": "音乐演出、非遗文创市集、云南美食、无人机演出、趣味互动街区，面向公众免费",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大理啤酒嘉年华",
@@ -8079,7 +8337,9 @@
     "highlights": "大理国际奥林匹克体育中心举办,蹦山咔拉咔、白族之子等乐队嗨唱,免票入场,啤酒烧烤音乐一夏",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "「大理甲马」木刻版画展",
@@ -8137,7 +8397,9 @@
     "highlights": "大理甲马木刻版画展，白族传统民间艺术，免费入场",
     "why_go": "学术策展深度难得一见",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「苍洱之夏」非遗盛会",
@@ -8197,7 +8459,9 @@
     "highlights": "「苍洱之夏」非遗盛会，白族扎染、甲马纸、火把节仪式等",
     "why_go": "远离城市的郊野松弛感，免费开放",
     "needs_search": true,
-    "score": 60
+    "score": 60,
+    "tg_category": "field",
+    "source_type_clean": "big"
   },
   {
     "name": "大理三月街市集",
@@ -8264,7 +8528,9 @@
     "highlights": "小吃、手工艺品、扎染、民族服饰、山货土产～",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 55
+    "score": 55,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大理床单厂创意市集",
@@ -8331,7 +8597,9 @@
     "highlights": "大理初代网红市集!老厂房改造的艺术空间,独立创作者手工银饰、扎染、陶艺、插画市集,文艺宠物友好",
     "why_go": "历史建筑中的当代体验，免费开放",
     "needs_search": false,
-    "score": 52
+    "score": 52,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「洱海集市」文创周末",
@@ -8392,7 +8660,9 @@
     "highlights": "大理古城·复兴路旧厂房的穿堂风的周末去处",
     "why_go": "",
     "needs_search": true,
-    "score": 43
+    "score": 43,
+    "tg_category": "nature",
+    "source_type_clean": "big"
   },
   {
     "name": "双廊国际艺术中心·非遗盛会",
@@ -8459,7 +8729,9 @@
     "highlights": "扎染/银器/木雕/刺绣/下关沱茶/甲马六项手作体验，非遗服饰大秀，16个文创摊位",
     "why_go": "扎染/银器/木雕/刺绣/下关沱茶/甲马六项手作体验，非遗服饰大秀，16个文创摊位",
     "needs_search": false,
-    "score": 48
+    "score": 48,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大理在地文化市集",
@@ -8526,7 +8798,9 @@
     "highlights": "大理在地手艺人市集，白族扎染、手工皮具、独立音乐，苍山洱海间的文艺生活",
     "why_go": "在地风土食材体验，远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 60
+    "score": 60,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大理·栖月动漫嘉年华",
@@ -8590,7 +8864,9 @@
     "highlights": "于维也纳国际酒店（大理下关店）环城南路30号附1号举办，39.9元起",
     "why_go": "在维也纳国际酒店（大理下关店）环城南路30号附1号的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "大理·第九届DWJ国风动漫嘉年华",
@@ -8654,7 +8930,9 @@
     "highlights": "国风动漫嘉年华，古风与二次元的碰撞，50元起",
     "why_go": "在维也纳国际酒店（大理下关店）环城南路30号附1号的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "火把节仪式·苍山脚下",
@@ -8712,7 +8990,9 @@
     "highlights": "火把节当晚白族传统篝火+对歌+打歌民俗活动",
     "why_go": "远离城市的郊野松弛感，免费开放",
     "needs_search": true,
-    "score": 54
+    "score": 54,
+    "tg_category": "field",
+    "source_type_clean": "big"
   },
   {
     "name": "双城匠心——广州·景德镇民间工艺交流展",
@@ -8777,7 +9057,9 @@
     "highlights": "广州市文化馆重磅展览,汇聚广彩、广绣、木雕等岭南工艺与景德镇陶瓷精品,配套非遗体验课",
     "why_go": "",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "非遗公益体验课(广彩/陶艺/插花等)",
@@ -8843,7 +9125,9 @@
     "highlights": "广州市文化馆暑期系列非遗公益课,包括广彩手绘、手作陶艺、传统插花等,免费报名参与",
     "why_go": "限时呈现，错过不再，免费开放",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "南洋文化季暨华侨粤剧展",
@@ -8906,7 +9190,9 @@
     "highlights": "南洋风情主题展+花香咖啡烘焙赛+快闪市集+民谣演奏",
     "why_go": "",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "2026广州咖啡文化季闭幕活动",
@@ -8968,7 +9254,9 @@
     "highlights": "荔湾悦汇城不像是刻意营造的文艺空间，更像是荔湾悦汇城街区菜市场生活里自然长出来的周末去处",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "原创舞剧《沙湾往事》",
@@ -9031,7 +9319,9 @@
     "highlights": "岭南风情原创舞剧，展现广东音乐之乡沙湾的故事",
     "why_go": "在广州大剧院的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "大型原创舞剧《沙湾往事》",
@@ -9095,7 +9385,9 @@
     "highlights": "广州歌舞剧院力作，以广东音乐为背景，讲述沙湾何氏家族几代人的音乐传承故事",
     "why_go": "学术策展深度难得一见",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "广州咖啡文化季闭幕活动",
@@ -9160,7 +9452,9 @@
     "highlights": "40家品牌集结，专属限定款产品、免费体验工坊、杯测体验区",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "GAF广州插画艺术节",
@@ -9224,7 +9518,9 @@
     "highlights": "原创插画、艺术周边、IP文创、画师签售，文艺青年打卡地",
     "why_go": "限时呈现，错过不再",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "杨丽萍作品《十面埋伏》",
@@ -9287,7 +9583,9 @@
     "highlights": "杨丽萍舞蹈作品，经典再现。广州大剧院暑期艺术季，购票",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "杨丽萍作品舞蹈剧场2026版《十面埋伏》",
@@ -9349,7 +9647,9 @@
     "highlights": "杨丽萍编导的舞蹈剧场作品，以楚汉相争为背景，融合当代舞蹈语言与传统美学，2026版全新升级",
     "why_go": "在广州大剧院的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "广州动漫游戏盛典·CICF×AGF",
@@ -9409,7 +9709,9 @@
     "highlights": "于广州保利世贸博览馆举办，60-120元",
     "why_go": "在广州保利世贸博览馆的在地文化活动",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "urban",
+    "source_type_clean": "big"
   },
   {
     "name": "2026广州艺术季·话剧《走出安全岛》",
@@ -9473,7 +9775,9 @@
     "highlights": "广州艺术季剧目，聚焦当代都市人的心理困境与自我突破，以细腻的表演和精巧的舞台呈现打动观众",
     "why_go": "在广州大剧院的在地文化活动",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "第34届广州博览会",
@@ -9537,7 +9841,9 @@
     "highlights": "华南地区年度综合大展，涵盖全球食材、预制菜、冷链设备、食品包装、酒水饮料等，智慧物业、健康产业博览会同期举办",
     "why_go": "在地风土食材体验，免费开放",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "许嵩「安泊猜想」巡回演唱会-广州站",
@@ -9600,7 +9906,9 @@
     "highlights": "于广东省奥林匹克体育中心体育场举办，购票",
     "why_go": "在广东省奥林匹克体育中心体育场的在地文化活动",
     "needs_search": false,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "广州国际艺术博览会",
@@ -9658,7 +9966,9 @@
     "highlights": "国内外数百家画廊数千件作品齐聚，绘画雕塑装置新媒体全覆盖，设学术主题展青年艺术专区公共艺术项目",
     "why_go": "华南年度最大艺术盛会，一站式看遍当代艺术的最新面貌",
     "needs_search": false,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "音乐后花园·意大利白弦古典吉他二重奏音乐会",
@@ -9723,7 +10033,9 @@
     "highlights": "来自意大利的古典吉他演奏家带来巴洛克到现代经典曲目，温柔治愈的音乐之夜",
     "why_go": "在广州大剧院的在地文化活动",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "南国书香节",
@@ -9781,7 +10093,9 @@
     "highlights": "年度书迷盛会，马伯庸、白岩松等名家面对面",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "烟火指数·成都双年展",
@@ -9847,7 +10161,9 @@
     "highlights": "延时闭馆到20:30，再生实验室、拼豆体验、夜间电影放映，超80万人次打卡；全球29国251位艺术家328件作品",
     "why_go": "学术策展深度难得一见",
     "needs_search": false,
-    "score": 34
+    "score": 34,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "烟火指数——2026成都双年展",
@@ -9910,7 +10226,9 @@
     "highlights": "成都双年展以「烟火指数」为主题,汇聚国内外艺术家作品,展现市井烟火与当代艺术的碰撞",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「音乐白鹿·浪漫一夏」啤酒音乐嘉年华",
@@ -9972,7 +10290,9 @@
     "highlights": "白鹿森林LiveHouse\"夏天的乐队\"系列演出、嗨啤狂欢啤酒嘉年华、中法美食汇",
     "why_go": "",
     "needs_search": true,
-    "score": 21
+    "score": 21,
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "「神仙玩水季」融创水世界",
@@ -10030,7 +10350,9 @@
     "highlights": "成都融创水世界大型玩水主题演出，清凉假日",
     "why_go": "",
     "needs_search": true,
-    "score": 21
+    "score": 21,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "墨韵石音——武侯祠唐「三绝碑」专题展",
@@ -10088,7 +10410,9 @@
     "highlights": "展览以武侯祠唐代《蜀丞相诸葛武侯祠堂碑》为核心，循着历史脉络拆解「三绝」之妙",
     "why_go": "在成都武侯祠博物馆船舫展厅的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "月是故乡明——杜甫与秦州主题文物展",
@@ -10153,7 +10477,9 @@
     "highlights": "全国首个聚焦杜甫流寓秦州的主题文物展，八家文博单位127件陶瓷、青铜、碑刻、书画精品",
     "why_go": "在杜甫草堂诗书画院美术馆的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "洛带镇第26届客家水龙季活动",
@@ -10211,7 +10537,9 @@
     "highlights": "开展泼水狂欢、水龙表演、晚风趣玩歌会、互动游戏等活动",
     "why_go": "历史建筑中的当代体验，免费开放",
     "needs_search": true,
-    "score": 49
+    "score": 49,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "成都市文化馆暑期公益培训班",
@@ -10269,7 +10597,9 @@
     "highlights": "38个公益基础班+264个教学班次，普惠零基础艺术爱好者+195个优惠提升班",
     "why_go": "",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "月是故乡明——杜甫与秦州主题文物展",
@@ -10327,7 +10657,9 @@
     "highlights": "全国首个聚焦杜甫与秦州的主题文物展，汇集127件陶瓷器、青铜器、碑刻等",
     "why_go": "在杜甫草堂诗书画院美术馆的在地文化活动",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「闪闪」成都首站快闪",
@@ -10387,7 +10719,9 @@
     "highlights": "于仁和新城购物中心1F中庭举办，免费入场",
     "why_go": "适合周末漫游探索，不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "李伯安艺术展",
@@ -10451,7 +10785,9 @@
     "highlights": "四川美术馆举办李伯安大型回顾展,展出其代表作《走出巴颜喀拉》等史诗级水墨人物巨作",
     "why_go": "限时呈现，错过不再，免费开放",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「小包辣人节」成都首个辣人节",
@@ -10509,7 +10845,9 @@
     "highlights": "40+辣系主理人集结，潮酷辣人登场，feel成都时髦精",
     "why_go": "",
     "needs_search": true,
-    "score": 40
+    "score": 40,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「得力超级文具节」成都首站",
@@ -10567,7 +10905,9 @@
     "highlights": "6大超人气IP集结，1000+好物品类全覆盖，暑假宝藏文具文创好物",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "2026成都东部新区消夏戏水电音嘉年华",
@@ -10628,7 +10968,9 @@
     "highlights": "消夏戏水+电音派对+民族演艺+美食集市，沉浸式夏日清凉旅游目的地",
     "why_go": "",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "2026首届水上运动嘉年华",
@@ -10688,7 +11030,9 @@
     "highlights": "破浪公开赛、消夏啤酒狂欢夜、萌宠休闲专区、KPOP视听派对",
     "why_go": "",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「周末儿童博物馆」品牌教育活动",
@@ -10748,7 +11092,9 @@
     "highlights": "14岁以下少年儿童量身打造，博物馆奇妙夜每周五周六晚18:30-20:30",
     "why_go": "",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "杀手龙乐队2026巡演成都站",
@@ -10808,7 +11154,9 @@
     "highlights": "于LITTLES LIVE（万象城店）举办，¥100起",
     "why_go": "在LITTLES LIVE（万象城店）的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "蜀都赋——乡情·经略与遥想中的益州万象",
@@ -10866,7 +11214,9 @@
     "highlights": "2026年8月至11月，成都武侯祠全新特展\"蜀都赋\"",
     "why_go": "在成都武侯祠博物馆的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "诗韵草堂·金石留痕拓印非遗体验",
@@ -10924,7 +11274,9 @@
     "highlights": "了解拓印非遗文化历史渊源，认识全套工具，标准拓印流程与核心技法",
     "why_go": "了解拓印非遗文化历史渊源，认识全套工具，标准拓印流程与核心技法",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "terroir",
+    "source_type_clean": "big"
   },
   {
     "name": "陆虎「像你这样的朋友3.0」成都站",
@@ -10982,7 +11334,9 @@
     "highlights": "于五粮液文化体育中心综合体育馆举办，399-2398元",
     "why_go": "在五粮液文化体育中心综合体育馆的在地文化活动",
     "needs_search": false,
-    "score": 36
+    "score": 36,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「图图讲故事」绘本共读分享会",
@@ -11042,7 +11396,9 @@
     "highlights": "天府人文艺术图书馆寺庙钟声隐约的周末去处",
     "why_go": "",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「再生实验室」双年展互动工坊",
@@ -11102,7 +11458,9 @@
     "highlights": "把家带进双年展×把双年展带回家，观众自带物品进行废物利用创作",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 38
+    "score": 38,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "凤凰传奇「吉祥如意」巡回演唱会-成都站",
@@ -11165,7 +11523,9 @@
     "highlights": "凤凰传奇成都站演唱会持续至8月9日，在东安湖体育公园主体育场上演，购票",
     "why_go": "在东安湖体育公园主体育场的在地文化活动",
     "needs_search": false,
-    "score": 25
+    "score": 25,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "Jack Thammarat & Igor Paspalj联合巡演成都站",
@@ -11225,7 +11585,9 @@
     "highlights": "于LITTLES LIVE（万象城店）举办，¥120起",
     "why_go": "在LITTLES LIVE（万象城店）的在地文化活动",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大弯街道后备箱集市",
@@ -11291,7 +11653,9 @@
     "highlights": "30个原创摊位，手工、美食、非遗，每周末18:00-22:00，拒绝批发拿货",
     "why_go": "历史建筑中的当代体验，免费开放",
     "needs_search": false,
-    "score": 46
+    "score": 46,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "成都插画展·首届国际原创插画博览会",
@@ -11351,7 +11715,9 @@
     "highlights": "展会打破小众创作壁垒，搭建集原作展出、画师交流、文创对接的专业平台",
     "why_go": "在成都世纪城新国际会展中心1号馆的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "话剧《断金》——张国立王刚张铁林「铁三角」",
@@ -11415,7 +11781,9 @@
     "highlights": "邹静之编剧，三兄弟半生羁绊与人性博弈，累计上演百余场场场爆满",
     "why_go": "在中演·成都大剧院·大剧场的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026成都·COMIDAY30动漫游戏交易展",
@@ -11475,7 +11843,9 @@
     "highlights": "成都COMIDAY30，ACG狂欢盛宴，80元",
     "why_go": "适合周末漫游探索，不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "urban",
+    "source_type_clean": "big"
   },
   {
     "name": "Uu的气象站台·热浪2026巡演成都站",
@@ -11535,7 +11905,9 @@
     "highlights": "Uu刘梦妤、程佳佳、Li-2c联合演出，¥180起",
     "why_go": "在LITTLES LIVE（万象城店）的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "凤凰传奇「吉祥如意」2026成都站",
@@ -11593,7 +11965,9 @@
     "highlights": "于成都东安湖体育公园主体育场举办，380-1380元",
     "why_go": "在成都东安湖体育公园主体育场的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "成都·COMIDAY30 动漫游戏交易展",
@@ -11659,7 +12033,9 @@
     "highlights": "同人创作、cosplay、舞台演出、动漫周边交易，西南二次元年度盛会",
     "why_go": "在成都世纪城新国际会展中心的在地文化活动",
     "needs_search": false,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "汽水音乐嘉年华-成都站",
@@ -11722,7 +12098,9 @@
     "highlights": "夏日音乐嘉年华，多元音乐人齐聚，购票",
     "why_go": "在成都（具体场地待确认）的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "泊客集·湖畔水Young市集",
@@ -11787,7 +12165,9 @@
     "highlights": "文创手作、轻食饮品与湖景夜色交织，每周五六日18:00-21:00",
     "why_go": "",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "香珠手作——串起东方雅韵",
@@ -11851,7 +12231,9 @@
     "highlights": "8月8日专场，之后每周二四六可预约散客体验",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "Mike Dawes摩登指弹吉他音乐会成都站",
@@ -11911,7 +12293,9 @@
     "highlights": "Mike Dawes摩登指弹吉他，在LITTLES LIVE（万象城店）上演，¥200起",
     "why_go": "在LITTLES LIVE（万象城店）的在地文化活动",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "少儿版《只此青绿》",
@@ -11976,7 +12360,9 @@
     "highlights": "周莉亚/韩真亲自操刀，少儿演员化身「青绿少年」生动展示《千里江山图》诞生过程，暑期成都震撼首演",
     "why_go": "",
     "needs_search": true,
-    "score": 29
+    "score": 29,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "话剧《我们成为的她》——梁咏琪跨界主演",
@@ -12040,7 +12426,9 @@
     "highlights": "改编自《82年生的金智英》，梁咏琪跨界主演，直面当代女性生存困境与自我觉醒，西南唯一站",
     "why_go": "在成都高新中演大剧院·大剧场的在地文化活动",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "刘俊麟「出川调」生日音乐会",
@@ -12100,7 +12488,9 @@
     "highlights": "出川调演出，在LITTLES LIVE（万象城店）上演，¥120起",
     "why_go": "在LITTLES LIVE（万象城店）的在地文化活动",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "话剧《农庄馆客人》——黄磊何炅再合作",
@@ -12164,7 +12554,9 @@
     "highlights": "英国剧作家凯瑟琳·莫尔执笔，二战真实历史改编，乌镇首演口碑爆棚",
     "why_go": "",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「锦江听涛」江畔音乐会",
@@ -12224,7 +12616,9 @@
     "highlights": "由街头艺人倾情演绎流行金曲，江景+音乐沉浸式露天舞台",
     "why_go": "由街头艺人倾情演绎流行金曲，江景+音乐沉浸式露天舞台",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "话剧《初步举证》——陈昊宇独角戏",
@@ -12288,7 +12682,9 @@
     "highlights": "陈昊宇首部独角戏，六万字台词浓缩两小时跌宕人生，奥利弗奖得主苏西·米勒作品",
     "why_go": "在四川大剧院·大剧场的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「三国匠造所之蜀将无双」三国主题展",
@@ -12349,7 +12745,9 @@
     "highlights": "邀请广大亲子家庭体验三国主题竹节人创作，以趣味的方式呈现蜀汉将领英武之姿",
     "why_go": "在成都武侯祠博物馆的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "虹宵雨霁联合演出",
@@ -12409,7 +12807,9 @@
     "highlights": "发声螺纹/蘇黔皖川/Sycamore三支乐队联合",
     "why_go": "在LITTLES LIVE（万象城店）的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026成都时尚发制品博览会",
@@ -12467,7 +12867,9 @@
     "highlights": "聚焦\"时尚+消费+出海\"，时尚发制品、美发工具设备、跨境电商配套",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "福梦FUMON【活着】2026巡演 成都站",
@@ -12527,7 +12929,9 @@
     "highlights": "于NUSPACE纽空间（青羊区奎星楼街）举办，¥150起",
     "why_go": "在NUSPACE纽空间（青羊区奎星楼街）的在地文化活动",
     "needs_search": false,
-    "score": 41
+    "score": 41,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「第二届蜕墟·国际再生艺术季」",
@@ -12587,7 +12991,9 @@
     "highlights": "以\"变废为宝·艺术再生·消费赋能\"为核心，再生艺术创作工坊+公共艺术展",
     "why_go": "",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "法语原版音乐剧《红舞鞋》",
@@ -12652,7 +13058,9 @@
     "highlights": "改编自安徒生童话，少女追寻芭蕾梦想的挣扎与救赎，法式美学顶级视听盛宴",
     "why_go": "首次来华，首次来华巡演国际巨制",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "舞剧《楼台会》",
@@ -12716,7 +13124,9 @@
     "highlights": "重构梁祝的全新舞剧，中式美学匠心呈现，极致舞台空间突破，于楼台之上再现生死不渝的爱与自由",
     "why_go": "在成都城市音乐厅歌剧厅的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026滇池国际咖啡文化嘉年华",
@@ -12784,7 +13194,9 @@
     "highlights": "200辆咖啡车/50+小时音乐演出/无人机咖啡派送/热气球/9公里滇咖跑，昆明年度咖啡盛事",
     "why_go": "远离城市的郊野松弛感，免费开放",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「湖滨春城·山水花都」书法美术摄影展",
@@ -12845,7 +13257,9 @@
     "highlights": "2026滇池国际咖啡文化嘉年华重要文化活动之一，昆明文旅超市同期开市运营",
     "why_go": "舌尖上的在地风味，亲近自然的高品质文化体验之选",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「火把节」野寨音乐季",
@@ -12906,7 +13320,9 @@
     "highlights": "三火耀湖滨·山海燃春城——火把节、野寨音乐季、烈焰燃咖咖啡节三大主题活动",
     "why_go": "远离城市的郊野松弛感，免费开放",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "field",
+    "source_type_clean": "big"
   },
   {
     "name": "云南民族村「烈焰燃咖·野寨音乐季」",
@@ -12971,7 +13387,9 @@
     "highlights": "山人/麻园诗人/杭盖/蛙池/Kawa/濮曼等乐队轮番登场，祭火表演+民族打跳+泼水体验",
     "why_go": "在云南民族村的在地文化活动",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "云南民族村火把节",
@@ -13038,7 +13456,9 @@
     "highlights": "9天9夜不间断火把狂欢!野寨音乐季(山人/麻园诗人/KAWA等)、火把巡游、万人打跳、烈焰燃咖市集",
     "why_go": "远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "urban",
+    "source_type_clean": "big"
   },
   {
     "name": "昆明文旅超市·一站购玩转昆明",
@@ -13099,7 +13519,9 @@
     "highlights": "景区年票、联票产品、爆款线路产品一站集结，咖啡嘉年华同场举办",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "food",
+    "source_type_clean": "big"
   },
   {
     "name": "石林火把节暨青年音乐节",
@@ -13164,7 +13586,9 @@
     "highlights": "石林风景区内的火把节主题活动,「石林火潮」青年音乐节、电音狂欢、牛王争霸、阿诗玛盛装秀",
     "why_go": "远离城市的郊野松弛感，免费开放",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "urban",
+    "source_type_clean": "big"
   },
   {
     "name": "「万人目瑙纵歌」非遗活态传承",
@@ -13224,7 +13648,9 @@
     "highlights": "景颇族国家级非遗目瑙纵歌，数万人踩着蕨叶纹路线回旋起舞，文化从展柜到日常的转变",
     "why_go": "远离城市的郊野松弛感，免费开放",
     "needs_search": true,
-    "score": 54
+    "score": 54,
+    "tg_category": "nature",
+    "source_type_clean": "big"
   },
   {
     "name": "当燃世博·电音火把狂欢节",
@@ -13289,7 +13715,9 @@
     "highlights": "非遗打铁花/彝族火舞/竹竿舞+万人火把巡游+彝族点火大典+民族融合电音Live",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "春雨937星光火把节",
@@ -13354,7 +13782,9 @@
     "highlights": "春雨937工业文化创意园不像是刻意营造的文艺空间，更像是昆明街区菜市场生活里自然长出来的周末去处",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "晋宁福安古村火把节",
@@ -13420,7 +13850,9 @@
     "highlights": "藏在昆明里的昆明市晋宁区晋城街道福安村，隔壁传来的咖啡香",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 52
+    "score": 52,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "WACGW国漫游戏博览会",
@@ -13485,7 +13917,9 @@
     "highlights": "于昆明滇池国际会展中心举办，80元起",
     "why_go": "在昆明滇池国际会展中心的在地文化活动",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "昆明翠湖周末文创市集",
@@ -13551,7 +13985,9 @@
     "highlights": "于翠湖公园周边举办，免费入场",
     "why_go": "限时呈现，错过不再，免费开放",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "非遗有集·周末非遗市集",
@@ -13613,7 +14049,9 @@
     "highlights": "昆明老街不像是刻意营造的文艺空间，更像是昆明老街街区雨后石板路的反光生活里自然长出来 雨后石板路的反…",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "盘龙区中医药文化惠民·百草市集",
@@ -13680,7 +14118,9 @@
     "highlights": "藏在昆明里的昆明新迎新城购物广场，老街烟火气",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 55
+    "score": 55,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "自然醒音乐节",
@@ -13746,7 +14186,9 @@
     "highlights": "云南本土独立音乐节,免费入场!Kawa、夸克、散人、时间不够以后等乐队两天连演,摇滚+雷鬼+Indie",
     "why_go": "在地风土食材体验，免费开放",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「山海行歌」音乐季·昆明站",
@@ -13812,7 +14254,9 @@
     "highlights": "许巍、痛仰乐队、声音玩具、贰佰、Kawa等齐聚滇池音乐广场，山海之间听音乐",
     "why_go": "远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "《戏写——关良的艺术世界》",
@@ -13876,7 +14320,9 @@
     "highlights": "系统梳理关良戏曲人物水墨画创作生涯，免费入场",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "再现圆明园——国宝百年归藏特展",
@@ -13941,7 +14387,9 @@
     "highlights": "牛/虎/猴/猪四尊圆明园兽首原件集中展出，免费面向公众",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "战斗、星球与牛皮纸：达米安·奥尔特加",
@@ -14005,7 +14453,9 @@
     "highlights": "国际当代艺术家达米安·奥尔特加装置/雕塑/影像展",
     "why_go": "在天目里美术馆的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "繁天录——中国动画英雄潮流特展",
@@ -14070,7 +14520,9 @@
     "highlights": "数百件《大闹天宫》《天书奇谭》等经典动画赛璐珞原画、创作手稿展出",
     "why_go": "",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "避暑防空洞秘境市集",
@@ -14135,7 +14587,9 @@
     "highlights": "独立创意人夏日实验市集，天然避暑空间，涵盖🚶 适合漫游等体验，免费入场",
     "why_go": "适合周末漫游探索，不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "秉灯照麒麟·重逢之约——西泠稻米季系列活动",
@@ -14199,7 +14653,9 @@
     "highlights": "稻米季系列活动，包括展览、互动等，免费入场",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "良渚文化周与遗址公园游玩",
@@ -14263,7 +14719,9 @@
     "highlights": "良渚文化与文博生活方式结合，适合历史文化打卡",
     "why_go": "良渚文化与文博生活方式结合，适合历史文化打卡",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "西湖夜市升级回归",
@@ -14329,7 +14787,9 @@
     "highlights": "西湖边夜市，「东坡有礼」巡游答题、政务盲盒、夜游门票和文创好礼",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 43
+    "score": 43,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "沉浸式赛博朋克剧场《黑盒游戏》",
@@ -14393,7 +14853,9 @@
     "highlights": "于杭州（具体场馆待确认）举办，购票",
     "why_go": "在杭州（具体场馆待确认）的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "天下同宁——中国丝绸文化大展",
@@ -14457,7 +14919,9 @@
     "highlights": "浙江省博物馆之江馆年度大展,以丝绸为线索串联中华文明交流史,含珍贵文物与数字互动体验",
     "why_go": "在浙江省博物馆之江馆的在地文化活动",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "太平年·天下同宁——五代十国文化大展",
@@ -14522,7 +14986,9 @@
     "highlights": "五代十国历史文化与影视艺术交融，沉浸式感受乱世风华",
     "why_go": "五代十国历史文化与影视艺术交融，沉浸式感受乱世风华",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "817稻米节·少年游主题快闪",
@@ -14588,7 +15054,9 @@
     "highlights": "卡游盗墓笔记快闪店，打卡、DIY、满赠福利一次解锁",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "小河公园「罐罐计划」市集",
@@ -14656,7 +15124,9 @@
     "highlights": "含手作美食摊位、免费LIVE音乐、戏水专区",
     "why_go": "含手作美食摊位、免费LIVE音乐、戏水专区",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "话剧《初步举证》",
@@ -14719,7 +15189,9 @@
     "highlights": "，于杭州东坡大剧院上演，180/280/480/680/880元",
     "why_go": "在杭州东坡大剧院的在地文化活动",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "小酷Coola「折页」巡演杭州站",
@@ -14779,7 +15251,9 @@
     "highlights": "于CH8-LIVEHOUSE（小河店）举办，¥180起",
     "why_go": "在CH8-LIVEHOUSE（小河店）的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026杭州奇妙夜·百日星「悦」游",
@@ -14845,7 +15319,9 @@
     "highlights": "活动串联西湖、运河、钱江、吴越文脉、数字科技与市井烟火，推出夜跑、夜飨、夜赏、夜秀、夜购等多类夜游产品",
     "why_go": "罕见夜游体验，免费开放",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "FUFUSOUL馥愈艺术空间 8月活动",
@@ -14909,7 +15385,9 @@
     "highlights": "包括：馥愈一夏·西瓜慢半拍（8.2）、致敬最可爱的人·建军节拥军福利周（至8.7）、七夕浪漫主题活动…",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "teagenius 新品金萱乌龙特调精酿上线",
@@ -14973,7 +15451,9 @@
     "highlights": "8月开始，18:00后第二杯免费",
     "why_go": "舌尖上的在地风味，不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "《子夜待朝花——鲁迅与茅盾文学对话展》",
@@ -15038,7 +15518,9 @@
     "highlights": "展出鲁迅、茅盾相关各类文史展品，有老版著作、创作大纲、民国刊物、篆刻印章，搭配完整茅奖作品陈列",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "《月照银山——丝绸之路上的高昌与龟兹》",
@@ -15103,7 +15585,9 @@
     "highlights": "以纺织品文物解读西域丝路交流史，免费入场",
     "why_go": "可以与主理人/艺术家深度交流，发现社区里的小而美",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "《条纹世界的奇妙之旅》亲子艺术嘉年华",
@@ -15167,7 +15651,9 @@
     "highlights": "杭州之江文化中心打造的互动与视觉并重的亲子艺术空间",
     "why_go": "在杭州之江文化中心的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "《湖山之约·金石之美》",
@@ -15232,7 +15718,9 @@
     "highlights": "展出西湖历代金石拓片与碑刻遗存，免费入场",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "《相无古今——石窟艺术超感沉浸体验》",
@@ -15297,7 +15785,9 @@
     "highlights": "数字化还原敦煌、克孜尔等石窟造像与壁画，适合沉浸式观展",
     "why_go": "",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「本草凝匠心·非遗里的中医药」主题展",
@@ -15362,7 +15852,9 @@
     "highlights": "可看、可闻、可体验的沉浸式本草文化空间，汇集全省特色道地药材标本、传统药碾、药刀等器具，设药材溯源、…",
     "why_go": "可看、可闻、可体验的沉浸式本草文化空间，汇集全省特色道地药材标本、传统药碾、药刀…",
     "needs_search": true,
-    "score": 55
+    "score": 55,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "于冬然巡回演唱会·杭州站",
@@ -15425,7 +15917,9 @@
     "highlights": "于冬然以真挚嗓音与现场感染力打动乐迷，在LiveShop Uni由你现场上演，需购票",
     "why_go": "在LiveShop Uni由你现场的在地文化活动",
     "needs_search": false,
-    "score": 30
+    "score": 30,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "仙人掌喜剧 | 晨曦「我叫什么名字」主打秀beta",
@@ -15489,7 +15983,9 @@
     "highlights": "富有个人风格的喜剧体验，带领观众感受轻松的喜剧氛围，需购票",
     "why_go": "在ALL IN喜剧公园的在地文化活动",
     "needs_search": false,
-    "score": 31
+    "score": 31,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大运河杭钢公园 晚风live音乐会",
@@ -15554,7 +16050,9 @@
     "highlights": "巨大的工业遗存化身晚风与光影的背景板；晚风live音乐将准时开唱，露天电影在高炉脚下亮起",
     "why_go": "发现社区里的小而美",
     "needs_search": false,
-    "score": 27
+    "score": 27,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大运河杭钢公园 露天电影放映",
@@ -15618,7 +16116,9 @@
     "highlights": "8月每周一二六日 20:00起，下雨取消",
     "why_go": "罕见露天体验，免费开放",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大运河杭钢公园·云游集晚风Live音乐会",
@@ -15684,7 +16184,9 @@
     "highlights": "巨大工业遗存化身晚风音乐背景板，高炉脚下每周三四五晚准时开唱，旋律和着高炉的风拂过耳畔",
     "why_go": "",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大运河杭钢公园·露天电影放映",
@@ -15750,7 +16252,9 @@
     "highlights": "高炉脚下亮起银幕，星光与故事相伴，沉浸一整晚的松弛时光",
     "why_go": "罕见露天体验，免费开放",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "朱炳仁·也葵 水果Party",
@@ -15812,7 +16316,9 @@
     "highlights": "全新品牌「朱炳仁·也葵」首饰，东方风雅在今天最酷的表达",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": false,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "杭州夜秀与街头艺术体验",
@@ -15876,7 +16382,9 @@
     "highlights": "在《最忆是杭州》《宋城千古情》等的里感受这里的气氛",
     "why_go": "限时呈现，错过不再",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "浙江省博物馆 夏季延时开放",
@@ -15940,7 +16448,9 @@
     "highlights": "浙博8月实行夏季延时开放至19:30，免费入场",
     "why_go": "发现社区里的小而美",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "禾艺术空间 暑假手作",
@@ -16006,7 +16516,9 @@
     "highlights": "每周三至周日 10:00-18:00；植物首饰DIY、压花团扇、冰激凌花束、豆荚娃娃…让自然住进日常",
     "why_go": "亲近自然的高品质文化体验之选，不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 45
+    "score": 45,
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "郝世明个展《引力场》",
@@ -16069,7 +16581,9 @@
     "highlights": "在信雅达·三清上艺术中心呈现独特视觉语言，探索空间与感知的关系",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": false,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "麋先生MIXER《马戏团运动CircUs》巡回演唱会·杭州站",
@@ -16133,7 +16647,9 @@
     "highlights": "麋先生延续乐团独有的浪漫狂想与热情氛围，在66LiveHouse上演，需购票",
     "why_go": "在66LiveHouse的在地文化活动",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "薛之谦「万兽之王」巡回演唱会-杭州站",
@@ -16196,7 +16712,9 @@
     "highlights": "万兽之王演出，在杭州奥体中心主体育场上演，购票",
     "why_go": "在杭州奥体中心主体育场的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "Andr《Shedding Skin脱皮》2026杭州站",
@@ -16256,7 +16774,9 @@
     "highlights": "于Jiulaifu Music Livehouse举办，¥150起",
     "why_go": "在Jiulaifu Music Livehouse的在地文化活动",
     "needs_search": false,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "尼康创意营杭州站",
@@ -16321,7 +16841,9 @@
     "highlights": "有拍摄场景、有作品展示、有技术老师现场帮忙",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "良渚古城遗址公园西门市集",
@@ -16385,7 +16907,9 @@
     "highlights": "在五千年前的古城遗址旁逛文创市集，感受历史的回响",
     "why_go": "在良渚古城遗址公园西门的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "万物有灵——物转·有余 蒋友柏个展",
@@ -16449,7 +16973,9 @@
     "highlights": "蒋友柏2026年度杭州个展，以「万物有灵」为核心命题的当代艺术创作，策展人吴克之",
     "why_go": "在西溪蔡志忠美术馆的在地文化活动",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "布瑞吉77%巡演杭州站",
@@ -16509,7 +17035,9 @@
     "highlights": "于CH8 Livehouse（小河店）举办，¥236起",
     "why_go": "在CH8 Livehouse（小河店）的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "杭州夏季「人才夜市」招聘会",
@@ -16574,7 +17102,9 @@
     "highlights": "待定不像是刻意营造的文艺空间，更像是待定街区旧厂房的穿堂风生活里自然长出来的聚会场景",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 40
+    "score": 40,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "蒋友柏个展《万物有灵——物转·有余》",
@@ -16638,7 +17168,9 @@
     "highlights": "艺术家蒋友柏2026杭州个展，以万物有灵为核心命题，呈现当代艺术创作的最新探索",
     "why_go": "在西溪蔡志忠美术馆的在地文化活动",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "西湖政务夜市 2026升级版",
@@ -16704,7 +17236,9 @@
     "highlights": "西湖风景名胜区不像是刻意营造的文艺空间，更像是杭州街区叶子在风中沙沙响生活里自然长出来的周末去处",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 40
+    "score": 40,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "Arthurnevawakes & 5IVE5IVE Smiling Friends巡演·杭州站",
@@ -16764,7 +17298,9 @@
     "highlights": "于Jiulaifu Music Livehouse举办，¥150起",
     "why_go": "在Jiulaifu Music Livehouse的在地文化活动",
     "needs_search": false,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "Chris James巡演杭州站",
@@ -16824,7 +17360,9 @@
     "highlights": "于CH8 Livehouse（小河店）举办，¥699起",
     "why_go": "在CH8 Livehouse（小河店）的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "味美浙江·运河寻味美食嘉年华",
@@ -16889,7 +17427,9 @@
     "highlights": "浙江各地味道汇聚，烤串烟火气、冰饮清凉感、老字号熟悉味道",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「无雷司令不夏天」德国葡萄酒品鉴派对·杭州站",
@@ -16954,7 +17494,9 @@
     "highlights": "22家酒商150+款德国葡萄酒集中品鉴，雷司令黑皮诺德国起泡酒全覆盖，驻场DJ+限定周边+佐酒美食",
     "why_go": "一次性喝遍德国葡萄酒的夏天，微醺中感受莱茵河畔的风味",
     "needs_search": false,
-    "score": 47
+    "score": 47,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "刘宇「宇宙诗人」巡回演唱会-杭州站",
@@ -17017,7 +17559,9 @@
     "highlights": "宇宙诗人演出，在杭州奥体AT中心体育馆上演，购票",
     "why_go": "在杭州奥体AT中心体育馆的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "黄霄雲2026「宇宙无敌号2.0」巡回演唱会·杭州站",
@@ -17080,7 +17624,9 @@
     "highlights": "宇宙无敌号2.0演出，在杭州奥体AT中心体育馆上演，需购票",
     "why_go": "在杭州奥体AT中心体育馆的在地文化活动",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第49届「武汉之夏」系列群众文化活动",
@@ -17145,7 +17691,9 @@
     "highlights": "汉口江滩大舞台为核心,近300场群众文化活动!广场舞展演、街头音乐会、戏曲达人秀、露天电影院",
     "why_go": "学术策展深度难得一见",
     "needs_search": false,
-    "score": 31
+    "score": 31,
+    "tg_category": "urban",
+    "source_type_clean": "big"
   },
   {
     "name": "得力超级文具节快闪·武汉站",
@@ -17211,7 +17759,9 @@
     "highlights": "6大超人气IP集结，1000+文具文创；旺旺系列、守护甜心、樱兰高校等超多IP联名，开学季文具盛宴",
     "why_go": "适合周末漫游探索，不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 49
+    "score": 49,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "武汉SKP世界风味漫游·精酿节",
@@ -17276,7 +17826,9 @@
     "highlights": "跨越洲际的味觉版图，一站式解锁精酿世界的奇趣想象，整个8月持续微醺体验",
     "why_go": "",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "「长江万里图」数字沉浸展",
@@ -17334,7 +17886,9 @@
     "highlights": "武汉美术馆大型数字沉浸展，再现长江沿线千年文化",
     "why_go": "限时呈现，错过不再",
     "needs_search": true,
-    "score": 27
+    "score": 27,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "武汉东湖夜生活节",
@@ -17396,7 +17950,9 @@
     "highlights": "武汉东湖夜生活节，露天音乐+夜市+水上运动",
     "why_go": "罕见露天体验，远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "field",
+    "source_type_clean": "big"
   },
   {
     "name": "CHIIKAWA水果市集主题快闪",
@@ -17461,7 +18017,9 @@
     "highlights": "吉伊卡哇水果市集主题快闪登陆武商梦时代!限定新品、可爱周边、满赠好礼,8.8起惊喜礼赠",
     "why_go": "",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "CHIIKAWA水果市集主题快闪·武汉站",
@@ -17526,7 +18084,9 @@
     "highlights": "武商梦时代不像是刻意营造的文艺空间，更像是武商梦时代街区运河夜风生活里自然长出来的精神角落",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 46
+    "score": 46,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "浮生一日凉——古代消夏文化展",
@@ -17590,7 +18150,9 @@
     "highlights": "汇集四馆196件精品文物，以仇英《竹梧消夏图》真迹开篇，数字互动体验",
     "why_go": "",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "央视「电影文化嘉年华·武汉专场」",
@@ -17652,7 +18214,9 @@
     "highlights": "露天电影院+非遗市集+电影工业体验+机器人巡游+美食",
     "why_go": "露天电影院+非遗市集+电影工业体验+机器人巡游+美食",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "《鬼灭之刃：无限城篇》快闪店",
@@ -17717,7 +18281,9 @@
     "highlights": "ufotable全新绘制限定系列全球首发!六城同步开启,武汉分场含打卡特典、满赠周边",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「渡江记」武汉美术馆夜场",
@@ -17778,7 +18344,9 @@
     "highlights": "武汉美术馆夏日主题夜场，含艺术讲座+工作坊",
     "why_go": "罕见夜场体验，免费开放",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "武汉第六届环形宇宙动漫游戏嘉年华",
@@ -17842,7 +18410,9 @@
     "highlights": "热门场景搭建、Coser互动、文创市集、主题影棚，二次元狂欢",
     "why_go": "在中国(武汉)文化博览中心的在地文化活动",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "第六届环形宇宙动漫游戏嘉年华",
@@ -17902,7 +18472,9 @@
     "highlights": "Coser互动+文创市集+主题影棚+游戏互动",
     "why_go": "在中国（武汉）文化博览中心的在地文化活动",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "2026武汉草莓音乐节",
@@ -17962,7 +18534,9 @@
     "highlights": "于武汉园博园举办，360-680元",
     "why_go": "学术策展深度难得一见",
     "needs_search": false,
-    "score": 21
+    "score": 21,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "博泰武汉国际珠宝展·茶博会",
@@ -18022,7 +18596,9 @@
     "highlights": "一馆双展：十万款珠宝+全品类茶叶，免费入场",
     "why_go": "舌尖上的在地风味，不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "博泰武汉国际珠宝展暨茶博会",
@@ -18086,7 +18662,9 @@
     "highlights": "翡翠/彩宝/珍珠/和田玉+六大茶类/紫砂茶器，十万余款源头珠宝及全品类茶业好物",
     "why_go": "",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "2026首届武汉疗愈博览会",
@@ -18150,7 +18728,9 @@
     "highlights": "芳香美学、音声疗愈、中医传统疗愈，疗愈工坊体验",
     "why_go": "",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "首届武汉疗愈博览会",
@@ -18208,7 +18788,9 @@
     "highlights": "芳香美学+音声疗愈+中医康养+身心疗愈，免费入场",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第17届武汉糖酒食品精品展",
@@ -18266,7 +18848,9 @@
     "highlights": "酒类饮品+休闲食品+礼盒食品中秋团购，免费入场",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "第17届武汉糖酒食品精品展暨中秋国庆团购节",
@@ -18330,7 +18914,9 @@
     "highlights": "酒类饮品/休闲食品/礼盒食品/药食同源集中展示，中秋国庆备货一站式采购",
     "why_go": "",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「骥跃升腾」三彩马的世界",
@@ -18388,7 +18974,9 @@
     "highlights": "42组60件唐代三彩马精品，含三彩舞马、三彩凤首壶等，色彩斑斓、造型精妙的唐三彩艺术展览",
     "why_go": "",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "福建舰大模型全国巡展深圳站",
@@ -18446,7 +19034,9 @@
     "highlights": "近距离看1:100复刻的福建舰巨型模型，感受电磁弹射的震撼",
     "why_go": "珍品巡展，免费开放",
     "needs_search": true,
-    "score": 30
+    "score": 30,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026深圳国防科普博览会暨军迷嘉年华",
@@ -18511,7 +19101,9 @@
     "highlights": "5万㎡展区，百余款海陆空大国重器精工复刻，真人CS实训、VR战场、亲子国防研学，挑战吉尼斯纪录",
     "why_go": "在深圳国际会展中心（宝安）的在地文化活动",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "SEGA POP-UP SHOP限时快闪",
@@ -18571,7 +19163,9 @@
     "highlights": "SEGA正版周边快闪店进驻深圳BitCity",
     "why_go": "限时呈现，错过不再，免费开放",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "LATESTART POP-UP 怪物物语正版周边店",
@@ -18629,7 +19223,9 @@
     "highlights": "于前海壹方城B1层中心广场举办，免费入场",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "香蕉鱼百人豆本展",
@@ -18689,7 +19285,9 @@
     "highlights": "香蕉鱼百人豆本展，独立出版物市集，免费入场",
     "why_go": "适合周末漫游探索，不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 46
+    "score": 46,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "十个堡堡 X 十个杯杯 深圳站巡游餐车",
@@ -18750,7 +19348,9 @@
     "highlights": "全国巡游餐车深圳站，特色美食集结，免费入场",
     "why_go": "远离城市的郊野松弛感，免费开放",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "field",
+    "source_type_clean": "small"
   },
   {
     "name": "万象前海·微风生活节",
@@ -18811,7 +19411,9 @@
     "highlights": "于万象前海B1天幕广场举办，免费入场",
     "why_go": "适合周末漫游探索，发现社区里的小而美",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "全民国防航空航天科博会",
@@ -18871,7 +19473,9 @@
     "highlights": "近600件展品、歼-20坦克装甲近距离看、VR体验",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "后海城市欢聚节·日落派对",
@@ -18931,7 +19535,9 @@
     "highlights": "草坪天幕+House音乐，吹海风Chill到飞起",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "小包假日·免费手账市集",
@@ -18991,7 +19597,9 @@
     "highlights": "原创青年文创手账市集，胶带/贴纸/印章超治愈小众设计风满满",
     "why_go": "",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "湾上幻旅 II：梦境与乐园之间",
@@ -19049,7 +19657,9 @@
     "highlights": "于深圳湾万象城B区白色魔方举办，免费入场",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "蛇口味道盲盒·拼豆",
@@ -19109,7 +19719,9 @@
     "highlights": "免费玩拼豆创作蛇口地标，完成作品直接带走，还能领20万餐饮补贴券",
     "why_go": "限时呈现，错过不再，免费开放",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "DRUMK男团舞剧《M境》",
@@ -19169,7 +19781,9 @@
     "highlights": "DRUMK男团舞剧M境，深圳首演，于深圳安托山深业上城剧场上演，280-680元",
     "why_go": "学术策展深度难得一见",
     "needs_search": false,
-    "score": 25
+    "score": 25,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "chiikawa水果市集快闪 深圳首站",
@@ -19229,7 +19843,9 @@
     "highlights": "chiikawa水果，涵盖🚶 适合漫游等体验，需实名预约",
     "why_go": "在南山万象天地水广场的在地文化活动",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "田面CDAC设计之都艺术中心·广货出海跨境新生力盛典",
@@ -19287,7 +19903,9 @@
     "highlights": "TCL、乐森机器人等企业参展，设置湾区智造工坊展示智能终端、机器人、智能家居",
     "why_go": "",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "陈佳邓丽君金曲演唱会",
@@ -19347,7 +19965,9 @@
     "highlights": "陈佳邓丽君金曲演唱会，在南山聚橙剧院上演，280-680元",
     "why_go": "学术策展深度难得一见",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026和平精英刺激空投节",
@@ -19405,7 +20025,9 @@
     "highlights": "于福田星河cocopark举办，免费入场",
     "why_go": "",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "chiikawa水果市集快闪",
@@ -19469,7 +20091,9 @@
     "highlights": "chiikawa水果系列周边+一日果农互动体验",
     "why_go": "在南山万象天地水广场的在地文化活动",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "「不急，手搓快乐局」手作市集专场",
@@ -19530,7 +20154,9 @@
     "highlights": "手作沉浸式市集专场，11:00-21:00",
     "why_go": "",
     "needs_search": true,
-    "score": 40
+    "score": 40,
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「澡点下班吧」Udoland 人类刷新中心",
@@ -19588,7 +20214,9 @@
     "highlights": "Udoland 人类刷新中心，沉浸式奇趣展览",
     "why_go": "",
     "needs_search": true,
-    "score": 23
+    "score": 23,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "千禧复古嘉年华",
@@ -19654,7 +20282,9 @@
     "highlights": "Y2K千禧风格复古市集，音乐、美食、好物",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 40
+    "score": 40,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "米菲海岛假日主题快闪",
@@ -19718,7 +20348,9 @@
     "highlights": "Miffy米菲海岛假日主题快闪，可爱打卡装置",
     "why_go": "远离城市的郊野松弛感，免费开放",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "Award360° BEST 100 展",
@@ -19781,7 +20413,9 @@
     "highlights": "年度设计大展，BEST 100获奖作品集合展，设计爱好者必看",
     "why_go": "历史建筑中的当代体验",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "WoW潮音嘉年华+夏日狂欢季",
@@ -19842,7 +20476,9 @@
     "highlights": "33天露天音乐节，23°清凉氛围感布景，嗨啤大本营+泼水派对+极光泡泡秀",
     "why_go": "",
     "needs_search": true,
-    "score": 24
+    "score": 24,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "《数学秀》沉浸式亲子科学剧",
@@ -19902,7 +20538,9 @@
     "highlights": "沉浸式互动亲子科学剧，激光束织出三维坐标轴、莫比乌斯环变身过山车轨道",
     "why_go": "在深圳龙岗国际艺术中心·歌剧厅的在地文化活动",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「来来超级」音乐节",
@@ -19964,7 +20602,9 @@
     "highlights": "深圳光明超级人气音乐节+露营+市集，免费入场",
     "why_go": "远离城市的郊野松弛感，免费开放",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "field",
+    "source_type_clean": "small"
   },
   {
     "name": "「领展中心」湾区生活节",
@@ -20025,7 +20665,9 @@
     "highlights": "领展中心湾区生活节，集市+音乐+互动游戏",
     "why_go": "",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "刘雨昕《仙那度2.0》万人演唱会",
@@ -20085,7 +20727,9 @@
     "highlights": "刘雨昕仙那度2.0大运中心8.8见，热门抢票中",
     "why_go": "在深圳大运中心的在地文化活动",
     "needs_search": true,
-    "score": 21
+    "score": 21,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "锦绣中华夏浪民族狂欢节",
@@ -20145,7 +20789,9 @@
     "highlights": "机器人全天组团巡游，串联佤族舞蹈、全民斗舞、泼水电迪多场互动",
     "why_go": "在锦绣中华民俗村的在地文化活动",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "领展中心湾区生活节",
@@ -20207,7 +20853,9 @@
     "highlights": "领展中心湾区生活节，户外主题市集+音乐+互动游戏",
     "why_go": "罕见户外体验，远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "field",
+    "source_type_clean": "small"
   },
   {
     "name": "《尼尔斯骑鹅历险》亲子剧深圳站",
@@ -20267,7 +20915,9 @@
     "highlights": "诺贝尔文学奖童话亲子剧，瑞典作家塞尔玛·拉格洛夫经典作品舞台化",
     "why_go": "在深圳南山文化馆剧院的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "刘雨昕《仙那度2.0》巡回演唱会深圳站",
@@ -20327,7 +20977,9 @@
     "highlights": "刘雨昕万人演唱会，个人巡演深圳站，门票多平台已售罄",
     "why_go": "在深圳大运中心体育馆的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "巴黎星空下芭蕾·滨海艺术中心",
@@ -20385,7 +21037,9 @@
     "highlights": "法国巴黎星空下芭蕾舞团中国巡演，180-680元",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "莫扎特《唐璜》歌剧音乐会",
@@ -20445,7 +21099,9 @@
     "highlights": "于深圳音乐厅举办，180-880元",
     "why_go": "在深圳音乐厅的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "Lindy Lee「世间星辰」艺术展",
@@ -20509,7 +21165,9 @@
     "highlights": "澳大利亚华裔艺术家Lindy Lee个展,以金属装置和光影艺术探索宇宙与生命主题",
     "why_go": "在海上世界文化艺术中心的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "巨型气模作品展 Hard mega! super inflatable funny show",
@@ -20567,7 +21225,9 @@
     "highlights": "Hard mega! super inflatable funny show华南首展，巨型气模装置艺术展",
     "why_go": "首次亮相，免费开放",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "Ours深圳人才公园日落派对",
@@ -20627,7 +21287,9 @@
     "highlights": "Ours品牌日落派对，House音乐+海风+落日",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「加勒比」治愈系光学展",
@@ -20687,7 +21349,9 @@
     "highlights": "高颜值光学体验展，结合世界之窗夜景与世界文化遗产元素的沉浸式夜场",
     "why_go": "",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "陈粒《重走西游》巡回演唱会深圳站",
@@ -20747,7 +21411,9 @@
     "highlights": "于华润深圳湾体育中心举办，380-1280元",
     "why_go": "在华润深圳湾体育中心的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "薛之谦「万兽之王」巡回演唱会-深圳站",
@@ -20810,7 +21476,9 @@
     "highlights": "万兽之王演出，在深圳大运中心体育场上演，购票",
     "why_go": "在深圳大运中心体育场的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "孟京辉戏剧《恋爱的犀牛》",
@@ -20870,7 +21538,9 @@
     "highlights": "孟京辉工作室经典戏剧，长演不衰的爱情实验话剧",
     "why_go": "在深圳保利剧院的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "落日飞车「世界的人」深圳演唱会",
@@ -20930,7 +21600,9 @@
     "highlights": "世界的人演出，在B10现场上演，380-680元",
     "why_go": "学术策展深度难得一见",
     "needs_search": true,
-    "score": 24
+    "score": 24,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "潘玉良艺术展",
@@ -20994,7 +21666,9 @@
     "highlights": "深圳当代艺术馆呈现民国传奇女画家潘玉良作品展,涵盖油画、素描、雕塑等百余件作品",
     "why_go": "",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "IOTE国际物联网展",
@@ -21054,7 +21728,9 @@
     "highlights": "RFID、AIoT、智能硬件前沿黑科技，需预登记",
     "why_go": "在宝安国际会展中心的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "南国书香节（深圳分会）",
@@ -21112,7 +21788,9 @@
     "highlights": "马伯庸、白岩松等名家面对面，还有国际作家对谈",
     "why_go": "在广交会展馆B区的在地文化活动",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "周深2026巡回演唱会·深圳站",
@@ -21172,7 +21850,9 @@
     "highlights": "周深2026年巡回演唱会深圳站，空灵嗓音穿透夜空，演绎《大鱼》《光亮》等经典曲目",
     "why_go": "在深圳大运中心的在地文化活动",
     "needs_search": true,
-    "score": 21
+    "score": 21,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "蔡依林Ugly Beauty巡演深圳站",
@@ -21230,7 +21910,9 @@
     "highlights": "于深圳湾体育中心春茧举办，380-1680元",
     "why_go": "在深圳湾体育中心春茧的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "龙岗午后音乐时光（民乐专场）",
@@ -21290,7 +21972,9 @@
     "highlights": "8月主打胡琴/二胡/古筝，边讲边演，感受岭南国风雅韵",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第三届澳门国际儿童艺术节",
@@ -21357,7 +22041,9 @@
     "highlights": "表演节目、艺术展览、电影展、艺术体验营、工作坊、艺术嘉年华，亲子家庭的夏日艺文盛宴",
     "why_go": "",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「来银河，尽兴玩一夏」晒图有礼",
@@ -21415,7 +22101,9 @@
     "highlights": "来澳门银河，在小红书晒图笔记，瓜分百万流量，送颜值界天花板四国风味蛋挞",
     "why_go": "",
     "needs_search": true,
-    "score": 35
+    "score": 35,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "O.O.O.市场·「夏日微醺音乐祭」",
@@ -21476,7 +22164,9 @@
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
     "score": 0,
-    "exclude_reason": "纯商业促销"
+    "exclude_reason": "纯商业促销",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「山里」叶月会席",
@@ -21534,7 +22224,9 @@
     "highlights": "炎炎盛夏，以一席精雕细琢的日本盛宴感动您的味蕾，1280-2580澳门元",
     "why_go": "在澳门丽思卡尔顿的在地文化活动",
     "needs_search": false,
-    "score": 35
+    "score": 35,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「阿布和他的朋友们」爵士全明星音乐会",
@@ -21594,7 +22286,9 @@
     "highlights": "知名爵士钢琴家阿布领衔，汇聚中外顶尖音乐人，豪华演出阵容多元曲风交融",
     "why_go": "在澳门银河的在地文化活动",
     "needs_search": false,
-    "score": 24
+    "score": 24,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "阿布和他的朋友们·爵士全明星音乐会",
@@ -21658,7 +22352,9 @@
     "highlights": "爵士全明星阵容集结澳门，夏日夜晚的爵士盛宴",
     "why_go": "澳门本地的在地文化活动",
     "needs_search": true,
-    "score": 24
+    "score": 24,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026粤澳名优商品展",
@@ -21722,7 +22418,9 @@
     "highlights": "459家参展商/6大展区/逾万款名优产品，沉浸式智慧银发康养+《中年好声音4》献唱+非遗长鼓舞",
     "why_go": "459家参展商/6大展区/逾万款名优产品，沉浸式智慧银发康养+《中年好声音4》献…",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "2026粤澳名优商品展",
@@ -21787,7 +22485,9 @@
     "highlights": "聚焦银发经济与健康生活，六大展区涵盖广东名优商品、一带一路商品、智慧康养体验馆，免费入场",
     "why_go": "",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "BOMBANA星厨仲夏意叙",
@@ -21845,7 +22545,9 @@
     "highlights": "BOMBANA家族三位名厨齐聚，共同礼赞盛夏的明媚暖阳、欢聚情谊",
     "why_go": "在澳门银河的在地文化活动",
     "needs_search": true,
-    "score": 35
+    "score": 35,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "GMMTV Fan Fest 2026 in Macau",
@@ -21907,7 +22609,9 @@
     "highlights": "GMMTV十四位人气艺人齐聚澳门!Gemini、Fourth、Pond、Phuwin等,歌舞与心跳同…",
     "why_go": "在威尼斯人综艺馆的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "Kawo夏日卡欢水漾市集",
@@ -21973,7 +22677,9 @@
     "highlights": "巨型打卡装置、轻食文创、亲子划船体验、堆沙游玩区，荔枝碗船厂片区",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 46
+    "score": 46,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「毛豆单口喜剧」《就差一点》澳门站",
@@ -22033,7 +22739,9 @@
     "highlights": "把生活故事揉进笑点里，用真诚演绎喜剧，280-680澳门元",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 35
+    "score": 35,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "夏日卡欢水漾市集",
@@ -22099,7 +22807,9 @@
     "highlights": "荔枝碗船厂片区巨型打卡装置+轻食文创市集+亲子划船+堆沙游乐区，每周末开放",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 49
+    "score": 49,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "澳门夏日嘉年华2026",
@@ -22165,7 +22875,9 @@
     "highlights": "于澳门旅游塔/西湾湖广场举办，免费入场",
     "why_go": "",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「尚坊」六手联乘米其林风味飨宴",
@@ -22223,7 +22935,9 @@
     "highlights": "汇聚传承、创新与匠心厨艺，米其林六手联乘的非凡味觉体验",
     "why_go": "在澳门莱佛士酒店尚坊的在地文化活动",
     "needs_search": true,
-    "score": 35
+    "score": 35,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "澳门新桥七夕仲夏旅游体验",
@@ -22290,7 +23004,9 @@
     "highlights": "澳门新桥花园不像是刻意营造的文艺空间，更像是澳门新桥花园街区叶子在风中沙沙响生活里自然长出来的周末去处",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「凉辰美景上下杭」夏季营销",
@@ -22350,7 +23066,9 @@
     "highlights": "上下杭历史文化街区夏季系列活动，免费入场",
     "why_go": "历史建筑中的当代体验，免费开放",
     "needs_search": true,
-    "score": 46
+    "score": 46,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "「中洲岛」暑期艺术季·FULLAND复兴季",
@@ -22408,7 +23126,9 @@
     "highlights": "于福州中洲岛举办，免费入场",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 43
+    "score": 43,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "朱炳仁熔铜艺术20周年特展·福州首展",
@@ -22473,7 +23193,9 @@
     "highlights": "非遗铜雕大师朱炳仁20周年巡展福州站，《天葵》《河清海晏》《九运中国鹿》等代表作亮相",
     "why_go": "非遗铜雕大师朱炳仁20周年巡展福州站，《天葵》《河清海晏》《九运中国鹿》等代表作亮相",
     "needs_search": true,
-    "score": 59
+    "score": 59,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "毕加索：像孩子一样·真迹光影互动艺术展",
@@ -22538,7 +23260,9 @@
     "highlights": "雕塑、陶瓷、舞台道具，AR互动+沉浸式光影空间，四个空间完整呈现艺术大师一生",
     "why_go": "雕塑、陶瓷、舞台道具，AR互动+沉浸式光影空间，四个空间完整呈现艺术大师一生",
     "needs_search": true,
-    "score": 51
+    "score": 51,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "毕加索：像孩子一样——真迹·光影互动艺术展",
@@ -22603,7 +23327,9 @@
     "highlights": "40余件原作真迹，含雕塑、舞台道具、陶瓷、互动装置，AR黑科技+沉浸式光影空间",
     "why_go": "在福州软件园A区双创新城的在地文化活动",
     "needs_search": false,
-    "score": 51
+    "score": 51,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "话剧《宝岛一村》专属版",
@@ -22663,7 +23389,9 @@
     "highlights": "赖声川经典话剧《宝岛一村》专属版福州站，于福州海峡文化艺术中心上演，180-680元",
     "why_go": "在福州海峡文化艺术中心的在地文化活动",
     "needs_search": false,
-    "score": 30
+    "score": 30,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「夏一站，趣福州」研学旅游季",
@@ -22723,7 +23451,9 @@
     "highlights": "于福州各区县举办，免费入场",
     "why_go": "不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "捷克首席少女合唱团JITRO童声合唱音乐会",
@@ -22783,7 +23513,9 @@
     "highlights": "\"波西米亚狂想之夜·聆听德沃夏克故乡的天籁\"",
     "why_go": "在福建大剧院歌剧厅的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "闽剧《双蝶扇》惠民演出",
@@ -22841,7 +23573,9 @@
     "highlights": "闽剧《双蝶扇》惠民演出，中国文化艺术政府奖文华表演奖得主演",
     "why_go": "在福建省闽剧艺术中心剧场的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "儿童剧《恐龙归来之小精灵探险记》",
@@ -22901,7 +23635,9 @@
     "highlights": "2026第七届·打开艺术之门系列，60-180元",
     "why_go": "在福州海峡文化艺术中心的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "吾土吾民——馆藏宁夏乡土美术作品的多维表达",
@@ -22966,7 +23702,9 @@
     "highlights": "闽宁协作三十载·宁夏馆藏乡土美术作品展，笔墨匠心间感受塞上江南的乡土画卷",
     "why_go": "",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "上海美术电影制片厂《葫芦兄弟》",
@@ -23027,7 +23765,9 @@
     "highlights": "2026第七届·打开艺术之门系列经典改编儿童剧",
     "why_go": "在福州海峡文化艺术中心的在地文化活动",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "《重返侏罗纪》大型沉浸式亲子舞台剧",
@@ -23087,7 +23827,9 @@
     "highlights": "2026第七届·打开艺术之门系列沉浸式亲子舞台剧",
     "why_go": "在福州海峡文化艺术中心的在地文化活动",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026榕城夏日海鲜美食季（长乐专场）",
@@ -23152,7 +23894,9 @@
     "highlights": "下沙海滨百桌海鲜火锅盛宴，开渔日第一网海鲜直抵锅中，渔港直达鲜味体验",
     "why_go": "限时呈现，错过不再，远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "《柴可夫斯基的钢琴日记》鲁超钢琴独奏音乐会",
@@ -23212,7 +23956,9 @@
     "highlights": "2026第七届·打开艺术之门系列鲁超钢琴独奏音乐会",
     "why_go": "在福州海峡文化艺术中心的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "福州暑期非遗体验周",
@@ -23277,7 +24023,9 @@
     "highlights": "在三坊七巷历史街区体验福州非遗技艺：脱胎漆器、软木画、油纸伞制作",
     "why_go": "在三坊七巷历史街区体验福州非遗技艺：脱胎漆器、软木画、油纸伞制作",
     "needs_search": true,
-    "score": 51
+    "score": 51,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第十届迷鹿动漫展·福州站",
@@ -23341,7 +24089,9 @@
     "highlights": "cosplay、舞台演出、嘉宾签售、动漫周边市集",
     "why_go": "在福州海峡国际会展中心的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "正版国漫首部2.5次元真人舞台剧《一人之下》第一部",
@@ -23399,7 +24149,9 @@
     "highlights": "于福州海峡文化艺术中心举办，180-680元",
     "why_go": "在福州海峡文化艺术中心的在地文化活动",
     "needs_search": false,
-    "score": 41
+    "score": 41,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "《放屁大象吹低音号》德国原版绘本启蒙交响音乐会",
@@ -23460,7 +24212,9 @@
     "highlights": "2026市民音乐会，德国原版绘本启蒙交响音乐会",
     "why_go": "在福州海峡文化艺术中心的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "沪剧《风雪夜归人》",
@@ -23518,7 +24272,9 @@
     "highlights": "于福建大剧院歌剧厅举办，30-180元",
     "why_go": "在福建大剧院歌剧厅的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "舞台剧《她们》",
@@ -23576,7 +24332,9 @@
     "highlights": "舞台剧《她们》，于福州海峡文化艺术中心上演，180-680元",
     "why_go": "在福州海峡文化艺术中心的在地文化活动",
     "needs_search": false,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "话剧《双生镜》浙江话剧团",
@@ -23636,7 +24394,9 @@
     "highlights": "，于福建大剧院歌剧厅上演，30-180元",
     "why_go": "在福建大剧院歌剧厅的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "鲍罗丁钢琴三重奏音乐会",
@@ -23696,7 +24456,9 @@
     "highlights": "鲍罗丁钢琴三重奏音乐会，于福州海峡文化艺术中心上演",
     "why_go": "在顶级声学空间聆听俄罗斯经典室内乐",
     "needs_search": false,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "歌剧《卡门》中文版",
@@ -23756,7 +24518,9 @@
     "highlights": "歌剧《卡门》中文版，厦门歌剧爱乐合唱团+福州海峡交响乐团",
     "why_go": "在福建大剧院歌剧厅的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "苗疆秘境狂欢节——傩文化沉浸式演艺",
@@ -23819,7 +24583,9 @@
     "highlights": "花果园鼓楼风雨桥变身「苗疆秘境」!傩面舞、火棍驱邪、树神祭祀沉浸式演出,佩戴傩面成为演出的一部分",
     "why_go": "远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "傩文化博物馆手绘傩面体验",
@@ -23884,7 +24650,9 @@
     "highlights": "贵州傩文化博物馆非遗手工体验,亲手绘制专属傩文化文创帆布包,观看傩堂戏公益演出",
     "why_go": "",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「赶场」2026贵阳精酿啤酒节",
@@ -23945,7 +24713,9 @@
     "highlights": "42家精酿品牌集结，10+贵阳本土OG下酒美食，醉拳八段锦+麻将大赛+乐队DJ",
     "why_go": "在地风土食材体验，免费开放",
     "needs_search": false,
-    "score": 38
+    "score": 38,
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "赶场·2026贵阳精酿啤酒节",
@@ -24012,7 +24782,9 @@
     "highlights": "42家精酿品牌集结阿云朵仓，四大在地风味评选（咖啡/水果/茶/香辛料），醉拳八段锦、麻将大赛、乐队D…",
     "why_go": "在地风土食材体验，免费开放",
     "needs_search": false,
-    "score": 27
+    "score": 27,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "周深「深深的」2026贵阳演唱会",
@@ -24072,7 +24844,9 @@
     "highlights": "周深「深深的」贵阳两晚连唱，《大鱼》《光亮》《人是》神曲接连登场",
     "why_go": "在贵阳奥林匹克体育中心的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "周深「深深的」巡回演唱会-贵阳站",
@@ -24135,7 +24909,9 @@
     "highlights": "深深的演出，在奥林匹克体育中心体育场上演，购票",
     "why_go": "在奥林匹克体育中心体育场的在地文化活动",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "陈卓璇2026「当•拾」巡回演唱会",
@@ -24195,7 +24971,9 @@
     "highlights": "新生代实力唱将陈卓璇首度登陆贵阳，用嗓音重构青春记忆",
     "why_go": "",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026黔粤精品美食美酒文化周",
@@ -24261,7 +25039,9 @@
     "highlights": "180余家品牌，黔味+粤菜+环球风味，开放式厨房、长桌宴、酸汤联赛、微醺快闪",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 43
+    "score": 43,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "黔粤美食文化周·Chill Power面包节3.0",
@@ -24329,7 +25109,9 @@
     "highlights": "烘焙展、果酵酿酒DIY、亲子谷物烘焙工坊、微醺快闪空间，习酒君品文化互动",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 46
+    "score": 46,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "欢子「我的青春有你」2026巡回演唱会贵阳站",
@@ -24389,7 +25171,9 @@
     "highlights": "情歌王子欢子《心痛2009》全场泪目，回忆杀满分",
     "why_go": "在贵阳国际会议展览中心一号馆的在地文化活动",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026 Chill Power咖啡面包节3.0",
@@ -24457,7 +25241,9 @@
     "highlights": "黔粤及全球优质烘焙、咖啡、文创集结，果酵酿酒DIY+亲子烘焙工坊",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 46
+    "score": 46,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026ChillPower咖啡面包节",
@@ -24518,7 +25304,9 @@
     "highlights": "\"无数个发酵分子\"主题，黔粤烘焙文化、酱酒文化深度跨界融合",
     "why_go": "限时呈现，错过不再，免费开放",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "徐良2026「时间折叠」巡回演唱会",
@@ -24578,7 +25366,9 @@
     "highlights": "QQ音乐三巨头之一徐良，用熟悉的旋律串联起学生时代的专属回忆",
     "why_go": "在贵阳体育馆的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "徐良「时间折叠」巡回演唱会-贵阳站",
@@ -24642,7 +25432,9 @@
     "highlights": "于贵阳体育馆举办，购票",
     "why_go": "学术策展深度难得一见",
     "needs_search": false,
-    "score": 31
+    "score": 31,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026JUMPPARK腾讯视频音乐大赏",
@@ -24702,7 +25494,9 @@
     "highlights": "那英、单依纯、小鬼-王琳凯、黄子弘凡等数十位实力音乐人集结",
     "why_go": "在观山湖公园民族大联欢广场的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "张韶涵2026玩家巡回演唱会贵阳站",
@@ -24762,7 +25556,9 @@
     "highlights": "张韶涵玩家巡演贵阳站，《隐形的翅膀》《欧若拉》《淋雨一直走》全经典Live",
     "why_go": "在贵阳奥林匹克体育中心的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "湖南省博物馆「马王堆」数字展",
@@ -24820,7 +25616,9 @@
     "highlights": "全息投影数字交互3D mapping还原马王堆T形帛画素纱禅衣等文物细节，沉浸式漫游辛追夫人地下宫殿",
     "why_go": "用数字技术穿越两千年，零距离感受汉代贵族的生活与信仰",
     "needs_search": false,
-    "score": 35
+    "score": 35,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「湘江音乐节」夏夜狂欢",
@@ -24880,7 +25678,9 @@
     "highlights": "湘江音乐节周末专场，多组本土乐队轮番登台",
     "why_go": "在地风土食材体验，免费开放",
     "needs_search": true,
-    "score": 24
+    "score": 24,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026广州咖啡文化季花香咖啡烘焙邀请赛预选赛（联动）",
@@ -24941,7 +25741,9 @@
     "highlights": "于广州华侨博物馆举办，免费入场",
     "why_go": "舌尖上的在地风味，不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 41
+    "score": 41,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「闪闪发光的孩子」夏日才艺大舞台",
@@ -25001,7 +25803,9 @@
     "highlights": "青少年儿童公益才艺展演，综合场/声乐场/器乐场",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "踏寻红色足迹·传习非遗匠心暑期公益课",
@@ -25062,7 +25866,9 @@
     "highlights": "红色研学+非遗手作亲子体验，每天14:30-16:30",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "十四行诗插画手账艺术节·糖果时光",
@@ -25124,7 +25930,9 @@
     "highlights": "双视觉双周边的治愈系手帐艺术节，淘手帐好物、看画师签绘，生活里的那颗糖等你来尝",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 43
+    "score": 43,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大都潮饮节·长沙站",
@@ -25192,7 +26000,9 @@
     "highlights": "潮饮+集市+音乐+城市烟火气+浪漫落日，茶饮、精品咖啡、创意特调一站式打卡，N+惊喜玩法三天限定",
     "why_go": "潮饮+集市+音乐+城市烟火气+浪漫落日，茶饮、精品咖啡、创意特调一站式打卡，N+…",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "橘洲唱晚·暑期非遗专场演出",
@@ -25257,7 +26067,9 @@
     "highlights": "依托橘子洲夏夜纳凉文化氛围，湘剧、花鼓戏、长沙弹词、皮影戏传承人及青年演员专场，设戏迷互动环节",
     "why_go": "",
     "needs_search": true,
-    "score": 51
+    "score": 51,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「暑你精彩」非遗传习体验季",
@@ -25317,7 +26129,9 @@
     "highlights": "药用湘艾制作+长沙谜语+非遗手作，免费入场",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "新芙蓉动漫节",
@@ -25381,7 +26195,9 @@
     "highlights": "长沙最大动漫展会之一,Cosplay大赛、同人摊位、声优见面、宅舞表演,二次元狂欢盛宴",
     "why_go": "在长沙国际会展中心的在地文化活动",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "长沙火宫殿非遗市集",
@@ -25447,7 +26263,9 @@
     "highlights": "非遗手工艺展示+臭豆腐等长沙小吃体验，感受烟火长沙",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 49
+    "score": 49,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "非遗有「集」·烟火长沙休闲市集",
@@ -25509,7 +26327,9 @@
     "highlights": "中国民俗画创作基地（蔡二茶馆）不像是刻意营造的文艺空间，更像是长沙街区寺庙钟声隐约生活里自然长出来的周末去处",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 51
+    "score": 51,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "全国首届「万物有型」3D打印设计展",
@@ -25569,7 +26389,9 @@
     "highlights": "100+展位，3D打印设计比赛+创意市集+互动体验",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "千禧原创集市",
@@ -25634,7 +26456,9 @@
     "highlights": "Y2K甜酷风满格，创意复古、古着服饰、创意饮品，场景布置自带年代滤镜，拍照超出片",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 40
+    "score": 40,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「橘洲音乐节」2026长沙站",
@@ -25694,7 +26518,9 @@
     "highlights": "于橘子洲头沙滩公园举办，280-680元",
     "why_go": "在橘子洲头沙滩公园的在地文化活动",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "凤凰传奇「吉祥如意」巡回演唱会-长沙站",
@@ -25757,7 +26583,9 @@
     "highlights": "吉祥如意演出，在贺龙体育场上演，购票",
     "why_go": "学术策展深度难得一见",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "太阳手账节",
@@ -25821,7 +26649,9 @@
     "highlights": "长沙凯德壹中心不像是刻意营造的文艺空间，更像是长沙街区旧厂房的穿堂风生活里自然长出来的精神角落",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": false,
-    "score": 43
+    "score": 43,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "李昢：一九九八年至今的创作",
@@ -25881,7 +26711,9 @@
     "highlights": "于M+博物馆二楼西展厅举办，HK$140",
     "why_go": "在M+博物馆二楼西展厅的在地文化活动",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "致电一首诗·香港",
@@ -25941,7 +26773,9 @@
     "highlights": "于M+博物馆二楼焦点空间举办，免费入场",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "皮克斯夏日狂欢趴——香港迪士尼",
@@ -26006,7 +26840,9 @@
     "highlights": "无人机光影汇演+水花大街派对+100位表演者巡游，童心大爆发",
     "why_go": "在香港迪士尼乐园的在地文化活动",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "设计啊！感受日常设计之奇妙",
@@ -26066,7 +26902,9 @@
     "highlights": "21件可动手玩的互动展品，360度环幕影像",
     "why_go": "在M+博物馆G层地下大堂展厅的在地文化活动",
     "needs_search": false,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "CHIIKAWA巨型木马展",
@@ -26124,7 +26962,9 @@
     "highlights": "于九龙塘又一城展出，免费入场",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "2026夏日维港音乐节",
@@ -26184,7 +27024,9 @@
     "highlights": "于维多利亚港举办，免费入场",
     "why_go": "",
     "needs_search": true,
-    "score": 26
+    "score": 26,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "香港书展2026",
@@ -26242,7 +27084,9 @@
     "highlights": "于香港会议展览中心展出，10-100港币",
     "why_go": "在地风土食材体验",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "terroir",
+    "source_type_clean": "big"
   },
   {
     "name": "M+儿童夏令主场：创作日营",
@@ -26303,7 +27147,9 @@
     "highlights": "跟随艺术家创作并在博物馆公开展出作品，HK$800/期",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": false,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "CHIIKAWA ARTIVERSE 特展",
@@ -26369,7 +27215,9 @@
     "highlights": "全球首座CHIIKAWA巨型回旋木马装置!K11 MUSEA室内+海滨户外双展区,Nagano全新创…",
     "why_go": "全球首座CHIIKAWA巨型回旋木马装置!K11 MUSEA室内+海滨户外双展区…",
     "needs_search": true,
-    "score": 50
+    "score": 50,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "M+博物馆草间弥生个展",
@@ -26427,7 +27275,9 @@
     "highlights": "草间弥生大型回顾展，含波点系列+无限镜屋经典装置",
     "why_go": "在M+博物馆的在地文化活动",
     "needs_search": true,
-    "score": 37
+    "score": 37,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "CHIIKAWA 小可吉瓦艺术特展",
@@ -26491,7 +27341,9 @@
     "highlights": "130余幅独家原画搭配光影沉浸室，户外巨型木马装置配维港夜景",
     "why_go": "130余幅独家原画搭配光影沉浸室，户外巨型木马装置配维港夜景",
     "needs_search": false,
-    "score": 46
+    "score": 46,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "中环街市×LOCOLOCO「夏の納涼」创意市集",
@@ -26556,7 +27408,9 @@
     "highlights": "日系夏日纳凉主题文创市集，手作饰物、生活选物、香氛产品、插画精品",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 46
+    "score": 46,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "古埃及文明大展——埃及博物馆珍藏",
@@ -26620,7 +27474,9 @@
     "highlights": "250件埃及博物馆顶级馆藏首度在港亮相，涵盖法老雕像木乃伊黄金面具莎草纸文献，香港历来最大古埃及展",
     "why_go": "不用飞开罗，在香港就能直面法老时代的辉煌与神秘",
     "needs_search": false,
-    "score": 33
+    "score": 33,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "长安万象——陕西隋唐文明展",
@@ -26684,7 +27540,9 @@
     "highlights": "聚焦陕西隋唐文明，珍贵文物、非遗珍品、复刻古迹场景，还原盛唐长安繁华",
     "why_go": "在香港各大文博展厅的在地文化活动",
     "needs_search": true,
-    "score": 50
+    "score": 50,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "Dance Well @ M+ 2026",
@@ -26744,7 +27602,9 @@
     "highlights": "于M+博物馆举办，免费入场",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "中環街市 夏の納涼·創意市集",
@@ -26810,7 +27670,9 @@
     "highlights": "日系夏日纳凉主题市集，手作饰物、文创设计、香氛蜡烛、插画精品汇聚中环街市，清爽有质感的暑假限定",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 49
+    "score": 49,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "香港足球峰会2026：拜仁慕尼黑vs阿士东维拉",
@@ -26875,7 +27737,9 @@
     "highlights": "在启德主场馆对阵英超劲旅维拉，1982欧冠决赛44年后重演",
     "why_go": "在启德主场馆的在地文化活动",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "SOHO MARKET 8月生活市集@D Park",
@@ -26941,7 +27805,9 @@
     "highlights": "每周末慢活市集，服飾首飾、花藝布藝、烘焙糕餅、咖啡蠟燭等手工产品",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 46
+    "score": 46,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "香港貿發局美食博覽2026",
@@ -27006,7 +27872,9 @@
     "highlights": "全球美食汇聚，美食商贸博览+美食博览+家电家品博览+美与健生活博览四展联动",
     "why_go": "在香港會議展覽中心的在地文化活动",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "香港贸发局美食博览2026",
@@ -27070,7 +27938,9 @@
     "highlights": "环球美食荟萃，同期美与健生活博览、家电家居博览",
     "why_go": "在香港会议展览中心的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "酸民盛會·初夏嘉年華市集@AIRSIDE",
@@ -27138,7 +28008,9 @@
     "highlights": "酸甜系主題市集，柑橘檸檬夏日限定手工特飲甜品，本地原創手作品牌、幽默插畫、寵物友善",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 52
+    "score": 52,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "珍妮特·卡迪夫：四十部经文歌",
@@ -27198,7 +28070,9 @@
     "highlights": "40声部环绕声音装置，超凡脱俗的音乐空间体验",
     "why_go": "在M+博物馆B2层展演空间的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "古天乐 MY FIRST SHOW 红馆演唱会",
@@ -27261,7 +28135,9 @@
     "highlights": "于红磡香港体育馆举办，HKD 480-1080",
     "why_go": "学术策展深度难得一见",
     "needs_search": false,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "香港电脑通讯节2026",
@@ -27325,7 +28201,9 @@
     "highlights": "电脑、通讯、电子产品，300万消费券人人有份",
     "why_go": "在香港会议展览中心1号展览厅的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "M+ 亲子随玩现场：画画不寻常",
@@ -27387,7 +28265,9 @@
     "highlights": "用日常物品当画笔在巨型画纸上创作（每周日14:00-17:00）",
     "why_go": "",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「拉阔音乐会」她和她的秘密·卫兰x炎明熹",
@@ -27447,7 +28327,9 @@
     "highlights": "拉阔音乐会，卫兰x炎明熹，仲夏限定的音乐心灵对话",
     "why_go": "在香港亚洲国际博览馆ARENA的在地文化活动",
     "needs_search": true,
-    "score": 29
+    "score": 29,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "卫兰×炎明熹 拉阔音乐会「她和她的秘密」",
@@ -27511,7 +28393,9 @@
     "highlights": "叱咤903年度拉阔，卫兰×炎明熹首度搭档，在仲夏之夜用歌声进行一场心灵对话",
     "why_go": "",
     "needs_search": true,
-    "score": 30
+    "score": 30,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "杨丽萍作品·舞蹈剧场《十面埋伏》",
@@ -27569,7 +28453,9 @@
     "highlights": "杨丽萍导演舞蹈剧场，以现代舞重构楚汉相争经典，极具视觉张力与东方美学",
     "why_go": "在广州大剧院的在地文化活动",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "上海昆剧团《临川四梦》",
@@ -27627,7 +28513,9 @@
     "highlights": "上海昆剧团全本呈现汤显祖《临川四梦》，难得一见的昆曲盛宴",
     "why_go": "在广州大剧院的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "偶像与幻象——林菁·吴真双人展",
@@ -27687,7 +28575,9 @@
     "highlights": "两代女性创作者林菁与母亲吴真的作品展，写实与抽象、复古与当代相互碰撞，以纯粹情绪与色彩呈现艺术本真",
     "why_go": "在逵园艺术馆的在地文化活动",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "幽兰清雅·墨韵越秀——兰花写生作品展",
@@ -27745,7 +28635,9 @@
     "highlights": "以兰花为主题的水墨写生精品展，展现兰花清雅风骨与越秀千年文脉的交融",
     "why_go": "在陈树人纪念馆的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "广州建城2240年暨得名1800年专题展",
@@ -27803,7 +28695,9 @@
     "highlights": "通过文物、典籍与多媒体梳理广州城脉、商脉、文脉和近代城市精神，讲好「广州故事」",
     "why_go": "在广州艺术博物院（广州美术馆）的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "塑造万象——馆藏工艺雕塑作品展",
@@ -27861,7 +28755,9 @@
     "highlights": "遴选石湾陶、枫溪瓷、石雕、木雕、牙雕等馆藏精品，一睹岭南工艺的地域民俗与时代精神",
     "why_go": "在广东民间工艺博物馆（陈家祠）的在地文化活动",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "小蜜蜂动漫游戏嘉年华4.0",
@@ -27921,7 +28817,9 @@
     "highlights": "贵阳本地动漫游戏嘉年华，二次元同好集结，cosplay、互动游戏",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "花果园白宫国风动漫派对",
@@ -27979,7 +28877,9 @@
     "highlights": "国风动漫主题派对，将传统国风美学与二次元文化融合，在花果园白宫地标举办",
     "why_go": "远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 51
+    "score": 51,
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "咖啡奇境·青春绘黔境 主题画展",
@@ -28040,7 +28940,9 @@
     "highlights": "以咖啡绘画技法融合东方国画水墨意蕴，在百年古建文物中重构贵州历史文化与民族风情意象",
     "why_go": "历史建筑中的当代体验",
     "needs_search": false,
-    "score": 38
+    "score": 38,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "杨丽萍作品·舞蹈剧场《十面埋伏》",
@@ -28098,7 +29000,9 @@
     "highlights": "杨丽萍导演舞蹈剧场，以现代舞重构楚汉相争经典篇章，极具视觉张力",
     "why_go": "在广西文化艺术中心·大剧院的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "音乐剧《博物馆奇遇记》",
@@ -28159,7 +29063,9 @@
     "highlights": "亲子音乐剧，在剧场里展开一场博物馆奇妙之旅，适合家庭观众",
     "why_go": "在南宁剧场的在地文化活动",
     "needs_search": true,
-    "score": 30
+    "score": 30,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "春风裁月——武汉博物馆藏扇面书画艺术展",
@@ -28217,7 +29123,9 @@
     "highlights": "展出武汉博物馆藏精品扇面书画，扇面虽小却容纳山水花鸟之大千世界",
     "why_go": "在南宁博物馆的在地文化活动",
     "needs_search": true,
-    "score": 30
+    "score": 30,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "寻喵启事——白俄罗斯稚拙艺术特展",
@@ -28278,7 +29186,9 @@
     "highlights": "白俄罗斯稚拙艺术特展，以猫为主题，色彩明快、童趣盎然，适合亲子家庭",
     "why_go": "在广西壮族自治区博物馆的在地文化活动",
     "needs_search": true,
-    "score": 50
+    "score": 50,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "河湟陶韵·大河之缘——青海彩陶艺术文物展",
@@ -28338,7 +29248,9 @@
     "highlights": "展出西宁、海南藏族自治州博物馆百余件新石器至青铜时代彩陶珍品，展现先民智慧与审美",
     "why_go": "在南宁博物馆的在地文化活动",
     "needs_search": false,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "第十三届全国杂技展演——杂技魔术节目专场",
@@ -28396,7 +29308,9 @@
     "highlights": "全国杂技展演南宁站，惊险杂技与创意魔术轮番亮相，国家级杂技水准",
     "why_go": "在广西民族剧院的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "第十三届全国杂技展演——杂技剧《追随》",
@@ -28456,7 +29370,9 @@
     "highlights": "全国杂技展演剧目，融合杂技与戏剧叙事的创新之作",
     "why_go": "在南宁剧场的在地文化活动",
     "needs_search": true,
-    "score": 33
+    "score": 33,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "双廊非遗体验季·火把节",
@@ -28514,7 +29430,9 @@
     "highlights": "白族火把节专属仪式：扎火把、古法取火种、燃火盛典、篝火打跳、撒火把互动，沉浸式感受白族火文化",
     "why_go": "历史建筑中的当代体验",
     "needs_search": true,
-    "score": 61
+    "score": 61,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "双廊非遗体验季·匠人手作",
@@ -28575,7 +29493,9 @@
     "highlights": "扎染、银器锻制、木雕、刺绣等六大非遗技艺现场展演，可亲手体验专属手作",
     "why_go": "扎染、银器锻制、木雕、刺绣等六大非遗技艺现场展演，可亲手体验专属手作",
     "needs_search": true,
-    "score": 58
+    "score": 58,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "双廊非遗服饰大秀「风花雪月·霓裳大理」",
@@ -28633,7 +29553,9 @@
     "highlights": "白族传统服饰主题走秀，在线直播同步，共赏民族华服的东方美学",
     "why_go": "不只观看，更是亲身参与，发现社区里的小而美",
     "needs_search": false,
-    "score": 55
+    "score": 55,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "洱源县第31届民族火把节物资交流会",
@@ -28694,7 +29616,9 @@
     "highlights": "民俗展演、农特产品展示、特色美食体验、文创市集，深挖当地火把民俗文化",
     "why_go": "在洱源县城的在地文化活动",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "床单厂创意市集",
@@ -28755,7 +29679,9 @@
     "highlights": "大理初代网红手工原创市集，文艺调性十足，海豚阿德书店等独立空间云集",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "滨江拾夏·乐享非遗——暑期传习体验",
@@ -28815,7 +29741,9 @@
     "highlights": "非遗传承人驻场授课，菊花石雕、棕叶编、面塑、核雕等沉浸式手作体验",
     "why_go": "非遗传承人驻场授课，菊花石雕、棕叶编、面塑、核雕等沉浸式手作体验",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「非遗润童心」少年展演团公益演出",
@@ -28875,7 +29803,9 @@
     "highlights": "青少年担纲的非遗秀与戏曲表演，涵盖非遗走秀、湘剧、花鼓戏等多种形式",
     "why_go": "在长沙非物质文化遗产馆戏园的在地文化活动",
     "needs_search": true,
-    "score": 30
+    "score": 30,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "当非遗开wù了——非遗科学主题展",
@@ -28935,7 +29865,9 @@
     "highlights": "从科学视角挖掘非遗背后的智慧，将传统技艺与科学原理融合展示，适合亲子探索",
     "why_go": "从科学视角挖掘非遗背后的智慧，将传统技艺与科学原理融合展示，适合亲子探索",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "话剧《白果园》",
@@ -28995,7 +29927,9 @@
     "highlights": "发生长沙老街巷里的人与事，关于理想、生存与生活的思考，霸蛮有戏系列话剧",
     "why_go": "在梅溪湖国际文化艺术中心的在地文化活动",
     "needs_search": true,
-    "score": 31
+    "score": 31,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "Hello手帳集南京站",
@@ -29056,7 +29990,9 @@
     "highlights": "手帳集市，原创设计、手作饰品、插画衍生等",
     "why_go": "适合周末漫游探索，不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "南部新城2026夏日生活节",
@@ -29119,7 +30055,9 @@
     "highlights": "玩水、看球、音乐、美食、热气球露营，免费入场",
     "why_go": "远离城市的郊野松弛感，免费开放",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "南京建邺世茂88好世节",
@@ -29179,7 +30117,9 @@
     "highlights": "原创设计|插画衍生|手账文具|手作饰品|陶艺布艺|香薰蜡烛|非遗再造|国风文创",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 48
+    "score": 48,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "南京·金陵国风文化嘉年华",
@@ -29239,7 +30179,9 @@
     "highlights": "国风文化嘉年华，汉服、国潮、传统文化展示",
     "why_go": "在南京六角广场的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "金陵美食大会",
@@ -29300,7 +30242,9 @@
     "highlights": "30+地道美食、10+南京文创小店集结，从老字号到网红，一站吃遍金陵",
     "why_go": "",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "诗韵越剧《织造府》",
@@ -29360,7 +30304,9 @@
     "highlights": "金陵三部曲收官之作，曹雪芹魂穿红楼梦与十二钗对话",
     "why_go": "在南京保利大剧院的在地文化活动",
     "needs_search": true,
-    "score": 38
+    "score": 38,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "栖霞山·泡泡水活动",
@@ -29418,7 +30364,9 @@
     "highlights": "夏天总要玩一次水，泡泡铺满古镇，免费入场",
     "why_go": "历史建筑中的当代体验，免费开放",
     "needs_search": true,
-    "score": 46
+    "score": 46,
+    "tg_category": "field",
+    "source_type_clean": "rural"
   },
   {
     "name": "《观天下》坤舆万国全图VR展",
@@ -29478,7 +30426,9 @@
     "highlights": "以南京博物院镇院之宝明代中文版世界地图为主IP，720°VR沉浸展",
     "why_go": "在南京博物院的在地文化活动",
     "needs_search": false,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "栖霞山七夕荧光漫山跑",
@@ -29538,7 +30488,9 @@
     "highlights": "天黑以后荧光亮起来，漫山遍野都是跑动的光点",
     "why_go": "限时呈现，错过不再，免费开放",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "field",
+    "source_type_clean": "rural"
   },
   {
     "name": "栖霞山·山野微醺雅集",
@@ -29599,7 +30551,9 @@
     "highlights": "古镇的晚风配冰啤酒，再加上现场音乐，两个周末连续开",
     "why_go": "历史建筑中的当代体验，免费开放",
     "needs_search": true,
-    "score": 46
+    "score": 46,
+    "tg_category": "community",
+    "source_type_clean": "rural"
   },
   {
     "name": "谍战舞台剧《夜行者》",
@@ -29659,7 +30613,9 @@
     "highlights": "李乃文、唐旭主演，中戏93级同班同学时隔20年重回话剧舞台",
     "why_go": "在南京保利大剧院的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "吃冰市集+凉面堆高大赛",
@@ -29720,7 +30676,9 @@
     "highlights": "风味刨冰、花式冰淇淋、手工冰糕、非遗果酒、消暑冰粉等，还有凉面堆高挑战赛",
     "why_go": "",
     "needs_search": true,
-    "score": 35
+    "score": 35,
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "贰厂「音·色²」艺术季",
@@ -29781,7 +30739,9 @@
     "highlights": "OPEN+川美优秀毕业作品邀请展 + 热月音乐季",
     "why_go": "适合周末漫游探索，不只观看，更是亲身参与",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "重庆欢乐谷夏浪狂欢节",
@@ -29843,7 +30803,9 @@
     "highlights": "夜猫子音乐公园、千架无人机星空秀、水上飞人特技+灯光秀",
     "why_go": "在重庆欢乐谷(渝北区)的在地文化活动",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "白沙音乐电影美食消费周",
@@ -29905,7 +30867,9 @@
     "highlights": "千年古镇，露天电影免费看，全民歌手大赛，复古美食街区全新开街",
     "why_go": "千年古镇，露天电影免费看，全民歌手大赛，复古美食街区全新开街",
     "needs_search": true,
-    "score": 46
+    "score": 46,
+    "tg_category": "community",
+    "source_type_clean": "rural"
   },
   {
     "name": "大足石刻「穿越宋朝」暑期体验",
@@ -29965,7 +30929,9 @@
     "highlights": "NPC互动、古风簪花、石刻拓印、火漆印章等沉浸式文化体验",
     "why_go": "在大足石刻景区(大足区)的在地文化活动",
     "needs_search": true,
-    "score": 44
+    "score": 44,
+    "tg_category": "exhibition",
+    "source_type_clean": "rural"
   },
   {
     "name": "四面山「四面山之夏」活动季",
@@ -30026,7 +30992,9 @@
     "highlights": "每周末文艺演出、星空电影夜、寻古游园会、农耕体验、飞拉达攀岩",
     "why_go": "在四面山景区(江津区)的在地文化活动",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "field",
+    "source_type_clean": "rural"
   },
   {
     "name": "金佛山滨水露营音乐季",
@@ -30087,7 +31055,9 @@
     "highlights": "沉浸式演艺、NPC巡游、泡沫水枪派对、晚风音乐会、徒步登山挑战赛",
     "why_go": "远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 51
+    "score": 51,
+    "tg_category": "field",
+    "source_type_clean": "rural"
   },
   {
     "name": "开心麻花《出马》",
@@ -30147,7 +31117,9 @@
     "highlights": "于国泰艺术中心剧院举办，80元起",
     "why_go": "在国泰艺术中心剧院的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "南天湖第八届避暑音乐季",
@@ -30208,7 +31180,9 @@
     "highlights": "周末主题音乐晚会、星空露营趴、5米高空透明古琴台演奏、轨道滑车",
     "why_go": "远离城市的郊野松弛感",
     "needs_search": false,
-    "score": 47
+    "score": 47,
+    "tg_category": "community",
+    "source_type_clean": "rural"
   },
   {
     "name": "酉阳桃花源暑期活动",
@@ -30266,7 +31240,9 @@
     "highlights": "背诵桃花源记免门票，静心躺平挑战赛，太古洞恒温17℃避暑",
     "why_go": "在酉阳桃花源景区的在地文化活动",
     "needs_search": true,
-    "score": 32
+    "score": 32,
+    "tg_category": "field",
+    "source_type_clean": "rural"
   },
   {
     "name": "西安(诗经里)大唐绮梦夜",
@@ -30326,7 +31302,9 @@
     "highlights": "秦腔花灯雕塑、热气球主题灯展、千年非遗铁花、篝火晚会",
     "why_go": "在诗经里景区的在地文化活动",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "exhibition",
+    "source_type_clean": "rural"
   },
   {
     "name": "曲江艺术博物馆免费开放日",
@@ -30386,7 +31364,9 @@
     "highlights": "每月第一个周五免费开放，需提前预约，免费(限量200张)",
     "why_go": "发现社区里的小而美",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "免费看秦腔",
@@ -30446,7 +31426,9 @@
     "highlights": "特邀赵均侠、和少飞两位秦腔实力派现场演出",
     "why_go": "",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "西影免费露天电影",
@@ -30506,7 +31488,9 @@
     "highlights": "草坪席地而坐，晚风+高清投影，周末放映宫崎骏经典",
     "why_go": "罕见露天体验，免费开放",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "西安万象天地碳水节",
@@ -30564,7 +31548,9 @@
     "highlights": "50+碳水品牌，92%外地碳水占比，一次性集邮全国顶流",
     "why_go": "",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "捏捏市集",
@@ -30625,7 +31611,9 @@
     "highlights": "分为ABC三区，A区为新品限流区。解压手作市集，涵盖🚶 适合漫游、🎨 可动手创作等体验，免费入场",
     "why_go": "适合周末漫游探索，不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 44
+    "score": 44,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "玩具总动员5限时快闪",
@@ -30685,7 +31673,9 @@
     "highlights": "巴斯光年、胡迪、翠丝等角色齐聚，限定徽章、联名盲盒和拼图",
     "why_go": "限时呈现，错过不再，免费开放",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "山花有约·繁星市集（非遗大集）",
@@ -30746,7 +31736,9 @@
     "highlights": "30个标准展位，民间文艺名家+非遗传承人驻场活态技艺展示",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 49
+    "score": 49,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026西安戏剧节",
@@ -30806,7 +31798,9 @@
     "highlights": "以拾光回响为主题，刘敏涛《俗世奇人》、陈丽君领衔《枕头人》等多部佳作",
     "why_go": "在陕西大剧院/西安音乐厅等的在地文化活动",
     "needs_search": false,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "第36届青岛国际啤酒节",
@@ -30867,7 +31861,9 @@
     "highlights": "九大啤酒帐篷+千架无人机编队+海上焰火秀，西海岸/崂山银盐市集/老城三大会场联动，全球啤酒品牌汇聚",
     "why_go": "在啤酒之都青岛的海风里畅饮全球精酿，看无人机点亮夜空",
     "needs_search": false,
-    "score": 48
+    "score": 48,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "海屿神辉——意大利古希腊文化展",
@@ -30927,7 +31923,9 @@
     "highlights": "展出公元前6-2世纪文物115件/套，普利亚红绘彩陶为特色",
     "why_go": "",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "不思议境：石窟艺术超感沉浸体验",
@@ -30987,7 +31985,9 @@
     "highlights": "萃取五大石窟艺术元素，AI算法+3D Mapping沉浸体验",
     "why_go": "在青岛云上海天的在地文化活动",
     "needs_search": true,
-    "score": 41
+    "score": 41,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "环境式悬疑剧场《朱莉小姐》",
@@ -31047,7 +32047,9 @@
     "highlights": "改编自斯特林堡经典独幕悲剧，以环境式悬疑剧场形式呈现",
     "why_go": "在青岛大剧院·多功能厅的在地文化活动",
     "needs_search": true,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026青岛星星火火音乐节",
@@ -31107,7 +32109,9 @@
     "highlights": "于青岛市民健身中心东侧举办，待确认",
     "why_go": "学术策展深度难得一见",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "大鲍岛「百年鲍岛·青春艺聚」展演",
@@ -31168,7 +32172,9 @@
     "highlights": "周末市集与夜间演出常态化，啤酒交易栈、啤酒实验室等创意消费场景",
     "why_go": "罕见夜间体验，免费开放",
     "needs_search": true,
-    "score": 25
+    "score": 25,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "乐动红墙·暑期音乐季",
@@ -31228,7 +32234,9 @@
     "highlights": "8场专场音乐会，涵盖美声、钢琴、双簧管、爵士声乐、长笛等多元形式",
     "why_go": "",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "德国总督楼仲夏纳凉季·非遗文创市集",
@@ -31288,7 +32296,9 @@
     "highlights": "历史建筑里的非遗文创市集，仲夏纳凉体验，涵盖🚶 适合漫游等体验，免费入场",
     "why_go": "适合周末漫游探索，不只观看，更是亲身参与",
     "needs_search": false,
-    "score": 39
+    "score": 39,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "阳澄半岛乐园湖边戏剧节",
@@ -31349,7 +32359,9 @@
     "highlights": "南北戏曲、国潮巡游、趣味演艺、湖畔烟花一站式呈现",
     "why_go": "远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "盘门景区暑期沉浸式NPC演艺季",
@@ -31410,7 +32422,9 @@
     "highlights": "NPC互动、江南市集夜游、夜间水上非遗火舞秀、瑞光塔影秀",
     "why_go": "NPC互动、江南市集夜游、夜间水上非遗火舞秀、瑞光塔影秀",
     "needs_search": true,
-    "score": 47
+    "score": 47,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "姑苏繁华特展",
@@ -31470,7 +32484,9 @@
     "highlights": "于苏州博物馆西馆展出，免费入场",
     "why_go": "",
     "needs_search": true,
-    "score": 45
+    "score": 45,
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "金鸡湖水岸音乐会",
@@ -31530,7 +32546,9 @@
     "highlights": "热歌连唱90分钟，全程高能不间断，金鸡湖畔免费音乐现场",
     "why_go": "限时呈现，错过不再，远离城市的郊野松弛感",
     "needs_search": true,
-    "score": 34
+    "score": 34,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "桃花岛仲夏嗨游季",
@@ -31588,7 +32606,9 @@
     "highlights": "3大新场景、20+场主题活动，周周有惊喜，湖岛度假",
     "why_go": "在金鸡湖桃花岛的在地文化活动",
     "needs_search": false,
-    "score": 32
+    "score": 32,
+    "tg_category": "field",
+    "source_type_clean": "rural"
   },
   {
     "name": "苏州高铁新城水岸生活节",
@@ -31649,7 +32669,9 @@
     "highlights": "水陆双市集、浮光船市、湖中火锅宴、心动当夏音乐LIVE",
     "why_go": "深入本地社区的日常肌理",
     "needs_search": true,
-    "score": 40
+    "score": 40,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第十九届采莲游园会",
@@ -31709,7 +32731,9 @@
     "highlights": "集美景、演艺、互动、特色好物于一体，千亩荷塘",
     "why_go": "在荷塘月色湿地公园的在地文化活动",
     "needs_search": true,
-    "score": 36
+    "score": 36,
+    "tg_category": "field",
+    "source_type_clean": "rural"
   },
   {
     "name": "苏州万象天地荷花水市",
@@ -31770,7 +32794,9 @@
     "highlights": "花船水景市集、夏日荷花音乐会、乐队巡游、夏夜露天观影",
     "why_go": "罕见露天体验，免费开放",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "中国AFOL节(积木创作展)",
@@ -31832,7 +32858,9 @@
     "highlights": "中国AFOL社群年度线下相聚，原创作品展示、市集交流、主题展览与社群活动",
     "why_go": "在苏州德必·桃花坞里的在地文化活动",
     "needs_search": true,
-    "score": 42
+    "score": 42,
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "影秀剧《信仰》",
@@ -31892,7 +32920,9 @@
     "highlights": "国内首部影秀剧，360度科技包围全实景真人演出",
     "why_go": "",
     "needs_search": true,
-    "score": 28
+    "score": 28,
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "苏州海棠市集",
@@ -31953,6 +32983,8 @@
     "highlights": "游/赏/品/购，沉浸式苏式园林美学市集，涵盖🚶 适合漫游、🌿 自然体验等体验，待确认",
     "why_go": "在上方山国家森林公园的在地文化活动",
     "needs_search": false,
-    "score": 38
+    "score": 38,
+    "tg_category": "community",
+    "source_type_clean": "small"
   }
 ]
