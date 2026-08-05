@@ -47,7 +47,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "上海博物馆（东馆）的剧场空间总带着山谷微风——看一场展览，独立咖啡馆就在步行范围内，真实的生活质感"
+    "recommendation": "上海博物馆（东馆）的剧场空间总带着山谷微风——看一场展览，独立咖啡馆就在步行范围内，真实的生活质感",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "2026滨江草地啤酒音乐会",
@@ -88,7 +90,9 @@
     "sub_district": "未知",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "",
-    "recommendation": "远离市区的宝山区吴淞口路318号灯塔营地坐落在山野之间。在这里听一场现场，海风咸湿是"
+    "recommendation": "远离市区的宝山区吴淞口路318号灯塔营地坐落在山野之间。在这里听一场现场，海风咸湿是",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "2026顾村公园消夏派对",
@@ -128,7 +132,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "顾村公园总带着旧厂房的穿堂风——感受这里的气氛，社区公园就在步行范围内，比想象中更动人。"
+    "recommendation": "顾村公园总带着旧厂房的穿堂风——感受这里的气氛，社区公园就在步行范围内，比想象中更动人。",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "2026新世界ACG嘉年华·全国首展",
@@ -167,7 +173,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 限时活动建议趁早去，好东西不等人",
     "micro_walk": "",
-    "recommendation": "新世界城1-12F运河夜风的周末去处。在这里看一场展览，感受安静又有生气。 运河夜风，安静又有生气"
+    "recommendation": "新世界城1-12F运河夜风的周末去处。在这里看一场展览，感受安静又有生气。 运河夜风，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "珠归海上：庄万里家族捐赠两塗轩书画展",
@@ -217,7 +225,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "上海博物馆（东馆）的策展空间总带着傍晚的蓝调时刻——看一场展览，杂货铺就在步行范围内，忘了时间的流动"
+    "recommendation": "上海博物馆（东馆）的策展空间总带着傍晚的蓝调时刻——看一场展览，杂货铺就在步行范围内，忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "BFC外滩露台音乐季",
@@ -256,7 +266,9 @@
     "sub_district": "外滩-南京东路艺文集群",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "外滩源→虎丘路画廊群（贝浩登/里森/阿尔敏莱希）→南京东路步行街，全程步行15分钟",
-    "recommendation": "BFC外滩金融中心南区5F露台运河夜风的精神角落。在这里听一场现场，感受 运河夜风"
+    "recommendation": "BFC外滩金融中心南区5F露台运河夜风的精神角落。在这里听一场现场，感受 运河夜风",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "上海潜艇展览馆（黄浦江畔实景）",
@@ -293,7 +305,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 工作日中午人最少，周末建议预约最早/最晚场",
     "micro_walk": "",
-    "recommendation": "在龙华东路98号3号船坞的巨型工业骨架里看一场展览。"
+    "recommendation": "在龙华东路98号3号船坞的巨型工业骨架里看一场展览。",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "千金之家——马王堆汉墓的生活美学及养成",
@@ -343,7 +357,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "上海美术馆（中华艺术宫）的总带着老街烟火气——感受这里的气氛，唱片店就在步行范围内"
+    "recommendation": "上海美术馆（中华艺术宫）的总带着老街烟火气——感受这里的气氛，唱片店就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "历史的星辉——长安画派与海派绘画研究展",
@@ -393,7 +409,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "上海美术馆（中华艺术宫）的策展空间总带着叶子在风中沙沙响——看一场展览，手艺人工作室就在步行范围内，不赶不急"
+    "recommendation": "上海美术馆（中华艺术宫）的策展空间总带着叶子在风中沙沙响——看一场展览，手艺人工作室就在步行范围内，不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "向往自然——从师法自然到与自然合作",
@@ -443,7 +461,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在上海吴昌硕纪念馆的策展空间里感受这里的气氛。弄堂里的市井气，逛完正好去附近的老字号小吃店坐坐。"
+    "recommendation": "在上海吴昌硕纪念馆的策展空间里感受这里的气氛。弄堂里的市井气，逛完正好去附近的老字号小吃店坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "梵克雅宝「金手匠艺」展览",
@@ -497,7 +517,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "历峰双子别墅的当代建筑总带着弄堂里的市井气——看一场展览，独立书店就在步行范围内，安静又有生气。"
+    "recommendation": "历峰双子别墅的当代建筑总带着弄堂里的市井气——看一场展览，独立书店就在步行范围内，安静又有生气。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "让·努维尔：若无艺术家，建筑亦无存",
@@ -547,7 +569,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在浦东美术馆的当代建筑里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的杂货铺坐坐。"
+    "recommendation": "在浦东美术馆的当代建筑里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的杂货铺坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "陈世英：他界之器",
@@ -597,7 +621,9 @@
     "sub_district": "西岸美术馆大道集群",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "逛完可以去西岸美术馆大道集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在龙美术馆（西岸馆）的里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的唱片店坐坐。 社区小广场的象棋声"
+    "recommendation": "在龙美术馆（西岸馆）的里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的唱片店坐坐。 社区小广场的象棋声",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「清韵」康雍乾时期文物特展",
@@ -634,7 +660,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "闵行博物馆的当代建筑总带着叶子在风中沙沙响——看一场展览，独立咖啡馆就在步行范围内，比想象中更动人"
+    "recommendation": "闵行博物馆的当代建筑总带着叶子在风中沙沙响——看一场展览，独立咖啡馆就在步行范围内，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「国采」故宫藏清代帝后服饰展",
@@ -671,7 +699,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在上海世博会博物馆的当代建筑里看一场展览。海风咸湿，逛完正好去附近的独立书店坐坐。 海风咸湿"
+    "recommendation": "在上海世博会博物馆的当代建筑里看一场展览。海风咸湿，逛完正好去附近的独立书店坐坐。 海风咸湿",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "世界树之巅：美洲古代文明大展",
@@ -721,7 +751,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "上海博物馆（人民广场馆）的总带着社区小广场的象棋声——看一场展览，唱片店就在步行范围内，不赶不急"
+    "recommendation": "上海博物馆（人民广场馆）的总带着社区小广场的象棋声——看一场展览，唱片店就在步行范围内，不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "戴敦邦沉浸式国风艺术展「且看宋词」",
@@ -758,7 +790,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在戴敦邦艺术馆的策展空间里看一场展览。寺庙钟声隐约，逛完正好去附近的社区公园坐坐。 寺庙钟声隐约，不赶不急"
+    "recommendation": "在戴敦邦艺术馆的策展空间里看一场展览。寺庙钟声隐约，逛完正好去附近的社区公园坐坐。 寺庙钟声隐约，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "今日蒙古·蒙古当代艺术邀请展",
@@ -808,7 +842,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "上海海派艺术馆的剧场空间总带着老街烟火气——看一场展览，老字号小吃店就在步行范围内，比想象中更动人"
+    "recommendation": "上海海派艺术馆的剧场空间总带着老街烟火气——看一场展览，老字号小吃店就在步行范围内，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "遗珍永耀——复旦大学博物馆馆藏精品文物展",
@@ -845,7 +881,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "复旦大学博物馆200号楼2楼的总带着老街烟火气——看一场展览，独立咖啡馆就在步行范围内"
+    "recommendation": "复旦大学博物馆200号楼2楼的总带着老街烟火气——看一场展览，独立咖啡馆就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「塑我此生」贾科梅蒂艺术大展",
@@ -882,7 +920,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在民生现代美术馆的里看一场展览。隔壁传来的咖啡香，逛完正好去附近的唱片店坐坐。 ，松弛自在"
+    "recommendation": "在民生现代美术馆的里看一场展览。隔壁传来的咖啡香，逛完正好去附近的唱片店坐坐。 ，松弛自在",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "「永不消失的黑水城」沉浸式文博大展",
@@ -919,7 +959,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "ALIGHT ROOM拉法耶文的当代建筑总带着日落前最后一束光——看一场展览，手艺人工作室就在步行范…"
+    "recommendation": "ALIGHT ROOM拉法耶文的当代建筑总带着日落前最后一束光——看一场展览，手艺人工作室就在步行范…",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "演艺大世界「天天有戏」演艺市集",
@@ -958,7 +1000,9 @@
     "sub_district": "外滩-南京东路艺文集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "外滩源→虎丘路画廊群（贝浩登/里森/阿尔敏莱希）→南京东路步行街，全程步行15分钟",
-    "recommendation": "南京东路六合路雨后石板路的反光的社区聚场。在这里逛一个手作市集，感受比想象中更动人。"
+    "recommendation": "南京东路六合路雨后石板路的反光的社区聚场。在这里逛一个手作市集，感受比想象中更动人。",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "2026世界斯诺克·上海大师赛",
@@ -995,7 +1039,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在卢湾体育馆的当代建筑里感受这里的气氛。海风咸湿，逛完正好去附近的花店坐坐。 海风咸湿，比想象中更动人"
+    "recommendation": "在卢湾体育馆的当代建筑里感受这里的气氛。海风咸湿，逛完正好去附近的花店坐坐。 海风咸湿，比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "雪域云间——上海喜马拉雅艺术特展",
@@ -1045,7 +1091,9 @@
     "sub_district": "外滩-南京东路艺文集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "外滩源→虎丘路画廊群（贝浩登/里森/阿尔敏莱希）→南京东路步行街，全程步行15分钟",
-    "recommendation": "上海外滩艺术中心185空间的当代建筑总带着运河夜风——看一场展览，独立书店就在步行范围内，忘了时间的流动"
+    "recommendation": "上海外滩艺术中心185空间的当代建筑总带着运河夜风——看一场展览，独立书店就在步行范围内，忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「海江·卷卷热浪」玩水季",
@@ -1082,7 +1130,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "牡丹江路1255号F区广场傍晚的蓝调时刻在这里感受这里的气氛，感受城市难得的空白"
+    "recommendation": "牡丹江路1255号F区广场傍晚的蓝调时刻在这里感受这里的气氛，感受城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "同行：上海与巴黎抽象艺术展",
@@ -1132,7 +1182,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "上海美术馆（中华艺术宫）的总带着寺庙钟声隐约——看一场展览，社区公园就在步行范围内，忘了时间的流动"
+    "recommendation": "上海美术馆（中华艺术宫）的总带着寺庙钟声隐约——看一场展览，社区公园就在步行范围内，忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "一瓷一色一世界——上海博物馆藏明清颜色釉瓷器特展",
@@ -1182,7 +1234,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在上海久事美术馆的策展空间里看一场展览。海风咸湿，逛完正好去附近的老字号小吃店坐坐。 海风咸湿，比想象中更动人"
+    "recommendation": "在上海久事美术馆的策展空间里看一场展览。海风咸湿，逛完正好去附近的老字号小吃店坐坐。 海风咸湿，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "国采——故宫藏清代帝后服饰展",
@@ -1232,7 +1286,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在世博会博物馆的当代建筑里看一场展览。弄堂里的市井气，逛完正好去附近的独立书店坐坐。 弄堂里的市井气，松弛自在"
+    "recommendation": "在世博会博物馆的当代建筑里看一场展览。弄堂里的市井气，逛完正好去附近的独立书店坐坐。 弄堂里的市井气，松弛自在",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "外滩首届泰文化月·BFC马路泼水节",
@@ -1269,7 +1325,9 @@
     "sub_district": "外滩-南京东路艺文集群",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "外滩源→虎丘路画廊群（贝浩登/里森/阿尔敏莱希）→南京东路步行街，全程步行15分钟",
-    "recommendation": "枫泾路BFC外滩金融中心寺庙钟声隐约的灵感据点。在这里感受这里的气氛，感受 寺庙钟声隐约"
+    "recommendation": "枫泾路BFC外滩金融中心寺庙钟声隐约的灵感据点。在这里感受这里的气氛，感受 寺庙钟声隐约",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "花园·星星·小径：中国新锐青年艺术家原创展",
@@ -1319,7 +1377,9 @@
     "sub_district": "西岸美术馆大道集群",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "逛完可以去西岸美术馆大道集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "上海宝龙美术馆的总带着山谷微风——看一场展览，独立书店就在步行范围内， 山谷微风"
+    "recommendation": "上海宝龙美术馆的总带着山谷微风——看一场展览，独立书店就在步行范围内， 山谷微风",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "时代少年团「加冠礼」收官场上海站",
@@ -1356,7 +1416,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "上海体育场的当代建筑总带着菜市场——感受这里的气氛，精酿酒吧就在步行范围内， 菜市场"
+    "recommendation": "上海体育场的当代建筑总带着菜市场——感受这里的气氛，精酿酒吧就在步行范围内， 菜市场",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "游弋之地：伦敦名流录 潘海利根十周年限时特展",
@@ -1404,7 +1466,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 旧厂房地面可能不平，穿平底鞋体验最佳",
     "micro_walk": "",
-    "recommendation": "在张园W4栋（茂名北路）的废弃车间里看一场展览。比起封闭场馆，这里多了傍晚的蓝调时刻，以及极其松弛的社区生活气"
+    "recommendation": "在张园W4栋（茂名北路）的废弃车间里看一场展览。比起封闭场馆，这里多了傍晚的蓝调时刻，以及极其松弛的社区生活气",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "BFC漫游奇境嘉年华",
@@ -1460,7 +1524,9 @@
     "sub_district": "外滩-南京东路艺文集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "外滩源→虎丘路画廊群（贝浩登/里森/阿尔敏莱希）→南京东路步行街，全程步行15分钟",
-    "recommendation": "在BFC外滩金融中心的当代建筑里逛一个手作市集。旧厂房的穿堂风，逛完正好去附近的手艺人工作室坐坐。"
+    "recommendation": "在BFC外滩金融中心的当代建筑里逛一个手作市集。旧厂房的穿堂风，逛完正好去附近的手艺人工作室坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "且看宋词——戴敦邦沉浸式国风艺术展",
@@ -1514,7 +1580,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "香港路117号3F 戴敦邦艺术的剧场空间总带着运河夜风——看一场展览，精酿酒吧就在步行范围内"
+    "recommendation": "香港路117号3F 戴敦邦艺术的剧场空间总带着运河夜风——看一场展览，精酿酒吧就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "世界树之巅——美洲古代文明大展",
@@ -1568,7 +1636,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在上海博物馆（人民大道201号）的当代建筑里看一场展览。隔壁传来的咖啡香，逛完正好去附近的独立书店坐坐"
+    "recommendation": "在上海博物馆（人民大道201号）的当代建筑里看一场展览。隔壁传来的咖啡香，逛完正好去附近的独立书店坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "外滩中央夏日派对 HAPPY仲夏夜2.0",
@@ -1624,7 +1694,9 @@
     "sub_district": "外滩-南京东路艺文集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "外滩源→虎丘路画廊群（贝浩登/里森/阿尔敏莱希）→南京东路步行街，全程步行15分钟",
-    "recommendation": "在外滩中央的策展空间里逛一个手作市集。运河夜风，逛完正好去附近的菜市场坐坐。 运河夜风，松弛自在"
+    "recommendation": "在外滩中央的策展空间里逛一个手作市集。运河夜风，逛完正好去附近的菜市场坐坐。 运河夜风，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "盛世之器——清代康雍乾时期景德镇陶瓷珍品展",
@@ -1674,7 +1746,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "浦东历史博物馆的总带着老街烟火气——看一场展览，独立咖啡馆就在步行范围内，安静又有生气。"
+    "recommendation": "浦东历史博物馆的总带着老街烟火气——看一场展览，独立咖啡馆就在步行范围内，安静又有生气。",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "金手匠艺：铁器时代的金饰重生",
@@ -1724,7 +1798,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "L'ÉCOLE珠宝艺术中心（淮的剧场空间总带着菜市场——感受这里的气氛，唱片店就在步行范围内"
+    "recommendation": "L'ÉCOLE珠宝艺术中心（淮的剧场空间总带着菜市场——感受这里的气氛，唱片店就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "音乐剧《危险游戏》十周年特别版",
@@ -1777,7 +1853,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "延安东路433号上海共舞台总带着运河夜风——听一场现场，独立书店就在步行范围内"
+    "recommendation": "延安东路433号上海共舞台总带着运河夜风——听一场现场，独立书店就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "WA!土豆节城市风味特辑",
@@ -1833,7 +1911,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 附近巷子岔路多，打开地图慢慢迷路最好玩",
     "micro_walk": "",
-    "recommendation": "普陀鸿寿坊不像是刻意营造的文艺空间，更像是普陀鸿寿坊街区日落前最后一束光生活里自然长出来的灵感发生地"
+    "recommendation": "普陀鸿寿坊不像是刻意营造的文艺空间，更像是普陀鸿寿坊街区日落前最后一束光生活里自然长出来的灵感发生地",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "新天地「食语市集」",
@@ -1889,7 +1969,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "虹桥新天地把废弃车间变成松弛角落——逛一个手作市集，海风咸湿的风穿过旧厂房，带来真实的生活质感"
+    "recommendation": "虹桥新天地把废弃车间变成松弛角落——逛一个手作市集，海风咸湿的风穿过旧厂房，带来真实的生活质感",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「阳台音乐会」宝山艺术街角",
@@ -1928,7 +2010,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "牡丹江路1255号F区2楼艺术寺庙钟声隐约在这里听一场现场，感受 寺庙钟声隐约"
+    "recommendation": "牡丹江路1255号F区2楼艺术寺庙钟声隐约在这里听一场现场，感受 寺庙钟声隐约",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "2026上海书展",
@@ -1984,7 +2068,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在上海展览中心的当代建筑里看一场展览。叶子在风中沙沙响，逛完正好去附近的唱片店坐坐。"
+    "recommendation": "在上海展览中心的当代建筑里看一场展览。叶子在风中沙沙响，逛完正好去附近的唱片店坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「诚之书院少儿书画展」宝山区",
@@ -2021,7 +2107,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "",
-    "recommendation": "牡丹江路1258号A区1楼中庭傍晚的蓝调时刻的精神角落。在这里看一场展览，感受不赶不急。"
+    "recommendation": "牡丹江路1258号A区1楼中庭傍晚的蓝调时刻的精神角落。在这里看一场展览，感受不赶不急。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "东西方的感知对话·第二章《虚与实》",
@@ -2071,7 +2159,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在Bluerider ART上海里感受这里的气氛。海风咸湿，逛完正好去附近的菜市场坐坐"
+    "recommendation": "在Bluerider ART上海里感受这里的气氛。海风咸湿，逛完正好去附近的菜市场坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "DOTA2 2026年国际邀请赛",
@@ -2124,7 +2214,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "浦发银行东方体育中心的剧场空间总带着日落前最后一束光——感受这里的气氛，唱片店就在步行范围内，比想象中更动人"
+    "recommendation": "浦发银行东方体育中心的剧场空间总带着日落前最后一束光——感受这里的气氛，唱片店就在步行范围内，比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "第28届亚洲宠物展览会",
@@ -2178,7 +2270,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 工作日中午人最少，周末建议预约最早/最晚场；宠物友好",
     "micro_walk": "",
-    "recommendation": "在上海新国际博览中心的策展空间里看一场展览。海风咸湿，逛完正好去附近的社区公园坐坐。 海风咸湿，不赶不急"
+    "recommendation": "在上海新国际博览中心的策展空间里看一场展览。海风咸湿，逛完正好去附近的社区公园坐坐。 海风咸湿，不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "上海国际房车展×改装秀",
@@ -2233,7 +2327,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 穿速干衣+防滑鞋，带足水和零食",
     "micro_walk": "",
-    "recommendation": "在上海汽车会展中心里看一场展览。运河夜风，逛完正好去附近的花店坐坐。 运河夜风，安静又有生气"
+    "recommendation": "在上海汽车会展中心里看一场展览。运河夜风，逛完正好去附近的花店坐坐。 运河夜风，安静又有生气",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "喜结梁园——沉浸式园林演艺",
@@ -2288,7 +2384,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "佛山梁园总带着菜市场——感受这里的气氛，杂货铺就在步行范围内，松弛自在。 菜市场，松，灯光的质感让人印象深刻"
+    "recommendation": "佛山梁园总带着菜市场——感受这里的气氛，杂货铺就在步行范围内，松弛自在。 菜市场，松，灯光的质感让人印象深刻",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「岭南天地·和美术馆」双展",
@@ -2325,7 +2423,9 @@
     "sub_district": "岭南天地-祖庙文脉集群",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "岭南天地→祖庙→筷子路，步行约15分钟",
-    "recommendation": "在和美术馆（顺德）的策展空间里看一场展览。叶子在风中沙沙响，逛完正好去附近的花店坐坐。"
+    "recommendation": "在和美术馆（顺德）的策展空间里看一场展览。叶子在风中沙沙响，逛完正好去附近的花店坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "和美术馆三展连看——当代艺术季",
@@ -2379,7 +2479,9 @@
     "sub_district": "顺德北滘艺文集群",
     "field_tip": "🌿 工作日中午人最少，周末建议预约最早/最晚场",
     "micro_walk": "清晖园→华盖路→金榜牛乳街，步行约15分钟",
-    "recommendation": "和美术馆的剧场空间总带着寺庙钟声隐约——看一场展览，社区公园就在步行范围内， 寺庙钟声隐约"
+    "recommendation": "和美术馆的剧场空间总带着寺庙钟声隐约——看一场展览，社区公园就在步行范围内， 寺庙钟声隐约",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "漆澜：独步寻花",
@@ -2433,7 +2535,9 @@
     "sub_district": "顺德北滘艺文集群",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "清晖园→华盖路→金榜牛乳街，步行约15分钟",
-    "recommendation": "在和美术馆（北滘新城美和路6号）的剧场空间里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的花店坐坐"
+    "recommendation": "在和美术馆（北滘新城美和路6号）的剧场空间里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的花店坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "小黄人与大怪兽电影主题展",
@@ -2490,7 +2594,9 @@
     "sub_district": "未知",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "",
-    "recommendation": "远离市区的佛山（商场，具体待确认）坐落在山野之间。在这里看一场展览，社区小广场的象棋声是"
+    "recommendation": "远离市区的佛山（商场，具体待确认）坐落在山野之间。在这里看一场展览，社区小广场的象棋声是",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「脚踏实地」广东拖鞋艺术展",
@@ -2545,7 +2651,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 旧厂房地面可能不平，穿平底鞋体验最佳",
     "micro_walk": "",
-    "recommendation": "禅城区石路巷古民居群SALU青把旧厂房改造空间变成聚会场景——看一场展览，海风咸湿的风穿过旧厂房，带来不赶不急"
+    "recommendation": "禅城区石路巷古民居群SALU青把旧厂房改造空间变成聚会场景——看一场展览，海风咸湿的风穿过旧厂房，带来不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "王源远：扶光入胜",
@@ -2599,7 +2707,9 @@
     "sub_district": "顺德北滘艺文集群",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "清晖园→华盖路→金榜牛乳街，步行约15分钟",
-    "recommendation": "和美术馆（北滘新城美和路6号）的剧场空间总带着日落前最后一束光——感受这里的气氛，唱片店就在步行范围内"
+    "recommendation": "和美术馆（北滘新城美和路6号）的剧场空间总带着日落前最后一束光——感受这里的气氛，唱片店就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "京洛风华——唐代洛阳文物展",
@@ -2654,7 +2764,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在佛山市博物馆一楼临展厅的策展空间里看一场展览。山谷微风，逛完正好去附近的独立书店坐坐。 山谷微风"
+    "recommendation": "在佛山市博物馆一楼临展厅的策展空间里看一场展览。山谷微风，逛完正好去附近的独立书店坐坐。 山谷微风",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "笑傲武林·开擂——南风古灶功夫庙会",
@@ -2709,7 +2821,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在佛山石湾·南风古灶的剧场空间里感受这里的气氛。寺庙钟声隐约，逛完正好去附近的老字号小吃店坐坐。"
+    "recommendation": "在佛山石湾·南风古灶的剧场空间里感受这里的气氛。寺庙钟声隐约，逛完正好去附近的老字号小吃店坐坐。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「唐代洛阳文物展」",
@@ -2746,7 +2860,9 @@
     "sub_district": "岭南天地-祖庙文脉集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "岭南天地→祖庙→筷子路，步行约15分钟",
-    "recommendation": "在佛山祖庙博物馆的剧场空间里看一场展览。叶子在风中沙沙响，逛完正好去附近的精酿酒吧坐坐。"
+    "recommendation": "在佛山祖庙博物馆的剧场空间里看一场展览。叶子在风中沙沙响，逛完正好去附近的精酿酒吧坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「顺德世界美食节」",
@@ -2785,7 +2901,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "顺德大良雨后石板路的反光的精神角落。在这里感受这里的气氛，感受真实的生活质感。"
+    "recommendation": "顺德大良雨后石板路的反光的精神角落。在这里感受这里的气氛，感受真实的生活质感。",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "中国国家话剧院话剧《青蛇》",
@@ -2839,7 +2957,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在佛山市演艺中心（琼花大剧院）的策展空间里感受这里的气氛。逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在佛山市演艺中心（琼花大剧院）的策展空间里感受这里的气氛。逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "宝「贝」天成——贝类动物科普展",
@@ -2895,7 +3015,9 @@
     "sub_district": "岭南天地-祖庙文脉集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "岭南天地→祖庙→筷子路，步行约15分钟",
-    "recommendation": "佛山市祖庙博物馆一层公益文化展总带着叶子在风中沙沙响——看一场展览，精酿酒吧就在步行范围内"
+    "recommendation": "佛山市祖庙博物馆一层公益文化展总带着叶子在风中沙沙响——看一场展览，精酿酒吧就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "国话《青蛇》佛山站",
@@ -2934,7 +3056,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "佛山琼花大剧院的总带着旧厂房的穿堂风——感受这里的气氛，独立书店就在步行范围内"
+    "recommendation": "佛山琼花大剧院的总带着旧厂房的穿堂风——感受这里的气氛，独立书店就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "CPG08 COMICUP广东湾区创作交流展",
@@ -2989,7 +3113,9 @@
     "sub_district": "顺德区",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "清晖园→华盖路→金榜牛乳街，步行约15分钟",
-    "recommendation": "在潭洲国际会展中心的策展空间里看一场展览。运河夜风，逛完正好去附近的精酿酒吧坐坐。 运河夜风"
+    "recommendation": "在潭洲国际会展中心的策展空间里看一场展览。运河夜风，逛完正好去附近的精酿酒吧坐坐。 运河夜风",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "大兵南派相声专场",
@@ -3028,7 +3154,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "佛山金马剧院的当代建筑总带着日落前最后一束光——感受这里的气氛，唱片店就在步行范围内，城市难得的空白"
+    "recommendation": "佛山金马剧院的当代建筑总带着日落前最后一束光——感受这里的气氛，唱片店就在步行范围内，城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "大兵×湖南笑工场王牌喜剧天团-佛山站",
@@ -3082,7 +3210,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在佛山潭洲国际会展中心9号馆（演的策展空间里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的唱片店坐坐"
+    "recommendation": "在佛山潭洲国际会展中心9号馆（演的策展空间里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的唱片店坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "南国书香节（广州同期）",
@@ -3135,7 +3265,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在佛山分会场（佛山文博）的剧场空间里感受这里的气氛。菜市场，逛完正好去附近的唱片店坐坐。"
+    "recommendation": "在佛山分会场（佛山文博）的剧场空间里感受这里的气氛。菜市场，逛完正好去附近的唱片店坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "从达·芬奇到卡拉瓦乔——意大利文艺复兴艺术展",
@@ -3189,7 +3321,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在中国美术馆的策展空间里看一场展览。日落前最后一束光，逛完正好去附近的花店坐坐。 日落前最后一束光"
+    "recommendation": "在中国美术馆的策展空间里看一场展览。日落前最后一束光，逛完正好去附近的花店坐坐。 日落前最后一束光",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "段建宇：雏菊，微风，没有亲戚在写诗",
@@ -3239,7 +3373,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "UCCA尤伦斯当代艺术中心的剧场空间总带着弄堂里的市井气——感受这里的气氛，精酿酒吧就在步行范围内，…"
+    "recommendation": "UCCA尤伦斯当代艺术中心的剧场空间总带着弄堂里的市井气——感受这里的气氛，精酿酒吧就在步行范围内，…",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "中国国家博物馆·古代瓷器艺术展",
@@ -3276,7 +3412,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在中国国家博物馆北馆的剧场空间里看一场展览。老街烟火气，逛完正好去附近的杂货铺坐坐。 老街烟火气"
+    "recommendation": "在中国国家博物馆北馆的剧场空间里看一场展览。老街烟火气，逛完正好去附近的杂货铺坐坐。 老街烟火气",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "凯洛斯的回响：朱利安·夏西埃赫&洛朗·格拉索双个展",
@@ -3326,7 +3464,9 @@
     "sub_district": "798 艺术区集群",
     "field_tip": "🌿 傍晚蓝调时刻光线绝佳，带上相机",
     "micro_walk": "798艺术区→751 D·PARK→798中二街画廊群，步行约15分钟",
-    "recommendation": "798CUBE把旧厂房改造空间变成社区聚场——看一场展览，日落前最后一束光的风穿过旧厂房，带来不赶不急"
+    "recommendation": "798CUBE把旧厂房改造空间变成社区聚场——看一场展览，日落前最后一束光的风穿过旧厂房，带来不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "童年时光机·经典动漫原稿展",
@@ -3376,7 +3516,9 @@
     "sub_district": "798 艺术区集群",
     "field_tip": "🌿 工作日中午人最少，周末建议预约最早/最晚场",
     "micro_walk": "798艺术区→751 D·PARK→798中二街画廊群，步行约15分钟",
-    "recommendation": "798艺术区把历史肌理中变成灵感据点——看一场展览，菜市场的风穿过旧厂房，带来不赶不急。 菜市场，不赶不急"
+    "recommendation": "798艺术区把历史肌理中变成灵感据点——看一场展览，菜市场的风穿过旧厂房，带来不赶不急。 菜市场，不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "遇见吴哥窟·柬埔寨国家博物馆吴哥文明文物特展",
@@ -3426,7 +3568,9 @@
     "sub_district": "798 艺术区集群",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "798艺术区→751 D·PARK→798中二街画廊群，步行约15分钟",
-    "recommendation": "在遇见博物馆·北京798馆的当代建筑里看一场展览。叶子在风中沙沙响，逛完正好去附近的老字号小吃店坐坐"
+    "recommendation": "在遇见博物馆·北京798馆的当代建筑里看一场展览。叶子在风中沙沙响，逛完正好去附近的老字号小吃店坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "南天门计划——中国航天科技艺术展",
@@ -3481,7 +3625,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "中华世纪坛的剧场空间总带着老街烟火气——看一场展览，独立书店就在步行范围内，城市难得的空白。 老街烟火气，城市"
+    "recommendation": "中华世纪坛的剧场空间总带着老街烟火气——看一场展览，独立书店就在步行范围内，城市难得的空白。 老街烟火气，城市",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "卡斯滕·霍勒：双",
@@ -3531,7 +3677,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "UCCA尤伦斯当代艺术中心总带着社区小广场的象棋声——感受这里的气氛，精酿酒吧就在步行范围内，比想象中更动人"
+    "recommendation": "UCCA尤伦斯当代艺术中心总带着社区小广场的象棋声——感受这里的气氛，精酿酒吧就在步行范围内，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "Brunch Brother北京首展《不赶时间 10点一刻》",
@@ -3579,7 +3727,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在北京时代美术馆的剧场空间里看一场展览，逛完正好去附近的老字号小吃店坐坐。松弛自在"
+    "recommendation": "在北京时代美术馆的剧场空间里看一场展览，逛完正好去附近的老字号小吃店坐坐。松弛自在",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "犬夜叉30周年动画主题展",
@@ -3633,7 +3783,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在北京（具体场馆待确认）里看一场展览。海风咸湿，逛完正好去附近的老字号小吃店坐坐。 比想象中更动人"
+    "recommendation": "在北京（具体场馆待确认）里看一场展览。海风咸湿，逛完正好去附近的老字号小吃店坐坐。 比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「世界遗产在中国」数字沉浸展",
@@ -3670,7 +3822,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "北京中华世纪坛旧厂房的穿堂风的精神角落。在这里看一场展览，感受不赶不急。 旧厂房的穿堂风，不赶不急"
+    "recommendation": "北京中华世纪坛旧厂房的穿堂风的精神角落。在这里看一场展览，感受不赶不急。 旧厂房的穿堂风，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "中国工艺·遇见非遗 沉浸光影体验展",
@@ -3720,7 +3874,9 @@
     "sub_district": "798 艺术区集群",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "798艺术区→751 D·PARK→798中二街画廊群，步行约15分钟",
-    "recommendation": "遇见博物馆·北京798馆的总带着雨后石板路的反光——看一场展览，花店就在步行范围内，不赶不急"
+    "recommendation": "遇见博物馆·北京798馆的总带着雨后石板路的反光——看一场展览，花店就在步行范围内，不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "何以景德镇·手工瓷业遗存世界遗产特展",
@@ -3775,7 +3931,9 @@
     "sub_district": "朝阳区",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "798艺术区→751 D·PARK→751广场，步行约15分钟",
-    "recommendation": "在中国工艺美术馆的策展空间里看一场展览。山谷微风，逛完正好去附近的独立书店坐坐。 山谷微风，比想象中更动人"
+    "recommendation": "在中国工艺美术馆的策展空间里看一场展览。山谷微风，逛完正好去附近的独立书店坐坐。 山谷微风，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "北京798夏日艺术市集",
@@ -3815,7 +3973,9 @@
     "sub_district": "798 艺术区集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "798艺术区→751 D·PARK→798中二街画廊群，步行约15分钟",
-    "recommendation": "在798艺术区的百年老建筑里逛一个手作市集。比起封闭场馆，这里多了梧桐光影，以及极其松弛的社区生活气"
+    "recommendation": "在798艺术区的百年老建筑里逛一个手作市集。比起封闭场馆，这里多了梧桐光影，以及极其松弛的社区生活气",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "2026北京仲夏电影嘉年华",
@@ -3870,7 +4030,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "全市13个光影市集总带着旧厂房的穿堂风——逛一个手作市集，独立咖啡馆就在步行范围内"
+    "recommendation": "全市13个光影市集总带着旧厂房的穿堂风——逛一个手作市集，独立咖啡馆就在步行范围内",
+    "tg_category": "nature",
+    "source_type_clean": "big"
   },
   {
     "name": "何以景德镇——景德镇手工瓷业遗存展",
@@ -3924,7 +4086,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "中国工艺美术馆 四层5展厅总带着梧桐光影——看一场展览，独立书店就在步行范围内"
+    "recommendation": "中国工艺美术馆 四层5展厅总带着梧桐光影——看一场展览，独立书店就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "泊遇天山 万象疆集——新疆风物生活周",
@@ -3980,7 +4144,9 @@
     "sub_district": "未知",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "",
-    "recommendation": "远离市区的海淀区1733山谷食集B2北广坐落在山野之间。在这里感受这里的气氛，海风咸湿是"
+    "recommendation": "远离市区的海淀区1733山谷食集B2北广坐落在山野之间。在这里感受这里的气氛，海风咸湿是",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "隆福潮集·今夜有福夏季市集",
@@ -4035,7 +4201,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "隆福寺街区把百年老建筑变成松弛角落——逛一个手作市集，隔壁传来的咖啡香的风穿过旧厂房，带来真实的生活质感"
+    "recommendation": "隆福寺街区把百年老建筑变成松弛角落——逛一个手作市集，隔壁传来的咖啡香的风穿过旧厂房，带来真实的生活质感",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "第38届大众电影百花奖·艺游百花798系列活动",
@@ -4091,7 +4259,9 @@
     "sub_district": "朝阳区",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "798艺术区→751 D·PARK→751广场，步行约15分钟",
-    "recommendation": "北京798艺术区把废弃车间变成精神角落——逛一个手作市集，旧厂房的穿堂风的风穿过旧厂房，带来"
+    "recommendation": "北京798艺术区把废弃车间变成精神角落——逛一个手作市集，旧厂房的穿堂风的风穿过旧厂房，带来",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "北京首届冰搭子消暑生活节",
@@ -4146,7 +4316,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "北京通州万达广场不像是刻意营造的文艺空间，更像是北京街区弄堂里的市井气生活里自然长出来的聚会场景。"
+    "recommendation": "北京通州万达广场不像是刻意营造的文艺空间，更像是北京街区弄堂里的市井气生活里自然长出来的聚会场景。",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "大都潮饮节",
@@ -4201,7 +4373,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议午后前往，先逛周边小店再到场，节奏刚好；宠物友好",
     "micro_walk": "",
-    "recommendation": "藏在北京里的北京北辰荟POLPAS，山谷微风。"
+    "recommendation": "藏在北京里的北京北辰荟POLPAS，山谷微风。",
+    "tg_category": "terroir",
+    "source_type_clean": "big"
   },
   {
     "name": "2026大都潮饮节·北京站",
@@ -4259,7 +4433,9 @@
     "sub_district": "朝阳区",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "798艺术区→751 D·PARK→751广场，步行约15分钟",
-    "recommendation": "在北京奥林匹克中心区庆典广场的里逛一个手作市集。山谷微风，逛完正好去附近的老字号小吃店坐坐"
+    "recommendation": "在北京奥林匹克中心区庆典广场的里逛一个手作市集。山谷微风，逛完正好去附近的老字号小吃店坐坐",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "三兔二手跳蚤市集",
@@ -4314,7 +4490,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "藏在纳福胡同里的纳福胡同，菜市场隔壁就是手艺人工作室，逛完正好吃一碗地道小吃，是城市难得的空白的社区日常"
+    "recommendation": "藏在纳福胡同里的纳福胡同，菜市场隔壁就是手艺人工作室，逛完正好吃一碗地道小吃，是城市难得的空白的社区日常",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "任素汐「一日即日日」Live-北京站",
@@ -4367,7 +4545,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "华熙生物·润百颜ECM中心的总带着海风咸湿——听一场现场，花店就在步行范围内，城市难得的空白"
+    "recommendation": "华熙生物·润百颜ECM中心的总带着海风咸湿——听一场现场，花店就在步行范围内，城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "图像如何再次运动：动画、档案与现实的重组",
@@ -4417,7 +4597,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在UCCA报告厅里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的唱片店坐坐。"
+    "recommendation": "在UCCA报告厅里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的唱片店坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第九届ICOS北京动漫节",
@@ -4471,7 +4653,9 @@
     "sub_district": "朝阳区",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "798艺术区→751 D·PARK→751广场，步行约15分钟",
-    "recommendation": "北京国家会议中心的当代建筑总带着梧桐光影——感受这里的气氛，精酿酒吧就在步行范围内，安静又有生气"
+    "recommendation": "北京国家会议中心的当代建筑总带着梧桐光影——感受这里的气氛，精酿酒吧就在步行范围内，安静又有生气",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "汪苏泷「明日世界」巡回演唱会-北京站",
@@ -4525,7 +4709,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久；宠物友好",
     "micro_walk": "",
-    "recommendation": "在国家体育场（鸟巢）的里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的菜市场坐坐。"
+    "recommendation": "在国家体育场（鸟巢）的里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的菜市场坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "北京国际图书节（BIBF）2026",
@@ -4562,7 +4748,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "中国国际展览中心新馆的剧场空间总带着弄堂里的市井气——感受这里的气氛，独立书店就在步行范围内，安静又有生气"
+    "recommendation": "中国国际展览中心新馆的剧场空间总带着弄堂里的市井气——感受这里的气氛，独立书店就在步行范围内，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "第六届北京CBD咖啡青年节",
@@ -4617,7 +4805,9 @@
     "sub_district": "朝阳区",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "798艺术区→751 D·PARK→751广场，步行约15分钟",
-    "recommendation": "北京CBD专属展区海风咸湿的精神角落。在这里感受这里的气氛，感受不赶不急。 海风咸湿"
+    "recommendation": "北京CBD专属展区海风咸湿的精神角落。在这里感受这里的气氛，感受不赶不急。 海风咸湿",
+    "tg_category": "terroir",
+    "source_type_clean": "small"
   },
   {
     "name": "周深「深深的」2026巡回演唱会北京站",
@@ -4656,7 +4846,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在国家体育馆里感受这里的气氛。日落前最后一束光，逛完正好去附近的唱片店坐坐。 日落前最后一束光，忘了时间的流动"
+    "recommendation": "在国家体育馆里感受这里的气氛。日落前最后一束光，逛完正好去附近的唱片店坐坐。 日落前最后一束光，忘了时间的流动",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "广西民族博物馆——傩面具与民族文化常设展",
@@ -4711,7 +4903,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在广西民族博物馆的剧场空间里看一场展览。老街烟火气，逛完正好去附近的精酿酒吧坐坐。 老街烟火气，比想象中更动人"
+    "recommendation": "在广西民族博物馆的剧场空间里看一场展览。老街烟火气，逛完正好去附近的精酿酒吧坐坐。 老街烟火气，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "南宁之夜西游狂欢节",
@@ -4767,7 +4961,9 @@
     "sub_district": "良庆区",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "逛完可以去良庆区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "南宁之夜街区雨后石板路的反光在这里逛一个手作市集，感受不赶不急。 雨后石板路的反光，不赶不急"
+    "recommendation": "南宁之夜街区雨后石板路的反光在这里逛一个手作市集，感受不赶不急。 雨后石板路的反光，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "邕州盛夏·古城暑游季",
@@ -4825,7 +5021,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在邕州古城（中山路/水街/解放路的剧场空间里逛一个手作市集。日落前最后一束光，逛完正好去附近的老字号小吃店坐坐"
+    "recommendation": "在邕州古城（中山路/水街/解放路的剧场空间里逛一个手作市集。日落前最后一束光，逛完正好去附近的老字号小吃店坐坐",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "广西民族博物馆·铜鼓文化展",
@@ -4862,7 +5060,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "广西民族博物馆的剧场空间总带着社区小广场的象棋声——看一场展览，手艺人工作室就在步行范围内，松弛自在"
+    "recommendation": "广西民族博物馆的剧场空间总带着社区小广场的象棋声——看一场展览，手艺人工作室就在步行范围内，松弛自在",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "广西南宁世界宠物博览会",
@@ -4916,7 +5116,9 @@
     "sub_district": "青秀区",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好；宠物友好",
     "micro_walk": "三街两巷→邓颖超纪念馆→中山路美食街，步行约10分钟",
-    "recommendation": "南宁国际会展中心总带着傍晚的蓝调时刻——感受这里的气氛，菜市场就在步行范围内，城市难得的空白"
+    "recommendation": "南宁国际会展中心总带着傍晚的蓝调时刻——感受这里的气氛，菜市场就在步行范围内，城市难得的空白",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "慵懒炎暑音乐会",
@@ -4969,7 +5171,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "三街两巷·人民剧院的剧场空间总带着日落前最后一束光——听一场现场，老字号小吃店就在步行范围内"
+    "recommendation": "三街两巷·人民剧院的剧场空间总带着日落前最后一束光——听一场现场，老字号小吃店就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「东盟音乐周」",
@@ -5008,7 +5212,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在南宁剧场的策展空间里听一场现场。日落前最后一束光，逛完正好去附近的手艺人工作室坐坐。"
+    "recommendation": "在南宁剧场的策展空间里听一场现场。日落前最后一束光，逛完正好去附近的手艺人工作室坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "刘轩丞「丞长没烦恼」南宁见面会",
@@ -5061,7 +5267,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "南宁会展中心E馆的剧场空间总带着梧桐光影——感受这里的气氛，手艺人工作室就在步行范围内，安静又有生气"
+    "recommendation": "南宁会展中心E馆的剧场空间总带着梧桐光影——感受这里的气氛，手艺人工作室就在步行范围内，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "南宁邕江夜游文创市集",
@@ -5118,7 +5326,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "在邕江沿岸/民生码头的红砖拱顶下里逛一个手作市集。比起封闭场馆，这里多了以及极其松弛的社区生活气"
+    "recommendation": "在邕江沿岸/民生码头的红砖拱顶下里逛一个手作市集。比起封闭场馆，这里多了以及极其松弛的社区生活气",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「燃烧直到终老」老友记×超级查理联合专场-南宁站",
@@ -5172,7 +5382,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "福馆 Full House（青的总带着海风咸湿——感受这里的气氛，独立书店就在步行范围内"
+    "recommendation": "福馆 Full House（青的总带着海风咸湿——感受这里的气氛，独立书店就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "爱是力量 中国Rave全明星-南宁站",
@@ -5226,7 +5438,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在福馆 Full House（青的策展空间里感受这里的气氛，逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在福馆 Full House（青的策展空间里感受这里的气氛，逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026暑期亲子音乐会",
@@ -5281,7 +5495,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "在广西文化艺术中心·音乐厅（良庆的当代建筑里听一场现场。社区小广场的象棋声，逛完正好去附近的独立咖啡馆坐坐"
+    "recommendation": "在广西文化艺术中心·音乐厅（良庆的当代建筑里听一场现场。社区小广场的象棋声，逛完正好去附近的独立咖啡馆坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「南宁国际民歌艺术节」",
@@ -5318,7 +5534,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在南宁国际会展中心里听一场现场。山谷微风，逛完正好去附近的社区公园坐坐。 山谷微风，城市难得的空白"
+    "recommendation": "在南宁国际会展中心里听一场现场。山谷微风，逛完正好去附近的社区公园坐坐。 山谷微风，城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026年厦门公众考古季",
@@ -5355,7 +5573,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "厦门市文保中心菜市场的灵感发生地。在这里感受这里的气氛，感受比想象中更动人。 菜市场，比想象中更动人"
+    "recommendation": "厦门市文保中心菜市场的灵感发生地。在这里感受这里的气氛，感受比想象中更动人。 菜市场，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "园博苑花灯乐园暑期焕新开园",
@@ -5395,7 +5615,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 旧厂房地面可能不平，穿平底鞋体验最佳",
     "micro_walk": "",
-    "recommendation": "在厦门园林博览苑的历史肌理中里感受这里的气氛。比起封闭场馆，这里多了日落前最后一束光，以及极其松弛的社区生活气"
+    "recommendation": "在厦门园林博览苑的历史肌理中里感受这里的气氛。比起封闭场馆，这里多了日落前最后一束光，以及极其松弛的社区生活气",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "漆源鹭岛·星火成炬——厦门漆画艺术展",
@@ -5449,7 +5671,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在厦门市美术馆一楼珍品A、B厅的策展空间里看一场展览。山谷微风，逛完正好去附近的老字号小吃店坐坐。"
+    "recommendation": "在厦门市美术馆一楼珍品A、B厅的策展空间里看一场展览。山谷微风，逛完正好去附近的老字号小吃店坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "厦门市博物馆沉浸式喜剧体验活动",
@@ -5488,7 +5712,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在厦门市博物馆的剧场空间里感受这里的气氛。菜市场，逛完正好去附近的独立咖啡馆坐坐。 菜市场，不赶不急"
+    "recommendation": "在厦门市博物馆的剧场空间里感受这里的气氛。菜市场，逛完正好去附近的独立咖啡馆坐坐。 菜市场，不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "让乾坤坐下来——两岸茶诗书画作品展",
@@ -5542,7 +5768,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在厦门凤凰艺品文化保税共享平台（的剧场空间里看一场展览。逛完正好去附近的独立书店坐坐"
+    "recommendation": "在厦门凤凰艺品文化保税共享平台（的剧场空间里看一场展览。逛完正好去附近的独立书店坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "舞台剧《她们》",
@@ -5595,7 +5823,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "厦门嘉庚剧院的当代建筑总带着日落前最后一束光——感受这里的气氛，手艺人工作室就在步行范围内，松弛自在"
+    "recommendation": "厦门嘉庚剧院的当代建筑总带着日落前最后一束光——感受这里的气氛，手艺人工作室就在步行范围内，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "麒麟剧社《济公活佛》郭德纲领衔",
@@ -5649,7 +5879,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容；宠物友好",
     "micro_walk": "",
-    "recommendation": "厦门国际会议中心海峡厅的策展空间总带着旧厂房的穿堂风——感受这里的气氛，手艺人工作室就在步行范围内，松弛自在"
+    "recommendation": "厦门国际会议中心海峡厅的策展空间总带着旧厂房的穿堂风——感受这里的气氛，手艺人工作室就在步行范围内，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026三影堂无界艺术展",
@@ -5703,7 +5935,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "三影堂厦门摄影艺术中心（集美区的当代建筑总带着老街烟火气——看一场展览，杂货铺就在步行范围内"
+    "recommendation": "三影堂厦门摄影艺术中心（集美区的当代建筑总带着老街烟火气——看一场展览，杂货铺就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「白川鸿」个展",
@@ -5740,7 +5974,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在厦门宝龙艺术中心的剧场空间里看一场展览。雨后石板路的反光，逛完正好去附近的花店坐坐。 雨后石板路的反光"
+    "recommendation": "在厦门宝龙艺术中心的剧场空间里看一场展览。雨后石板路的反光，逛完正好去附近的花店坐坐。 雨后石板路的反光",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "偷故事的人——白川鸿个展",
@@ -5794,7 +6030,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "三影堂厦门摄影艺术中心（集美区总带着旧厂房的穿堂风——看一场展览，独立书店就在步行范围内，真实的生活质感"
+    "recommendation": "三影堂厦门摄影艺术中心（集美区总带着旧厂房的穿堂风——看一场展览，独立书店就在步行范围内，真实的生活质感",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "厦门鼓浪屿夏日音乐季",
@@ -5848,7 +6086,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到达，旧厂房的落日穿堂风是隐藏彩蛋；宠物友好",
     "micro_walk": "",
-    "recommendation": "鼓浪屿/钢琴码头把工业遗存变成周末去处——听一场现场，日落前最后一束光的风穿过旧厂房，带来不赶不急"
+    "recommendation": "鼓浪屿/钢琴码头把工业遗存变成周末去处——听一场现场，日落前最后一束光的风穿过旧厂房，带来不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "德云社郭德纲于谦相声专场-厦门站",
@@ -5903,7 +6143,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰；宠物友好",
     "micro_walk": "",
-    "recommendation": "厦门海峡大剧院的当代建筑总带着隔壁传来的咖啡香——感受这里的气氛，花店就在步行范围内，真实的生活质感"
+    "recommendation": "厦门海峡大剧院的当代建筑总带着隔壁传来的咖啡香——感受这里的气氛，花店就在步行范围内，真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "李健「万物安生时」巡回演唱会-厦门站",
@@ -5958,7 +6200,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容；宠物友好",
     "micro_walk": "",
-    "recommendation": "厦门奥林匹克体育中心凤凰体育馆的当代建筑总带着——感受这里的气氛，独立咖啡馆就在步行范围内，不赶不急"
+    "recommendation": "厦门奥林匹克体育中心凤凰体育馆的当代建筑总带着——感受这里的气氛，独立咖啡馆就在步行范围内，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "柒淘艺术市集",
@@ -6013,7 +6257,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "三影堂厦门摄影艺术中心总带着老街烟火气——逛一个手作市集，菜市场就在步行范围内"
+    "recommendation": "三影堂厦门摄影艺术中心总带着老街烟火气——逛一个手作市集，菜市场就在步行范围内",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "第一届梦鱼动漫游戏嘉年华·厦门站",
@@ -6067,7 +6313,9 @@
     "sub_district": "思明区",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "沙坡尾→艺术西区→演武大桥观景台，步行约15分钟",
-    "recommendation": "厦门国际会展中心的总带着隔壁传来的咖啡香——逛一个手作市集，精酿酒吧就在步行范围内，松弛自在"
+    "recommendation": "厦门国际会展中心的总带着隔壁传来的咖啡香——逛一个手作市集，精酿酒吧就在步行范围内，松弛自在",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "第四届漫秋动漫文化节·厦门站",
@@ -6121,7 +6369,9 @@
     "sub_district": "翔安区",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "逛完可以去翔安区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "厦门国际博览中心的当代建筑总带着雨后石板路的反光——逛一个手作市集，菜市场就在步行范围内"
+    "recommendation": "厦门国际博览中心的当代建筑总带着雨后石板路的反光——逛一个手作市集，菜市场就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "舞剧《朱鹮》",
@@ -6176,7 +6426,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在厦门闽南大戏院大剧场里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的独立书店坐坐。"
+    "recommendation": "在厦门闽南大戏院大剧场里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的独立书店坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "德云社郭德纲·于谦相声专场厦门站",
@@ -6215,7 +6467,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在厦门闽南大戏院的里感受这里的气氛，逛完正好去附近的菜市场坐坐。比想象中更动人"
+    "recommendation": "在厦门闽南大戏院的里感受这里的气氛，逛完正好去附近的菜市场坐坐。比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "李健「不止于此」巡回演唱会厦门站",
@@ -6254,7 +6508,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在厦门体育中心的里感受这里的气氛。雨后石板路的反光，逛完正好去附近的独立书店坐坐。"
+    "recommendation": "在厦门体育中心的里感受这里的气氛。雨后石板路的反光，逛完正好去附近的独立书店坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "福梦FUMON【活着】2026巡演 厦门站",
@@ -6304,7 +6560,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在RealLive And Bo的剧场空间里感受这里的气氛。寺庙钟声隐约，逛完正好去附近的花店坐坐"
+    "recommendation": "在RealLive And Bo的剧场空间里感受这里的气氛。寺庙钟声隐约，逛完正好去附近的花店坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "苍洱之夏·奇遇双廊——2026暑期文旅系列活动",
@@ -6361,7 +6619,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在大理双廊古镇（古戏台/魁星阁/的剧场空间里逛一个手作市集，逛完正好去附近的花店坐坐。城市难得的空白"
+    "recommendation": "在大理双廊古镇（古戏台/魁星阁/的剧场空间里逛一个手作市集，逛完正好去附近的花店坐坐。城市难得的空白",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "2026大理啤酒嘉年华",
@@ -6419,7 +6679,9 @@
     "sub_district": "下关",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去下关附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在大理国际奥林匹克体育中心的里逛一个手作市集。寺庙钟声隐约，逛完正好去附近的菜市场坐坐。"
+    "recommendation": "在大理国际奥林匹克体育中心的里逛一个手作市集。寺庙钟声隐约，逛完正好去附近的菜市场坐坐。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "大理啤酒嘉年华",
@@ -6474,7 +6736,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "大理国际奥林匹克体育中心的当代建筑总带着海风咸湿——感受这里的气氛，精酿酒吧就在步行范围内，忘了时间的流动"
+    "recommendation": "大理国际奥林匹克体育中心的当代建筑总带着海风咸湿——感受这里的气氛，精酿酒吧就在步行范围内，忘了时间的流动",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "「大理甲马」木刻版画展",
@@ -6511,7 +6775,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "在大理古城博物馆的策展空间里看一场展览。社区小广场的象棋声，逛完正好去附近的唱片店坐坐。 社区小广场的象棋声"
+    "recommendation": "在大理古城博物馆的策展空间里看一场展览。社区小广场的象棋声，逛完正好去附近的唱片店坐坐。 社区小广场的象棋声",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "「苍洱之夏」非遗盛会",
@@ -6550,7 +6816,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "远离市区的大理古城·三月街广场坐落在田埂之间。在这里感受这里的气氛，弄堂里的市井气是"
+    "recommendation": "远离市区的大理古城·三月街广场坐落在田埂之间。在这里感受这里的气氛，弄堂里的市井气是",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "大理三月街市集",
@@ -6607,7 +6875,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "藏在三月街里的三月街，叶子在风中沙沙响。隔壁就是独立书店，逛完正好吃一碗地道小吃，是松弛自在的社区日…"
+    "recommendation": "藏在三月街里的三月街，叶子在风中沙沙响。隔壁就是独立书店，逛完正好吃一碗地道小吃，是松弛自在的社区日…",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "大理床单厂创意市集",
@@ -6664,7 +6934,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好；宠物友好",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "床单厂艺术区把红砖拱顶下变成松弛角落——逛一个手作市集，老街烟火气的风穿过旧厂房，带来安静又有生气"
+    "recommendation": "床单厂艺术区把红砖拱顶下变成松弛角落——逛一个手作市集，老街烟火气的风穿过旧厂房，带来安静又有生气",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「洱海集市」文创周末",
@@ -6704,7 +6976,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "大理古城·复兴路旧厂房的穿堂风的周末去处。在这里逛一个手作市集，感受安静又有生气。"
+    "recommendation": "大理古城·复兴路旧厂房的穿堂风的周末去处。在这里逛一个手作市集，感受安静又有生气。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "双廊国际艺术中心·非遗盛会",
@@ -6761,7 +7035,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在大理双廊国际艺术中心的剧场空间里感受这里的气氛。逛完正好去附近的菜市场坐坐。 比想象中更动人"
+    "recommendation": "在大理双廊国际艺术中心的剧场空间里感受这里的气氛。逛完正好去附近的菜市场坐坐。 比想象中更动人",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "大理在地文化市集",
@@ -6818,7 +7094,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "大理古城/床单厂艺术区把活动搬进了田埂——逛一个手作市集，寺庙钟声隐约，是城市里找不到的忘了时间的流动"
+    "recommendation": "大理古城/床单厂艺术区把活动搬进了田埂——逛一个手作市集，寺庙钟声隐约，是城市里找不到的忘了时间的流动",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "大理·栖月动漫嘉年华",
@@ -6872,7 +7150,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "维也纳国际酒店（大理下关店）环的策展空间总带着寺庙钟声隐约——感受这里的气氛，手艺人工作室就在步行范…"
+    "recommendation": "维也纳国际酒店（大理下关店）环的策展空间总带着寺庙钟声隐约——感受这里的气氛，手艺人工作室就在步行范…",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "大理·第九届DWJ国风动漫嘉年华",
@@ -6926,7 +7206,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在维也纳国际酒店（大理下关店）环的剧场空间里感受这里的气氛。菜市场，逛完正好去附近的唱片店坐坐"
+    "recommendation": "在维也纳国际酒店（大理下关店）环的剧场空间里感受这里的气氛。菜市场，逛完正好去附近的唱片店坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "火把节仪式·苍山脚下",
@@ -6963,7 +7245,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "远离市区的大理古城坐落在田埂之间。在这里感受这里的气氛，寺庙钟声隐约是。 寺庙钟声隐约，篝火的质感让人印象深刻"
+    "recommendation": "远离市区的大理古城坐落在田埂之间。在这里感受这里的气氛，寺庙钟声隐约是。 寺庙钟声隐约，篝火的质感让人印象深刻",
+    "tg_category": "field",
+    "source_type_clean": "big"
   },
   {
     "name": "双城匠心——广州·景德镇民间工艺交流展",
@@ -7018,7 +7302,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "广州市文化馆中心阁的策展空间总带着梧桐光影——看一场展览，花店就在步行范围内"
+    "recommendation": "广州市文化馆中心阁的策展空间总带着梧桐光影——看一场展览，花店就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "非遗公益体验课(广彩/陶艺/插花等)",
@@ -7074,7 +7360,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "广州市文化馆的总带着日落前最后一束光——感受这里的气氛，独立咖啡馆就在步行范围内，松弛自在"
+    "recommendation": "广州市文化馆的总带着日落前最后一束光——感受这里的气氛，独立咖啡馆就在步行范围内，松弛自在",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "南洋文化季暨华侨粤剧展",
@@ -7127,7 +7415,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在广州华侨博物馆的策展空间里看一场展览。运河夜风，逛完正好去附近的手艺人工作室坐坐。 运河夜风，不赶不急"
+    "recommendation": "在广州华侨博物馆的策展空间里看一场展览。运河夜风，逛完正好去附近的手艺人工作室坐坐。 运河夜风，不赶不急",
+    "tg_category": "food",
+    "source_type_clean": "big"
   },
   {
     "name": "2026广州咖啡文化季闭幕活动",
@@ -7179,7 +7469,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "荔湾悦汇城不像是刻意营造的文艺空间，更像是荔湾悦汇城街区菜市场生活里自然长出来的周末去处。"
+    "recommendation": "荔湾悦汇城不像是刻意营造的文艺空间，更像是荔湾悦汇城街区菜市场生活里自然长出来的周末去处。",
+    "tg_category": "food",
+    "source_type_clean": "big"
   },
   {
     "name": "原创舞剧《沙湾往事》",
@@ -7232,7 +7524,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在广州大剧院的当代建筑里感受这里的气氛，逛完正好去附近的老字号小吃店坐坐。比想象中更动人"
+    "recommendation": "在广州大剧院的当代建筑里感受这里的气氛，逛完正好去附近的老字号小吃店坐坐。比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "大型原创舞剧《沙湾往事》",
@@ -7286,7 +7580,9 @@
     "sub_district": "天河区",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "珠江新城→花城广场→广东省博物馆，步行约15分钟",
-    "recommendation": "广州大剧院的当代建筑总带着海风咸湿——感受这里的气氛，精酿酒吧就在步行范围内，不赶不急。 海风咸湿，不赶不急"
+    "recommendation": "广州大剧院的当代建筑总带着海风咸湿——感受这里的气氛，精酿酒吧就在步行范围内，不赶不急。 海风咸湿，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "广州咖啡文化季闭幕活动",
@@ -7341,7 +7637,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 社区小店附近停车不便，地铁+共享单车最省心",
     "micro_walk": "",
-    "recommendation": "藏在荔湾悦汇城里的荔湾悦汇城，老街烟火气。隔壁就是杂货铺，逛完正好喝一杯手冲，是真实的生活质感的社区日常"
+    "recommendation": "藏在荔湾悦汇城里的荔湾悦汇城，老街烟火气。隔壁就是杂货铺，逛完正好喝一杯手冲，是真实的生活质感的社区日常",
+    "tg_category": "terroir",
+    "source_type_clean": "small"
   },
   {
     "name": "GAF广州插画艺术节",
@@ -7395,7 +7693,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "保利世贸博览馆的总带着日落前最后一束光——感受这里的气氛，精酿酒吧就在步行范围内"
+    "recommendation": "保利世贸博览馆的总带着日落前最后一束光——感受这里的气氛，精酿酒吧就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "杨丽萍作品《十面埋伏》",
@@ -7448,7 +7748,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在广州大剧院的策展空间里感受这里的气氛。寺庙钟声隐约，逛完正好去附近的社区公园坐坐。 寺庙钟声隐约"
+    "recommendation": "在广州大剧院的策展空间里感受这里的气氛。寺庙钟声隐约，逛完正好去附近的社区公园坐坐。 寺庙钟声隐约",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "杨丽萍作品舞蹈剧场2026版《十面埋伏》",
@@ -7500,7 +7802,9 @@
     "sub_district": "天河区",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "珠江新城→花城广场→广东省博物馆，步行约15分钟",
-    "recommendation": "广州大剧院总带着雨后石板路的反光——感受这里的气氛，独立书店就在步行范围内，真实的生活质感"
+    "recommendation": "广州大剧院总带着雨后石板路的反光——感受这里的气氛，独立书店就在步行范围内，真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "广州动漫游戏盛典·CICF×AGF",
@@ -7539,7 +7843,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "广州保利世贸博览馆海风咸湿的社区聚场。在这里感受这里的气氛，感受比想象中更动人。 海风咸湿"
+    "recommendation": "广州保利世贸博览馆海风咸湿的社区聚场。在这里感受这里的气氛，感受比想象中更动人。 海风咸湿",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026广州艺术季·话剧《走出安全岛》",
@@ -7593,7 +7899,9 @@
     "sub_district": "天河区",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "珠江新城→花城广场→广东省博物馆，步行约15分钟",
-    "recommendation": "广州大剧院的剧场空间总带着弄堂里的市井气——感受这里的气氛，独立书店就在步行范围内，城市难得的空白"
+    "recommendation": "广州大剧院的剧场空间总带着弄堂里的市井气——感受这里的气氛，独立书店就在步行范围内，城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "第34届广州博览会",
@@ -7647,7 +7955,9 @@
     "sub_district": "海珠区",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去海珠区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在广交会展馆的剧场空间里感受这里的气氛。海风咸湿，逛完正好去附近的杂货铺坐坐。 海风咸湿，松弛自在"
+    "recommendation": "在广交会展馆的剧场空间里感受这里的气氛。海风咸湿，逛完正好去附近的杂货铺坐坐。 海风咸湿，松弛自在",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "许嵩「安泊猜想」巡回演唱会-广州站",
@@ -7700,7 +8010,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在广东省奥林匹克体育中心体育场的里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的独立咖啡馆坐坐"
+    "recommendation": "在广东省奥林匹克体育中心体育场的里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的独立咖啡馆坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "广州国际艺术博览会",
@@ -7737,7 +8049,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "广州南丰国际会展中心的总带着运河夜风——感受这里的气氛，独立书店就在步行范围内，比想象中更动人"
+    "recommendation": "广州南丰国际会展中心的总带着运河夜风——感受这里的气氛，独立书店就在步行范围内，比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "音乐后花园·意大利白弦古典吉他二重奏音乐会",
@@ -7792,7 +8106,9 @@
     "sub_district": "天河区",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "珠江新城→花城广场→广东省博物馆，步行约15分钟",
-    "recommendation": "在广州大剧院的策展空间里听一场现场。海风咸湿，逛完正好去附近的菜市场坐坐。 海风咸湿，真实的生活质感"
+    "recommendation": "在广州大剧院的策展空间里听一场现场。海风咸湿，逛完正好去附近的菜市场坐坐。 海风咸湿，真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "南国书香节",
@@ -7840,7 +8156,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议午后前往，先逛周边小店再到场，节奏刚好；宠物友好",
     "micro_walk": "",
-    "recommendation": "藏在广州里的广交会展馆B区，日落前最后一束光。隔壁就是社区公园，逛完正好吃一碗地道小吃，是的社区日常"
+    "recommendation": "藏在广州里的广交会展馆B区，日落前最后一束光。隔壁就是社区公园，逛完正好吃一碗地道小吃，是的社区日常",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "烟火指数·成都双年展",
@@ -7896,7 +8214,9 @@
     "sub_district": "金牛区",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去金牛区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在成都市美术馆的剧场空间里看一场展览。逛完正好去附近的精酿酒吧坐坐。 安静又有生气"
+    "recommendation": "在成都市美术馆的剧场空间里看一场展览。逛完正好去附近的精酿酒吧坐坐。 安静又有生气",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "烟火指数——2026成都双年展",
@@ -7949,7 +8269,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "成都市美术馆的当代建筑总带着旧厂房的穿堂风——看一场展览，精酿酒吧就在步行范围内，城市难得的空白。"
+    "recommendation": "成都市美术馆的当代建筑总带着旧厂房的穿堂风——看一场展览，精酿酒吧就在步行范围内，城市难得的空白。",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「音乐白鹿·浪漫一夏」啤酒音乐嘉年华",
@@ -7990,7 +8312,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "白鹿音乐旅游景区旧厂房的穿堂风的灵感发生地。在这里听一场现场，感受 旧厂房的穿堂风"
+    "recommendation": "白鹿音乐旅游景区旧厂房的穿堂风的灵感发生地。在这里听一场现场，感受 旧厂房的穿堂风",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "「神仙玩水季」融创水世界",
@@ -8027,7 +8351,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "",
-    "recommendation": "成都融创水世界山谷微风在这里听一场现场，感受不赶不急。 山谷微风，不赶不急"
+    "recommendation": "成都融创水世界山谷微风在这里听一场现场，感受不赶不急。 山谷微风，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "墨韵石音——武侯祠唐「三绝碑」专题展",
@@ -8064,7 +8390,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 工作日中午人最少，周末建议预约最早/最晚场",
     "micro_walk": "",
-    "recommendation": "成都武侯祠博物馆船舫展厅的当代建筑总带着叶子在风中沙沙响——看一场展览，花店就在步行范围内"
+    "recommendation": "成都武侯祠博物馆船舫展厅的当代建筑总带着叶子在风中沙沙响——看一场展览，花店就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "月是故乡明——杜甫与秦州主题文物展",
@@ -8119,7 +8447,9 @@
     "sub_district": "青羊区",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "宽窄巷子→泡桐树街→小通巷，步行约15分钟",
-    "recommendation": "杜甫草堂诗书画院美术馆的总带着社区小广场的象棋声——看一场展览，老字号小吃店就在步行范围内，比想象中更动人"
+    "recommendation": "杜甫草堂诗书画院美术馆的总带着社区小广场的象棋声——看一场展览，老字号小吃店就在步行范围内，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "洛带镇第26届客家水龙季活动",
@@ -8156,7 +8486,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到达，旧厂房的落日穿堂风是隐藏彩蛋；宠物友好",
     "micro_walk": "",
-    "recommendation": "在洛带古镇的百年老建筑里感受这里的气氛。比起封闭场馆，这里多了隔壁传来的咖啡香，以及极其松弛的社区生活气"
+    "recommendation": "在洛带古镇的百年老建筑里感受这里的气氛。比起封闭场馆，这里多了隔壁传来的咖啡香，以及极其松弛的社区生活气",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "成都市文化馆暑期公益培训班",
@@ -8193,7 +8525,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在成都市文化馆里感受这里的气氛。寺庙钟声隐约，逛完正好去附近的独立书店坐坐。 寺庙钟声隐约，不赶不急"
+    "recommendation": "在成都市文化馆里感受这里的气氛。寺庙钟声隐约，逛完正好去附近的独立书店坐坐。 寺庙钟声隐约，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "月是故乡明——杜甫与秦州主题文物展",
@@ -8230,7 +8564,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "杜甫草堂诗书画院美术馆的总带着社区小广场的象棋声——看一场展览，老字号小吃店就在步行范围内，比想象中更动人"
+    "recommendation": "杜甫草堂诗书画院美术馆的总带着社区小广场的象棋声——看一场展览，老字号小吃店就在步行范围内，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「闪闪」成都首站快闪",
@@ -8269,7 +8605,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 限时活动建议趁早去，好东西不等人",
     "micro_walk": "",
-    "recommendation": "仁和新城购物中心1F中庭老街烟火气的灵感发生地。在这里撞见一场快闪，感受 老街烟火气"
+    "recommendation": "仁和新城购物中心1F中庭老街烟火气的灵感发生地。在这里撞见一场快闪，感受 老街烟火气",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "李伯安艺术展",
@@ -8323,7 +8661,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "四川美术馆的策展空间总带着日落前最后一束光——看一场展览，精酿酒吧就在步行范围内，比想象中更动人。"
+    "recommendation": "四川美术馆的策展空间总带着日落前最后一束光——看一场展览，精酿酒吧就在步行范围内，比想象中更动人。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "「小包辣人节」成都首个辣人节",
@@ -8360,7 +8700,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "环贸ICD L1东西连廊叶子在风中沙沙响的周末去处。在这里感受这里的气氛，感受不赶不急。"
+    "recommendation": "环贸ICD L1东西连廊叶子在风中沙沙响的周末去处。在这里感受这里的气氛，感受不赶不急。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「得力超级文具节」成都首站",
@@ -8397,7 +8739,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "成都大悦城公园里1F总带着弄堂里的市井气——感受这里的气氛，菜市场就在步行范围内"
+    "recommendation": "成都大悦城公园里1F总带着弄堂里的市井气——感受这里的气氛，菜市场就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026成都东部新区消夏戏水电音嘉年华",
@@ -8437,7 +8781,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在成都东部新区世博园的策展空间里感受这里的气氛。菜市场，逛完正好去附近的杂货铺坐坐。 菜市场，安静又有生气"
+    "recommendation": "在成都东部新区世博园的策展空间里感受这里的气氛。菜市场，逛完正好去附近的杂货铺坐坐。 菜市场，安静又有生气",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "2026首届水上运动嘉年华",
@@ -8476,7 +8822,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议提前查询天气，做好出行准备；宠物友好",
     "micro_walk": "",
-    "recommendation": "成都东部新区三岔湖国际水上运动运河夜风在这里感受这里的气氛，感受安静又有生气"
+    "recommendation": "成都东部新区三岔湖国际水上运动运河夜风在这里感受这里的气氛，感受安静又有生气",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "「周末儿童博物馆」品牌教育活动",
@@ -8515,7 +8863,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "成都博物馆的剧场空间总带着寺庙钟声隐约——感受这里的气氛，老字号小吃店就在步行范围内，比想象中更动人"
+    "recommendation": "成都博物馆的剧场空间总带着寺庙钟声隐约——感受这里的气氛，老字号小吃店就在步行范围内，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "杀手龙乐队2026巡演成都站",
@@ -8565,7 +8915,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "LITTLES LIVE（万象总带着隔壁传来的咖啡香——感受这里的气氛，唱片店就在步行范围内，松弛自在"
+    "recommendation": "LITTLES LIVE（万象总带着隔壁传来的咖啡香——感受这里的气氛，唱片店就在步行范围内，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "蜀都赋——乡情·经略与遥想中的益州万象",
@@ -8602,7 +8954,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在成都武侯祠博物馆的当代建筑里感受这里的气氛。老街烟火气，逛完正好去附近的唱片店坐坐。 老街烟火气"
+    "recommendation": "在成都武侯祠博物馆的当代建筑里感受这里的气氛。老街烟火气，逛完正好去附近的唱片店坐坐。 老街烟火气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "诗韵草堂·金石留痕拓印非遗体验",
@@ -8639,7 +8993,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在成都杜甫草堂博物馆的策展空间里感受这里的气氛。菜市场，逛完正好去附近的独立咖啡馆坐坐。"
+    "recommendation": "在成都杜甫草堂博物馆的策展空间里感受这里的气氛。菜市场，逛完正好去附近的独立咖啡馆坐坐。",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "陆虎「像你这样的朋友3.0」成都站",
@@ -8676,7 +9032,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "五粮液文化体育中心综合体育馆的剧场空间总带着旧厂房的穿堂风——感受这里的气氛，精酿酒吧就在步行范围内，松弛自在"
+    "recommendation": "五粮液文化体育中心综合体育馆的剧场空间总带着旧厂房的穿堂风——感受这里的气氛，精酿酒吧就在步行范围内，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「图图讲故事」绘本共读分享会",
@@ -8715,7 +9073,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "",
-    "recommendation": "天府人文艺术图书馆寺庙钟声隐约的周末去处。在这里感受这里的气氛，感受 寺庙钟声隐约，纯"
+    "recommendation": "天府人文艺术图书馆寺庙钟声隐约的周末去处。在这里感受这里的气氛，感受 寺庙钟声隐约，纯",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「再生实验室」双年展互动工坊",
@@ -8754,7 +9114,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "成都市美术馆的总带着傍晚的蓝调时刻——看一场展览，杂货铺就在步行范围内，松弛自在。 傍晚的蓝调时刻，松弛自在"
+    "recommendation": "成都市美术馆的总带着傍晚的蓝调时刻——看一场展览，杂货铺就在步行范围内，松弛自在。 傍晚的蓝调时刻，松弛自在",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "凤凰传奇「吉祥如意」巡回演唱会-成都站",
@@ -8807,7 +9169,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "东安湖体育公园主体育场的剧场空间总带着山谷微风——感受这里的气氛，唱片店就在步行范围内，城市难得的空白"
+    "recommendation": "东安湖体育公园主体育场的剧场空间总带着山谷微风——感受这里的气氛，唱片店就在步行范围内，城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "Jack Thammarat & Igor Paspalj联合巡演成都站",
@@ -8857,7 +9221,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在LITTLES LIVE（万象的剧场空间里感受这里的气氛，逛完正好去附近的社区公园坐坐"
+    "recommendation": "在LITTLES LIVE（万象的剧场空间里感受这里的气氛，逛完正好去附近的社区公园坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大弯街道后备箱集市",
@@ -8913,7 +9279,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 工业空间冬冷夏热，带一件薄外套更从容",
     "micro_walk": "",
-    "recommendation": "在大弯街道凤凰新天地内广场的百年石库门里逛一个手作市集。"
+    "recommendation": "在大弯街道凤凰新天地内广场的百年石库门里逛一个手作市集。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "成都插画展·首届国际原创插画博览会",
@@ -8952,7 +9320,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在成都世纪城新国际会展中心1号馆的当代建筑里看一场展览。傍晚的蓝调时刻，逛完正好去附近的社区公园坐坐"
+    "recommendation": "在成都世纪城新国际会展中心1号馆的当代建筑里看一场展览。傍晚的蓝调时刻，逛完正好去附近的社区公园坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "话剧《断金》——张国立王刚张铁林「铁三角」",
@@ -9006,7 +9376,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在中演·成都大剧院·大剧场的策展空间里感受这里的气氛。雨后石板路的反光，逛完正好去附近的花店坐坐。"
+    "recommendation": "在中演·成都大剧院·大剧场的策展空间里感受这里的气氛。雨后石板路的反光，逛完正好去附近的花店坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026成都·COMIDAY30动漫游戏交易展",
@@ -9045,7 +9417,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "成都世纪城新国际会展中心5-9总带着日落前最后一束光——看一场展览，独立书店就在步行范围内，真实的生活质感"
+    "recommendation": "成都世纪城新国际会展中心5-9总带着日落前最后一束光——看一场展览，独立书店就在步行范围内，真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "Uu的气象站台·热浪2026巡演成都站",
@@ -9095,7 +9469,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在LITTLES LIVE（万象的剧场空间里听一场现场。运河夜风，逛完正好去附近的杂货铺坐坐。"
+    "recommendation": "在LITTLES LIVE（万象的剧场空间里听一场现场。运河夜风，逛完正好去附近的杂货铺坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "凤凰传奇「吉祥如意」2026成都站",
@@ -9132,7 +9508,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "成都东安湖体育公园主体育场的策展空间总带着菜市场——感受这里的气氛，手艺人工作室就在步行范围内，比想象中更动人"
+    "recommendation": "成都东安湖体育公园主体育场的策展空间总带着菜市场——感受这里的气氛，手艺人工作室就在步行范围内，比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "成都·COMIDAY30 动漫游戏交易展",
@@ -9188,7 +9566,9 @@
     "sub_district": "高新区",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "逛完可以去高新区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "成都世纪城新国际会展中心的总带着梧桐光影——看一场展览，精酿酒吧就在步行范围内"
+    "recommendation": "成都世纪城新国际会展中心的总带着梧桐光影——看一场展览，精酿酒吧就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "汽水音乐嘉年华-成都站",
@@ -9241,7 +9621,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在成都（具体场地待确认）的里听一场现场，逛完正好去附近的菜市场坐坐。松弛自在"
+    "recommendation": "在成都（具体场地待确认）的里听一场现场，逛完正好去附近的菜市场坐坐。松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "泊客集·湖畔水Young市集",
@@ -9296,7 +9678,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在凤翔湖公园街区的剧场空间里逛一个手作市集。海风咸湿，逛完正好去附近的精酿酒吧坐坐。 海风咸湿，安静又有生气"
+    "recommendation": "在凤翔湖公园街区的剧场空间里逛一个手作市集。海风咸湿，逛完正好去附近的精酿酒吧坐坐。 海风咸湿，安静又有生气",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "香珠手作——串起东方雅韵",
@@ -9350,7 +9734,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 空间不大建议错峰，上午或傍晚时段体验最佳",
     "micro_walk": "",
-    "recommendation": "藏在甲拉书院里的甲拉书院，社区小广场的象棋声。隔壁就是社区公园，逛完正好吃一碗地道小吃，是松弛自在的社区日常"
+    "recommendation": "藏在甲拉书院里的甲拉书院，社区小广场的象棋声。隔壁就是社区公园，逛完正好吃一碗地道小吃，是松弛自在的社区日常",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "Mike Dawes摩登指弹吉他音乐会成都站",
@@ -9400,7 +9786,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "LITTLES LIVE（万象的策展空间总带着老街烟火气——听一场现场，菜市场就在步行范围内"
+    "recommendation": "LITTLES LIVE（万象的策展空间总带着老街烟火气——听一场现场，菜市场就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "少儿版《只此青绿》",
@@ -9455,7 +9843,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在四川大剧院·大剧场的剧场空间里感受这里的气氛。弄堂里的市井气，逛完正好去附近的花店坐坐。 忘了时间的流动"
+    "recommendation": "在四川大剧院·大剧场的剧场空间里感受这里的气氛。弄堂里的市井气，逛完正好去附近的花店坐坐。 忘了时间的流动",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "话剧《我们成为的她》——梁咏琪跨界主演",
@@ -9509,7 +9899,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "成都高新中演大剧院·大剧场的策展空间总带着——感受这里的气氛，唱片店就在步行范围内，不赶不急"
+    "recommendation": "成都高新中演大剧院·大剧场的策展空间总带着——感受这里的气氛，唱片店就在步行范围内，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "刘俊麟「出川调」生日音乐会",
@@ -9559,7 +9951,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "在LITTLES LIVE（万象的策展空间里听一场现场，逛完正好去附近的独立书店坐坐。安静又有生气"
+    "recommendation": "在LITTLES LIVE（万象的策展空间里听一场现场，逛完正好去附近的独立书店坐坐。安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "话剧《农庄馆客人》——黄磊何炅再合作",
@@ -9613,7 +10007,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在中演·成都大剧院·大剧场的里感受这里的气氛。运河夜风，逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在中演·成都大剧院·大剧场的里感受这里的气氛。运河夜风，逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「锦江听涛」江畔音乐会",
@@ -9652,7 +10048,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "锦江区合江亭下沉式广场海风咸湿的灵感据点。在这里听一场现场，感受不赶不急。 海风咸湿"
+    "recommendation": "锦江区合江亭下沉式广场海风咸湿的灵感据点。在这里听一场现场，感受不赶不急。 海风咸湿",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "话剧《初步举证》——陈昊宇独角戏",
@@ -9706,7 +10104,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在四川大剧院·大剧场的策展空间里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的老字号小吃店坐坐"
+    "recommendation": "在四川大剧院·大剧场的策展空间里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的老字号小吃店坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「三国匠造所之蜀将无双」三国主题展",
@@ -9746,7 +10146,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "成都武侯祠博物馆的剧场空间总带着菜市场——看一场展览，手艺人工作室就在步行范围内，比想象中更动人"
+    "recommendation": "成都武侯祠博物馆的剧场空间总带着菜市场——看一场展览，手艺人工作室就在步行范围内，比想象中更动人",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "虹宵雨霁联合演出",
@@ -9796,7 +10198,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在LITTLES LIVE（万象的当代建筑里听一场现场。逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在LITTLES LIVE（万象的当代建筑里听一场现场。逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026成都时尚发制品博览会",
@@ -9833,7 +10237,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在成都世纪城新国际会展中心4号馆的里感受这里的气氛。弄堂里的市井气，逛完正好去附近的精酿酒吧坐坐"
+    "recommendation": "在成都世纪城新国际会展中心4号馆的里感受这里的气氛。弄堂里的市井气，逛完正好去附近的精酿酒吧坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "福梦FUMON【活着】2026巡演 成都站",
@@ -9883,7 +10289,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "NUSPACE纽空间（青羊区奎的当代建筑总带着老街烟火气——感受这里的气氛，独立书店就在步行范围内，…"
+    "recommendation": "NUSPACE纽空间（青羊区奎的当代建筑总带着老街烟火气——感受这里的气氛，独立书店就在步行范围内，…",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「第二届蜕墟·国际再生艺术季」",
@@ -9922,7 +10330,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "",
-    "recommendation": "天艺浓园艺术博览园寺庙钟声隐约的聚会场景。在这里感受这里的气氛，感受忘了时间的流动。 寺庙钟声隐约，忘"
+    "recommendation": "天艺浓园艺术博览园寺庙钟声隐约的聚会场景。在这里感受这里的气氛，感受忘了时间的流动。 寺庙钟声隐约，忘",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "法语原版音乐剧《红舞鞋》",
@@ -9977,7 +10387,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "中演·成都大剧院·大剧场总带着海风咸湿——听一场现场，社区公园就在步行范围内，真实的生活质感"
+    "recommendation": "中演·成都大剧院·大剧场总带着海风咸湿——听一场现场，社区公园就在步行范围内，真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "舞剧《楼台会》",
@@ -10031,7 +10443,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "成都城市音乐厅歌剧厅的策展空间总带着运河夜风——感受这里的气氛，菜市场就在步行范围内，松弛自在。"
+    "recommendation": "成都城市音乐厅歌剧厅的策展空间总带着运河夜风——感受这里的气氛，菜市场就在步行范围内，松弛自在。",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "2026滇池国际咖啡文化嘉年华",
@@ -10089,7 +10503,9 @@
     "sub_district": "翠湖-文林街文化集群",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "翠湖公园→云南大学→文化巷→钱王街，步行约15分钟",
-    "recommendation": "远离市区的昆明滇池沿岸全域（南屏街/翠湖坐落在湖边之间。在这里听一场现场，雨后石板路的反光是"
+    "recommendation": "远离市区的昆明滇池沿岸全域（南屏街/翠湖坐落在湖边之间。在这里听一场现场，雨后石板路的反光是",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「湖滨春城·山水花都」书法美术摄影展",
@@ -10129,7 +10545,9 @@
     "sub_district": "滇池-海埂生态集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去海埂生态集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "昆明市大观公园奔来艺术空间总带着寺庙钟声隐约——看一场展览，社区公园就在步行范围内，松弛自在"
+    "recommendation": "昆明市大观公园奔来艺术空间总带着寺庙钟声隐约——看一场展览，社区公园就在步行范围内，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「火把节」野寨音乐季",
@@ -10169,7 +10587,9 @@
     "sub_district": "滇池-海埂生态集群",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "逛完可以去海埂生态集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "海埂大坝把活动搬进了田埂——听一场现场，海风咸湿，是城市里找不到的安静又有生气。 海风咸湿，安静又有生气"
+    "recommendation": "海埂大坝把活动搬进了田埂——听一场现场，海风咸湿，是城市里找不到的安静又有生气。 海风咸湿，安静又有生气",
+    "tg_category": "field",
+    "source_type_clean": "small"
   },
   {
     "name": "云南民族村「烈焰燃咖·野寨音乐季」",
@@ -10224,7 +10644,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "云南民族村的剧场空间总带着海风咸湿——听一场现场，杂货铺就在步行范围内，城市难得的空白。"
+    "recommendation": "云南民族村的剧场空间总带着海风咸湿——听一场现场，杂货铺就在步行范围内，城市难得的空白。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "云南民族村火把节",
@@ -10281,7 +10703,9 @@
     "sub_district": "滇池-海埂生态集群",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "逛完可以去海埂生态集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "云南民族村把活动搬进了田埂——逛一个手作市集，社区小广场的象棋声，是城市里找不到的城市难得的空白。"
+    "recommendation": "云南民族村把活动搬进了田埂——逛一个手作市集，社区小广场的象棋声，是城市里找不到的城市难得的空白。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "昆明文旅超市·一站购玩转昆明",
@@ -10321,7 +10745,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "湖滨生态湿地公园+融创西岸pa的总带着叶子在风中沙沙响——感受这里的气氛，杂货铺就在步行范围内"
+    "recommendation": "湖滨生态湿地公园+融创西岸pa的总带着叶子在风中沙沙响——感受这里的气氛，杂货铺就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "石林火把节暨青年音乐节",
@@ -10376,7 +10802,9 @@
     "sub_district": "未知",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "",
-    "recommendation": "石林风景区把活动搬进了田埂——听一场现场，隔壁传来的咖啡香，是城市里找不到的 隔壁传来的咖啡香"
+    "recommendation": "石林风景区把活动搬进了田埂——听一场现场，隔壁传来的咖啡香，是城市里找不到的 隔壁传来的咖啡香",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "「万人目瑙纵歌」非遗活态传承",
@@ -10415,7 +10843,9 @@
     "sub_district": "滇池-海埂生态集群",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "逛完可以去海埂生态集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "滇池西岸把活动搬进了田埂——感受这里的气氛，运河夜风，是城市里找不到的忘了时间的流动。"
+    "recommendation": "滇池西岸把活动搬进了田埂——感受这里的气氛，运河夜风，是城市里找不到的忘了时间的流动。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "当燃世博·电音火把狂欢节",
@@ -10470,7 +10900,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "昆明世博园的剧场空间总带着雨后石板路的反光——感受这里的气氛，精酿酒吧就在步行范围内，比想象中更动人"
+    "recommendation": "昆明世博园的剧场空间总带着雨后石板路的反光——感受这里的气氛，精酿酒吧就在步行范围内，比想象中更动人",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "春雨937星光火把节",
@@ -10525,7 +10957,9 @@
     "sub_district": "西山区",
     "field_tip": "🌿 建议午后前往，先逛周边小店再到场，节奏刚好；宠物友好",
     "micro_walk": "逛完可以去西山区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "春雨937工业文化创意园不像是刻意营造的文艺空间，更像是昆明街区菜市场生活里自然长出来的周末去处"
+    "recommendation": "春雨937工业文化创意园不像是刻意营造的文艺空间，更像是昆明街区菜市场生活里自然长出来的周末去处",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "晋宁福安古村火把节",
@@ -10581,7 +11015,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 空间不大建议错峰，上午或傍晚时段体验最佳",
     "micro_walk": "",
-    "recommendation": "藏在昆明里的昆明市晋宁区晋城街道福安村，隔壁传来的咖啡香。"
+    "recommendation": "藏在昆明里的昆明市晋宁区晋城街道福安村，隔壁传来的咖啡香。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "WACGW国漫游戏博览会",
@@ -10636,7 +11072,9 @@
     "sub_district": "滇池-海埂生态集群",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "逛完可以去海埂生态集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在昆明滇池国际会展中心的当代建筑里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的花店坐坐。"
+    "recommendation": "在昆明滇池国际会展中心的当代建筑里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的花店坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "昆明翠湖周末文创市集",
@@ -10692,7 +11130,9 @@
     "sub_district": "翠湖-文林街文化集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "翠湖公园→云南大学→文化巷→钱王街，步行约15分钟",
-    "recommendation": "在翠湖公园周边的里逛一个手作市集。日落前最后一束光，逛完正好去附近的菜市场坐坐。 日落前最后一束光"
+    "recommendation": "在翠湖公园周边的里逛一个手作市集。日落前最后一束光，逛完正好去附近的菜市场坐坐。 日落前最后一束光",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "非遗有集·周末非遗市集",
@@ -10744,7 +11184,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "昆明老街不像是刻意营造的文艺空间，更像是昆明老街街区雨后石板路的反光生活里自然长出来 雨后石板路的反…"
+    "recommendation": "昆明老街不像是刻意营造的文艺空间，更像是昆明老街街区雨后石板路的反光生活里自然长出来 雨后石板路的反…",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "盘龙区中医药文化惠民·百草市集",
@@ -10801,7 +11243,9 @@
     "sub_district": "盘龙区",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "同德广场→北辰财富中心→云南铁路博物馆，步行约15分钟",
-    "recommendation": "藏在昆明里的昆明新迎新城购物广场，老街烟火气。"
+    "recommendation": "藏在昆明里的昆明新迎新城购物广场，老街烟火气。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "自然醒音乐节",
@@ -10857,7 +11301,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在云南(具体场地昆明文博)里听一场现场。逛完正好去附近的手艺人工作室坐坐。 真实的生活质感"
+    "recommendation": "在云南(具体场地昆明文博)里听一场现场。逛完正好去附近的手艺人工作室坐坐。 真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「山海行歌」音乐季·昆明站",
@@ -10913,7 +11359,9 @@
     "sub_district": "滇池-海埂生态集群",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "逛完可以去海埂生态集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "七彩云南·古滇度假区滇池音乐广把活动搬进了田埂——听一场现场，山谷微风，是城市里找不到的 山谷微风"
+    "recommendation": "七彩云南·古滇度假区滇池音乐广把活动搬进了田埂——听一场现场，山谷微风，是城市里找不到的 山谷微风",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "city": "杭州",
@@ -10967,7 +11415,9 @@
     "sub_district": "中国美院 & 南山路艺术带",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去中国美院 & 南山路艺术带附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在浙江美术馆 7至9号厅的策展空间里感受这里的气氛。老街烟火气，逛完正好去附近的独立书店坐坐。"
+    "recommendation": "在浙江美术馆 7至9号厅的策展空间里感受这里的气氛。老街烟火气，逛完正好去附近的独立书店坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "再现圆明园——国宝百年归藏特展",
@@ -11022,7 +11472,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "浙江省博物馆（之江馆区）的总带着梧桐光影——看一场展览，杂货铺就在步行范围内，不赶不急"
+    "recommendation": "浙江省博物馆（之江馆区）的总带着梧桐光影——看一场展览，杂货铺就在步行范围内，不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "战斗、星球与牛皮纸：达米安·奥尔特加",
@@ -11076,7 +11528,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在天目里美术馆的策展空间里感受这里的气氛。运河夜风，逛完正好去附近的老字号小吃店坐坐。"
+    "recommendation": "在天目里美术馆的策展空间里感受这里的气氛。运河夜风，逛完正好去附近的老字号小吃店坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "繁天录——中国动画英雄潮流特展",
@@ -11131,7 +11585,9 @@
     "sub_district": "中国美院 & 南山路艺术带",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去中国美院 & 南山路艺术带附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "浙江美术馆4-6号厅的剧场空间总带着隔壁传来的咖啡香——看一场展览，菜市场就在步行范围内，真实的生活质感"
+    "recommendation": "浙江美术馆4-6号厅的剧场空间总带着隔壁传来的咖啡香——看一场展览，菜市场就在步行范围内，真实的生活质感",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "city": "杭州",
@@ -11186,7 +11642,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在西山头坑道（西山公园东门）的剧场空间里逛一个手作市集。雨后石板路的反光，逛完正好去附近的社区公园坐坐"
+    "recommendation": "在西山头坑道（西山公园东门）的剧场空间里逛一个手作市集。雨后石板路的反光，逛完正好去附近的社区公园坐坐",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -11240,7 +11698,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "西泠·武林美术馆的当代建筑总带着日落前最后一束光——看一场展览，社区公园就在步行范围内，松弛自在"
+    "recommendation": "西泠·武林美术馆的当代建筑总带着日落前最后一束光——看一场展览，社区公园就在步行范围内，松弛自在",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -11294,7 +11754,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在良渚古城遗址公园、瑶山遗址公园里感受这里的气氛。运河夜风，逛完正好去附近的社区公园坐坐"
+    "recommendation": "在良渚古城遗址公园、瑶山遗址公园里感受这里的气氛。运河夜风，逛完正好去附近的社区公园坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -11350,7 +11812,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 附近巷子岔路多，打开地图慢慢迷路最好玩",
     "micro_walk": "",
-    "recommendation": "西湖风景名胜区不像是刻意营造的文艺空间，更像是杭州街区菜市场生活里自然长出来的灵感发生地。 菜市场，松弛自在"
+    "recommendation": "西湖风景名胜区不像是刻意营造的文艺空间，更像是杭州街区菜市场生活里自然长出来的灵感发生地。 菜市场，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "沉浸式赛博朋克剧场《黑盒游戏》",
@@ -11404,7 +11868,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在杭州（具体场馆待确认）里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的菜市场坐坐。"
+    "recommendation": "在杭州（具体场馆待确认）里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的菜市场坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "天下同宁——中国丝绸文化大展",
@@ -11458,7 +11924,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "浙江省博物馆之江馆的当代建筑总带着叶子在风中沙沙响——看一场展览，菜市场就在步行范围内，忘了时间的流动"
+    "recommendation": "浙江省博物馆之江馆的当代建筑总带着叶子在风中沙沙响——看一场展览，菜市场就在步行范围内，忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "太平年·天下同宁——五代十国文化大展",
@@ -11513,7 +11981,9 @@
     "sub_district": "西湖区",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "龙井路→中国茶叶博物馆→龙井八景，骑行约15分钟",
-    "recommendation": "浙江省博物馆（之江馆区）的策展空间总带着社区小广场的象棋声——看一场展览，老字号小吃店就在步行范围内…"
+    "recommendation": "浙江省博物馆（之江馆区）的策展空间总带着社区小广场的象棋声——看一场展览，老字号小吃店就在步行范围内…",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "city": "杭州",
@@ -11569,7 +12039,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 限时活动建议趁早去，好东西不等人",
     "micro_walk": "",
-    "recommendation": "藏在杭州里的杭州市武林银泰A馆门口，寺庙钟声隐约。"
+    "recommendation": "藏在杭州里的杭州市武林银泰A馆门口，寺庙钟声隐约。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -11627,7 +12099,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "小河公园总带着——逛一个手作市集，老字号小吃店就在步行范围内，真实的生活质感"
+    "recommendation": "小河公园总带着——逛一个手作市集，老字号小吃店就在步行范围内，真实的生活质感",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -11680,7 +12154,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在杭州东坡大剧院的策展空间里感受这里的气氛。老街烟火气，逛完正好去附近的花店坐坐。 老街烟火气，比想象中更动人"
+    "recommendation": "在杭州东坡大剧院的策展空间里感受这里的气氛。老街烟火气，逛完正好去附近的花店坐坐。 老街烟火气，比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "小酷Coola「折页」巡演杭州站",
@@ -11730,7 +12206,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "CH8-LIVEHOUSE（小的总带着雨后石板路的反光——感受这里的气氛，菜市场就在步行范围内"
+    "recommendation": "CH8-LIVEHOUSE（小的总带着雨后石板路的反光——感受这里的气氛，菜市场就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -11786,7 +12264,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "杭州全市联动夜游点位总带着运河夜风——感受这里的气氛，精酿酒吧就在步行范围内，比想象中更动人"
+    "recommendation": "杭州全市联动夜游点位总带着运河夜风——感受这里的气氛，精酿酒吧就在步行范围内，比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -11840,7 +12320,9 @@
     "sub_district": "大运河杭钢公园艺文集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去大运河杭钢公园艺文集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "大运河杭钢公园 FUFUSOU的剧场空间总带着运河夜风——感受这里的气氛，唱片店就在步行范围内，真实的生活质感"
+    "recommendation": "大运河杭钢公园 FUFUSOU的剧场空间总带着运河夜风——感受这里的气氛，唱片店就在步行范围内，真实的生活质感",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -11894,7 +12376,9 @@
     "sub_district": "大运河杭钢公园艺文集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去大运河杭钢公园艺文集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "大运河杭钢公园 teageni的剧场空间总带着日落前最后一束光——感受这里的气氛，唱片店就在步行范围…"
+    "recommendation": "大运河杭钢公园 teageni的剧场空间总带着日落前最后一束光——感受这里的气氛，唱片店就在步行范围…",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -11949,7 +12433,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在浙江文学馆（之江文化中心）的里看一场展览。旧厂房的穿堂风，逛完正好去附近的唱片店坐坐。"
+    "recommendation": "在浙江文学馆（之江文化中心）的里看一场展览。旧厂房的穿堂风，逛完正好去附近的唱片店坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12004,7 +12490,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "中国丝绸博物馆的剧场空间总带着旧厂房的穿堂风——感受这里的气氛，花店就在步行范围内，真实的生活质感"
+    "recommendation": "中国丝绸博物馆的剧场空间总带着旧厂房的穿堂风——感受这里的气氛，花店就在步行范围内，真实的生活质感",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12058,7 +12546,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在杭州之江文化中心的里感受这里的气氛。运河夜风，逛完正好去附近的菜市场坐坐。 运河夜风，松弛自在"
+    "recommendation": "在杭州之江文化中心的里感受这里的气氛。运河夜风，逛完正好去附近的菜市场坐坐。 运河夜风，松弛自在",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12113,7 +12603,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在杭州西湖博物馆里感受这里的气氛。雨后石板路的反光，逛完正好去附近的杂货铺坐坐。 雨后石板路的反光"
+    "recommendation": "在杭州西湖博物馆里感受这里的气氛。雨后石板路的反光，逛完正好去附近的杂货铺坐坐。 雨后石板路的反光",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12168,7 +12660,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "浙江省博物馆之江馆区 负一层的剧场空间总带着旧厂房的穿堂风——感受这里的气氛，社区公园就在步行范围内…"
+    "recommendation": "浙江省博物馆之江馆区 负一层的剧场空间总带着旧厂房的穿堂风——感受这里的气氛，社区公园就在步行范围内…",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12223,7 +12717,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在浙江省非物质文化遗产馆的策展空间里看一场展览。弄堂里的市井气，逛完正好去附近的杂货铺坐坐。 忘了时间的流动"
+    "recommendation": "在浙江省非物质文化遗产馆的策展空间里看一场展览。弄堂里的市井气，逛完正好去附近的杂货铺坐坐。 忘了时间的流动",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12276,7 +12772,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在LiveShop Uni由你现的里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在LiveShop Uni由你现的里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12330,7 +12828,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在ALL IN喜剧公园的里感受这里的气氛。寺庙钟声隐约，逛完正好去附近的精酿酒吧坐坐。 寺庙钟声隐约"
+    "recommendation": "在ALL IN喜剧公园的里感受这里的气氛。寺庙钟声隐约，逛完正好去附近的精酿酒吧坐坐。 寺庙钟声隐约",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12385,7 +12885,9 @@
     "sub_district": "大运河杭钢公园艺文集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去大运河杭钢公园艺文集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "大运河杭钢公园 一号高炉前的剧场空间总带着海风咸湿——听一场现场，手艺人工作室就在步行范围内，安静又有生气"
+    "recommendation": "大运河杭钢公园 一号高炉前的剧场空间总带着海风咸湿——听一场现场，手艺人工作室就在步行范围内，安静又有生气",
+    "tg_category": "nature",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12439,7 +12941,9 @@
     "sub_district": "大运河杭钢公园艺文集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去大运河杭钢公园艺文集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在大运河杭钢公园 一号高炉前的策展空间里看一部独立电影。弄堂里的市井气，逛完正好去附近的菜市场坐坐"
+    "recommendation": "在大运河杭钢公园 一号高炉前的策展空间里看一部独立电影。弄堂里的市井气，逛完正好去附近的菜市场坐坐",
+    "tg_category": "nature",
+    "source_type_clean": "small"
   },
   {
     "name": "大运河杭钢公园·云游集晚风Live音乐会",
@@ -12495,7 +12999,9 @@
     "sub_district": "拱墅区",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "小河直街→大兜路→运河天地，步行约15分钟",
-    "recommendation": "大运河杭钢公园的剧场空间总带着山谷微风——听一场现场，手艺人工作室就在步行范围内， 山谷微风"
+    "recommendation": "大运河杭钢公园的剧场空间总带着山谷微风——听一场现场，手艺人工作室就在步行范围内， 山谷微风",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "大运河杭钢公园·露天电影放映",
@@ -12551,7 +13057,9 @@
     "sub_district": "拱墅区",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "小河直街→大兜路→运河天地，步行约15分钟",
-    "recommendation": "在大运河杭钢公园里看一部独立电影。运河夜风，逛完正好去附近的唱片店坐坐。 运河夜风，不赶不急"
+    "recommendation": "在大运河杭钢公园里看一部独立电影。运河夜风，逛完正好去附近的唱片店坐坐。 运河夜风，不赶不急",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12603,7 +13111,9 @@
     "sub_district": "大运河杭钢公园艺文集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去大运河杭钢公园艺文集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在大运河杭钢公园的策展空间里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的花店坐坐。 隔壁传来的咖啡香"
+    "recommendation": "在大运河杭钢公园的策展空间里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的花店坐坐。 隔壁传来的咖啡香",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12657,7 +13167,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "在《最忆是杭州》《宋城千古情》等的里感受这里的气氛。日落前最后一束光，逛完正好去附近的独立书店坐坐"
+    "recommendation": "在《最忆是杭州》《宋城千古情》等的里感受这里的气氛。日落前最后一束光，逛完正好去附近的独立书店坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12711,7 +13223,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "浙江省博物馆的总带着老街烟火气——感受这里的气氛，手艺人工作室就在步行范围内，比想象中更动人"
+    "recommendation": "浙江省博物馆的总带着老街烟火气——感受这里的气氛，手艺人工作室就在步行范围内，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12767,7 +13281,9 @@
     "sub_district": "大运河杭钢公园艺文集群",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "逛完可以去大运河杭钢公园艺文集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在大运河杭钢公园 禾艺术空间的里感受这里的气氛。老街烟火气，逛完正好去附近的独立书店坐坐"
+    "recommendation": "在大运河杭钢公园 禾艺术空间的里感受这里的气氛。老街烟火气，逛完正好去附近的独立书店坐坐",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12820,7 +13336,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "信雅达·三清上艺术中心的总带着寺庙钟声隐约——看一场展览，手艺人工作室就在步行范围内，安静又有生气"
+    "recommendation": "信雅达·三清上艺术中心的总带着寺庙钟声隐约——看一场展览，手艺人工作室就在步行范围内，安静又有生气",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -12874,7 +13392,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在66LiveHouse的当代建筑里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的独立书店坐坐"
+    "recommendation": "在66LiveHouse的当代建筑里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的独立书店坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "薛之谦「万兽之王」巡回演唱会-杭州站",
@@ -12927,7 +13447,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在杭州奥体中心主体育场的剧场空间里感受这里的气氛。海风咸湿，逛完正好去附近的独立书店坐坐。 海风咸湿"
+    "recommendation": "在杭州奥体中心主体育场的剧场空间里感受这里的气氛。海风咸湿，逛完正好去附近的独立书店坐坐。 海风咸湿",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "Andr《Shedding Skin脱皮》2026杭州站",
@@ -12977,7 +13499,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "Jiulaifu Music 的策展空间总带着海风咸湿——感受这里的气氛，独立书店就在步行范围内，不赶不急"
+    "recommendation": "Jiulaifu Music 的策展空间总带着海风咸湿——感受这里的气氛，独立书店就在步行范围内，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -13032,7 +13556,9 @@
     "sub_district": "大运河杭钢公园艺文集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去大运河杭钢公园艺文集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "大运河杭钢公园 二号高炉二层的总带着社区小广场的象棋声——感受这里的气氛，独立书店就在步行范围内"
+    "recommendation": "大运河杭钢公园 二号高炉二层的总带着社区小广场的象棋声——感受这里的气氛，独立书店就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "良渚古城遗址公园西门市集",
@@ -13086,7 +13612,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "在良渚古城遗址公园西门的当代建筑里逛一个手作市集。傍晚的蓝调时刻，逛完正好去附近的花店坐坐。"
+    "recommendation": "在良渚古城遗址公园西门的当代建筑里逛一个手作市集。傍晚的蓝调时刻，逛完正好去附近的花店坐坐。",
+    "tg_category": "nature",
+    "source_type_clean": "small"
   },
   {
     "name": "万物有灵——物转·有余 蒋友柏个展",
@@ -13140,7 +13668,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在西溪蔡志忠美术馆的里看一场展览。社区小广场的象棋声，逛完正好去附近的精酿酒吧坐坐。"
+    "recommendation": "在西溪蔡志忠美术馆的里看一场展览。社区小广场的象棋声，逛完正好去附近的精酿酒吧坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "布瑞吉77%巡演杭州站",
@@ -13190,7 +13720,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在CH8 Livehouse（小的策展空间里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的杂货铺坐坐"
+    "recommendation": "在CH8 Livehouse（小的策展空间里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的杂货铺坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "city": "杭州",
@@ -13245,7 +13777,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 附近巷子岔路多，打开地图慢慢迷路最好玩",
     "micro_walk": "",
-    "recommendation": "杭州社区小店不像是刻意营造的文艺空间，更像是杭州社区小店街区旧厂房的穿堂风生活里自然长出来的聚会场景。"
+    "recommendation": "杭州社区小店不像是刻意营造的文艺空间，更像是杭州社区小店街区旧厂房的穿堂风生活里自然长出来的聚会场景。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "蒋友柏个展《万物有灵——物转·有余》",
@@ -13299,7 +13833,9 @@
     "sub_district": "西湖区",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "龙井路→中国茶叶博物馆→龙井八景，骑行约15分钟",
-    "recommendation": "西溪蔡志忠美术馆的总带着雨后石板路的反光——看一场展览，独立咖啡馆就在步行范围内"
+    "recommendation": "西溪蔡志忠美术馆的总带着雨后石板路的反光——看一场展览，独立咖啡馆就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -13355,7 +13891,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议午后前往，先逛周边小店再到场，节奏刚好；宠物友好",
     "micro_walk": "",
-    "recommendation": "西湖风景名胜区不像是刻意营造的文艺空间，更像是杭州街区叶子在风中沙沙响生活里自然长出来的周末去处。"
+    "recommendation": "西湖风景名胜区不像是刻意营造的文艺空间，更像是杭州街区叶子在风中沙沙响生活里自然长出来的周末去处。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "Arthurnevawakes & 5IVE5IVE Smiling Friends巡演·杭州站",
@@ -13405,7 +13943,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "Jiulaifu Music 总带着寺庙钟声隐约——感受这里的气氛，菜市场就在步行范围内"
+    "recommendation": "Jiulaifu Music 总带着寺庙钟声隐约——感受这里的气氛，菜市场就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "Chris James巡演杭州站",
@@ -13455,7 +13995,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "CH8 Livehouse（小的剧场空间总带着运河夜风——感受这里的气氛，花店就在步行范围内，松弛自在"
+    "recommendation": "CH8 Livehouse（小的剧场空间总带着运河夜风——感受这里的气氛，花店就在步行范围内，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "city": "杭州",
@@ -13510,7 +14052,9 @@
     "sub_district": "大运河杭钢公园艺文集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去大运河杭钢公园艺文集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "大运河杭钢公园总带着老街烟火气——感受这里的气氛，花店就在步行范围内，真实的生活质感。"
+    "recommendation": "大运河杭钢公园总带着老街烟火气——感受这里的气氛，花店就在步行范围内，真实的生活质感。",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "city": "杭州",
@@ -13565,7 +14109,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 社区小店附近停车不便，地铁+共享单车最省心",
     "micro_walk": "",
-    "recommendation": "藏在雪诗尼酒窖里的雪诗尼酒窖，山谷微风。隔壁就是老字号小吃店，逛完正好吃一碗地道小吃，是真实的生活质…"
+    "recommendation": "藏在雪诗尼酒窖里的雪诗尼酒窖，山谷微风。隔壁就是老字号小吃店，逛完正好吃一碗地道小吃，是真实的生活质…",
+    "tg_category": "terroir",
+    "source_type_clean": "small"
   },
   {
     "name": "刘宇「宇宙诗人」巡回演唱会-杭州站",
@@ -13618,7 +14164,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在杭州奥体AT中心体育馆里感受这里的气氛。老街烟火气，逛完正好去附近的老字号小吃店坐坐。 老街烟火气，不赶不急"
+    "recommendation": "在杭州奥体AT中心体育馆里感受这里的气氛。老街烟火气，逛完正好去附近的老字号小吃店坐坐。 老街烟火气，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "city": "杭州",
@@ -13671,7 +14219,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在杭州奥体AT中心体育馆的剧场空间里感受这里的气氛。山谷微风，逛完正好去附近的花店坐坐。"
+    "recommendation": "在杭州奥体AT中心体育馆的剧场空间里感受这里的气氛。山谷微风，逛完正好去附近的花店坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第49届「武汉之夏」系列群众文化活动",
@@ -13726,7 +14276,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在汉口江滩大舞台及各区分会场的里感受这里的气氛。海风咸湿，逛完正好去附近的精酿酒吧坐坐"
+    "recommendation": "在汉口江滩大舞台及各区分会场的里感受这里的气氛。海风咸湿，逛完正好去附近的精酿酒吧坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "得力超级文具节快闪·武汉站",
@@ -13782,7 +14334,9 @@
     "sub_district": "洪山区",
     "field_tip": "🌿 限时活动建议趁早去，好东西不等人",
     "micro_walk": "光谷步行街→K11 Select→关山大道，步行约15分钟",
-    "recommendation": "藏在武汉大悦城里的武汉大悦城，隔壁就是杂货铺，逛完正好吃一碗地道小吃，是真实的生活质感的社区日常"
+    "recommendation": "藏在武汉大悦城里的武汉大悦城，隔壁就是杂货铺，逛完正好吃一碗地道小吃，是真实的生活质感的社区日常",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "武汉SKP世界风味漫游·精酿节",
@@ -13837,7 +14391,9 @@
     "sub_district": "武昌区",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "昙华林→粮道街→得胜桥，步行约15分钟",
-    "recommendation": "武汉SKP傍晚的蓝调时刻的精神角落。在这里感受这里的气氛，感受 傍晚的蓝调时刻"
+    "recommendation": "武汉SKP傍晚的蓝调时刻的精神角落。在这里感受这里的气氛，感受 傍晚的蓝调时刻",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "「长江万里图」数字沉浸展",
@@ -13874,7 +14430,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "武汉美术馆的当代建筑总带着日落前最后一束光——看一场展览，独立咖啡馆就在步行范围内，忘了时间的流动"
+    "recommendation": "武汉美术馆的当代建筑总带着日落前最后一束光——看一场展览，独立咖啡馆就在步行范围内，忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "武汉东湖夜生活节",
@@ -13915,7 +14473,9 @@
     "sub_district": "未知",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "",
-    "recommendation": "东湖绿道把活动搬进了湖边——感受这里的气氛，老街烟火气，是城市里找不到的真实的生活质感。"
+    "recommendation": "东湖绿道把活动搬进了湖边——感受这里的气氛，老街烟火气，是城市里找不到的真实的生活质感。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "CHIIKAWA水果市集主题快闪",
@@ -13970,7 +14530,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在武商梦时代 L1 A区前中庭的策展空间里逛一个手作市集。隔壁传来的咖啡香，逛完正好去附近的精酿酒吧坐坐"
+    "recommendation": "在武商梦时代 L1 A区前中庭的策展空间里逛一个手作市集。隔壁传来的咖啡香，逛完正好去附近的精酿酒吧坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "CHIIKAWA水果市集主题快闪·武汉站",
@@ -14025,7 +14587,9 @@
     "sub_district": "武昌区",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "昙华林→粮道街→得胜桥，步行约15分钟",
-    "recommendation": "武商梦时代不像是刻意营造的文艺空间，更像是武商梦时代街区运河夜风生活里自然长出来的精神角落。"
+    "recommendation": "武商梦时代不像是刻意营造的文艺空间，更像是武商梦时代街区运河夜风生活里自然长出来的精神角落。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "浮生一日凉——古代消夏文化展",
@@ -14079,7 +14643,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在武汉博物馆一楼珍藏厅里看一场展览。逛完正好去附近的精酿酒吧坐坐。 忘了时间的流动"
+    "recommendation": "在武汉博物馆一楼珍藏厅里看一场展览。逛完正好去附近的精酿酒吧坐坐。 忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "央视「电影文化嘉年华·武汉专场」",
@@ -14131,7 +14697,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "青山区武商MALL·众圆的当代建筑总带着老街烟火气——逛一个手作市集，花店就在步行范围内，真实的生活质感"
+    "recommendation": "青山区武商MALL·众圆的当代建筑总带着老街烟火气——逛一个手作市集，花店就在步行范围内，真实的生活质感",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "《鬼灭之刃：无限城篇》快闪店",
@@ -14186,7 +14754,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "武汉分场(待公布)的剧场空间总带着隔壁传来的咖啡香——撞见一场快闪，精酿酒吧就在步行范围内，比想象中更动人"
+    "recommendation": "武汉分场(待公布)的剧场空间总带着隔壁传来的咖啡香——撞见一场快闪，精酿酒吧就在步行范围内，比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「渡江记」武汉美术馆夜场",
@@ -14226,7 +14796,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "武汉美术馆的总带着傍晚的蓝调时刻——亲手做一件东西，杂货铺就在步行范围内， 傍晚的蓝调时刻"
+    "recommendation": "武汉美术馆的总带着傍晚的蓝调时刻——亲手做一件东西，杂货铺就在步行范围内， 傍晚的蓝调时刻",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "武汉第六届环形宇宙动漫游戏嘉年华",
@@ -14280,7 +14852,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "中国(武汉)文化博览中心的策展空间总带着老街烟火气——逛一个手作市集，独立咖啡馆就在步行范围内"
+    "recommendation": "中国(武汉)文化博览中心的策展空间总带着老街烟火气——逛一个手作市集，独立咖啡馆就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "第六届环形宇宙动漫游戏嘉年华",
@@ -14330,7 +14904,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "中国（武汉）文化博览中心总带着隔壁传来的咖啡香——逛一个手作市集，唱片店就在步行范围内，忘了时间的流动"
+    "recommendation": "中国（武汉）文化博览中心总带着隔壁传来的咖啡香——逛一个手作市集，唱片店就在步行范围内，忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "2026武汉草莓音乐节",
@@ -14369,7 +14945,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "",
-    "recommendation": "武汉园博园旧厂房的穿堂风的周末去处。在这里听一场现场，感受真实的生活质感。 旧厂房的穿堂风，真实的生活质感"
+    "recommendation": "武汉园博园旧厂房的穿堂风的周末去处。在这里听一场现场，感受真实的生活质感。 旧厂房的穿堂风，真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "博泰武汉国际珠宝展·茶博会",
@@ -14419,7 +14997,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "中国（武汉）文化博览中心的当代建筑总带着旧厂房的穿堂风——看一场展览，杂货铺就在步行范围内，不赶不急"
+    "recommendation": "中国（武汉）文化博览中心的当代建筑总带着旧厂房的穿堂风——看一场展览，杂货铺就在步行范围内，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "博泰武汉国际珠宝展暨茶博会",
@@ -14473,7 +15053,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在中国（武汉）文化博览中心的剧场空间里看一场展览。老街烟火气，逛完正好去附近的社区公园坐坐。"
+    "recommendation": "在中国（武汉）文化博览中心的剧场空间里看一场展览。老街烟火气，逛完正好去附近的社区公园坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "2026首届武汉疗愈博览会",
@@ -14527,7 +15109,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "武汉国际会展中心的总带着梧桐光影——感受这里的气氛，老字号小吃店就在步行范围内，松弛自在"
+    "recommendation": "武汉国际会展中心的总带着梧桐光影——感受这里的气氛，老字号小吃店就在步行范围内，松弛自在",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "首届武汉疗愈博览会",
@@ -14575,7 +15159,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在武汉国际会展中心的当代建筑里感受这里的气氛。弄堂里的市井气，逛完正好去附近的花店坐坐。"
+    "recommendation": "在武汉国际会展中心的当代建筑里感受这里的气氛。弄堂里的市井气，逛完正好去附近的花店坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第17届武汉糖酒食品精品展",
@@ -14623,7 +15209,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "武汉国际会展中心的剧场空间总带着隔壁传来的咖啡香——看一场展览，杂货铺就在步行范围内，城市难得的空白"
+    "recommendation": "武汉国际会展中心的剧场空间总带着隔壁传来的咖啡香——看一场展览，杂货铺就在步行范围内，城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "第17届武汉糖酒食品精品展暨中秋国庆团购节",
@@ -14677,7 +15265,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "武汉国际会展中心总带着山谷微风——看一场展览，独立书店就在步行范围内，不赶不急。 山谷微风，不赶不急"
+    "recommendation": "武汉国际会展中心总带着山谷微风——看一场展览，独立书店就在步行范围内，不赶不急。 山谷微风，不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「骥跃升腾」三彩马的世界",
@@ -14714,7 +15304,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "深圳博物馆同心路馆的剧场空间总带着山谷微风——看一场展览，社区公园就在步行范围内，真实的生活质感。"
+    "recommendation": "深圳博物馆同心路馆的剧场空间总带着山谷微风——看一场展览，社区公园就在步行范围内，真实的生活质感。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "福建舰大模型全国巡展深圳站",
@@ -14751,7 +15343,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "",
-    "recommendation": "深圳滨海爱尔眼科医院雨后石板路的反光的聚会场景。在这里看一场展览，感受真实的生活质感。"
+    "recommendation": "深圳滨海爱尔眼科医院雨后石板路的反光的聚会场景。在这里看一场展览，感受真实的生活质感。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "2026深圳国防科普博览会暨军迷嘉年华",
@@ -14806,7 +15400,9 @@
     "sub_district": "宝安区",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "逛完可以去宝安区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在深圳国际会展中心（宝安）的剧场空间里感受这里的气氛。雨后石板路的反光，逛完正好去附近的独立书店坐坐"
+    "recommendation": "在深圳国际会展中心（宝安）的剧场空间里感受这里的气氛。雨后石板路的反光，逛完正好去附近的独立书店坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "SEGA POP-UP SHOP限时快闪",
@@ -14845,7 +15441,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 限时活动建议趁早去，好东西不等人",
     "micro_walk": "",
-    "recommendation": "BitCity次元小镇·热血广梧桐光影的社区聚场。在这里撞见一场快闪，感受松弛自在。 梧桐光影，松弛自在"
+    "recommendation": "BitCity次元小镇·热血广梧桐光影的社区聚场。在这里撞见一场快闪，感受松弛自在。 梧桐光影，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "LATESTART POP-UP 怪物物语正版周边店",
@@ -14882,7 +15480,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "前海壹方城B1层中心广场老街烟火气的聚会场景。在这里感受这里的气氛，感受松弛自在。 老街烟火气，松弛自在"
+    "recommendation": "前海壹方城B1层中心广场老街烟火气的聚会场景。在这里感受这里的气氛，感受松弛自在。 老街烟火气，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "香蕉鱼百人豆本展",
@@ -14921,7 +15521,9 @@
     "sub_district": "华侨城创意园集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "OCT-LOFT→华侨城生态广场→燕晗山郊野公园，步行约15分钟",
-    "recommendation": "华侨城创意文化园提案者书店不像是刻意营造的文艺空间，更像是深圳街区弄堂里的市井气生活里自然长出来的精神角落"
+    "recommendation": "华侨城创意文化园提案者书店不像是刻意营造的文艺空间，更像是深圳街区弄堂里的市井气生活里自然长出来的精神角落",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "十个堡堡 X 十个杯杯 深圳站巡游餐车",
@@ -14961,7 +15563,9 @@
     "sub_district": "海上世界-蛇口艺文集群",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "海上世界→南海意库→蛇口老街，步行约15分钟",
-    "recommendation": "远离市区的南海意库6栋119 ecooL坐落在田埂之间。在这里感受这里的气氛，傍晚的蓝调时刻是"
+    "recommendation": "远离市区的南海意库6栋119 ecooL坐落在田埂之间。在这里感受这里的气氛，傍晚的蓝调时刻是",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "万象前海·微风生活节",
@@ -15012,7 +15616,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在万象前海B1天幕广场的策展空间里感受这里的气氛，逛完正好去附近的独立咖啡馆坐坐。不赶不急"
+    "recommendation": "在万象前海B1天幕广场的策展空间里感受这里的气氛，逛完正好去附近的独立咖啡馆坐坐。不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "全民国防航空航天科博会",
@@ -15062,7 +15668,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在福田会展中心9号馆的里感受这里的气氛，逛完正好去附近的精酿酒吧坐坐。安静又有生气"
+    "recommendation": "在福田会展中心9号馆的里感受这里的气氛，逛完正好去附近的精酿酒吧坐坐。安静又有生气",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "后海城市欢聚节·日落派对",
@@ -15112,7 +15720,9 @@
     "sub_district": "后海-深圳湾商圈集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去深圳湾商圈集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在深圳人才公园的里感受这里的气氛。旧厂房的穿堂风，逛完正好去附近的老字号小吃店坐坐。"
+    "recommendation": "在深圳人才公园的里感受这里的气氛。旧厂房的穿堂风，逛完正好去附近的老字号小吃店坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "小包假日·免费手账市集",
@@ -15151,7 +15761,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "KKTIME京基百纳时光B1中叶子在风中沙沙响的聚会场景。在这里逛一个手作市集，感受真实的生活质感"
+    "recommendation": "KKTIME京基百纳时光B1中叶子在风中沙沙响的聚会场景。在这里逛一个手作市集，感受真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "湾上幻旅 II：梦境与乐园之间",
@@ -15188,7 +15800,9 @@
     "sub_district": "后海-深圳湾商圈集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去深圳湾商圈集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在深圳湾万象城B区白色魔方的里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的精酿酒吧坐坐"
+    "recommendation": "在深圳湾万象城B区白色魔方的里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的精酿酒吧坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "蛇口味道盲盒·拼豆",
@@ -15227,7 +15841,9 @@
     "sub_district": "海上世界-蛇口艺文集群",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "海上世界→南海意库→蛇口老街，步行约15分钟",
-    "recommendation": "宝能太古城二楼连廊日落前最后一束光的精神角落。在这里感受这里的气氛，感受比想象中更动人。"
+    "recommendation": "宝能太古城二楼连廊日落前最后一束光的精神角落。在这里感受这里的气氛，感受比想象中更动人。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "DRUMK男团舞剧《M境》",
@@ -15266,7 +15882,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "深圳安托山深业上城剧场总带着梧桐光影——感受这里的气氛，老字号小吃店就在步行范围内，安静又有生气"
+    "recommendation": "深圳安托山深业上城剧场总带着梧桐光影——感受这里的气氛，老字号小吃店就在步行范围内，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "chiikawa水果市集快闪 深圳首站",
@@ -15316,7 +15934,9 @@
     "sub_district": "南山万象天地-高新园集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "海上世界→南海意库→蛇口老街，骑行约15分钟",
-    "recommendation": "南山万象天地水广场的策展空间总带着社区小广场的象棋声——逛一个手作市集，独立书店就在步行范围内，松弛自在"
+    "recommendation": "南山万象天地水广场的策展空间总带着社区小广场的象棋声——逛一个手作市集，独立书店就在步行范围内，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "田面CDAC设计之都艺术中心·广货出海跨境新生力盛典",
@@ -15353,7 +15973,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "深圳田面CDAC设计之都艺术中的当代建筑总带着运河夜风——感受这里的气氛，老字号小吃店就在步行范围内，不赶不急"
+    "recommendation": "深圳田面CDAC设计之都艺术中的当代建筑总带着运河夜风——感受这里的气氛，老字号小吃店就在步行范围内，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "陈佳邓丽君金曲演唱会",
@@ -15392,7 +16014,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在南山聚橙剧院里感受这里的气氛。叶子在风中沙沙响，逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在南山聚橙剧院里感受这里的气氛。叶子在风中沙沙响，逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026和平精英刺激空投节",
@@ -15429,7 +16053,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "",
-    "recommendation": "福田星河cocopark运河夜风的灵感据点。在这里感受这里的气氛，感受真实的生活质感。"
+    "recommendation": "福田星河cocopark运河夜风的灵感据点。在这里感受这里的气氛，感受真实的生活质感。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "chiikawa水果市集快闪",
@@ -15483,7 +16109,9 @@
     "sub_district": "南山万象天地-高新园集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "海上世界→南海意库→蛇口老街，骑行约15分钟",
-    "recommendation": "在南山万象天地水广场的当代建筑里逛一个手作市集。弄堂里的市井气，逛完正好去附近的花店坐坐。 城市难得的空白"
+    "recommendation": "在南山万象天地水广场的当代建筑里逛一个手作市集。弄堂里的市井气，逛完正好去附近的花店坐坐。 城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「不急，手搓快乐局」手作市集专场",
@@ -15523,7 +16151,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "深圳罗湖万象食家L1L2中庭的当代建筑总带着海风咸湿——逛一个手作市集，手艺人工作室就在步行范围内，…"
+    "recommendation": "深圳罗湖万象食家L1L2中庭的当代建筑总带着海风咸湿——逛一个手作市集，手艺人工作室就在步行范围内，…",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「澡点下班吧」Udoland 人类刷新中心",
@@ -15560,7 +16190,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 工作日中午人最少，周末建议预约最早/最晚场",
     "micro_walk": "",
-    "recommendation": "T33全时中心的周末去处。在这里看一场展览，感受真实的生活质感"
+    "recommendation": "T33全时中心的周末去处。在这里看一场展览，感受真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "千禧复古嘉年华",
@@ -15616,7 +16248,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "藏在深圳里的G&G创意社区南区，傍晚的蓝调时刻。隔壁就是手艺人工作室，逛完正好吃一碗地道小吃，是的社区日常"
+    "recommendation": "藏在深圳里的G&G创意社区南区，傍晚的蓝调时刻。隔壁就是手艺人工作室，逛完正好吃一碗地道小吃，是的社区日常",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "米菲海岛假日主题快闪",
@@ -15670,7 +16304,9 @@
     "sub_district": "未知",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "",
-    "recommendation": "远离市区的深业上城L3层小镇西广场坐落在田埂之间。在这里撞见一场快闪，运河夜风是。 运河夜风"
+    "recommendation": "远离市区的深业上城L3层小镇西广场坐落在田埂之间。在这里撞见一场快闪，运河夜风是。 运河夜风",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "Award360° BEST 100 展",
@@ -15723,7 +16359,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 旧厂房地面可能不平，穿平底鞋体验最佳",
     "micro_walk": "",
-    "recommendation": "南头古城把百年老建筑变成灵感发生地——看一场展览，的风穿过旧厂房，带来忘了时间的流动"
+    "recommendation": "南头古城把百年老建筑变成灵感发生地——看一场展览，的风穿过旧厂房，带来忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "WoW潮音嘉年华+夏日狂欢季",
@@ -15763,7 +16401,9 @@
     "sub_district": "华侨城创意园集群",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "OCT-LOFT→华侨城生态广场→燕晗山郊野公园，步行约15分钟",
-    "recommendation": "深圳世界之窗罗马假日广场雨后石板路的反光的聚会场景。在这里感受这里的气氛，感受 雨后石板路的反光"
+    "recommendation": "深圳世界之窗罗马假日广场雨后石板路的反光的聚会场景。在这里感受这里的气氛，感受 雨后石板路的反光",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "《数学秀》沉浸式亲子科学剧",
@@ -15802,7 +16442,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "深圳龙岗国际艺术中心·歌剧厅的策展空间总带着老街烟火气——感受这里的气氛，菜市场就在步行范围内"
+    "recommendation": "深圳龙岗国际艺术中心·歌剧厅的策展空间总带着老街烟火气——感受这里的气氛，菜市场就在步行范围内",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「来来超级」音乐节",
@@ -15843,7 +16485,9 @@
     "sub_district": "未知",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "",
-    "recommendation": "光明农场大观园把活动搬进了田埂——听一场现场，老街烟火气，是城市里找不到的比想象中更动人。"
+    "recommendation": "光明农场大观园把活动搬进了田埂——听一场现场，老街烟火气，是城市里找不到的比想象中更动人。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「领展中心」湾区生活节",
@@ -15883,7 +16527,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "领展中心城G层西广场隔壁传来的咖啡香的周末去处。在这里看一场展览，感受比想象中更动人。"
+    "recommendation": "领展中心城G层西广场隔壁传来的咖啡香的周末去处。在这里看一场展览，感受比想象中更动人。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "刘雨昕《仙那度2.0》万人演唱会",
@@ -15922,7 +16568,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "深圳大运中心运河夜风的灵感发生地。在这里感受这里的气氛，感受城市难得的空白。 运河夜风，城市难得的空白"
+    "recommendation": "深圳大运中心运河夜风的灵感发生地。在这里感受这里的气氛，感受城市难得的空白。 运河夜风，城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "锦绣中华夏浪民族狂欢节",
@@ -15961,7 +16609,9 @@
     "sub_district": "华侨城创意园集群",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "OCT-LOFT→华侨城生态广场→燕晗山郊野公园，步行约15分钟",
-    "recommendation": "锦绣中华民俗村叶子在风中沙沙响的聚会场景。在这里感受这里的气氛，感受 叶子在风中沙沙响"
+    "recommendation": "锦绣中华民俗村叶子在风中沙沙响的聚会场景。在这里感受这里的气氛，感受 叶子在风中沙沙响",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "领展中心湾区生活节",
@@ -16002,7 +16652,9 @@
     "sub_district": "未知",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "",
-    "recommendation": "远离市区的领展中心城G层西广场坐落在田埂之间。在这里看一场展览，社区小广场的象棋声是"
+    "recommendation": "远离市区的领展中心城G层西广场坐落在田埂之间。在这里看一场展览，社区小广场的象棋声是",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "《尼尔斯骑鹅历险》亲子剧深圳站",
@@ -16041,7 +16693,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在深圳南山文化馆剧院的里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的精酿酒吧坐坐。"
+    "recommendation": "在深圳南山文化馆剧院的里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的精酿酒吧坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "刘雨昕《仙那度2.0》巡回演唱会深圳站",
@@ -16080,7 +16734,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "刘雨昕万人演唱会，个人巡演深圳站，门票多平台已售罄"
+    "recommendation": "刘雨昕万人演唱会，个人巡演深圳站，门票多平台已售罄",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "巴黎星空下芭蕾·滨海艺术中心",
@@ -16117,7 +16773,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "滨海艺术中心的策展空间总带着叶子在风中沙沙响——感受这里的气氛，社区公园就在步行范围内，不赶不急。"
+    "recommendation": "滨海艺术中心的策展空间总带着叶子在风中沙沙响——感受这里的气氛，社区公园就在步行范围内，不赶不急。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "莫扎特《唐璜》歌剧音乐会",
@@ -16156,7 +16814,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "在深圳音乐厅的剧场空间里听一场现场。老街烟火气，逛完正好去附近的独立书店坐坐。 老街烟火气"
+    "recommendation": "在深圳音乐厅的剧场空间里听一场现场。老街烟火气，逛完正好去附近的独立书店坐坐。 老街烟火气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "Lindy Lee「世间星辰」艺术展",
@@ -16210,7 +16870,9 @@
     "sub_district": "海上世界-蛇口艺文集群",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "海上世界→南海意库→蛇口老街，步行约15分钟",
-    "recommendation": "在海上世界文化艺术中心的策展空间里看一场展览，逛完正好去附近的老字号小吃店坐坐。松弛自在"
+    "recommendation": "在海上世界文化艺术中心的策展空间里看一场展览，逛完正好去附近的老字号小吃店坐坐。松弛自在",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "巨型气模作品展 Hard mega! super inflatable funny show",
@@ -16247,7 +16909,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "深圳万象食家 L1 L2的当代建筑总带着雨后石板路的反光——看一场展览，老字号小吃店就在步行范围内，…"
+    "recommendation": "深圳万象食家 L1 L2的当代建筑总带着雨后石板路的反光——看一场展览，老字号小吃店就在步行范围内，…",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "Ours深圳人才公园日落派对",
@@ -16286,7 +16950,9 @@
     "sub_district": "后海-深圳湾商圈集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去深圳湾商圈集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在深圳人才公园西北门草坪里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的杂货铺坐坐"
+    "recommendation": "在深圳人才公园西北门草坪里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的杂货铺坐坐",
+    "tg_category": "nature",
+    "source_type_clean": "small"
   },
   {
     "name": "「加勒比」治愈系光学展",
@@ -16325,7 +16991,9 @@
     "sub_district": "华侨城创意园集群",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "OCT-LOFT→华侨城生态广场→燕晗山郊野公园，步行约15分钟",
-    "recommendation": "深圳世界之窗欧美城露天夜场隔壁传来的咖啡香的灵感发生地。在这里看一场展览，感受不赶不急。"
+    "recommendation": "深圳世界之窗欧美城露天夜场隔壁传来的咖啡香的灵感发生地。在这里看一场展览，感受不赶不急。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "陈粒《重走西游》巡回演唱会深圳站",
@@ -16364,7 +17032,9 @@
     "sub_district": "后海-深圳湾商圈集群",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "逛完可以去深圳湾商圈集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "华润深圳湾体育中心总带着运河夜风——感受这里的气氛，杂货铺就在步行范围内，比想象中更动人"
+    "recommendation": "华润深圳湾体育中心总带着运河夜风——感受这里的气氛，杂货铺就在步行范围内，比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "薛之谦「万兽之王」巡回演唱会-深圳站",
@@ -16417,7 +17087,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在深圳大运中心体育场的当代建筑里感受这里的气氛。叶子在风中沙沙响，逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在深圳大运中心体育场的当代建筑里感受这里的气氛。叶子在风中沙沙响，逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "孟京辉戏剧《恋爱的犀牛》",
@@ -16456,7 +17128,9 @@
     "sub_district": "后海-深圳湾商圈集群",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "逛完可以去深圳湾商圈集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "深圳保利剧院的当代建筑总带着老街烟火气——感受这里的气氛，精酿酒吧就在步行范围内，比想象中更动人。"
+    "recommendation": "深圳保利剧院的当代建筑总带着老街烟火气——感受这里的气氛，精酿酒吧就在步行范围内，比想象中更动人。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "落日飞车「世界的人」深圳演唱会",
@@ -16495,7 +17169,9 @@
     "sub_district": "华侨城创意园集群",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "OCT-LOFT→华侨城生态广场→燕晗山郊野公园，步行约15分钟",
-    "recommendation": "B10现场海风咸湿在这里感受这里的气氛，感受比想象中更动人。 海风咸湿，比想象中更动人"
+    "recommendation": "B10现场海风咸湿在这里感受这里的气氛，感受比想象中更动人。 海风咸湿，比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "潘玉良艺术展",
@@ -16549,7 +17225,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "深圳当代艺术馆的剧场空间总带着隔壁传来的咖啡香——看一场展览，花店就在步行范围内， 隔壁传来的咖啡香"
+    "recommendation": "深圳当代艺术馆的剧场空间总带着隔壁传来的咖啡香——看一场展览，花店就在步行范围内， 隔壁传来的咖啡香",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "IOTE国际物联网展",
@@ -16599,7 +17277,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在宝安国际会展中心的当代建筑里看一场展览。逛完正好去附近的独立书店坐坐。 忘了时间的流动"
+    "recommendation": "在宝安国际会展中心的当代建筑里看一场展览。逛完正好去附近的独立书店坐坐。 忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "南国书香节（深圳分会）",
@@ -16636,7 +17316,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "广交会展馆B区梧桐光影的聚会场景。在这里感受这里的气氛，感受安静又有生气。 梧桐光影，安静又有生气"
+    "recommendation": "广交会展馆B区梧桐光影的聚会场景。在这里感受这里的气氛，感受安静又有生气。 梧桐光影，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "周深2026巡回演唱会·深圳站",
@@ -16675,7 +17357,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "深圳大运中心海风咸湿的聚会场景。在这里感受这里的气氛，感受城市难得的空白。 海风咸湿，城市难"
+    "recommendation": "深圳大运中心海风咸湿的聚会场景。在这里感受这里的气氛，感受城市难得的空白。 海风咸湿，城市难",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "蔡依林Ugly Beauty巡演深圳站",
@@ -16712,7 +17396,9 @@
     "sub_district": "后海-深圳湾商圈集群",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "逛完可以去深圳湾商圈集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "深圳湾体育中心春茧的总带着旧厂房的穿堂风——感受这里的气氛，菜市场就在步行范围内，真实的生活质感"
+    "recommendation": "深圳湾体育中心春茧的总带着旧厂房的穿堂风——感受这里的气氛，菜市场就在步行范围内，真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "龙岗午后音乐时光（民乐专场）",
@@ -16751,7 +17437,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在龙岗文化中心音乐厅里听一场现场。老街烟火气，逛完正好去附近的菜市场坐坐。 老街烟火气"
+    "recommendation": "在龙岗文化中心音乐厅里听一场现场。老街烟火气，逛完正好去附近的菜市场坐坐。 老街烟火气",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "第三届澳门国际儿童艺术节",
@@ -16808,7 +17496,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在澳门文化中心及各场馆的策展空间里看一场展览。弄堂里的市井气，逛完正好去附近的独立咖啡馆坐坐。 弄堂里的市井气"
+    "recommendation": "在澳门文化中心及各场馆的策展空间里看一场展览。弄堂里的市井气，逛完正好去附近的独立咖啡馆坐坐。 弄堂里的市井气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "「来银河，尽兴玩一夏」晒图有礼",
@@ -16845,7 +17535,9 @@
     "sub_district": "氹仔葡韵集群",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "逛完可以去氹仔葡韵集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "澳门银河的社区聚场。在这里感受这里的气氛，感受"
+    "recommendation": "澳门银河的社区聚场。在这里感受这里的气氛，感受",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "O.O.O.市场·「夏日微醺音乐祭」",
@@ -16884,7 +17576,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "澳门十六浦度假村山谷微风的社区聚场。在这里听一场现场，感受松弛自在。 山谷微风，松弛自在"
+    "recommendation": "澳门十六浦度假村山谷微风的社区聚场。在这里听一场现场，感受松弛自在。 山谷微风，松弛自在",
+    "tg_category": "food",
+    "source_type_clean": "big"
   },
   {
     "name": "「山里」叶月会席",
@@ -16921,7 +17615,9 @@
     "sub_district": "氹仔葡韵集群",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "逛完可以去氹仔葡韵集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "澳门丽思卡尔顿旧厂房的穿堂风的周末去处。在这里感受这里的气氛，感受比想象中更动人。"
+    "recommendation": "澳门丽思卡尔顿旧厂房的穿堂风的周末去处。在这里感受这里的气氛，感受比想象中更动人。",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "「阿布和他的朋友们」爵士全明星音乐会",
@@ -16960,7 +17656,9 @@
     "sub_district": "氹仔葡韵集群",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "逛完可以去氹仔葡韵集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "澳门银河叶子在风中沙沙响在这里听一场现场，感受 叶子在风中沙沙响"
+    "recommendation": "澳门银河叶子在风中沙沙响在这里听一场现场，感受 叶子在风中沙沙响",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "阿布和他的朋友们·爵士全明星音乐会",
@@ -17014,7 +17712,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "澳门其他弄堂里的市井气的聚会场景。在这里听一场现场，感受城市难得的空白。 弄堂里的市井气，城市难得的空白"
+    "recommendation": "澳门其他弄堂里的市井气的聚会场景。在这里听一场现场，感受城市难得的空白。 弄堂里的市井气，城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026粤澳名优商品展",
@@ -17068,7 +17768,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在澳门威尼斯人金光会展A馆里看一场展览。雨后石板路的反光，逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在澳门威尼斯人金光会展A馆里看一场展览。雨后石板路的反光，逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "2026粤澳名优商品展",
@@ -17123,7 +17825,9 @@
     "sub_district": "路氹",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "威尼斯人→巴黎人→伦敦人，室内步行约15分钟",
-    "recommendation": "在澳门威尼斯人金光会展A馆里看一场展览。雨后石板路的反光，逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在澳门威尼斯人金光会展A馆里看一场展览。雨后石板路的反光，逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "BOMBANA星厨仲夏意叙",
@@ -17160,7 +17864,9 @@
     "sub_district": "氹仔葡韵集群",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "逛完可以去氹仔葡韵集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "澳门银河海风咸湿的社区聚场。在这里感受这里的气氛，感受安静又有生气。 海风咸湿，安静又有生气"
+    "recommendation": "澳门银河海风咸湿的社区聚场。在这里感受这里的气氛，感受安静又有生气。 海风咸湿，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "GMMTV Fan Fest 2026 in Macau",
@@ -17212,7 +17918,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在威尼斯人综艺馆里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的独立咖啡馆坐坐。"
+    "recommendation": "在威尼斯人综艺馆里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的独立咖啡馆坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "Kawo夏日卡欢水漾市集",
@@ -17268,7 +17976,9 @@
     "sub_district": "路环",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "逛完可以去路环附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "藏在澳门里的荔枝碗船厂片区，隔壁传来的咖啡香。"
+    "recommendation": "藏在澳门里的荔枝碗船厂片区，隔壁传来的咖啡香。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「毛豆单口喜剧」《就差一点》澳门站",
@@ -17307,7 +18017,9 @@
     "sub_district": "氹仔葡韵集群",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "逛完可以去氹仔葡韵集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "澳门银河旧厂房的穿堂风的社区聚场。在这里感受这里的气氛，感受 旧厂房的穿堂风"
+    "recommendation": "澳门银河旧厂房的穿堂风的社区聚场。在这里感受这里的气氛，感受 旧厂房的穿堂风",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "夏日卡欢水漾市集",
@@ -17363,7 +18075,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "藏在澳门里的荔枝碗船厂片区，山谷微风。隔壁就是杂货铺，逛完正好吃一碗地道小吃，是松弛自在的社区日常"
+    "recommendation": "藏在澳门里的荔枝碗船厂片区，山谷微风。隔壁就是杂货铺，逛完正好吃一碗地道小吃，是松弛自在的社区日常",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "澳门夏日嘉年华2026",
@@ -17419,7 +18133,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "澳门旅游塔/西湾湖广场的策展空间总带着——感受这里的气氛，精酿酒吧就在步行范围内，忘了时间的流动"
+    "recommendation": "澳门旅游塔/西湾湖广场的策展空间总带着——感受这里的气氛，精酿酒吧就在步行范围内，忘了时间的流动",
+    "tg_category": "food",
+    "source_type_clean": "big"
   },
   {
     "name": "「尚坊」六手联乘米其林风味飨宴",
@@ -17456,7 +18172,9 @@
     "sub_district": "氹仔葡韵集群",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "逛完可以去氹仔葡韵集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "澳门莱佛士酒店尚坊运河夜风的灵感发生地。在这里感受这里的气氛，感受松弛自在。 运河夜风，松弛自在"
+    "recommendation": "澳门莱佛士酒店尚坊运河夜风的灵感发生地。在这里感受这里的气氛，感受松弛自在。 运河夜风，松弛自在",
+    "tg_category": "craft",
+    "source_type_clean": "big"
   },
   {
     "name": "澳门新桥七夕仲夏旅游体验",
@@ -17513,7 +18231,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "澳门新桥花园不像是刻意营造的文艺空间，更像是澳门新桥花园街区叶子在风中沙沙响生活里自然长出来的周末去处"
+    "recommendation": "澳门新桥花园不像是刻意营造的文艺空间，更像是澳门新桥花园街区叶子在风中沙沙响生活里自然长出来的周末去处",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「凉辰美景上下杭」夏季营销",
@@ -17552,7 +18272,9 @@
     "sub_district": "三坊七巷-上下杭闽都集群",
     "field_tip": "🌿 傍晚蓝调时刻光线绝佳，带上相机",
     "micro_walk": "南后街→三坊七巷→林则徐纪念馆→乌山，步行约15分钟",
-    "recommendation": "福州上下杭历史文化街区把历史肌理中变成社区聚场——感受这里的气氛，老街烟火气的风穿过旧厂房，带来真实的生活质感"
+    "recommendation": "福州上下杭历史文化街区把历史肌理中变成社区聚场——感受这里的气氛，老街烟火气的风穿过旧厂房，带来真实的生活质感",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "「中洲岛」暑期艺术季·FULLAND复兴季",
@@ -17589,7 +18311,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "福州中洲岛社区小广场的象棋声的灵感发生地。在这里感受这里的气氛，感受 社区小广场的象棋声"
+    "recommendation": "福州中洲岛社区小广场的象棋声的灵感发生地。在这里感受这里的气氛，感受 社区小广场的象棋声",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "朱炳仁熔铜艺术20周年特展·福州首展",
@@ -17644,7 +18368,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在福州泰禾广场西区L1主中庭里看一场展览。弄堂里的市井气，逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在福州泰禾广场西区L1主中庭里看一场展览。弄堂里的市井气，逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "毕加索：像孩子一样·真迹光影互动艺术展",
@@ -17699,7 +18425,9 @@
     "sub_district": "鼓楼区",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "三坊七巷→南后街→乌山，步行约15分钟",
-    "recommendation": "40余件毕加索原作真迹！雕塑、陶瓷、舞台道具，AR互动+沉浸式光影空间，四个空间完整呈现艺术大师一生"
+    "recommendation": "40余件毕加索原作真迹！雕塑、陶瓷、舞台道具，AR互动+沉浸式光影空间，四个空间完整呈现艺术大师一生",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "毕加索：像孩子一样——真迹·光影互动艺术展",
@@ -17754,7 +18482,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在福州软件园A区双创新城的剧场空间里看一场展览。弄堂里的市井气，逛完正好去附近的唱片店坐坐"
+    "recommendation": "在福州软件园A区双创新城的剧场空间里看一场展览。弄堂里的市井气，逛完正好去附近的唱片店坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "话剧《宝岛一村》专属版",
@@ -17793,7 +18523,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "福州海峡文化艺术中心的当代建筑总带着傍晚的蓝调时刻——感受这里的气氛，唱片店就在步行范围内，安静又有生气"
+    "recommendation": "福州海峡文化艺术中心的当代建筑总带着傍晚的蓝调时刻——感受这里的气氛，唱片店就在步行范围内，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「夏一站，趣福州」研学旅游季",
@@ -17832,7 +18564,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "福州各区县雨后石板路的反光的灵感据点。在这里感受这里的气氛，感受比想象中更动人。"
+    "recommendation": "福州各区县雨后石板路的反光的灵感据点。在这里感受这里的气氛，感受比想象中更动人。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "捷克首席少女合唱团JITRO童声合唱音乐会",
@@ -17871,7 +18605,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "在福建大剧院歌剧厅的里听一场现场，逛完正好去附近的唱片店坐坐"
+    "recommendation": "在福建大剧院歌剧厅的里听一场现场，逛完正好去附近的唱片店坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "闽剧《双蝶扇》惠民演出",
@@ -17908,7 +18644,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在福建省闽剧艺术中心剧场的策展空间里听一场现场。傍晚的蓝调时刻，逛完正好去附近的唱片店坐坐。 忘了时间的流动"
+    "recommendation": "在福建省闽剧艺术中心剧场的策展空间里听一场现场。傍晚的蓝调时刻，逛完正好去附近的唱片店坐坐。 忘了时间的流动",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "儿童剧《恐龙归来之小精灵探险记》",
@@ -17947,7 +18685,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "福州海峡文化艺术中心的剧场空间总带着弄堂里的市井气——感受这里的气氛，花店就在步行范围内，不赶不急"
+    "recommendation": "福州海峡文化艺术中心的剧场空间总带着弄堂里的市井气——感受这里的气氛，花店就在步行范围内，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "吾土吾民——馆藏宁夏乡土美术作品的多维表达",
@@ -18002,7 +18742,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "福建省艺术馆展厅（鼓楼区白马北总带着运河夜风——感受这里的气氛，花店就在步行范围内"
+    "recommendation": "福建省艺术馆展厅（鼓楼区白马北总带着运河夜风——感受这里的气氛，花店就在步行范围内",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "上海美术电影制片厂《葫芦兄弟》",
@@ -18042,7 +18784,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "福州海峡文化艺术中心的总带着社区小广场的象棋声——感受这里的气氛，社区公园就在步行范围内，松弛自在"
+    "recommendation": "福州海峡文化艺术中心的总带着社区小广场的象棋声——感受这里的气氛，社区公园就在步行范围内，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "《重返侏罗纪》大型沉浸式亲子舞台剧",
@@ -18081,7 +18825,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在福州海峡文化艺术中心的策展空间里感受这里的气氛。山谷微风，逛完正好去附近的杂货铺坐坐。"
+    "recommendation": "在福州海峡文化艺术中心的策展空间里感受这里的气氛。山谷微风，逛完正好去附近的杂货铺坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026榕城夏日海鲜美食季（长乐专场）",
@@ -18136,7 +18882,9 @@
     "sub_district": "未知",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "",
-    "recommendation": "远离市区的长乐下沙海滨坐落在田埂之间。在这里感受这里的气氛，日落前最后一束光是。 日落前最后一束光，松弛自在"
+    "recommendation": "远离市区的长乐下沙海滨坐落在田埂之间。在这里感受这里的气氛，日落前最后一束光是。 日落前最后一束光，松弛自在",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "《柴可夫斯基的钢琴日记》鲁超钢琴独奏音乐会",
@@ -18175,7 +18923,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "在福州海峡文化艺术中心的当代建筑里听一场现场。弄堂里的市井气，逛完正好去附近的精酿酒吧坐坐。"
+    "recommendation": "在福州海峡文化艺术中心的当代建筑里听一场现场。弄堂里的市井气，逛完正好去附近的精酿酒吧坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "福州暑期非遗体验周",
@@ -18230,7 +18980,9 @@
     "sub_district": "三坊七巷-上下杭闽都集群",
     "field_tip": "🌿 建议傍晚到达，旧厂房的落日穿堂风是隐藏彩蛋；宠物友好",
     "micro_walk": "南后街→三坊七巷→林则徐纪念馆→乌山，步行约15分钟",
-    "recommendation": "福州三坊七巷把红砖拱顶下变成聚会场景——感受这里的气氛，海风咸湿的风穿过旧厂房，带来城市难得的空白"
+    "recommendation": "福州三坊七巷把红砖拱顶下变成聚会场景——感受这里的气氛，海风咸湿的风穿过旧厂房，带来城市难得的空白",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "第十届迷鹿动漫展·福州站",
@@ -18284,7 +19036,9 @@
     "sub_district": "仓山区",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "逛完可以去仓山区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "福州海峡国际会展中心的当代建筑总带着旧厂房的穿堂风——看一场展览，独立书店就在步行范围内，城市难得的空白"
+    "recommendation": "福州海峡国际会展中心的当代建筑总带着旧厂房的穿堂风——看一场展览，独立书店就在步行范围内，城市难得的空白",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "正版国漫首部2.5次元真人舞台剧《一人之下》第一部",
@@ -18321,7 +19075,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "福州海峡文化艺术中心的策展空间总带着老街烟火气——感受这里的气氛，精酿酒吧就在步行范围内"
+    "recommendation": "福州海峡文化艺术中心的策展空间总带着老街烟火气——感受这里的气氛，精酿酒吧就在步行范围内",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "《放屁大象吹低音号》德国原版绘本启蒙交响音乐会",
@@ -18361,7 +19117,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "在福州海峡文化艺术中心的当代建筑里听一场现场。弄堂里的市井气，逛完正好去附近的杂货铺坐坐。"
+    "recommendation": "在福州海峡文化艺术中心的当代建筑里听一场现场。弄堂里的市井气，逛完正好去附近的杂货铺坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "沪剧《风雪夜归人》",
@@ -18398,7 +19156,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在福建大剧院歌剧厅的当代建筑里听一场现场。逛完正好去附近的老字号小吃店坐坐。 不赶不急"
+    "recommendation": "在福建大剧院歌剧厅的当代建筑里听一场现场。逛完正好去附近的老字号小吃店坐坐。 不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "舞台剧《她们》",
@@ -18435,7 +19195,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在福州海峡文化艺术中心里感受这里的气氛，逛完正好去附近的精酿酒吧坐坐。忘了时间的流动"
+    "recommendation": "在福州海峡文化艺术中心里感受这里的气氛，逛完正好去附近的精酿酒吧坐坐。忘了时间的流动",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "话剧《双生镜》浙江话剧团",
@@ -18474,7 +19236,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在福建大剧院歌剧厅的策展空间里听一场现场。寺庙钟声隐约，逛完正好去附近的杂货铺坐坐。"
+    "recommendation": "在福建大剧院歌剧厅的策展空间里听一场现场。寺庙钟声隐约，逛完正好去附近的杂货铺坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "鲍罗丁钢琴三重奏音乐会",
@@ -18513,7 +19277,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "在福州海峡文化艺术中心的策展空间里听一场现场。叶子在风中沙沙响，逛完正好去附近的社区公园坐坐。"
+    "recommendation": "在福州海峡文化艺术中心的策展空间里听一场现场。叶子在风中沙沙响，逛完正好去附近的社区公园坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "歌剧《卡门》中文版",
@@ -18552,7 +19318,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "福建大剧院歌剧厅的剧场空间总带着弄堂里的市井气——感受这里的气氛，花店就在步行范围内，松弛自在。"
+    "recommendation": "福建大剧院歌剧厅的剧场空间总带着弄堂里的市井气——感受这里的气氛，花店就在步行范围内，松弛自在。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "苗疆秘境狂欢节——傩文化沉浸式演艺",
@@ -18605,7 +19373,9 @@
     "sub_district": "未知",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "",
-    "recommendation": "苗疆秘境景区把活动搬进了田埂——听一场现场，社区小广场的象棋声，是城市里找不到的松弛自在。"
+    "recommendation": "苗疆秘境景区把活动搬进了田埂——听一场现场，社区小广场的象棋声，是城市里找不到的松弛自在。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "傩文化博物馆手绘傩面体验",
@@ -18660,7 +19430,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在中南门古城大食府戏台的剧场空间里听一场现场。社区小广场的象棋声，逛完正好去附近的手艺人工作室坐坐"
+    "recommendation": "在中南门古城大食府戏台的剧场空间里听一场现场。社区小广场的象棋声，逛完正好去附近的手艺人工作室坐坐",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「赶场」2026贵阳精酿啤酒节",
@@ -18700,7 +19472,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "阿云朵仓傍晚的蓝调时刻的精神角落。在这里感受这里的气氛，感受忘了时间的流动。 傍晚的蓝调时刻，忘了时间的流动"
+    "recommendation": "阿云朵仓傍晚的蓝调时刻的精神角落。在这里感受这里的气氛，感受忘了时间的流动。 傍晚的蓝调时刻，忘了时间的流动",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "赶场·2026贵阳精酿啤酒节",
@@ -18757,7 +19531,9 @@
     "sub_district": "观山湖区",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "逛完可以去观山湖区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "阿云朵仓海风咸湿的灵感据点。在这里听一场现场，感受城市难得的空白。 海风咸湿，城市难得的空白"
+    "recommendation": "阿云朵仓海风咸湿的灵感据点。在这里听一场现场，感受城市难得的空白。 海风咸湿，城市难得的空白",
+    "tg_category": "terroir",
+    "source_type_clean": "small"
   },
   {
     "name": "周深「深深的」2026贵阳演唱会",
@@ -18796,7 +19572,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "贵阳奥林匹克体育中心的策展空间总带着运河夜风——感受这里的气氛，手艺人工作室就在步行范围内，安静又有生气"
+    "recommendation": "贵阳奥林匹克体育中心的策展空间总带着运河夜风——感受这里的气氛，手艺人工作室就在步行范围内，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "周深「深深的」巡回演唱会-贵阳站",
@@ -18849,7 +19627,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在奥林匹克体育中心体育场的里感受这里的气氛。旧厂房的穿堂风，逛完正好去附近的独立书店坐坐"
+    "recommendation": "在奥林匹克体育中心体育场的里感受这里的气氛。旧厂房的穿堂风，逛完正好去附近的独立书店坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "陈卓璇2026「当•拾」巡回演唱会",
@@ -18888,7 +19668,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在贵阳国际会议展览中心1号展厅里感受这里的气氛。弄堂里的市井气，逛完正好去附近的精酿酒吧坐坐"
+    "recommendation": "在贵阳国际会议展览中心1号展厅里感受这里的气氛。弄堂里的市井气，逛完正好去附近的精酿酒吧坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026黔粤精品美食美酒文化周",
@@ -18944,7 +19726,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 限时活动建议趁早去，好东西不等人",
     "micro_walk": "",
-    "recommendation": "藏在贵阳里的贵阳多彩贵州城，隔壁传来的咖啡香。隔壁就是杂货铺，逛完正好吃一碗地道小吃，是安静又有生气的社区日常"
+    "recommendation": "藏在贵阳里的贵阳多彩贵州城，隔壁传来的咖啡香。隔壁就是杂货铺，逛完正好吃一碗地道小吃，是安静又有生气的社区日常",
+    "tg_category": "food",
+    "source_type_clean": "big"
   },
   {
     "name": "黔粤美食文化周·Chill Power面包节3.0",
@@ -19002,7 +19786,9 @@
     "sub_district": "南明区",
     "field_tip": "🌿 限时活动建议趁早去，好东西不等人",
     "micro_walk": "甲秀楼→电台街→文昌阁，步行约15分钟",
-    "recommendation": "藏在多彩贵州城里的多彩贵州城，隔壁传来的咖啡香。"
+    "recommendation": "藏在多彩贵州城里的多彩贵州城，隔壁传来的咖啡香。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "欢子「我的青春有你」2026巡回演唱会贵阳站",
@@ -19041,7 +19827,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在贵阳国际会议展览中心一号馆的策展空间里感受这里的气氛。雨后石板路的反光，逛完正好去附近的独立咖啡馆坐坐"
+    "recommendation": "在贵阳国际会议展览中心一号馆的策展空间里感受这里的气氛。雨后石板路的反光，逛完正好去附近的独立咖啡馆坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026 Chill Power咖啡面包节3.0",
@@ -19099,7 +19887,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议午后前往，先逛周边小店再到场，节奏刚好；宠物友好",
     "micro_walk": "",
-    "recommendation": "藏在贵阳里的贵阳多彩贵州城，运河夜风。隔壁就是杂货铺，逛完正好喝一杯手冲，是真实的生活质感的社区日常"
+    "recommendation": "藏在贵阳里的贵阳多彩贵州城，运河夜风。隔壁就是杂货铺，逛完正好喝一杯手冲，是真实的生活质感的社区日常",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "2026ChillPower咖啡面包节",
@@ -19139,7 +19929,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "",
-    "recommendation": "多彩贵州城日落前最后一束光的聚会场景。在这里感受这里的气氛，感受 日落前最后一束光"
+    "recommendation": "多彩贵州城日落前最后一束光的聚会场景。在这里感受这里的气氛，感受 日落前最后一束光",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "徐良2026「时间折叠」巡回演唱会",
@@ -19178,7 +19970,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在贵阳体育馆的策展空间里感受这里的气氛。雨后石板路的反光，逛完正好去附近的杂货铺坐坐。"
+    "recommendation": "在贵阳体育馆的策展空间里感受这里的气氛。雨后石板路的反光，逛完正好去附近的杂货铺坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "徐良「时间折叠」巡回演唱会-贵阳站",
@@ -19232,7 +20026,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在贵阳体育馆里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的杂货铺坐坐。 傍晚的蓝调时刻，安静又有生气"
+    "recommendation": "在贵阳体育馆里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的杂货铺坐坐。 傍晚的蓝调时刻，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026JUMPPARK腾讯视频音乐大赏",
@@ -19271,7 +20067,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在观山湖公园民族大联欢广场的策展空间里听一场现场。傍晚的蓝调时刻，逛完正好去附近的唱片店坐坐。 傍晚的蓝调时刻"
+    "recommendation": "在观山湖公园民族大联欢广场的策展空间里听一场现场。傍晚的蓝调时刻，逛完正好去附近的唱片店坐坐。 傍晚的蓝调时刻",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "张韶涵2026玩家巡回演唱会贵阳站",
@@ -19310,7 +20108,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "贵阳奥林匹克体育中心的剧场空间总带着旧厂房的穿堂风——感受这里的气氛，独立咖啡馆就在步行范围内，安静又有生气"
+    "recommendation": "贵阳奥林匹克体育中心的剧场空间总带着旧厂房的穿堂风——感受这里的气氛，独立咖啡馆就在步行范围内，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "湖南省博物馆「马王堆」数字展",
@@ -19347,7 +20147,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在湖南省博物馆里看一场展览。弄堂里的市井气，逛完正好去附近的花店坐坐。 弄堂里的市井气，不赶不急"
+    "recommendation": "在湖南省博物馆里看一场展览。弄堂里的市井气，逛完正好去附近的花店坐坐。 弄堂里的市井气，不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "「湘江音乐节」夏夜狂欢",
@@ -19386,7 +20188,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "",
-    "recommendation": "长沙湘江风光带运河夜风的灵感据点。在这里听一场现场，感受安静又有生气。 运河夜风，安静又有生气"
+    "recommendation": "长沙湘江风光带运河夜风的灵感据点。在这里听一场现场，感受安静又有生气。 运河夜风，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "2026广州咖啡文化季花香咖啡烘焙邀请赛预选赛（联动）",
@@ -19437,7 +20241,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在广州华侨博物馆的里感受这里的气氛。旧厂房的穿堂风，逛完正好去附近的独立书店坐坐。"
+    "recommendation": "在广州华侨博物馆的里感受这里的气氛。旧厂房的穿堂风，逛完正好去附近的独立书店坐坐。",
+    "tg_category": "food",
+    "source_type_clean": "big"
   },
   {
     "name": "「闪闪发光的孩子」夏日才艺大舞台",
@@ -19487,7 +20293,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在长沙市群众艺术馆广场舞台的当代建筑里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的菜市场坐坐"
+    "recommendation": "在长沙市群众艺术馆广场舞台的当代建筑里感受这里的气氛。隔壁传来的咖啡香，逛完正好去附近的菜市场坐坐",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "踏寻红色足迹·传习非遗匠心暑期公益课",
@@ -19538,7 +20346,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 空间不大建议错峰，上午或傍晚时段体验最佳",
     "micro_walk": "",
-    "recommendation": "长沙非遗馆戏园不像是刻意营造的文艺空间，更像是长沙街区老街烟火气生活里自然长出来 老街烟火气，不赶不急"
+    "recommendation": "长沙非遗馆戏园不像是刻意营造的文艺空间，更像是长沙街区老街烟火气生活里自然长出来 老街烟火气，不赶不急",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "十四行诗插画手账艺术节·糖果时光",
@@ -19590,7 +20400,9 @@
     "sub_district": "芙蓉区",
     "field_tip": "🌿 建议午后前往，先逛周边小店再到场，节奏刚好；宠物友好",
     "micro_walk": "逛完可以去芙蓉区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "藏在长沙芙蓉天街里的长沙芙蓉天街，傍晚的蓝调时刻。隔壁就是花店，逛完正好吃一碗地道小吃，是不赶不急的社区日常"
+    "recommendation": "藏在长沙芙蓉天街里的长沙芙蓉天街，傍晚的蓝调时刻。隔壁就是花店，逛完正好吃一碗地道小吃，是不赶不急的社区日常",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "大都潮饮节·长沙站",
@@ -19648,7 +20460,9 @@
     "sub_district": "开福区",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "逛完可以去开福区附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "长沙北辰荟菜市场的灵感据点。在这里感受这里的气氛，感受真实的生活质感。 菜市场，真实的生活质感"
+    "recommendation": "长沙北辰荟菜市场的灵感据点。在这里感受这里的气氛，感受真实的生活质感。 菜市场，真实的生活质感",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "橘洲唱晚·暑期非遗专场演出",
@@ -19703,7 +20517,9 @@
     "sub_district": "岳麓区",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "岳麓山→湖南大学→麓山南路，骑行约15分钟",
-    "recommendation": "在长沙非物质文化遗产馆的剧场空间里听一场现场。海风咸湿，逛完正好去附近的手艺人工作室坐坐。"
+    "recommendation": "在长沙非物质文化遗产馆的剧场空间里听一场现场。海风咸湿，逛完正好去附近的手艺人工作室坐坐。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「暑你精彩」非遗传习体验季",
@@ -19753,7 +20569,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 社区小店附近停车不便，地铁+共享单车最省心",
     "micro_walk": "",
-    "recommendation": "长沙非遗馆二楼传习所不像是刻意营造的文艺空间，更像是长沙街区傍晚的蓝调时刻生活里自然长出来"
+    "recommendation": "长沙非遗馆二楼传习所不像是刻意营造的文艺空间，更像是长沙街区傍晚的蓝调时刻生活里自然长出来",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "新芙蓉动漫节",
@@ -19807,7 +20625,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "长沙国际会展中心总带着弄堂里的市井气——感受这里的气氛，杂货铺就在步行范围内，忘了时间的流动"
+    "recommendation": "长沙国际会展中心总带着弄堂里的市井气——感受这里的气氛，杂货铺就在步行范围内，忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "长沙火宫殿非遗市集",
@@ -19863,7 +20683,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "火宫殿/坡子街不像是刻意营造的文艺空间，更像是长沙街区傍晚的蓝调时刻生活里自然长出来的灵感据点。"
+    "recommendation": "火宫殿/坡子街不像是刻意营造的文艺空间，更像是长沙街区傍晚的蓝调时刻生活里自然长出来的灵感据点。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "非遗有「集」·烟火长沙休闲市集",
@@ -19915,7 +20737,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "中国民俗画创作基地（蔡二茶馆）不像是刻意营造的文艺空间，更像是长沙街区寺庙钟声隐约生活里自然长出来的周末去处"
+    "recommendation": "中国民俗画创作基地（蔡二茶馆）不像是刻意营造的文艺空间，更像是长沙街区寺庙钟声隐约生活里自然长出来的周末去处",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "全国首届「万物有型」3D打印设计展",
@@ -19965,7 +20789,9 @@
     "sub_district": "未知",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "",
-    "recommendation": "在隆平水稻博物馆的当代建筑里看一场展览。旧厂房的穿堂风，逛完正好去附近的独立书店坐坐。"
+    "recommendation": "在隆平水稻博物馆的当代建筑里看一场展览。旧厂房的穿堂风，逛完正好去附近的独立书店坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "千禧原创集市",
@@ -20020,7 +20846,9 @@
     "sub_district": "天心区",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "太平老街→坡子街→杜甫江阁，步行约15分钟",
-    "recommendation": "藏在长沙海信广场里的长沙海信广场，山谷微风。隔壁就是独立书店，逛完正好吃一碗地道小吃，是纯粹开心的社区日常"
+    "recommendation": "藏在长沙海信广场里的长沙海信广场，山谷微风。隔壁就是独立书店，逛完正好吃一碗地道小吃，是纯粹开心的社区日常",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「橘洲音乐节」2026长沙站",
@@ -20059,7 +20887,9 @@
     "sub_district": "岳麓山-橘子洲文旅集群",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "岳麓山→湖南大学→麓山南路，骑行约15分钟",
-    "recommendation": "在橘子洲头沙滩公园的剧场空间里听一场现场。雨后石板路的反光，逛完正好去附近的独立书店坐坐。"
+    "recommendation": "在橘子洲头沙滩公园的剧场空间里听一场现场。雨后石板路的反光，逛完正好去附近的独立书店坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "凤凰传奇「吉祥如意」巡回演唱会-长沙站",
@@ -20112,7 +20942,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在贺龙体育场里感受这里的气氛。逛完正好去附近的菜市场坐坐。 安静又有生气"
+    "recommendation": "在贺龙体育场里感受这里的气氛。逛完正好去附近的菜市场坐坐。 安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "太阳手账节",
@@ -20166,7 +20998,9 @@
     "sub_district": "岳麓区",
     "field_tip": "🌿 社区小店附近停车不便，地铁+共享单车最省心",
     "micro_walk": "岳麓山→湖南大学→麓山南路，骑行约15分钟",
-    "recommendation": "长沙凯德壹中心不像是刻意营造的文艺空间，更像是长沙街区旧厂房的穿堂风生活里自然长出来的精神角落。"
+    "recommendation": "长沙凯德壹中心不像是刻意营造的文艺空间，更像是长沙街区旧厂房的穿堂风生活里自然长出来的精神角落。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "李昢：一九九八年至今的创作",
@@ -20216,7 +21050,9 @@
     "sub_district": "西九文化区集群",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "逛完可以去西九文化区集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "M+博物馆二楼西展厅的策展空间总带着海风咸湿——感受这里的气氛，杂货铺就在步行范围内，忘了时间的流动"
+    "recommendation": "M+博物馆二楼西展厅的策展空间总带着海风咸湿——感受这里的气氛，杂货铺就在步行范围内，忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "致电一首诗·香港",
@@ -20266,7 +21102,9 @@
     "sub_district": "西九文化区集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去西九文化区集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在M+博物馆二楼焦点空间的当代建筑里感受这里的气氛。运河夜风，逛完正好去附近的精酿酒吧坐坐。"
+    "recommendation": "在M+博物馆二楼焦点空间的当代建筑里感受这里的气氛。运河夜风，逛完正好去附近的精酿酒吧坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "皮克斯夏日狂欢趴——香港迪士尼",
@@ -20321,7 +21159,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "在香港迪士尼乐园的策展空间里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的杂货铺坐坐。"
+    "recommendation": "在香港迪士尼乐园的策展空间里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的杂货铺坐坐。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "设计啊！感受日常设计之奇妙",
@@ -20371,7 +21211,9 @@
     "sub_district": "西九文化区集群",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "逛完可以去西九文化区集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在M+博物馆G层地下大堂展厅的策展空间里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的精酿酒吧坐坐"
+    "recommendation": "在M+博物馆G层地下大堂展厅的策展空间里感受这里的气氛。傍晚的蓝调时刻，逛完正好去附近的精酿酒吧坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "CHIIKAWA巨型木马展",
@@ -20419,7 +21261,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议午后前往，先逛周边小店再到场，节奏刚好；宠物友好",
     "micro_walk": "",
-    "recommendation": "藏在九龙塘又一城里的九龙塘又一城，海风咸湿隔壁就是精酿酒吧，逛完正好吃一碗地道小吃，是安静又有生气的社区日常"
+    "recommendation": "藏在九龙塘又一城里的九龙塘又一城，海风咸湿隔壁就是精酿酒吧，逛完正好吃一碗地道小吃，是安静又有生气的社区日常",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "2026夏日维港音乐节",
@@ -20458,7 +21302,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议提前查询天气，做好出行准备",
     "micro_walk": "",
-    "recommendation": "维多利亚港海风咸湿的聚会场景。在这里听一场现场，感受比想象中更动人。 海风咸湿，比想象中更动人"
+    "recommendation": "维多利亚港海风咸湿的聚会场景。在这里听一场现场，感受比想象中更动人。 海风咸湿，比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "香港书展2026",
@@ -20495,7 +21341,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "",
-    "recommendation": "在香港会议展览中心的策展空间里看一场展览。海风咸湿，逛完正好去附近的杂货铺坐坐。 海风咸湿，城市难得的空白"
+    "recommendation": "在香港会议展览中心的策展空间里看一场展览。海风咸湿，逛完正好去附近的杂货铺坐坐。 海风咸湿，城市难得的空白",
+    "tg_category": "terroir",
+    "source_type_clean": "small"
   },
   {
     "name": "M+儿童夏令主场：创作日营",
@@ -20546,7 +21394,9 @@
     "sub_district": "西九文化区集群",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "逛完可以去西九文化区集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在M+博物馆的策展空间里感受这里的气氛。运河夜风，逛完正好去附近的唱片店坐坐。 运河夜风"
+    "recommendation": "在M+博物馆的策展空间里感受这里的气氛。运河夜风，逛完正好去附近的唱片店坐坐。 运河夜风",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "CHIIKAWA ARTIVERSE 特展",
@@ -20602,7 +21452,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 穿速干衣+防滑鞋，带足水和零食",
     "micro_walk": "",
-    "recommendation": "K11 MUSEA 6楼及地下总带着山谷微风——看一场展览，社区公园就在步行范围内，真实的生活质感"
+    "recommendation": "K11 MUSEA 6楼及地下总带着山谷微风——看一场展览，社区公园就在步行范围内，真实的生活质感",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "M+博物馆草间弥生个展",
@@ -20639,7 +21491,9 @@
     "sub_district": "西九文化区集群",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "逛完可以去西九文化区集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "M+博物馆的当代建筑总带着——看一场展览，独立咖啡馆就在步行范围内，真实的生活质感"
+    "recommendation": "M+博物馆的当代建筑总带着——看一场展览，独立咖啡馆就在步行范围内，真实的生活质感",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "CHIIKAWA 小可吉瓦艺术特展",
@@ -20693,7 +21547,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 穿速干衣+防滑鞋，带足水和零食",
     "micro_walk": "",
-    "recommendation": "在尖沙咀K11 MUSEA及海滨的策展空间里看一场展览。傍晚的蓝调时刻，逛完正好去附近的菜市场坐坐"
+    "recommendation": "在尖沙咀K11 MUSEA及海滨的策展空间里看一场展览。傍晚的蓝调时刻，逛完正好去附近的菜市场坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "中环街市×LOCOLOCO「夏の納涼」创意市集",
@@ -20748,7 +21604,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "藏在中环街市里的中环街市，梧桐光影。隔壁就是花店，逛完正好吃一碗地道小吃，是安静又有生气的社区日常"
+    "recommendation": "藏在中环街市里的中环街市，梧桐光影。隔壁就是花店，逛完正好吃一碗地道小吃，是安静又有生气的社区日常",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "古埃及文明大展——埃及博物馆珍藏",
@@ -20802,7 +21660,9 @@
     "sub_district": "西九文化区集群",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "逛完可以去西九文化区集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "香港故宫文化博物馆展厅9的策展空间总带着海风咸湿——看一场展览，社区公园就在步行范围内，忘了时间的流动"
+    "recommendation": "香港故宫文化博物馆展厅9的策展空间总带着海风咸湿——看一场展览，社区公园就在步行范围内，忘了时间的流动",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "长安万象——陕西隋唐文明展",
@@ -20856,7 +21716,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "在香港各大文博展厅里看一场展览。运河夜风，逛完正好去附近的菜市场坐坐。 运河夜风"
+    "recommendation": "在香港各大文博展厅里看一场展览。运河夜风，逛完正好去附近的菜市场坐坐。 运河夜风",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "Dance Well @ M+ 2026",
@@ -20906,7 +21768,9 @@
     "sub_district": "西九文化区集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去西九文化区集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在M+博物馆的里亲手做一件东西。海风咸湿，逛完正好去附近的菜市场坐坐。 海风咸湿，忘了时间的流动"
+    "recommendation": "在M+博物馆的里亲手做一件东西。海风咸湿，逛完正好去附近的菜市场坐坐。 海风咸湿，忘了时间的流动",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "中環街市 夏の納涼·創意市集",
@@ -20962,7 +21826,9 @@
     "sub_district": "中環",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "逛完可以去中環附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "中環街市不像是刻意营造的文艺空间，更像是中環街市街区社区小广场的象棋声生活里自然长出来的灵感发生地"
+    "recommendation": "中環街市不像是刻意营造的文艺空间，更像是中環街市街区社区小广场的象棋声生活里自然长出来的灵感发生地",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "香港足球峰会2026：拜仁慕尼黑vs阿士东维拉",
@@ -21017,7 +21883,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "",
-    "recommendation": "启德主场馆的总带着——感受这里的气氛，独立咖啡馆就在步行范围内，比想象中更动人"
+    "recommendation": "启德主场馆的总带着——感受这里的气氛，独立咖啡馆就在步行范围内，比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "SOHO MARKET 8月生活市集@D Park",
@@ -21073,7 +21941,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "",
-    "recommendation": "藏在香港里的D·PARK愉景新城L2，海风咸湿隔壁就是菜市场，逛完正好喝一杯手冲，是真实的生活质感的社区日常"
+    "recommendation": "藏在香港里的D·PARK愉景新城L2，海风咸湿隔壁就是菜市场，逛完正好喝一杯手冲，是真实的生活质感的社区日常",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "香港貿發局美食博覽2026",
@@ -21128,7 +21998,9 @@
     "sub_district": "灣仔",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "逛完可以去灣仔附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在香港會議展覽中心的策展空间里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的老字号小吃店坐坐"
+    "recommendation": "在香港會議展覽中心的策展空间里感受这里的气氛。社区小广场的象棋声，逛完正好去附近的老字号小吃店坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "香港贸发局美食博览2026",
@@ -21182,7 +22054,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在香港会议展览中心的剧场空间里感受这里的气氛。山谷微风，逛完正好去附近的菜市场坐坐。 山谷微风，松弛自在"
+    "recommendation": "在香港会议展览中心的剧场空间里感受这里的气氛。山谷微风，逛完正好去附近的菜市场坐坐。 山谷微风，松弛自在",
+    "tg_category": "food",
+    "source_type_clean": "big"
   },
   {
     "name": "酸民盛會·初夏嘉年華市集@AIRSIDE",
@@ -21240,7 +22114,9 @@
     "sub_district": "啟德",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好；宠物友好",
     "micro_walk": "逛完可以去啟德附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "藏在香港里的AIRSIDE，寺庙钟声隐约。隔壁就是唱片店，逛完正好吃一碗地道小吃，是的社区日常"
+    "recommendation": "藏在香港里的AIRSIDE，寺庙钟声隐约。隔壁就是唱片店，逛完正好吃一碗地道小吃，是的社区日常",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "珍妮特·卡迪夫：四十部经文歌",
@@ -21290,7 +22166,9 @@
     "sub_district": "西九文化区集群",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "逛完可以去西九文化区集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "在M+博物馆B2层展演空间的策展空间里感受这里的气氛。菜市场，逛完正好去附近的唱片店坐坐。"
+    "recommendation": "在M+博物馆B2层展演空间的策展空间里感受这里的气氛。菜市场，逛完正好去附近的唱片店坐坐。",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "古天乐 MY FIRST SHOW 红馆演唱会",
@@ -21343,7 +22221,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "",
-    "recommendation": "红磡香港体育馆的剧场空间总带着旧厂房的穿堂风——听一场现场，精酿酒吧就在步行范围内，安静又有生气。"
+    "recommendation": "红磡香港体育馆的剧场空间总带着旧厂房的穿堂风——听一场现场，精酿酒吧就在步行范围内，安静又有生气。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "香港电脑通讯节2026",
@@ -21397,7 +22277,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "",
-    "recommendation": "在香港会议展览中心1号展览厅的剧场空间里感受这里的气氛。叶子在风中沙沙响，逛完正好去附近的社区公园坐坐"
+    "recommendation": "在香港会议展览中心1号展览厅的剧场空间里感受这里的气氛。叶子在风中沙沙响，逛完正好去附近的社区公园坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "M+ 亲子随玩现场：画画不寻常",
@@ -21449,7 +22331,9 @@
     "sub_district": "西九文化区集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "逛完可以去西九文化区集群附近走走，周边有不少值得探索的小店和街角风景。",
-    "recommendation": "M+工作室2的当代建筑总带着旧厂房的穿堂风——感受这里的气氛，独立书店就在步行范围内，安静又有生气"
+    "recommendation": "M+工作室2的当代建筑总带着旧厂房的穿堂风——感受这里的气氛，独立书店就在步行范围内，安静又有生气",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "「拉阔音乐会」她和她的秘密·卫兰x炎明熹",
@@ -21488,7 +22372,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "香港亚洲国际博览馆ARENA山谷微风的社区聚场。在这里听一场现场，感受比想象中更动人。"
+    "recommendation": "香港亚洲国际博览馆ARENA山谷微风的社区聚场。在这里听一场现场，感受比想象中更动人。",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "卫兰×炎明熹 拉阔音乐会「她和她的秘密」",
@@ -21542,7 +22428,9 @@
     "sub_district": "未知",
     "field_tip": "🌿 提前30分钟到，占个好位置；户外场地建议带坐垫",
     "micro_walk": "",
-    "recommendation": "亚洲国际博览馆ARENA总带着寺庙钟声隐约——听一场现场，社区公园就在步行范围内，城市难得的空白"
+    "recommendation": "亚洲国际博览馆ARENA总带着寺庙钟声隐约——听一场现场，社区公园就在步行范围内，城市难得的空白",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "杨丽萍作品·舞蹈剧场《十面埋伏》",
@@ -21576,7 +22464,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "广州大剧院的剧场空间总带着寺庙钟声隐约——听一场现场，老字号小吃店就在步行范围内，不赶不急。"
+    "recommendation": "广州大剧院的剧场空间总带着寺庙钟声隐约——听一场现场，老字号小吃店就在步行范围内，不赶不急。",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "上海昆剧团《临川四梦》",
@@ -21610,7 +22500,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "在广州大剧院的里听一场现场。叶子在风中沙沙响，逛完正好去附近的精酿酒吧坐坐。 叶子在风中沙沙响，真实的生活质感"
+    "recommendation": "在广州大剧院的里听一场现场。叶子在风中沙沙响，逛完正好去附近的精酿酒吧坐坐。 叶子在风中沙沙响，真实的生活质感",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "偶像与幻象——林菁·吴真双人展",
@@ -21646,7 +22538,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "逵园艺术馆的策展空间总带着雨后石板路的反光——看一场展览，杂货铺就在步行范围内， 雨后石板路的反光"
+    "recommendation": "逵园艺术馆的策展空间总带着雨后石板路的反光——看一场展览，杂货铺就在步行范围内， 雨后石板路的反光",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "幽兰清雅·墨韵越秀——兰花写生作品展",
@@ -21680,7 +22574,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "在陈树人纪念馆的里看一场展览。雨后石板路的反光，逛完正好去附近的社区公园坐坐。 雨后石板路的反光"
+    "recommendation": "在陈树人纪念馆的里看一场展览。雨后石板路的反光，逛完正好去附近的社区公园坐坐。 雨后石板路的反光",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "广州建城2240年暨得名1800年专题展",
@@ -21714,7 +22610,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "在广州艺术博物院（广州美术馆）的策展空间里看一场展览。海风咸湿，逛完正好去附近的独立书店坐坐"
+    "recommendation": "在广州艺术博物院（广州美术馆）的策展空间里看一场展览。海风咸湿，逛完正好去附近的独立书店坐坐",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "塑造万象——馆藏工艺雕塑作品展",
@@ -21748,7 +22646,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 工作日中午人最少，周末建议预约最早/最晚场",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "广东民间工艺博物馆（陈家祠）的剧场空间总带着叶子在风中沙沙响——看一场展览，独立咖啡馆就在步行范围内，松弛自在"
+    "recommendation": "广东民间工艺博物馆（陈家祠）的剧场空间总带着叶子在风中沙沙响——看一场展览，独立咖啡馆就在步行范围内，松弛自在",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "小蜜蜂动漫游戏嘉年华4.0",
@@ -21784,7 +22684,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 工作日中午人最少，周末建议预约最早/最晚场",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "多彩贵州风景眼文创园不像是刻意营造的文艺空间，更像是贵阳街区社区小广场的象棋声生活里自然长出来"
+    "recommendation": "多彩贵州风景眼文创园不像是刻意营造的文艺空间，更像是贵阳街区社区小广场的象棋声生活里自然长出来",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "花果园白宫国风动漫派对",
@@ -21818,7 +22720,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "位置相对偏远，建议提前规划返程交通或下载离线地图；户外场地注意防晒防蚊，建议傍晚时段前往",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "花果园国际文化艺术交流中心把活动搬进了田埂——看一场展览，雨后石板路的反光，是城市里找不到的比想象中更动人"
+    "recommendation": "花果园国际文化艺术交流中心把活动搬进了田埂——看一场展览，雨后石板路的反光，是城市里找不到的比想象中更动人",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "咖啡奇境·青春绘黔境 主题画展",
@@ -21855,7 +22759,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 工作日中午人最少，周末建议预约最早/最晚场",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "贵阳达德学校旧址把废弃车间变成精神角落——看一场展览，弄堂里的市井气的风穿过旧厂房，带来比想象中更动人"
+    "recommendation": "贵阳达德学校旧址把废弃车间变成精神角落——看一场展览，弄堂里的市井气的风穿过旧厂房，带来比想象中更动人",
+    "tg_category": "community",
+    "source_type_clean": "small"
   },
   {
     "name": "杨丽萍作品·舞蹈剧场《十面埋伏》",
@@ -21889,7 +22795,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "广西文化艺术中心·大剧院的剧场空间总带着弄堂里的市井气——听一场现场，手艺人工作室就在步行范围内，松弛自在"
+    "recommendation": "广西文化艺术中心·大剧院的剧场空间总带着弄堂里的市井气——听一场现场，手艺人工作室就在步行范围内，松弛自在",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "音乐剧《博物馆奇遇记》",
@@ -21926,7 +22834,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 展馆温度偏低，带一件开衫刚刚好",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "南宁剧场的当代建筑总带着雨后石板路的反光——听一场现场，独立咖啡馆就在步行范围内，安静又有生气。"
+    "recommendation": "南宁剧场的当代建筑总带着雨后石板路的反光——听一场现场，独立咖啡馆就在步行范围内，安静又有生气。",
+    "tg_category": "exhibition",
+    "source_type_clean": "big"
   },
   {
     "name": "春风裁月——武汉博物馆藏扇面书画艺术展",
@@ -21960,7 +22870,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "南宁博物馆的总带着老街烟火气——看一场展览，独立书店就在步行范围内，安静又有生气。 老街烟火气，安静又有生气"
+    "recommendation": "南宁博物馆的总带着老街烟火气——看一场展览，独立书店就在步行范围内，安静又有生气。 老街烟火气，安静又有生气",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "寻喵启事——白俄罗斯稚拙艺术特展",
@@ -21997,7 +22909,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "在广西壮族自治区博物馆的策展空间里看一场展览。老街烟火气，逛完正好去附近的独立咖啡馆坐坐。"
+    "recommendation": "在广西壮族自治区博物馆的策展空间里看一场展览。老街烟火气，逛完正好去附近的独立咖啡馆坐坐。",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "河湟陶韵·大河之缘——青海彩陶艺术文物展",
@@ -22033,7 +22947,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "免费入场，但建议提前在官方渠道确认是否需预约",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "在南宁博物馆的策展空间里看一场展览。寺庙钟声隐约，逛完正好去附近的独立书店坐坐。 寺庙钟声隐约，城市难得的空白"
+    "recommendation": "在南宁博物馆的策展空间里看一场展览。寺庙钟声隐约，逛完正好去附近的独立书店坐坐。 寺庙钟声隐约，城市难得的空白",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "第十三届全国杂技展演——杂技魔术节目专场",
@@ -22067,7 +22983,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 建议上午或傍晚场次，避开周末午后高峰",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "在广西民族剧院的剧场空间里看一场展览，逛完正好去附近的精酿酒吧坐坐"
+    "recommendation": "在广西民族剧院的剧场空间里看一场展览，逛完正好去附近的精酿酒吧坐坐",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "第十三届全国杂技展演——杂技剧《追随》",
@@ -22103,7 +23021,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 非节假日上午人流少，观展节奏更从容",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "在南宁剧场里看一场展览。海风咸湿，逛完正好去附近的菜市场坐坐。 海风咸湿，不赶不急"
+    "recommendation": "在南宁剧场里看一场展览。海风咸湿，逛完正好去附近的菜市场坐坐。 海风咸湿，不赶不急",
+    "tg_category": "community",
+    "source_type_clean": "big"
   },
   {
     "name": "双廊非遗体验季·火把节",
@@ -22137,7 +23057,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "双廊古镇把工业遗存变成精神角落——逛一个手作市集，弄堂里的市井气的风穿过旧厂房，带来 弄堂里的市井气"
+    "recommendation": "双廊古镇把工业遗存变成精神角落——逛一个手作市集，弄堂里的市井气的风穿过旧厂房，带来 弄堂里的市井气",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "双廊非遗体验季·匠人手作",
@@ -22174,7 +23096,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "双廊古镇把废弃车间变成精神角落——逛一个手作市集，隔壁传来的咖啡香的风穿过旧厂房，带来城市难得的空白"
+    "recommendation": "双廊古镇把废弃车间变成精神角落——逛一个手作市集，隔壁传来的咖啡香的风穿过旧厂房，带来城市难得的空白",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "双廊非遗服饰大秀「风花雪月·霓裳大理」",
@@ -22208,7 +23132,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 旧厂房地面可能不平，穿平底鞋体验最佳",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "双廊古镇把历史肌理中变成精神角落——听一场现场，寺庙钟声隐约的风穿过旧厂房，带来忘了时间的流动。"
+    "recommendation": "双廊古镇把历史肌理中变成精神角落——听一场现场，寺庙钟声隐约的风穿过旧厂房，带来忘了时间的流动。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "洱源县第31届民族火把节物资交流会",
@@ -22245,7 +23171,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "洱源县城叶子在风中沙沙响的社区聚场。在这里逛一个手作市集，感受忘了时间的流动。"
+    "recommendation": "洱源县城叶子在风中沙沙响的社区聚场。在这里逛一个手作市集，感受忘了时间的流动。",
+    "tg_category": "food",
+    "source_type_clean": "small"
   },
   {
     "name": "床单厂创意市集",
@@ -22282,7 +23210,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 建议傍晚到，白天太晒；带一个布袋逛市集刚好",
     "micro_walk": "人民路→洋人街→南门文献楼，步行约15分钟",
-    "recommendation": "藏在大理里的大理古城床单厂艺术区，菜市场隔壁就是社区公园，逛完正好吃一碗地道小吃，是不赶不急的社区日常"
+    "recommendation": "藏在大理里的大理古城床单厂艺术区，菜市场隔壁就是社区公园，逛完正好吃一碗地道小吃，是不赶不急的社区日常",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   },
   {
     "name": "滨江拾夏·乐享非遗——暑期传习体验",
@@ -22318,7 +23248,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 提前看看嘉宾背景，带个本子记灵感更有收获",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "长沙滨江文化园滨江学堂老街烟火气在这里坐下来聊一个下午，感受比想象中更动人。 老街烟火气，比想"
+    "recommendation": "长沙滨江文化园滨江学堂老街烟火气在这里坐下来聊一个下午，感受比想象中更动人。 老街烟火气，比想",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "「非遗润童心」少年展演团公益演出",
@@ -22354,7 +23286,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 出发前打个电话确认，避免跑空",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "长沙非物质文化遗产馆戏园雨后石板路的反光的聚会场景。在这里看一场展览，感受安静又有生气。"
+    "recommendation": "长沙非物质文化遗产馆戏园雨后石板路的反光的聚会场景。在这里看一场展览，感受安静又有生气。",
+    "tg_category": "craft",
+    "source_type_clean": "small"
   },
   {
     "name": "当非遗开wù了——非遗科学主题展",
@@ -22390,7 +23324,9 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 工作日中午人最少，周末建议预约最早/最晚场",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "长沙非物质文化遗产馆隔壁传来的咖啡香的精神角落。在这里看一场展览，感受不赶不急。 隔壁传来的咖啡香，不赶不急"
+    "recommendation": "长沙非物质文化遗产馆隔壁传来的咖啡香的精神角落。在这里看一场展览，感受不赶不急。 隔壁传来的咖啡香，不赶不急",
+    "tg_category": "exhibition",
+    "source_type_clean": "small"
   },
   {
     "name": "话剧《白果园》",
@@ -22426,6 +23362,8 @@
     "sub_district": "大理古城-人民路集群",
     "field_tip": "🌿 提前在线预约或购票，现场排队可能很久",
     "micro_walk": "人民路→洋人街→大理古城南门→文献楼，步行约15分钟",
-    "recommendation": "在梅溪湖国际文化艺术中心的策展空间里听一场现场。山谷微风，逛完正好去附近的唱片店坐坐。 山谷微风，不赶不急"
+    "recommendation": "在梅溪湖国际文化艺术中心的策展空间里听一场现场。山谷微风，逛完正好去附近的唱片店坐坐。 山谷微风，不赶不急",
+    "tg_category": "urban",
+    "source_type_clean": "small"
   }
 ]
