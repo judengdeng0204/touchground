@@ -1352,7 +1352,7 @@ body.admin-mode .fab-mobile { display: none !important; }
             <span class="logo-tag">玩场速报</span>
         </h1>
         <button class="header-cta" onclick="openSubmit()" title="推荐你发现的有趣活动或非标空间">➕ 推荐好玩场</button>
-        <span class="update-time">更新于 2026-08-05 15:47</span>
+        <span class="update-time">更新于 2026-08-05 16:01</span>
     </div>
     <p class="subtitle">上海 · 北京 · 广州 · 深圳 · 成都 · 杭州 · 厦门 · 佛山 · 福州 · 长沙 · 昆明 · 大理 · 武汉 · 香港 · 澳门 · 贵阳 · 南宁</p>
     <p class="tagline">城市与乡野漫游 · 非标空间 · 社区生活与在地风土</p>
@@ -9752,6 +9752,7 @@ function updateMapMarkers() {
 
 // ══ 自由填写表单投稿 ══
 function directSubmit() {
+    console.log('🔵 [directSubmit] 开始提交');
     const title = document.getElementById('fTitle').value.trim();
     const city = document.getElementById('fCity').value;
     const location = document.getElementById('fLocation').value.trim();
@@ -9825,6 +9826,7 @@ function directSubmit() {
     }
 
     function doSubmit(eventHash) {
+        console.log('🟢 [doSubmit] eventHash:', eventHash);
         const payload = {
             name: title,
             city: city,
@@ -9880,7 +9882,9 @@ function directSubmit() {
         }
 
         // ── 持久化到 localStorage ──
+        console.log('🟡 [doSubmit] 准备写入 localStorage, payload.name:', payload.name);
         saveSubmissionToLocal(payload);
+        console.log('🟡 [doSubmit] localStorage 写入完成, 当前存储条数:', loadSubmissionsFromLocal().length);
 
         alert('✅ 活动已提交，等待管理员审核后公开展示！');
         resetForm();
@@ -10215,6 +10219,7 @@ function detectDeviceForAdmin() {
 // ═══════════════════════════════════════════════════════════
 
 function initSupabase() {
+    console.log('🟤 [initSupabase] typeof supabase:', typeof supabase, '| SUPABASE_URL:', SUPABASE_URL.substring(0, 5));
     if (typeof supabase === 'undefined') return null;
     if (SUPABASE_URL.startsWith('__')) return null; // Not configured
     try {
@@ -10235,8 +10240,10 @@ let selectedEventId = null;
 let selectedCheckboxes = new Set();
 
 async function loadAdminEvents(status) {
+    console.log('🟠 [loadAdminEvents] status:', status);
     currentAdminTab = status;
     const db = initSupabase();
+    console.log('🟠 [loadAdminEvents] initSupabase result:', db ? 'connected' : 'null (will use DOM fallback)');
 
     // Update tab UI
     document.querySelectorAll('.admin-status-tab, .admin-mobile-tab').forEach(t => {
@@ -10272,8 +10279,10 @@ async function loadAdminEvents(status) {
 }
 
 function loadAdminEventsFromDOM(status) {
+    console.log('🔶 [loadAdminEventsFromDOM] status:', status);
     // Fallback: filter from DOM cards + localStorage when Supabase unavailable
     const cards = document.querySelectorAll('#eventsGrid .event-card');
+    console.log('🔶 [loadAdminEventsFromDOM] DOM 卡片总数:', cards.length);
     adminEventCache = [];
 
     // 1. From DOM cards
@@ -10344,6 +10353,11 @@ function loadAdminEventsFromDOM(status) {
         }
     });
 
+    console.log('🔶 [loadAdminEventsFromDOM] adminEventCache 总数:', adminEventCache.length);
+    adminEventCache.forEach((e, i) => {
+        console.log('🔶   [' + i + ']', e.name, '| status:', e.review_status, '| id:', e.id);
+    });
+
     updateTabCounts(null); // Can't count other tabs from DOM
 
     if (isMobileAdmin) {
@@ -10392,7 +10406,8 @@ function switchAdminTab(status) {
 
 function renderAdminList() {
     const listEl = document.getElementById('adminEventList');
-    if (!listEl) return;
+    if (!listEl) { console.log('🔴 [renderAdminList] listEl 不存在!'); return; }
+    console.log('🟣 [renderAdminList] adminEventCache.length:', adminEventCache.length);
 
     if (adminEventCache.length === 0) {
         listEl.innerHTML = '<div style="text-align:center;padding:40px 20px;color:#aaa;">暂无' + getStatusLabel(currentAdminTab) + '的活动</div>';
