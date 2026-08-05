@@ -1352,7 +1352,7 @@ body.admin-mode .fab-mobile { display: none !important; }
             <span class="logo-tag">玩场速报</span>
         </h1>
         <button class="header-cta" onclick="openSubmit()" title="推荐你发现的有趣活动或非标空间">➕ 推荐好玩场</button>
-        <span class="update-time">更新于 2026-08-05 16:01</span>
+        <span class="update-time">更新于 2026-08-05 16:17</span>
     </div>
     <p class="subtitle">上海 · 北京 · 广州 · 深圳 · 成都 · 杭州 · 厦门 · 佛山 · 福州 · 长沙 · 昆明 · 大理 · 武汉 · 香港 · 澳门 · 贵阳 · 南宁</p>
     <p class="tagline">城市与乡野漫游 · 非标空间 · 社区生活与在地风土</p>
@@ -9867,17 +9867,19 @@ function directSubmit() {
         filterCards();
 
         // Ingest into Supabase if available (auto-set review_status and is_public)
-        if (typeof supabase !== 'undefined' && supabase) {
-            supabase.from('events').insert([payload]).then(({ error }) => {
+        const dbSubmit = initSupabase();
+        if (dbSubmit) {
+            dbSubmit.from('events').insert([payload]).then(({ error }) => {
                 if (error) {
                     console.error('Supabase 入库失败:', error.message);
-                    // If duplicate constraint error, still OK — card already shown
                     if (!error.message.includes('duplicate')) {
                         alert('⚠️ 后端入库失败: ' + error.message);
                     }
                 } else {
                     console.log('已同步到 Supabase');
                 }
+            }).catch(err => {
+                console.error('Supabase insert catch:', err);
             });
         }
 
@@ -10222,8 +10224,18 @@ function initSupabase() {
     console.log('🟤 [initSupabase] typeof supabase:', typeof supabase, '| SUPABASE_URL:', SUPABASE_URL.substring(0, 5));
     if (typeof supabase === 'undefined') return null;
     if (SUPABASE_URL.startsWith('__')) return null; // Not configured
+    if (typeof supabase.createClient !== 'function') {
+        console.log('🟤 [initSupabase] supabase.createClient is not a function, likely a browser extension injected fake object');
+        return null;
+    }
     try {
-        return supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        const client = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        if (!client || typeof client.from !== 'function') {
+            console.log('🟤 [initSupabase] createClient returned invalid client (no .from method)');
+            return null;
+        }
+        console.log('🟤 [initSupabase] client created successfully');
+        return client;
     } catch (e) {
         console.warn('Supabase init failed:', e);
         return null;
@@ -10552,11 +10564,14 @@ function saveEditAndPublish() {
             .eq('id', ev.id)
             .then(({ error }) => {
                 if (error) { showToast('❌ 更新失败: ' + error.message, 'error'); return; }
-                // Update cache
                 Object.assign(ev, updates, { review_status: 'approved', is_public: true });
                 renderEventPreview(ev);
                 loadAdminEvents(currentAdminTab);
                 showToast('✅ 已保存并发布至前台列表', 'success');
+            })
+            .catch(err => {
+                console.error('❌ [saveEditAndPublish] error:', err);
+                showToast('❌ 更新出错: ' + (err.message || '未知错误'), 'error');
             });
     } else {
         // Local fallback
@@ -10596,27 +10611,32 @@ async function approveEventById(eventId) {
     const ev = adminEventCache.find(e => e.id === eventId);
     if (!ev) return;
 
-    const db = initSupabase();
-    if (db) {
-        const { error } = await db.from('events').update({ review_status: 'approved', is_public: true, updated_at: new Date().toISOString() }).eq('id', eventId);
-        if (error) { showToast('❌ 操作失败: ' + error.message, 'error'); return; }
+    try {
+        const db = initSupabase();
+        if (db) {
+            const { error } = await db.from('events').update({ review_status: 'approved', is_public: true, updated_at: new Date().toISOString() }).eq('id', eventId);
+            if (error) { showToast('❌ 操作失败: ' + error.message, 'error'); return; }
+        }
+
+        // Update cache
+        ev.review_status = 'approved';
+        ev.is_public = true;
+        if (ev.DOMElement) { ev.DOMElement.dataset.reviewStatus = 'approved'; ev.DOMElement.classList.remove('hidden'); }
+
+        // Sync to localStorage if this was a user submission
+        if (ev.event_hash) {
+            updateSubmissionInLocal(ev.event_hash, { review_status: 'approved', is_public: true });
+        }
+
+        showToast('✅ 已通过审核并发布至前台', 'success');
+
+        // Animate removal from list
+        animateCardRemoval(eventId);
+        setTimeout(() => loadAdminEvents(currentAdminTab), 400);
+    } catch (err) {
+        console.error('❌ [approveEventById] error:', err);
+        showToast('❌ 操作出错: ' + (err.message || '未知错误'), 'error');
     }
-
-    // Update cache
-    ev.review_status = 'approved';
-    ev.is_public = true;
-    if (ev.DOMElement) { ev.DOMElement.dataset.reviewStatus = 'approved'; ev.DOMElement.classList.remove('hidden'); }
-
-    // Sync to localStorage if this was a user submission
-    if (ev.event_hash) {
-        updateSubmissionInLocal(ev.event_hash, { review_status: 'approved', is_public: true });
-    }
-
-    showToast('✅ 已通过审核并发布至前台', 'success');
-
-    // Animate removal from list
-    animateCardRemoval(eventId);
-    setTimeout(() => loadAdminEvents(currentAdminTab), 400);
 }
 
 async function rejectEventById(eventId) {
@@ -10625,23 +10645,28 @@ async function rejectEventById(eventId) {
     const ev = adminEventCache.find(e => e.id === eventId);
     if (!ev) return;
 
-    const db = initSupabase();
-    if (db) {
-        const { error } = await db.from('events').update({ review_status: 'rejected', is_public: false, updated_at: new Date().toISOString() }).eq('id', eventId);
-        if (error) { showToast('❌ 操作失败: ' + error.message, 'error'); return; }
+    try {
+        const db = initSupabase();
+        if (db) {
+            const { error } = await db.from('events').update({ review_status: 'rejected', is_public: false, updated_at: new Date().toISOString() }).eq('id', eventId);
+            if (error) { showToast('❌ 操作失败: ' + error.message, 'error'); return; }
+        }
+
+        ev.review_status = 'rejected';
+        ev.is_public = false;
+        showToast('❌ 已拒绝，未公开展示', 'info');
+
+        // Sync to localStorage if this was a user submission
+        if (ev.event_hash) {
+            updateSubmissionInLocal(ev.event_hash, { review_status: 'rejected', is_public: false });
+        }
+
+        animateCardRemoval(eventId);
+        setTimeout(() => loadAdminEvents(currentAdminTab), 400);
+    } catch (err) {
+        console.error('❌ [rejectEventById] error:', err);
+        showToast('❌ 操作出错: ' + (err.message || '未知错误'), 'error');
     }
-
-    ev.review_status = 'rejected';
-    ev.is_public = false;
-    showToast('❌ 已拒绝，未公开展示', 'info');
-
-    // Sync to localStorage if this was a user submission
-    if (ev.event_hash) {
-        updateSubmissionInLocal(ev.event_hash, { review_status: 'rejected', is_public: false });
-    }
-
-    animateCardRemoval(eventId);
-    setTimeout(() => loadAdminEvents(currentAdminTab), 400);
 }
 
 function animateCardRemoval(eventId) {
@@ -10694,37 +10719,41 @@ async function batchAction(action) {
     const newStatus = action === 'approve' ? 'approved' : 'rejected';
     const isPublic = action === 'approve';
 
-    const db = initSupabase();
-    if (db) {
-        const { error } = await db.from('events').update({ review_status: newStatus, is_public: isPublic, updated_at: new Date().toISOString() }).in('id', ids);
-        if (error) { showToast('❌ 批量操作失败: ' + error.message, 'error'); return; }
-    }
-
-    // Update cache + localStorage
-    adminEventCache.forEach(e => {
-        if (ids.includes(e.id)) {
-            e.review_status = newStatus;
-            e.is_public = isPublic;
-            // Sync to localStorage if this was a user submission
-            if (e.event_hash) {
-                updateSubmissionInLocal(e.event_hash, { review_status: newStatus, is_public: isPublic });
-            }
+    try {
+        const db = initSupabase();
+        if (db) {
+            const { error } = await db.from('events').update({ review_status: newStatus, is_public: isPublic, updated_at: new Date().toISOString() }).in('id', ids);
+            if (error) { showToast('❌ 批量操作失败: ' + error.message, 'error'); return; }
         }
-    });
 
-    selectedCheckboxes.clear();
-    selectedEventId = null;
+        // Update cache + localStorage
+        adminEventCache.forEach(e => {
+            if (ids.includes(e.id)) {
+                e.review_status = newStatus;
+                e.is_public = isPublic;
+                if (e.event_hash) {
+                    updateSubmissionInLocal(e.event_hash, { review_status: newStatus, is_public: isPublic });
+                }
+            }
+        });
 
-    const emptyEl = document.getElementById('adminWorkspaceEmpty');
-    const previewEl = document.getElementById('adminPreview');
-    const actionBar = document.getElementById('adminActionBar');
-    if (emptyEl) emptyEl.style.display = 'block';
-    if (previewEl) previewEl.style.display = 'none';
-    if (actionBar) actionBar.style.display = 'none';
+        selectedCheckboxes.clear();
+        selectedEventId = null;
 
-    const msg = action === 'approve' ? '✅ 已批量通过 ' + ids.length + ' 个活动' : '❌ 已批量拒绝 ' + ids.length + ' 个活动';
-    showToast(msg, action === 'approve' ? 'success' : 'info');
-    loadAdminEvents(currentAdminTab);
+        const emptyEl = document.getElementById('adminWorkspaceEmpty');
+        const previewEl = document.getElementById('adminPreview');
+        const actionBar = document.getElementById('adminActionBar');
+        if (emptyEl) emptyEl.style.display = 'block';
+        if (previewEl) previewEl.style.display = 'none';
+        if (actionBar) actionBar.style.display = 'none';
+
+        const msg = action === 'approve' ? '✅ 已批量通过 ' + ids.length + ' 个活动' : '❌ 已批量拒绝 ' + ids.length + ' 个活动';
+        showToast(msg, action === 'approve' ? 'success' : 'info');
+        loadAdminEvents(currentAdminTab);
+    } catch (err) {
+        console.error('❌ [batchAction] error:', err);
+        showToast('❌ 批量操作出错: ' + (err.message || '未知错误'), 'error');
+    }
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -10774,21 +10803,25 @@ async function mobileApprove(eventId) {
     const ev = adminEventCache.find(e => e.id === eventId);
     if (!ev) return;
 
-    const db = initSupabase();
-    if (db) {
-        const { error } = await db.from('events').update({ review_status: 'approved', is_public: true, updated_at: new Date().toISOString() }).eq('id', eventId);
-        if (error) { showToast('❌ 操作失败', 'error'); return; }
-    }
+    try {
+        const db = initSupabase();
+        if (db) {
+            const { error } = await db.from('events').update({ review_status: 'approved', is_public: true, updated_at: new Date().toISOString() }).eq('id', eventId);
+            if (error) { showToast('❌ 操作失败', 'error'); return; }
+        }
 
-    ev.review_status = 'approved';
-    ev.is_public = true;
-    showToast('✅ 已发布至前台列表', 'success');
+        ev.review_status = 'approved';
+        ev.is_public = true;
+        showToast('✅ 已发布至前台列表', 'success');
 
-    // Animate card removal
-    const card = document.querySelector(`.admin-mobile-card[data-id="${eventId}"]`);
-    if (card) {
-        card.classList.add('removing');
-        setTimeout(() => loadAdminEvents(currentAdminTab), 350);
+        const card = document.querySelector(`.admin-mobile-card[data-id="${eventId}"]`);
+        if (card) {
+            card.classList.add('removing');
+            setTimeout(() => loadAdminEvents(currentAdminTab), 350);
+        }
+    } catch (err) {
+        console.error('❌ [mobileApprove] error:', err);
+        showToast('❌ 操作出错: ' + (err.message || '未知错误'), 'error');
     }
 }
 
@@ -10798,20 +10831,25 @@ async function mobileReject(eventId) {
     const ev = adminEventCache.find(e => e.id === eventId);
     if (!ev) return;
 
-    const db = initSupabase();
-    if (db) {
-        const { error } = await db.from('events').update({ review_status: 'rejected', is_public: false, updated_at: new Date().toISOString() }).eq('id', eventId);
-        if (error) { showToast('❌ 操作失败', 'error'); return; }
-    }
+    try {
+        const db = initSupabase();
+        if (db) {
+            const { error } = await db.from('events').update({ review_status: 'rejected', is_public: false, updated_at: new Date().toISOString() }).eq('id', eventId);
+            if (error) { showToast('❌ 操作失败', 'error'); return; }
+        }
 
-    ev.review_status = 'rejected';
-    ev.is_public = false;
-    showToast('已移至拒绝列表', 'info');
+        ev.review_status = 'rejected';
+        ev.is_public = false;
+        showToast('已移至拒绝列表', 'info');
 
-    const card = document.querySelector(`.admin-mobile-card[data-id="${eventId}"]`);
-    if (card) {
-        card.classList.add('removing');
-        setTimeout(() => loadAdminEvents(currentAdminTab), 350);
+        const card = document.querySelector(`.admin-mobile-card[data-id="${eventId}"]`);
+        if (card) {
+            card.classList.add('removing');
+            setTimeout(() => loadAdminEvents(currentAdminTab), 350);
+        }
+    } catch (err) {
+        console.error('❌ [mobileReject] error:', err);
+        showToast('❌ 操作出错: ' + (err.message || '未知错误'), 'error');
     }
 }
 
@@ -10866,20 +10904,25 @@ async function saveMobileEdit(eventId) {
         notice: document.getElementById('meNotice')?.value || '',
     };
 
-    const db = initSupabase();
-    if (db) {
-        const { error } = await db.from('events').update({ ...updates, review_status: 'approved', is_public: true, updated_at: new Date().toISOString() }).eq('id', eventId);
-        if (error) { showToast('❌ 更新失败: ' + error.message, 'error'); return; }
-    }
+    try {
+        const db = initSupabase();
+        if (db) {
+            const { error } = await db.from('events').update({ ...updates, review_status: 'approved', is_public: true, updated_at: new Date().toISOString() }).eq('id', eventId);
+            if (error) { showToast('❌ 更新失败: ' + error.message, 'error'); return; }
+        }
 
-    Object.assign(ev, updates, { review_status: 'approved', is_public: true });
-    // Sync to localStorage if this was a user submission
-    if (ev.event_hash) {
-        updateSubmissionInLocal(ev.event_hash, { ...updates, review_status: 'approved', is_public: true });
+        Object.assign(ev, updates, { review_status: 'approved', is_public: true });
+        // Sync to localStorage if this was a user submission
+        if (ev.event_hash) {
+            updateSubmissionInLocal(ev.event_hash, { ...updates, review_status: 'approved', is_public: true });
+        }
+        closeMobileEdit();
+        loadAdminEvents(currentAdminTab);
+        showToast('✅ 已保存并发布至前台', 'success');
+    } catch (err) {
+        console.error('❌ [saveMobileEdit] error:', err);
+        showToast('❌ 保存出错: ' + (err.message || '未知错误'), 'error');
     }
-    closeMobileEdit();
-    loadAdminEvents(currentAdminTab);
-    showToast('✅ 已保存并发布至前台', 'success');
 }
 
 // ═══════════════════════════════════════════════════════════
