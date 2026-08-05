@@ -812,7 +812,7 @@ select {
             田字格 TouchGround
             <span class="logo-tag">玩场速报</span>
         </h1>
-        <span class="update-time">更新于 2026-08-05 13:25</span>
+        <span class="update-time">更新于 2026-08-05 13:37</span>
     </div>
     <p class="subtitle">上海 · 北京 · 广州 · 深圳 · 成都 · 杭州 · 厦门 · 佛山 · 福州 · 长沙 · 昆明 · 大理 · 武汉 · 香港 · 澳门 · 贵阳 · 南宁</p>
     <p class="tagline">城市与乡野漫游 · 非标空间 · 社区生活与在地风土</p>
@@ -8732,9 +8732,7 @@ function directSubmit() {
         });
     } else {
         // Frontend-only: append to local card list and notify
-        alert('✅ 活动信息已收集！(Supabase 未配置，数据仅存储于前端)
-
-' +
+        alert('✅ 活动信息已收集！(Supabase 未配置，数据仅存储于前端)\n\n' +
             JSON.stringify(payload, null, 2));
         resetForm();
     }
